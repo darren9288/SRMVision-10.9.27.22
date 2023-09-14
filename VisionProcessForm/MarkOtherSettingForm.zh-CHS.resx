@@ -1,0 +1,2059 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tp_MarkSegment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 454</value>
+  </data>
+  <data name="tp_MarkSegment.Text" xml:space="preserve">
+    <value>字模</value>
+  </data>
+  <data name="tp_MarkSegment2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 454</value>
+  </data>
+  <data name="tp_MarkSegment2.Text" xml:space="preserve">
+    <value>字模 2</value>
+  </data>
+  <data name="tp_LeadSegment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 454</value>
+  </data>
+  <data name="tp_LeadSegment.Text" xml:space="preserve">
+    <value>管脚</value>
+  </data>
+  <data name="tp_PkgSegmentSimple.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 454</value>
+  </data>
+  <data name="tp_PkgSegmentSimple.Text" xml:space="preserve">
+    <value>塑封体（简化）</value>
+  </data>
+  <data name="tp_PkgSegment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 454</value>
+  </data>
+  <data name="tp_PkgSegment.Text" xml:space="preserve">
+    <value>塑封体</value>
+  </data>
+  <data name="tp_PkgSegment2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 454</value>
+  </data>
+  <data name="tp_PkgSegment2.Text" xml:space="preserve">
+    <value>塑封体 2</value>
+  </data>
+  <data name="tp_ROI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 454</value>
+  </data>
+  <data name="tp_ROI.Text" xml:space="preserve">
+    <value>ROI 设置</value>
+  </data>
+  <data name="tp_ROI2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 454</value>
+  </data>
+  <data name="tp_ROI2.Text" xml:space="preserve">
+    <value>ROI 设置 2</value>
+  </data>
+  <data name="tp_ROI3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 454</value>
+  </data>
+  <data name="tp_ROI3.Text" xml:space="preserve">
+    <value>ROI 设置 3</value>
+  </data>
+  <data name="tp_Other.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 454</value>
+  </data>
+  <data name="tp_Other.Text" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="tp_LeadOther.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 454</value>
+  </data>
+  <data name="tp_LeadOther.Text" xml:space="preserve">
+    <value>管脚 其他</value>
+  </data>
+  <data name="tab_VisionControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 31</value>
+  </data>
+  <data name="tab_VisionControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 486</value>
+  </data>
+  <data name="srmLabel49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 28</value>
+  </data>
+  <data name="srmLabel49.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_MinArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="lbl_MinArea.Text" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="srmLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 28</value>
+  </data>
+  <data name="srmLabel13.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 0</value>
+  </data>
+  <data name="srmLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 28</value>
+  </data>
+  <data name="srmLabel5.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_ThickIteration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 64</value>
+  </data>
+  <data name="lbl_ThickIteration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="lbl_ThickIteration.Text" xml:space="preserve">
+    <value>字模外阔</value>
+  </data>
+  <data name="lbl_ThinIteration.Text" xml:space="preserve">
+    <value>字模内缩</value>
+  </data>
+  <data name="srmLabel74.Text" xml:space="preserve">
+    <value>模板 8 :</value>
+  </data>
+  <data name="btn_Threshold_Template8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_Threshold_Template8.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel73.Text" xml:space="preserve">
+    <value>模板 7 :</value>
+  </data>
+  <data name="btn_Threshold_Template7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_Threshold_Template7.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel72.Text" xml:space="preserve">
+    <value>模板 6 :</value>
+  </data>
+  <data name="btn_Threshold_Template6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_Threshold_Template6.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel71.Text" xml:space="preserve">
+    <value>模板 5 :</value>
+  </data>
+  <data name="btn_Threshold_Template5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_Threshold_Template5.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel70.Text" xml:space="preserve">
+    <value>模板 4 :</value>
+  </data>
+  <data name="btn_Threshold_Template4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_Threshold_Template4.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel69.Text" xml:space="preserve">
+    <value>模板 3 :</value>
+  </data>
+  <data name="btn_Threshold_Template3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_Threshold_Template3.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel67.Text" xml:space="preserve">
+    <value>模板 2 :</value>
+  </data>
+  <data name="btn_Threshold_Template2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_Threshold_Template2.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel68.Text" xml:space="preserve">
+    <value>模板 1 :</value>
+  </data>
+  <data name="btn_Threshold_Template1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_Threshold_Template1.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel4.Text" xml:space="preserve">
+    <value>字模图1二进制化值</value>
+  </data>
+  <data name="btn_MarkGrayValueSensitivitySetting.Text" xml:space="preserve">
+    <value>灰色值敏感度设定</value>
+  </data>
+  <data name="chk_SetAllTemplates.Text" xml:space="preserve">
+    <value>设置全部模板</value>
+  </data>
+  <data name="lbl_Template.Text" xml:space="preserve">
+    <value>模板</value>
+  </data>
+  <data name="lbl_PageLabel.Text" xml:space="preserve">
+    <value>选择模板</value>
+  </data>
+  <data name="srmLabel98.Text" xml:space="preserve">
+    <value>模板 8 :</value>
+  </data>
+  <data name="btn_ExtraMarkThreshold_Template8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_ExtraMarkThreshold_Template8.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel99.Text" xml:space="preserve">
+    <value>模板 7 :</value>
+  </data>
+  <data name="btn_ExtraMarkThreshold_Template7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_ExtraMarkThreshold_Template7.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel100.Text" xml:space="preserve">
+    <value>模板 6 :</value>
+  </data>
+  <data name="btn_ExtraMarkThreshold_Template6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_ExtraMarkThreshold_Template6.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel101.Text" xml:space="preserve">
+    <value>模板 5 :</value>
+  </data>
+  <data name="btn_ExtraMarkThreshold_Template5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_ExtraMarkThreshold_Template5.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel102.Text" xml:space="preserve">
+    <value>模板 4 :</value>
+  </data>
+  <data name="btn_ExtraMarkThreshold_Template4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_ExtraMarkThreshold_Template4.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel103.Text" xml:space="preserve">
+    <value>模板 3 :</value>
+  </data>
+  <data name="btn_ExtraMarkThreshold_Template3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_ExtraMarkThreshold_Template3.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel104.Text" xml:space="preserve">
+    <value>模板 2 :</value>
+  </data>
+  <data name="btn_ExtraMarkThreshold_Template2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_ExtraMarkThreshold_Template2.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel105.Text" xml:space="preserve">
+    <value>模板 1 :</value>
+  </data>
+  <data name="btn_ExtraMarkThreshold_Template1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_ExtraMarkThreshold_Template1.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel106.Text" xml:space="preserve">
+    <value>额外字模二进制化</value>
+  </data>
+  <data name="btn_BaseLeadThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_BaseLeadThreshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel95.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 28</value>
+  </data>
+  <data name="srmLabel95.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel96.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 52</value>
+  </data>
+  <data name="srmLabel96.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel96.Text" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="srmLabel97.Text" xml:space="preserve">
+    <value>Base管脚二进制化</value>
+  </data>
+  <data name="btn_LeadThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_LeadThreshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 28</value>
+  </data>
+  <data name="srmLabel3.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 52</value>
+  </data>
+  <data name="srmLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel6.Text" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="srmLabel2.Text" xml:space="preserve">
+    <value>管脚二进制化</value>
+  </data>
+  <data name="btn_Dark4Threshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAyklEQVRYR+2NsQ3DQACE3HpjL/hzOc1F
+        11CgaxMkWrj+fHme512873sy20JxI8WN2RaKGyluzLZQ3EhxY7aF4kaKG7MtFDdS3JhtobiR4sZsC8WN
+        FDdmWyhupLgx20JxI8WN2RaKGyluzLZQ3EhxY7aF4kaKG7MtFDdS3JhtOee8iyvZFoobV7ItFDeuZFso
+        blzJtlDcuJJtobhxJdtCceNKtoXixpVsC8WNK9kWihtXsi0UN65kWyhuXMm2UNy4km2huHEl25/nuj5m
+        5UPlEPM8xwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btn_Dark4Threshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel113.Text" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="srmLabel114.Text" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="srmLabel115.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel115.Text" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="srmLabel116.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 28</value>
+  </data>
+  <data name="srmLabel116.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="btn_Dark3Threshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAyklEQVRYR+2NsQ3DQACE3HpjL/hzOc1F
+        11CgaxMkWrj+fHme512873sy20JxI8WN2RaKGyluzLZQ3EhxY7aF4kaKG7MtFDdS3JhtobiR4sZsC8WN
+        FDdmWyhupLgx20JxI8WN2RaKGyluzLZQ3EhxY7aF4kaKG7MtFDdS3JhtOee8iyvZFoobV7ItFDeuZFso
+        blzJtlDcuJJtobhxJdtCceNKtoXixpVsC8WNK9kWihtXsi0UN65kWyhuXMm2UNy4km2huHEl25/nuj5m
+        5UPlEPM8xwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btn_Dark3Threshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel80.Text" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="srmLabel88.Text" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="srmLabel90.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel90.Text" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="srmLabel92.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 28</value>
+  </data>
+  <data name="srmLabel92.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="btn_Dark2Threshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_Dark2Threshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel1.Text" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="srmLabel11.Text" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="srmLabel75.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel75.Text" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="srmLabel76.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 28</value>
+  </data>
+  <data name="srmLabel76.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="btn_DarkThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_DarkThreshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_DarkThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>990</value>
+  </data>
+  <data name="btn_DarkThreshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="btn_DarkThreshold.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="srmLabel59.Text" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="srmLabel58.Text" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="srmLabel56.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 62</value>
+  </data>
+  <data name="srmLabel56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel56.Text" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="srmLabel57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 28</value>
+  </data>
+  <data name="srmLabel57.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="btn_BrightThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_BrightThreshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_BrightThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>970</value>
+  </data>
+  <data name="btn_BrightThreshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel54.TabIndex" type="System.Int32, mscorlib">
+    <value>991</value>
+  </data>
+  <data name="srmLabel54.Text" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="srmLabel54.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="srmLabel20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 58</value>
+  </data>
+  <data name="srmLabel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel20.Text" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="srmLabel26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 28</value>
+  </data>
+  <data name="srmLabel26.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="btn_PackageGrayValueSensitivitySetting.Text" xml:space="preserve">
+    <value>灰色值敏感度设定</value>
+  </data>
+  <data name="lbl_Image3_DarkField_Crack.Text" xml:space="preserve">
+    <value>图 3 : 暗色缺陷（裂缝）</value>
+  </data>
+  <data name="srmLabel25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel25.Text" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="srmLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 28</value>
+  </data>
+  <data name="srmLabel10.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="btn_CrackThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_CrackThreshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel7.Text" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="srmLabel7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="srmLabel8.Text" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="srmLabel8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_Image3_DarkField_Chip.Text" xml:space="preserve">
+    <value>图 3 : 暗色缺陷（Chipped Off）</value>
+  </data>
+  <data name="srmLabel24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel24.Text" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="srmLabel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 28</value>
+  </data>
+  <data name="srmLabel23.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="btn_ChipThreshold_2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_ChipThreshold_2.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="lbl_Image2_BrightField_Chip.Text" xml:space="preserve">
+    <value>图 2 : 亮色缺陷（Chipped Off）</value>
+  </data>
+  <data name="srmLabel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel18.Text" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="srmLabel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 28</value>
+  </data>
+  <data name="srmLabel12.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="btn_ChipThreshold_1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_ChipThreshold_1.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="lbl_Image2_BrightField.Text" xml:space="preserve">
+    <value>图 2 : 亮色缺陷（刮伤， 污染）</value>
+  </data>
+  <data name="srmLabel22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel22.Text" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="srmLabel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 28</value>
+  </data>
+  <data name="srmLabel21.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="btn_PackageThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_PackageThreshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="lbl_MarkViewThreshold.Text" xml:space="preserve">
+    <value>图 1 : 亮色缺陷（刮伤， 污染）</value>
+  </data>
+  <data name="srmLabel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel15.Text" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="srmLabel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 28</value>
+  </data>
+  <data name="srmLabel14.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="btn_MarkViewThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_MarkViewThreshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmLabel17.Text" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="srmLabel16.Text" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="lbl_Image2_BrightField_MF.Text" xml:space="preserve">
+    <value>图 2 : 亮色缺陷（Mold Flash）</value>
+  </data>
+  <data name="srmLabel53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel53.Text" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="srmLabel52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 28</value>
+  </data>
+  <data name="srmLabel52.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="btn_MoldFlashThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_MoldFlashThreshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="lbl_Image3_DarkField_Void.Text" xml:space="preserve">
+    <value>图 3 : 暗色缺陷（Void）</value>
+  </data>
+  <data name="srmLabel28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel28.Text" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="srmLabel27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 28</value>
+  </data>
+  <data name="srmLabel27.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="btn_VoidThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_VoidThreshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="cbo_SelectROI.Items" xml:space="preserve">
+    <value>测试ROI</value>
+  </data>
+  <data name="cbo_SelectROI.Items1" xml:space="preserve">
+    <value>重测ROI</value>
+  </data>
+  <data name="cbo_SelectROI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 24</value>
+  </data>
+  <data name="gbox_Pkg_Dark.Text" xml:space="preserve">
+    <value>塑封体 (暗色) ROI 设置</value>
+  </data>
+  <data name="srmLabel32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="srmLabel32.Text" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="srmLabel34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="srmLabel34.Text" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="txt_PkgStartPixelFromLeft_Dark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 88</value>
+  </data>
+  <data name="txt_PkgStartPixelFromBottom_Dark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 62</value>
+  </data>
+  <data name="txt_PkgStartPixelFromRight_Dark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 36</value>
+  </data>
+  <data name="srmLabel37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 89</value>
+  </data>
+  <data name="srmLabel37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 17</value>
+  </data>
+  <data name="srmLabel37.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="srmLabel39.Text" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="srmLabel41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 67</value>
+  </data>
+  <data name="srmLabel41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 17</value>
+  </data>
+  <data name="srmLabel41.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="srmLabel43.Text" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="srmLabel45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 39</value>
+  </data>
+  <data name="srmLabel45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 17</value>
+  </data>
+  <data name="srmLabel45.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 13</value>
+  </data>
+  <data name="srmLabel47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 17</value>
+  </data>
+  <data name="srmLabel47.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_PkgStartPixelFromEdge_Dark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 10</value>
+  </data>
+  <data name="gbox_Pkg_Bright.Text" xml:space="preserve">
+    <value>塑封体 (亮色) ROI 设置</value>
+  </data>
+  <data name="lbl_PkgTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="lbl_PkgTop.Text" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="lbl_PkgRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="lbl_PkgRight.Text" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="txt_PkgStartPixelFromLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 89</value>
+  </data>
+  <data name="txt_PkgStartPixelFromBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 64</value>
+  </data>
+  <data name="txt_PkgStartPixelFromRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 39</value>
+  </data>
+  <data name="srmLabel29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 89</value>
+  </data>
+  <data name="srmLabel29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 20</value>
+  </data>
+  <data name="srmLabel29.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_PkgLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="lbl_PkgLeft.Text" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="srmLabel31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 66</value>
+  </data>
+  <data name="srmLabel31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 21</value>
+  </data>
+  <data name="srmLabel31.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_PkgBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="lbl_PkgBottom.Text" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="srmLabel33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 39</value>
+  </data>
+  <data name="srmLabel33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 23</value>
+  </data>
+  <data name="srmLabel33.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_UnitDisplay1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 13</value>
+  </data>
+  <data name="lbl_UnitDisplay1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 24</value>
+  </data>
+  <data name="lbl_UnitDisplay1.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_PkgStartPixelFromEdge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 14</value>
+  </data>
+  <data name="chk_SetToAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 416</value>
+  </data>
+  <data name="chk_SetToAll.Text" xml:space="preserve">
+    <value>同时设定每个边</value>
+  </data>
+  <data name="pnl_ChippedOffROI_Dark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 142</value>
+  </data>
+  <data name="gbox_Chip_Dark.Text" xml:space="preserve">
+    <value>Chipped Off ROI (暗色) 设置</value>
+  </data>
+  <data name="srmLabel85.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel85.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 8</value>
+  </data>
+  <data name="srmLabel85.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 15</value>
+  </data>
+  <data name="srmLabel85.Text" xml:space="preserve">
+    <value>外框:</value>
+  </data>
+  <data name="srmLabel86.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel86.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 8</value>
+  </data>
+  <data name="srmLabel86.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 15</value>
+  </data>
+  <data name="srmLabel86.Text" xml:space="preserve">
+    <value>内框:</value>
+  </data>
+  <data name="txt_ChipStartPixelExtendFromLeft_Dark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 102</value>
+  </data>
+  <data name="txt_ChipStartPixelExtendFromBottom_Dark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 76</value>
+  </data>
+  <data name="txt_ChipStartPixelExtendFromRight_Dark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 50</value>
+  </data>
+  <data name="txt_ChipStartPixelExtendFromEdge_Dark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 24</value>
+  </data>
+  <data name="txt_ChipStartPixelFromLeft_Dark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 102</value>
+  </data>
+  <data name="txt_ChipStartPixelFromBottom_Dark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 76</value>
+  </data>
+  <data name="txt_ChipStartPixelFromRight_Dark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 50</value>
+  </data>
+  <data name="srmLabel87.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 102</value>
+  </data>
+  <data name="srmLabel87.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="srmLabel87.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_ChipDarkLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="lbl_ChipDarkLeft.Text" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="srmLabel89.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 78</value>
+  </data>
+  <data name="srmLabel89.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="srmLabel89.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_ChipDarkBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="lbl_ChipDarkBottom.Text" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="srmLabel91.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 52</value>
+  </data>
+  <data name="srmLabel91.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="srmLabel91.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_ChipDarkRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="lbl_ChipDarkRight.Text" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="srmLabel93.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 24</value>
+  </data>
+  <data name="srmLabel93.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="srmLabel93.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_ChipStartPixelFromEdge_Dark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 24</value>
+  </data>
+  <data name="lbl_ChipDarkTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="lbl_ChipDarkTop.Text" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="pnl_ChippedOffROI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 139</value>
+  </data>
+  <data name="gbox_Chip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 3</value>
+  </data>
+  <data name="gbox_Chip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 130</value>
+  </data>
+  <data name="gbox_Chip.Text" xml:space="preserve">
+    <value>Chipped Off ROI (亮色) 设置</value>
+  </data>
+  <data name="srmLabel83.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel83.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 8</value>
+  </data>
+  <data name="srmLabel83.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 18</value>
+  </data>
+  <data name="srmLabel83.Text" xml:space="preserve">
+    <value>外框:</value>
+  </data>
+  <data name="srmLabel84.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel84.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 8</value>
+  </data>
+  <data name="srmLabel84.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 18</value>
+  </data>
+  <data name="srmLabel84.Text" xml:space="preserve">
+    <value>内框:</value>
+  </data>
+  <data name="txt_ChipStartPixelExtendFromLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 106</value>
+  </data>
+  <data name="txt_ChipStartPixelExtendFromBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 80</value>
+  </data>
+  <data name="txt_ChipStartPixelExtendFromRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 54</value>
+  </data>
+  <data name="txt_ChipStartPixelExtendFromEdge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 28</value>
+  </data>
+  <data name="txt_ChipStartPixelFromLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 107</value>
+  </data>
+  <data name="txt_ChipStartPixelFromBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 81</value>
+  </data>
+  <data name="txt_ChipStartPixelFromRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 54</value>
+  </data>
+  <data name="srmLabel36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 101</value>
+  </data>
+  <data name="srmLabel36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 28</value>
+  </data>
+  <data name="srmLabel36.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_ChipLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="lbl_ChipLeft.Text" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="srmLabel38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 72</value>
+  </data>
+  <data name="srmLabel38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 28</value>
+  </data>
+  <data name="srmLabel38.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_ChipBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="lbl_ChipBottom.Text" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="srmLabel40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 45</value>
+  </data>
+  <data name="srmLabel40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 28</value>
+  </data>
+  <data name="srmLabel40.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_ChipRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="lbl_ChipRight.Text" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="srmLabel42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 19</value>
+  </data>
+  <data name="srmLabel42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 28</value>
+  </data>
+  <data name="srmLabel42.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_ChipStartPixelFromEdge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 28</value>
+  </data>
+  <data name="lbl_ChipTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="lbl_ChipTop.Text" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="panel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 389</value>
+  </data>
+  <data name="gbox_Dark4ROI.Text" xml:space="preserve">
+    <value>暗色缺陷 4 ROI 设置</value>
+  </data>
+  <data name="lbl_PkgDark3Top.Text" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="lbl_PkgDark4Right.Text" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="txt_PkgStartPixelFromLeft_DarkField4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 88</value>
+  </data>
+  <data name="txt_PkgStartPixelFromBottom_DarkField4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 62</value>
+  </data>
+  <data name="txt_PkgStartPixelFromRight_DarkField4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 36</value>
+  </data>
+  <data name="srmLabel126.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 89</value>
+  </data>
+  <data name="srmLabel126.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 17</value>
+  </data>
+  <data name="srmLabel126.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_PkgDark3Left.Text" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="srmLabel128.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 67</value>
+  </data>
+  <data name="srmLabel128.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 17</value>
+  </data>
+  <data name="srmLabel128.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_PkgDark3Bottom.Text" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="srmLabel135.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 39</value>
+  </data>
+  <data name="srmLabel135.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 17</value>
+  </data>
+  <data name="srmLabel135.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel136.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 13</value>
+  </data>
+  <data name="srmLabel136.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 17</value>
+  </data>
+  <data name="srmLabel136.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_PkgStartPixelFromEdge_DarkField4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 10</value>
+  </data>
+  <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 271</value>
+  </data>
+  <data name="gbox_Dark3ROI.Text" xml:space="preserve">
+    <value>暗色缺陷 3 ROI 设置</value>
+  </data>
+  <data name="lbl_PkgDark2Top.Text" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="lbl_PkgDark3Right.Text" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="txt_PkgStartPixelFromLeft_DarkField3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 88</value>
+  </data>
+  <data name="txt_PkgStartPixelFromBottom_DarkField3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 62</value>
+  </data>
+  <data name="txt_PkgStartPixelFromRight_DarkField3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 36</value>
+  </data>
+  <data name="srmLabel118.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 89</value>
+  </data>
+  <data name="srmLabel118.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 17</value>
+  </data>
+  <data name="srmLabel118.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_PkgDark2Left.Text" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="srmLabel120.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 67</value>
+  </data>
+  <data name="srmLabel120.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 17</value>
+  </data>
+  <data name="srmLabel120.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_PkgDark2Bottom.Text" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="srmLabel122.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 39</value>
+  </data>
+  <data name="srmLabel122.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 17</value>
+  </data>
+  <data name="srmLabel122.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel123.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 13</value>
+  </data>
+  <data name="srmLabel123.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 17</value>
+  </data>
+  <data name="srmLabel123.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_PkgStartPixelFromEdge_DarkField3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 10</value>
+  </data>
+  <data name="pnl_DarkField2ROI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 146</value>
+  </data>
+  <data name="pnl_DarkField2ROI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 125</value>
+  </data>
+  <data name="gbox_Dark2ROI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 120</value>
+  </data>
+  <data name="gbox_Dark2ROI.Text" xml:space="preserve">
+    <value>暗色缺陷 2 ROI 设置</value>
+  </data>
+  <data name="lbl_PkgDarkTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="lbl_PkgDarkTop.Text" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="lbl_PkgDarkRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="lbl_PkgDarkRight.Text" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="txt_PkgStartPixelFromLeft_DarkField2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 92</value>
+  </data>
+  <data name="txt_PkgStartPixelFromBottom_DarkField2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 66</value>
+  </data>
+  <data name="txt_PkgStartPixelFromRight_DarkField2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 40</value>
+  </data>
+  <data name="srmLabel77.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 91</value>
+  </data>
+  <data name="srmLabel77.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 17</value>
+  </data>
+  <data name="srmLabel77.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_PkgDarkLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="lbl_PkgDarkLeft.Text" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="srmLabel79.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 69</value>
+  </data>
+  <data name="srmLabel79.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 17</value>
+  </data>
+  <data name="srmLabel79.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_PkgDarkBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="lbl_PkgDarkBottom.Text" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="srmLabel81.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 41</value>
+  </data>
+  <data name="srmLabel81.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 17</value>
+  </data>
+  <data name="srmLabel81.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel82.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 15</value>
+  </data>
+  <data name="srmLabel82.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 17</value>
+  </data>
+  <data name="srmLabel82.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_PkgStartPixelFromEdge_DarkField2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 14</value>
+  </data>
+  <data name="pnl_MoldFlashROI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 143</value>
+  </data>
+  <data name="gbox_Mold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 6</value>
+  </data>
+  <data name="gbox_Mold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 128</value>
+  </data>
+  <data name="gbox_Mold.Text" xml:space="preserve">
+    <value>Mold Flash ROI 设置</value>
+  </data>
+  <data name="srmLabel19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 9</value>
+  </data>
+  <data name="srmLabel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="srmLabel19.Text" xml:space="preserve">
+    <value>最外層</value>
+  </data>
+  <data name="srmLabel30.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 9</value>
+  </data>
+  <data name="srmLabel30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="srmLabel30.Text" xml:space="preserve">
+    <value>最內層</value>
+  </data>
+  <data name="txt_MoldStartPixelFromLeftInner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 104</value>
+  </data>
+  <data name="txt_MoldStartPixelFromLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 105</value>
+  </data>
+  <data name="txt_MoldStartPixelFromBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 79</value>
+  </data>
+  <data name="txt_MoldStartPixelFromBottomInner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 78</value>
+  </data>
+  <data name="txt_MoldStartPixelFromRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 51</value>
+  </data>
+  <data name="srmLabel44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 106</value>
+  </data>
+  <data name="srmLabel44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 18</value>
+  </data>
+  <data name="srmLabel44.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_MoldStartPixelFromRightInner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 52</value>
+  </data>
+  <data name="lbl_MoldLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 108</value>
+  </data>
+  <data name="lbl_MoldLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="lbl_MoldLeft.Text" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="txt_MoldStartPixelFromEdgeInner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="srmLabel46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 80</value>
+  </data>
+  <data name="srmLabel46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 18</value>
+  </data>
+  <data name="srmLabel46.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_MoldBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 82</value>
+  </data>
+  <data name="lbl_MoldBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="lbl_MoldBottom.Text" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="srmLabel48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 52</value>
+  </data>
+  <data name="srmLabel48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 19</value>
+  </data>
+  <data name="srmLabel48.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_MoldRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="lbl_MoldRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="lbl_MoldRight.Text" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="srmLabel50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 26</value>
+  </data>
+  <data name="srmLabel50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 19</value>
+  </data>
+  <data name="srmLabel50.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_MoldStartPixelFromEdge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 25</value>
+  </data>
+  <data name="lbl_MoldTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="lbl_MoldTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="lbl_MoldTop.Text" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="srmLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 28</value>
+  </data>
+  <data name="srmLabel9.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel78.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="srmLabel78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 16</value>
+  </data>
+  <data name="srmLabel78.Text" xml:space="preserve">
+    <value>增強字模 - 连接字模</value>
+  </data>
+  <data name="srmLabel51.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="srmLabel51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 16</value>
+  </data>
+  <data name="srmLabel51.Text" xml:space="preserve">
+    <value>增強字模 - 过滤噪点</value>
+  </data>
+  <data name="srmLabel55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 28</value>
+  </data>
+  <data name="srmLabel55.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="grp_LeadDontCareInwardTolerance.Text" xml:space="preserve">
+    <value>管脚往内忽略容许度设置</value>
+  </data>
+  <data name="srmLabel131.Text" xml:space="preserve">
+    <value>(右)</value>
+  </data>
+  <data name="srmLabel132.Text" xml:space="preserve">
+    <value>(下)</value>
+  </data>
+  <data name="srmLabel133.Text" xml:space="preserve">
+    <value>(上)</value>
+  </data>
+  <data name="srmLabel130.Text" xml:space="preserve">
+    <value>(左)</value>
+  </data>
+  <data name="srmLabel129.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel129.Text" xml:space="preserve">
+    <value>*单位 = 像素</value>
+  </data>
+  <data name="btn_MarkConfig.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_MarkConfig.Text" xml:space="preserve">
+    <value>字模配置</value>
+  </data>
+  <data name="group_PkgToBaseToleranceSetting.Text" xml:space="preserve">
+    <value>中间塑封体到Base容许度</value>
+  </data>
+  <data name="srmLabel62.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel62.Text" xml:space="preserve">
+    <value>* 像素</value>
+  </data>
+  <data name="srmLabel63.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel63.Text" xml:space="preserve">
+    <value>(左)</value>
+  </data>
+  <data name="srmLabel64.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel64.Text" xml:space="preserve">
+    <value>(右)</value>
+  </data>
+  <data name="srmLabel65.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel65.Text" xml:space="preserve">
+    <value>(下)</value>
+  </data>
+  <data name="srmLabel66.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel66.Text" xml:space="preserve">
+    <value>(上)</value>
+  </data>
+  <data name="grpBox_InwardOffset.Text" xml:space="preserve">
+    <value>往内偏移</value>
+  </data>
+  <data name="srmLabel61.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel61.Text" xml:space="preserve">
+    <value>Base向内偏移距离</value>
+  </data>
+  <data name="chk_SetToAllLeads.Text" xml:space="preserve">
+    <value>设置所有管脚</value>
+  </data>
+  <data name="srmLabel60.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel60.Text" xml:space="preserve">
+    <value>Tip向内偏移距离</value>
+  </data>
+  <data name="btn_LineProfileGaugeSetting.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btn_LineProfileGaugeSetting.Text" xml:space="preserve">
+    <value>测量边缘工具</value>
+  </data>
+  <data name="srmGroupBox1.Text" xml:space="preserve">
+    <value>字模ROI偏移设置</value>
+  </data>
+  <data name="pic_Vertical.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        BiQNUCdhQNIAdRIGJA1QJ2FA0gB1EgYkDVAnYUDSAHUSBiQNUCdhQNIAdRIGJA1QJ2FA0gB1EgYkDVAn
+        YUDSAHUSBiQNUCdhQNIAdRIGJA1QJ2FA0gB1EgYkDVAnYUDSAHUSBiQNUCeBAUma+ZaAWka3tWoZ3bbJ
+        gA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbJgA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbJ
+        gA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbJgA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbJ
+        gA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbJgA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbJ
+        gA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbJgA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbJ
+        gA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbJgA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbJ
+        gA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbJgA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbJ
+        gA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbJgA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbJ
+        gA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbJgA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbJ
+        gA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbJgA5Gt7VqGd22yYAORre1ahndtsmADka3tWoZ3bbn
+        56+/AZ7k5B61dvmlAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="srmLabel107.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel107.Text" xml:space="preserve">
+    <value>*从管脚Base左上点开始</value>
+  </data>
+  <data name="pic_Horizontal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="srmLabel108.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel108.Text" xml:space="preserve">
+    <value>*单位 = 像素</value>
+  </data>
+  <data name="srmLabel109.Text" xml:space="preserve">
+    <value>(左)</value>
+  </data>
+  <data name="srmLabel110.Text" xml:space="preserve">
+    <value>(右)</value>
+  </data>
+  <data name="srmLabel111.Text" xml:space="preserve">
+    <value>(下)</value>
+  </data>
+  <data name="srmLabel112.Text" xml:space="preserve">
+    <value>(上)</value>
+  </data>
+  <data name="srmLabel35.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="srmLabel35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 483</value>
+  </data>
+  <data name="srmLabel35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 19</value>
+  </data>
+  <data name="srmLabel35.TabIndex" type="System.Int32, mscorlib">
+    <value>940</value>
+  </data>
+  <data name="srmLabel35.Text" xml:space="preserve">
+    <value>选择图</value>
+  </data>
+  <data name="srmLabel35.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbo_ImageNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 481</value>
+  </data>
+  <data name="cbo_ImageNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 21</value>
+  </data>
+  <data name="lbl_Title.Text" xml:space="preserve">
+    <value>其他设置</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>储存</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+</root>

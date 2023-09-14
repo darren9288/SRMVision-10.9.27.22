@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tabPage_CalibrationByCircle.Text" xml:space="preserve">
+    <value>圆形</value>
+  </data>
+  <data name="tp_Offset.Text" xml:space="preserve">
+    <value>补偿</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_Threshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_Threshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>最大面积</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 19</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Grid Pitch X (毫米)</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 19</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Grid Pitch Y (毫米)</value>
+  </data>
+  <data name="chk_ShowDraggingBox.Text" xml:space="preserve">
+    <value>显示把手框</value>
+  </data>
+  <data name="chk_ShowSamplePoints.Text" xml:space="preserve">
+    <value>显示测量点</value>
+  </data>
+  <data name="label79.Text" xml:space="preserve">
+    <value>测量颜色从内至外</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>测量仪器二进制化</value>
+  </data>
+  <data name="label56.Text" xml:space="preserve">
+    <value>直径 （毫米）</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>测量仪器厚度</value>
+  </data>
+  <data name="label78.Text" xml:space="preserve">
+    <value>开始测量方向</value>
+  </data>
+  <data name="btn_GaugeAdvanceSetting.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btn_GaugeAdvanceSetting.Text" xml:space="preserve">
+    <value>          测量设定</value>
+  </data>
+  <data name="chk_UseGauge1.Text" xml:space="preserve">
+    <value>应用测量仪器</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Y 距离（毫米）</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>X 距离（毫米）</value>
+  </data>
+  <data name="chk_Rotate90Deg.Text" xml:space="preserve">
+    <value>旋转 90度</value>
+  </data>
+  <data name="chk_UseGauge.Text" xml:space="preserve">
+    <value>使用测量仪器</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Z 厚度（毫米）</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>校准宽限</value>
+  </data>
+  <data name="btn_Set.Text" xml:space="preserve">
+    <value>设为默认</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 19</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>校准宽限</value>
+  </data>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>解析度补偿</value>
+  </data>
+  <data name="btn_ApplyCurrentValue.Text" xml:space="preserve">
+    <value>应用于当前校准值</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 70</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 19</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_ZOffSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 71</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 70</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 45</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 19</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 21</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 19</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_HeightOffSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 46</value>
+  </data>
+  <data name="txt_WidthOffSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 21</value>
+  </data>
+  <data name="label76.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 45</value>
+  </data>
+  <data name="label77.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 22</value>
+  </data>
+  <data name="btn_AdvancedSettings.Text" xml:space="preserve">
+    <value>高级设定</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>储存</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="btn_Calibrate.Text" xml:space="preserve">
+    <value>校准</value>
+  </data>
+  <data name="gb_Result.Text" xml:space="preserve">
+    <value>校准成绩</value>
+  </data>
+  <data name="lbl_FOV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 16</value>
+  </data>
+  <data name="lbl_FOV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 19</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 40</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 19</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="txt_FOV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 40</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>测量结果 Z</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>测量结果 Y</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>测量结果 X</value>
+  </data>
+  <data name="radioBtn_mmperPixel.Text" xml:space="preserve">
+    <value>毫米/像素</value>
+  </data>
+  <data name="radioBtn_pixelpermm.Text" xml:space="preserve">
+    <value>像素/毫米</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 19</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>像素/毫米</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>解析度 Z</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 19</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>像素/毫米</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 19</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>像素/毫米</value>
+  </data>
+  <data name="label41.Text" xml:space="preserve">
+    <value>解析度 Y</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>解析度 X</value>
+  </data>
+  <data name="btn_Camera.Text" xml:space="preserve">
+    <value>相机设定</value>
+  </data>
+</root>

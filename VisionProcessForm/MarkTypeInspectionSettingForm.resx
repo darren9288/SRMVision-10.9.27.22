@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="srmLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>1010</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Name" xml:space="preserve">
+    <value>srmLabel2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="srmLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chk_WantCheckSymbol1BrokenMark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 88</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckLogoMissingMark.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="srmLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantCheckCharMissingMark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckCharExcessMark.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol1BrokenMark.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="srmLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>998</value>
+  </data>
+  <data name="srmLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 9</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol1ExcessMark.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 33</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chk_WantCheckCharExcessMark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 24</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Name" xml:space="preserve">
+    <value>srmLabel3</value>
+  </data>
+  <data name="chk_WantCheckSymbol2MissingMark.TabIndex" type="System.Int32, mscorlib">
+    <value>1004</value>
+  </data>
+  <data name="srmLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>997</value>
+  </data>
+  <data name="btn_OK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="srmLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="srmLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="srmLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="srmLabel6.Text" xml:space="preserve">
+    <value>Char</value>
+  </data>
+  <data name="srmLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 9</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="srmLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_WantCheckSymbol2BrokenMark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 34</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Mark Type Inspection Setting</value>
+  </data>
+  <data name="chk_WantCheckSymbol2ExcessMark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 24</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol1MissingMark.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="srmLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="chk_WantCheckCharExcessMark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 28</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 153</value>
+  </data>
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>220</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol2BrokenMark.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol1ExcessMark.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_WantCheckLogoExcessMark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 58</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckCharBrokenMark.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chk_WantCheckSymbol1MissingMark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckCharExcessMark.Name" xml:space="preserve">
+    <value>chk_WantCheckCharExcessMark</value>
+  </data>
+  <data name="chk_WantCheckLogoExcessMark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckCharExcessMark.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol2MissingMark.Name" xml:space="preserve">
+    <value>chk_WantCheckSymbol2MissingMark</value>
+  </data>
+  <data name="srmLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="srmLabel5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol1MissingMark.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chk_WantCheckSymbol1BrokenMark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="chk_WantCheckCharBrokenMark.TabIndex" type="System.Int32, mscorlib">
+    <value>1007</value>
+  </data>
+  <data name="srmLabel13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantCheckLogoExcessMark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 24</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol1MissingMark.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="chk_WantCheckLogoMissingMark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 24</value>
+  </data>
+  <data name="srmLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="srmLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantCheckSymbol2ExcessMark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 118</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckCharExcessMark.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Name" xml:space="preserve">
+    <value>btn_OK</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol1BrokenMark.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="chk_WantCheckCharBrokenMark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 24</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckLogoBrokenMark.Name" xml:space="preserve">
+    <value>chk_WantCheckLogoBrokenMark</value>
+  </data>
+  <data name="chk_WantCheckSymbol1ExcessMark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 24</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Name" xml:space="preserve">
+    <value>srmLabel1</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol2MissingMark.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MarkTypeInspectionSettingForm</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Name" xml:space="preserve">
+    <value>srmLabel13</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckCharMissingMark.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="srmLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="chk_WantCheckCharBrokenMark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantCheckCharBrokenMark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 28</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chk_WantCheckSymbol2BrokenMark.TabIndex" type="System.Int32, mscorlib">
+    <value>1003</value>
+  </data>
+  <data name="srmLabel5.Text" xml:space="preserve">
+    <value>Symbol 2</value>
+  </data>
+  <data name="srmLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="chk_WantCheckLogoBrokenMark.TabIndex" type="System.Int32, mscorlib">
+    <value>992</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckLogoMissingMark.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_OK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="chk_WantCheckSymbol2MissingMark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 24</value>
+  </data>
+  <data name="chk_WantCheckSymbol2ExcessMark.TabIndex" type="System.Int32, mscorlib">
+    <value>1005</value>
+  </data>
+  <data name="srmLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Name" xml:space="preserve">
+    <value>srmLabel4</value>
+  </data>
+  <data name="srmLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckLogoBrokenMark.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="btn_OK.TabIndex" type="System.Int32, mscorlib">
+    <value>219</value>
+  </data>
+  <data name="srmLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 123</value>
+  </data>
+  <data name="srmLabel4.Text" xml:space="preserve">
+    <value>Symbol 1</value>
+  </data>
+  <data name="srmLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>1002</value>
+  </data>
+  <data name="srmLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 9</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Name" xml:space="preserve">
+    <value>srmLabel6</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol1BrokenMark.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol1BrokenMark.Name" xml:space="preserve">
+    <value>chk_WantCheckSymbol1BrokenMark</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol2ExcessMark.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckLogoExcessMark.Name" xml:space="preserve">
+    <value>chk_WantCheckLogoExcessMark</value>
+  </data>
+  <data name="chk_WantCheckSymbol1ExcessMark.TabIndex" type="System.Int32, mscorlib">
+    <value>1001</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckCharBrokenMark.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chk_WantCheckSymbol2ExcessMark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol2BrokenMark.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantCheckSymbol2MissingMark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckLogoExcessMark.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckCharMissingMark.Name" xml:space="preserve">
+    <value>chk_WantCheckCharMissingMark</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol2ExcessMark.Name" xml:space="preserve">
+    <value>chk_WantCheckSymbol2ExcessMark</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckLogoExcessMark.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckLogoMissingMark.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="btn_OK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 153</value>
+  </data>
+  <data name="chk_WantCheckCharMissingMark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 24</value>
+  </data>
+  <data name="chk_WantCheckSymbol1ExcessMark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 88</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="srmLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chk_WantCheckSymbol2BrokenMark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 118</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="chk_WantCheckLogoMissingMark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 58</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol2MissingMark.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol1ExcessMark.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol2BrokenMark.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckLogoBrokenMark.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>1006</value>
+  </data>
+  <data name="chk_WantCheckSymbol1MissingMark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 88</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel13.Text" xml:space="preserve">
+    <value>Broken Mark</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="srmLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol1ExcessMark.Name" xml:space="preserve">
+    <value>chk_WantCheckSymbol1ExcessMark</value>
+  </data>
+  <data name="srmLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel1.Text" xml:space="preserve">
+    <value>Missing Mark</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckCharMissingMark.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chk_WantCheckCharMissingMark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 28</value>
+  </data>
+  <data name="chk_WantCheckCharExcessMark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckLogoExcessMark.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="chk_WantCheckSymbol2BrokenMark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 24</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckLogoMissingMark.Name" xml:space="preserve">
+    <value>chk_WantCheckLogoMissingMark</value>
+  </data>
+  <data name="srmLabel13.TabIndex" type="System.Int32, mscorlib">
+    <value>993</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Name" xml:space="preserve">
+    <value>srmLabel5</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol2ExcessMark.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chk_WantCheckLogoExcessMark.TabIndex" type="System.Int32, mscorlib">
+    <value>996</value>
+  </data>
+  <data name="srmLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btn_OK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 34</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckCharBrokenMark.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chk_WantCheckLogoBrokenMark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantCheckLogoMissingMark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckCharBrokenMark.Name" xml:space="preserve">
+    <value>chk_WantCheckCharBrokenMark</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckLogoBrokenMark.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chk_WantCheckSymbol1BrokenMark.TabIndex" type="System.Int32, mscorlib">
+    <value>999</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol1MissingMark.Name" xml:space="preserve">
+    <value>chk_WantCheckSymbol1MissingMark</value>
+  </data>
+  <data name="chk_WantCheckSymbol1MissingMark.TabIndex" type="System.Int32, mscorlib">
+    <value>1000</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="chk_WantCheckCharExcessMark.TabIndex" type="System.Int32, mscorlib">
+    <value>1009</value>
+  </data>
+  <data name="srmLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>346, 190</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="srmLabel3.Text" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="srmLabel4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="chk_WantCheckCharMissingMark.TabIndex" type="System.Int32, mscorlib">
+    <value>1008</value>
+  </data>
+  <data name="chk_WantCheckSymbol1ExcessMark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 63</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol2BrokenMark.Name" xml:space="preserve">
+    <value>chk_WantCheckSymbol2BrokenMark</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckCharMissingMark.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chk_WantCheckSymbol1BrokenMark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 24</value>
+  </data>
+  <data name="srmLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="chk_WantCheckSymbol1MissingMark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 24</value>
+  </data>
+  <data name="chk_WantCheckSymbol2MissingMark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 118</value>
+  </data>
+  <data name="chk_WantCheckLogoBrokenMark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 24</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol2MissingMark.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="srmLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="srmLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chk_WantCheckLogoMissingMark.TabIndex" type="System.Int32, mscorlib">
+    <value>994</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckSymbol2ExcessMark.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel2.Text" xml:space="preserve">
+    <value>Excess Mark</value>
+  </data>
+  <data name="srmLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>995</value>
+  </data>
+  <data name="srmLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 93</value>
+  </data>
+  <data name="chk_WantCheckLogoBrokenMark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 58</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

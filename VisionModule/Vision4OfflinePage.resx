@@ -1,0 +1,2944 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;dgd_OrientResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dgd_OrientResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_ResultMaxSpan.TabIndex" type="System.Int32, mscorlib">
+    <value>930</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus1.Name" xml:space="preserve">
+    <value>lbl_ResultStatus1</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn21.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn21</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Template2.Type" xml:space="preserve">
+    <value>SRMControl.SRMRadioButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dgd_PocketPositionResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 0</value>
+  </data>
+  <data name="&gt;&gt;pnl_Span.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tp_Lead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 392</value>
+  </data>
+  <data name="&gt;&gt;chk_Grab.Name" xml:space="preserve">
+    <value>chk_Grab</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="dgd_Pin1Result.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 208</value>
+  </data>
+  <data name="tp_Pin1.Text" xml:space="preserve">
+    <value>Pin 1</value>
+  </data>
+  <data name="tp_SitOffset.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_Inspect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tp_PocketPosition.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_Retest_DualPocket.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 27</value>
+  </data>
+  <data name="btn_Inspect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="&gt;&gt;tp_SitOffset.Parent" xml:space="preserve">
+    <value>tab_Result</value>
+  </data>
+  <data name="lbl_ResultStatus1_DualPocket.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 45</value>
+  </data>
+  <data name="&gt;&gt;dgd_EmptyResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pitch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>871</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn34.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;dgd_Pin1Result.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgd_Package.TabIndex" type="System.Int32, mscorlib">
+    <value>870</value>
+  </data>
+  <data name="lbl_Test_DualPocket.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_SetReferenceChars.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Template4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Template1.Type" xml:space="preserve">
+    <value>SRMControl.SRMRadioButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_ResultStatus1_DualPocket.TabIndex" type="System.Int32, mscorlib">
+    <value>942</value>
+  </data>
+  <data name="&gt;&gt;lbl_V2Process.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn34.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn34</value>
+  </data>
+  <data name="&gt;&gt;lbl_SetReferenceChars.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;column_Retest_MissingArea.Name" xml:space="preserve">
+    <value>column_Retest_MissingArea</value>
+  </data>
+  <data name="&gt;&gt;col_Width.Name" xml:space="preserve">
+    <value>col_Width</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Template2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgd_OrientResult.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;dgd_Lead.Parent" xml:space="preserve">
+    <value>tp_Lead</value>
+  </data>
+  <data name="btn_Close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1ROI.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="column_Retest.HeaderText" xml:space="preserve">
+    <value>Retest</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Retest.HeaderText" xml:space="preserve">
+    <value>Retest</value>
+  </data>
+  <data name="col_Gap.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="lbl_Pin1ROI.TabIndex" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <data name="cbo_TemplateNo.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Template4.Type" xml:space="preserve">
+    <value>SRMControl.SRMRadioButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Parent" xml:space="preserve">
+    <value>pnl_Span</value>
+  </data>
+  <data name="&gt;&gt;tp_PocketPosition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel6.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lbl_GrabTime.Name" xml:space="preserve">
+    <value>lbl_GrabTime</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn25.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn25</value>
+  </data>
+  <data name="&gt;&gt;column_Retest_MissingArea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tp_SitOffset.Name" xml:space="preserve">
+    <value>tp_SitOffset</value>
+  </data>
+  <data name="lbl_SetReferenceChars.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lbl_ResultStatus1.TabIndex" type="System.Int32, mscorlib">
+    <value>201</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1ROI.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lbl_V2Process.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;column_Retest_AGVPercent.Name" xml:space="preserve">
+    <value>column_Retest_AGVPercent</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn18.Width" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="col_Length.HeaderText" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="dgd_LeadDefect.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_BaseArea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tp_Empty.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lbl_Pin1ROI.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;pnl_Span.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Template.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 23</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn19.Width" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="dgd_Lead_GroupDimension2.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn22.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn22</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Defect</value>
+  </data>
+  <data name="group_SelectTemplate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;column_Retest_JointMark.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioBtn_Template4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgd_MiddleDefect.TabIndex" type="System.Int32, mscorlib">
+    <value>885</value>
+  </data>
+  <data name="column_Test_BrokenArea.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="lbl_Retest_DualPocket.Text" xml:space="preserve">
+    <value>Retest</value>
+  </data>
+  <data name="tab_Result.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 9pt</value>
+  </data>
+  <data name="&gt;&gt;tp_Pin1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbo_TemplateNo.TabIndex" type="System.Int32, mscorlib">
+    <value>923</value>
+  </data>
+  <data name="column_Retest_JointMark.HeaderText" xml:space="preserve">
+    <value>Joint Mark(Retest)</value>
+  </data>
+  <data name="tp_Lead.Text" xml:space="preserve">
+    <value>Lead</value>
+  </data>
+  <data name="&gt;&gt;lbl_V2Grab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tp_Orient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn23.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn23</value>
+  </data>
+  <data name="tp_Orient.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chk_WantCheckEmpty.TabIndex" type="System.Int32, mscorlib">
+    <value>931</value>
+  </data>
+  <data name="&gt;&gt;tp_Package.Name" xml:space="preserve">
+    <value>tp_Package</value>
+  </data>
+  <data name="dgd_MarkResult2.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;lbl_V2Process.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dc_No.HeaderText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn11.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;column_Set.Name" xml:space="preserve">
+    <value>column_Set</value>
+  </data>
+  <data name="&gt;&gt;column_Test.Name" xml:space="preserve">
+    <value>column_Test</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Template2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn30.HeaderText" xml:space="preserve">
+    <value>Mean Gray</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Template3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus2_DualPocket.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_Close.TabIndex" type="System.Int32, mscorlib">
+    <value>211</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.Width" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="col_Pitch.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;dgd_Lead_GroupDimension2.Parent" xml:space="preserve">
+    <value>pnl_GroupDefect</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Template1.Name" xml:space="preserve">
+    <value>radioBtn_Template1</value>
+  </data>
+  <data name="&gt;&gt;dc_Unit.Name" xml:space="preserve">
+    <value>dc_Unit</value>
+  </data>
+  <data name="&gt;&gt;tp_Orient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tp_SitOffset.Text" xml:space="preserve">
+    <value>Sitting Offset</value>
+  </data>
+  <data name="lbl_Pin1ROI.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="dgd_MarkResult2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 126</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn48.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn26.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn26</value>
+  </data>
+  <data name="tab_Result.TabIndex" type="System.Int32, mscorlib">
+    <value>213</value>
+  </data>
+  <data name="radioBtn_Template1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 24</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn17.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="column_Set.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="lbl_Test_DualPocket.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn29.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;dgd_MarkResult1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn16.HeaderText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;column_Retest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Vision4OfflinePage</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn45.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn45</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn17.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn17</value>
+  </data>
+  <data name="dgd_Defect.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Template1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn25.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="group_SelectTemplate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 412</value>
+  </data>
+  <data name="column_Test.HeaderText" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="&gt;&gt;lbl_Template.Name" xml:space="preserve">
+    <value>lbl_Template</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn20.HeaderText" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="dgd_SitOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 74</value>
+  </data>
+  <data name="dgd_PocketPositionResult.TabIndex" type="System.Int32, mscorlib">
+    <value>931</value>
+  </data>
+  <data name="srmLabel4.Text" xml:space="preserve">
+    <value>Min Span: </value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn42.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn42</value>
+  </data>
+  <data name="&gt;&gt;col_Offset.Name" xml:space="preserve">
+    <value>col_Offset</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn10.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;col_Pitch.Name" xml:space="preserve">
+    <value>col_Pitch</value>
+  </data>
+  <data name="dgd_Package.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;column_AGVPercent.Name" xml:space="preserve">
+    <value>column_AGVPercent</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Name" xml:space="preserve">
+    <value>srmLabel3</value>
+  </data>
+  <data name="&gt;&gt;dgd_Defect.Parent" xml:space="preserve">
+    <value>tp_Package</value>
+  </data>
+  <data name="srmLabel7.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn26.Width" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Name" xml:space="preserve">
+    <value>srmLabel7</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn29.HeaderText" xml:space="preserve">
+    <value>Unit Size</value>
+  </data>
+  <data name="column_Retest_JointMark.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>207</value>
+  </data>
+  <data name="tp_Empty.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn24.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn24</value>
+  </data>
+  <data name="radioBtn_Template4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 24</value>
+  </data>
+  <data name="lbl_ResultStatus2_DualPocket.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="col_Gap.HeaderText" xml:space="preserve">
+    <value>Gap</value>
+  </data>
+  <data name="&gt;&gt;tp_Orient.Parent" xml:space="preserve">
+    <value>tab_Result</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn30.Width" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tp_Empty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Template.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_GrabDelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 23</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="dgd_OrientResult.TabIndex" type="System.Int32, mscorlib">
+    <value>869</value>
+  </data>
+  <data name="lbl_SetReferenceChars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_ProcessTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="column_Test_ExcessArea.HeaderText" xml:space="preserve">
+    <value>Excess</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn24.Width" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn15.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dataGridViewTextBoxColumn9.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;dgd_EmptyResult.Parent" xml:space="preserve">
+    <value>tp_Empty</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn27.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn27</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn46.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn46</value>
+  </data>
+  <data name="&gt;&gt;pnl_GroupDefect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Retest_DualPocket.TabIndex" type="System.Int32, mscorlib">
+    <value>941</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgd_LeadDefect.Parent" xml:space="preserve">
+    <value>pnl_GroupDefect</value>
+  </data>
+  <data name="&gt;&gt;tp_Lead.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;column_Retest_BrokenArea.Name" xml:space="preserve">
+    <value>column_Retest_BrokenArea</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgd_LeadDefect.Name" xml:space="preserve">
+    <value>dgd_LeadDefect</value>
+  </data>
+  <data name="&gt;&gt;pnl_Template.Parent" xml:space="preserve">
+    <value>tp_Orient</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn28.HeaderText" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="radioBtn_Template4.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="lbl_Pin1ROI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 24</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn21.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="lbl_Test_DualPocket.TabIndex" type="System.Int32, mscorlib">
+    <value>943</value>
+  </data>
+  <data name="column_Test_ExcessArea.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;pnl_Template.Name" xml:space="preserve">
+    <value>pnl_Template</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn28.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn28</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn12.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="column_Retest_ExcessArea.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="lbl_V2Process.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="pnl_GroupDefect.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl_V2Process.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;tp_Lead.Parent" xml:space="preserve">
+    <value>tab_Result</value>
+  </data>
+  <data name="&gt;&gt;lbl_Retest_DualPocket.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dgd_SitOffset.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="dgd_Lead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 230</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn45.HeaderText" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="srmLabel3.Text" xml:space="preserve">
+    <value>Max Span: </value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn47.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn47</value>
+  </data>
+  <data name="radioBtn_Template2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="column_AGVPercent.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn43.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn8</value>
+  </data>
+  <data name="column_Retest_AGVPercent.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="lbl_GrabTime.TabIndex" type="System.Int32, mscorlib">
+    <value>203</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>Retest</value>
+  </data>
+  <data name="srmLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>932</value>
+  </data>
+  <data name="chk_Grab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dgd_MarkResult2.Name" xml:space="preserve">
+    <value>dgd_MarkResult2</value>
+  </data>
+  <data name="dgd_LeadDefect.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;pnl_Template.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgd_EmptyResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 208</value>
+  </data>
+  <data name="&gt;&gt;lbl_TotalTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn44.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn44</value>
+  </data>
+  <data name="column_Retest_BrokenArea.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="tp_Lead.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lbl_Test_DualPocket.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;column_Set.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_GrabDelay.Name" xml:space="preserve">
+    <value>lbl_GrabDelay</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn43.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn43</value>
+  </data>
+  <data name="pnl_GroupDefect.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="lbl_TotalTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;cbo_TemplateNo.Parent" xml:space="preserve">
+    <value>pnl_Template</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Template4.Name" xml:space="preserve">
+    <value>radioBtn_Template4</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 234</value>
+  </data>
+  <data name="lbl_Test_DualPocket.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 9</value>
+  </data>
+  <data name="dgd_OrientResult.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;pnl_Span.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lbl_TotalTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn21.HeaderText" xml:space="preserve">
+    <value>Unit Size</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn15.Width" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="dgd_MiddleDefect.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="dgd_Defect.TabIndex" type="System.Int32, mscorlib">
+    <value>871</value>
+  </data>
+  <data name="radioBtn_Template3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dgd_OrientResult.Name" xml:space="preserve">
+    <value>dgd_OrientResult</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn44.HeaderText" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;tp_Mark.Parent" xml:space="preserve">
+    <value>tab_Result</value>
+  </data>
+  <data name="&gt;&gt;dgd_Lead.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;timer_MarkTestResult.Name" xml:space="preserve">
+    <value>timer_MarkTestResult</value>
+  </data>
+  <data name="&gt;&gt;dc_No.Name" xml:space="preserve">
+    <value>dc_No</value>
+  </data>
+  <data name="btn_Close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 531</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_ResultStatus1_DualPocket.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imageList_AutoForm.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADg
+        BgAAAk1TRnQBSQFMAgEBAgEAAewBAAH0AQABDAEAAQwBAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAEw
+        AwABDAMAAQEBAAEgBgABCR4AAxABFQNSAaEDXwHoA1wB+ANgAdQDOgFhAwEBAhAAAwEBAgMdASoBTgJN
+        AZYBXAJZAc8DWgHeAVkCVgG+Az4BawMKAQ5wAAM1AVUBJAGkASUB/wGEAbgBhQH/AcsB6AHOAf8BygHu
+        AdIB/wHPAeYBzwH/ARwBoAEeAf8BWAFiAVgB7wMIAQsIAAMCAQMDPAFmA10B8AN/Af4BtAG2AdoB/wK2
+        AeAB/wKyAdMB/wFfAVgBYQH8AWACWwHWAxoBJWgAAx4BKwGBAaoBgQH/AcwB7AHSAf8BAAHKAQYB/wHj
+        Af8B6QX/AY4B+wGmAf8BAAGzAQcB/wGdAcoBnwH/AVgBYgFYAe8IAAMqAUEBagFHAWoB+QHSAdMB7AH/
+        ATUBQAHTAf8B1gHeAf4F/wGUAaAB9wH/AUYBSwHEAf8CqAHDAf8BYAJbAdYDCQEMZAABWQFnAVkB8gGx
+        AdoBtQH/AQABuQEAAf8BIQH8AYEB/wEMAfkBgQH/AQ8B9wGCAf8BCwH5AYEB/wELAfsBgQH/AQABqgEA
+        Af8BgQGtAYEB/wM2AVkEAAFcAloBzQKWAcgB/wEWARwBwgH/AVoBhAH+Af8BVQGJAf4B/wFUAYYB/gH/
+        AVIBiQL/AT8BVAHzAf8BNAE1AbkB/wGIAUYBpAH9AzsBZWAAAwMBBAGLAb0BjAH/AQABtQEHAf8BAAHp
+        ARcB/wEAAfgBgQH/AQQB+QGBAf8BBwH5AYEB/wEAAfkBgQH/AQAB+QGBAf8BAAHGAQAB/wGMAcwBlQH/
+        A2EB5AMEAQYDXwHzATwBPwG+Af8BIgEsAe8B/wE2AUIB/gH/AUQBTwL/AUcBWQL/ATwBRwL/AS4BPAH+
+        Af8BDQERAcsB/wGDAYYBwgH/A1kBw2AAAxgBIgGUAcMBlQH/AQABqAEAAf8BAAHqARQB/wEAAfgBgQH/
+        AQAB+QGBAf8BAAH5AYEB/wEAAfgBgQH/AQAB9gEjAf8BAAHWAQIB/wESAb8BgQH/AZgBxAGXAf8DGAEi
+        AV0BSwFlAfwBGAEaAbgB/wEYAR4B8gH/ASYBLgL/ATABOQL/ATUBPgL/ASsBNAL/AR8BJwH9Af8BEAET
+        Ad4B/wJQAb4B/wNfAeBgAAMKAQ4BpgHPAacB/wEAAaMBAAH/AQAB5gEIAf8BDgH6AYwB/wEXAfkBkQH/
+        ARcB+gGRAf8BFQH5AZEB/wEAAfYBgQH/AQAB0gEAAf8BAAG0ARYB/wMrAfwDCwEPA2oB+QEWARgBtAH/
+        AQwBEAHtAf8BSwFOAv8BWQFcAv8BWgGBAv8BVwFZAv8BLgEzAfwB/wEJAQsB2QH/AUUBTQG0Af8BXgJb
+        AdlkAAHMAeMBywH/AQABoAEAAf8BAAHXAQ0B/wGLAfoBtAH/AY4B+wG2Af8BjgH7AbYB/wGMAfsBtQH/
+        AZAB+AG2Af8BAAGzAQAB/wEXAasBIQH/AVEBUwFRAaUEAANiAekBKwEsAakB/wEfASEB3AH/AYsBjQH9
+        Af8BjAGPAv8BjQGPAv8BjAGOAv8BhAGGAfgB/wEDAQQBugH/AVsBXAG0Af8DTgGYZAADUAGdAR8BqQEk
+        Af8BAAGYAQAB/wHbAf0B5wH/AcoB+wHbAf8BygH7Ad0B/wHJAfoB2gH/AbQB8wHJAf8BAAGWAQAB/wHj
+        Ae8B4gH/AwQBBgQAA0wBkwKJAbIB/wIDAZ4B/wHHAcgB+gH/AccByAH9Af8BxwHIAf0B/wHIAckB/AH/
+        AagBqQHqAf8BEwEWAZsB/wNiAfYDGgElaAADWQH1AREBoAEXAf8BAAGOAQAB/wG1AekBwgH/Ac4B8QHX
+        Af8BJQHNAYEB/wEAAYwBAAH/AckB4gHJAf8DOAFdCAADCwEPA1kBxwKGAawB/wE6ATsBpwH/AakBqgHa
+        Af8BuwG8AeIB/wKIAccB/wEzATQBoQH/AYUBRQGJAf0DPwFtAwEBAmwAA1MBqgT/AYIBugGFAf8BgQGz
+        AYEB/wGxAdQBswH/AfgB+wH4Af8DIwE0EAADDQERA1ABmwNhAe4BfQFyAX8B/gKNAbcB/wNqAfkDXwHb
+        AzABSwMCAQN4AAMvAUkDQAFwAxgBISAAAwMBBAMuAUcDQAFwAxoBJHAAAUIBTQE+BwABPgMAASgDAAEw
+        AwABDAMAAQEBAAEBBQABYBcAA/8BAAHgATwBAwUAAcABGAEBBQABgAEYBgABgAEIHgABgAEIBgABgAEI
+        BgABwAEYBgAB4AE8AQEFAAH4Af8BDxsACw==
+</value>
+  </data>
+  <data name="&gt;&gt;lbl_Retest_DualPocket.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Vision1OfflinePage</value>
+  </data>
+  <data name="tp_Lead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="dgd_MiddleDefect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 126</value>
+  </data>
+  <data name="cbo_TemplateNo.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbo_TemplateNo.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dgd_MarkResult2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 5</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Variance.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn48.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn48</value>
+  </data>
+  <data name="&gt;&gt;tp_Empty.Name" xml:space="preserve">
+    <value>tp_Empty</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn32.Width" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="lbl_ResultStatus2_DualPocket.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 45</value>
+  </data>
+  <data name="lbl_ResultStatus2_DualPocket.Text" xml:space="preserve">
+    <value>-----</value>
+  </data>
+  <data name="&gt;&gt;lbl_V2Grab.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lbl_V2Grab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 23</value>
+  </data>
+  <data name="lbl_TotalTime.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="&gt;&gt;dgd_PocketPositionResult.Parent" xml:space="preserve">
+    <value>tp_PocketPosition</value>
+  </data>
+  <data name="col_Pitch.HeaderText" xml:space="preserve">
+    <value>Pitch</value>
+  </data>
+  <data name="col_Skew.HeaderText" xml:space="preserve">
+    <value>Skew</value>
+  </data>
+  <data name="dc_Unit.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;chk_Grab.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn33.HeaderText" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="lbl_ResultStatus1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 18pt, style=Bold</value>
+  </data>
+  <data name="lbl_GrabTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckEmpty.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;col_BaseArea.Name" xml:space="preserve">
+    <value>col_BaseArea</value>
+  </data>
+  <data name="&gt;&gt;chk_Grab.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="pnl_Span.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 165</value>
+  </data>
+  <data name="dgd_EmptyResult.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn25.HeaderText" xml:space="preserve">
+    <value>Defect</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn10.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn10</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProcessTime.Name" xml:space="preserve">
+    <value>lbl_ProcessTime</value>
+  </data>
+  <data name="&gt;&gt;column_Test_ExcessArea.Name" xml:space="preserve">
+    <value>column_Test_ExcessArea</value>
+  </data>
+  <data name="lbl_Pin1ROI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn47.HeaderText" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;column_Test.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgd_PocketPositionResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 208</value>
+  </data>
+  <data name="&gt;&gt;dgd_Lead.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_ResultStatus1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 29</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>Set(%)</value>
+  </data>
+  <data name="srmLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="column_Retest_ExcessArea.HeaderText" xml:space="preserve">
+    <value>Excess (Retest)</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus1_DualPocket.Name" xml:space="preserve">
+    <value>lbl_ResultStatus1_DualPocket</value>
+  </data>
+  <data name="col_Variance.HeaderText" xml:space="preserve">
+    <value>Variance</value>
+  </data>
+  <data name="&gt;&gt;lbl_Template.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Test_DualPocket.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 27</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Template3.Type" xml:space="preserve">
+    <value>SRMControl.SRMRadioButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;col_Angle.Name" xml:space="preserve">
+    <value>col_Angle</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProcessTime.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="column_Label.HeaderText" xml:space="preserve">
+    <value>Mark</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn28.Width" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="srmLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="dgd_MarkResult1.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;dgd_Lead_GroupDimension2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>933</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn48.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="col_AGV.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pnl_GroupDefect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 230</value>
+  </data>
+  <data name="radioBtn_Template4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 468</value>
+  </data>
+  <data name="dgd_Defect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 73</value>
+  </data>
+  <data name="srmLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn24.HeaderText" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Template4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="column_Test_BrokenArea.HeaderText" xml:space="preserve">
+    <value>Broken</value>
+  </data>
+  <data name="lbl_ProcessTime.TabIndex" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="&gt;&gt;tp_Pin1.Parent" xml:space="preserve">
+    <value>tab_Result</value>
+  </data>
+  <data name="lbl_Template.TabIndex" type="System.Int32, mscorlib">
+    <value>924</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultMinSpan.Parent" xml:space="preserve">
+    <value>pnl_Span</value>
+  </data>
+  <data name="column_Retest_JointMark.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgd_MiddleDefect.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_GroupDefect.Name" xml:space="preserve">
+    <value>pnl_GroupDefect</value>
+  </data>
+  <data name="chk_WantCheckEmpty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 291</value>
+  </data>
+  <data name="dgd_Package.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="col_Skew.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="dgd_Package.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn20.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn20</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn43.HeaderText" xml:space="preserve">
+    <value>Defect</value>
+  </data>
+  <data name="lbl_ProcessTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 51</value>
+  </data>
+  <data name="tp_PocketPosition.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;dc_Unit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Gap.Name" xml:space="preserve">
+    <value>col_Gap</value>
+  </data>
+  <data name="&gt;&gt;dgd_SitOffset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="column_JointMark.HeaderText" xml:space="preserve">
+    <value>Joint Mark</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>664, 569</value>
+  </data>
+  <data name="col_Length.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="btn_Inspect.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="lbl_ResultMaxSpan.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tp_Pin1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;dc_No.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>Orient</value>
+  </data>
+  <data name="&gt;&gt;tp_Mark.Name" xml:space="preserve">
+    <value>tp_Mark</value>
+  </data>
+  <data name="&gt;&gt;col_Variance.Name" xml:space="preserve">
+    <value>col_Variance</value>
+  </data>
+  <data name="tab_Result.Size" type="System.Drawing.Size, System.Drawing">
+    <value>318, 424</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Template3.Name" xml:space="preserve">
+    <value>radioBtn_Template3</value>
+  </data>
+  <data name="dgd_LeadDefect.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="tp_Pin1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="cbo_TemplateNo.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dgd_MarkResult1.Name" xml:space="preserve">
+    <value>dgd_MarkResult1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Test_DualPocket.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn47.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="chk_WantCheckEmpty.Text" xml:space="preserve">
+    <value>Check Empty</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn27.HeaderText" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="col_Width.HeaderText" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="lbl_ResultMinSpan.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgd_SitOffset.Name" xml:space="preserve">
+    <value>dgd_SitOffset</value>
+  </data>
+  <data name="lbl_ResultStatus1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;col_BaseOffset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioBtn_Template2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn29.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn29</value>
+  </data>
+  <data name="lbl_ResultMinSpan.TabIndex" type="System.Int32, mscorlib">
+    <value>929</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Template1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dc_No.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckEmpty.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Parent" xml:space="preserve">
+    <value>pnl_Span</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="tp_PocketPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="btn_Inspect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 531</value>
+  </data>
+  <data name="dgd_MiddleDefect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="dgd_Pin1Result.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="srmLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 5</value>
+  </data>
+  <data name="&gt;&gt;lbl_V2Grab.Name" xml:space="preserve">
+    <value>lbl_V2Grab</value>
+  </data>
+  <data name="&gt;&gt;col_Skew.Name" xml:space="preserve">
+    <value>col_Skew</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 23</value>
+  </data>
+  <data name="srmLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>931</value>
+  </data>
+  <data name="&gt;&gt;dgd_Package.Parent" xml:space="preserve">
+    <value>tp_Package</value>
+  </data>
+  <data name="pnl_Template.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 41</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="dgd_Lead.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;dgd_SitOffset.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;column_Test_ExcessArea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tp_Mark.Text" xml:space="preserve">
+    <value>Mark</value>
+  </data>
+  <data name="btn_Inspect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioBtn_Template2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 468</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Name" xml:space="preserve">
+    <value>btn_Close</value>
+  </data>
+  <data name="&gt;&gt;dgd_MarkResult2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgd_MarkResult2.TabIndex" type="System.Int32, mscorlib">
+    <value>873</value>
+  </data>
+  <data name="&gt;&gt;col_Variance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="dgd_LeadDefect.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;cbo_TemplateNo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioBtn_Template3.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="dgd_Lead_GroupDimension2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbl_SetReferenceChars.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 474</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn2</value>
+  </data>
+  <data name="dgd_Lead_GroupDimension2.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn6</value>
+  </data>
+  <data name="tp_Package.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 392</value>
+  </data>
+  <data name="&gt;&gt;lbl_GrabTime.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lbl_ResultMinSpan.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="dc_Area.HeaderText" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="srmLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_ProcessTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;column_Retest_JointMark.Name" xml:space="preserve">
+    <value>column_Retest_JointMark</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="radioBtn_Template1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tp_Lead.Name" xml:space="preserve">
+    <value>tp_Lead</value>
+  </data>
+  <data name="btn_Close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn9.HeaderText" xml:space="preserve">
+    <value>Set(%)</value>
+  </data>
+  <data name="tp_Mark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 392</value>
+  </data>
+  <data name="col_Angle.Width" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;col_Length.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgd_Pin1Result.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="column_Test_MissingArea.HeaderText" xml:space="preserve">
+    <value>Missing</value>
+  </data>
+  <data name="column_Set.HeaderText" xml:space="preserve">
+    <value>Set(%)</value>
+  </data>
+  <data name="tp_Orient.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Template.Parent" xml:space="preserve">
+    <value>pnl_Template</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProcessTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnl_Template.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 348</value>
+  </data>
+  <data name="dgd_EmptyResult.TabIndex" type="System.Int32, mscorlib">
+    <value>930</value>
+  </data>
+  <data name="lbl_GrabDelay.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_GrabDelay.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Total (ms)</value>
+  </data>
+  <data name="col_BaseArea.HeaderText" xml:space="preserve">
+    <value>Base Area</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn13.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn13</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus2_DualPocket.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Test_DualPocket.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tp_Orient.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn12.Width" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="&gt;&gt;dgd_MarkResult1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_ProcessTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 23</value>
+  </data>
+  <data name="lbl_ProcessTime.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="tp_Orient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 392</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgd_Lead.TabIndex" type="System.Int32, mscorlib">
+    <value>884</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Template3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="dgd_MarkResult2.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="dgd_OrientResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 208</value>
+  </data>
+  <data name="&gt;&gt;column_Retest_AGVPercent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgd_Lead_GroupDimension2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 82</value>
+  </data>
+  <data name="&gt;&gt;column_AGVPercent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_V2Process.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 51</value>
+  </data>
+  <data name="srmLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 7</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn4</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn11.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn11</value>
+  </data>
+  <data name="chk_WantCheckEmpty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 24</value>
+  </data>
+  <data name="&gt;&gt;col_AGV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn5</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioBtn_Template2.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;column_Test_MissingArea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultMinSpan.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn46.HeaderText" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="lbl_ResultMinSpan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 2</value>
+  </data>
+  <data name="tab_Result.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
+    <value>Buttons</value>
+  </data>
+  <data name="tp_PocketPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 392</value>
+  </data>
+  <data name="column_Test_MissingArea.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckEmpty.Name" xml:space="preserve">
+    <value>chk_WantCheckEmpty</value>
+  </data>
+  <data name="radioBtn_Template4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn32.HeaderText" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="dgd_LeadDefect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 82</value>
+  </data>
+  <data name="dgd_MarkResult1.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;imageList_AutoForm.Name" xml:space="preserve">
+    <value>imageList_AutoForm</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_GrabDelay.TabIndex" type="System.Int32, mscorlib">
+    <value>206</value>
+  </data>
+  <data name="lbl_V2Grab.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="column_Retest_MissingArea.HeaderText" xml:space="preserve">
+    <value>Missing(Retest)</value>
+  </data>
+  <data name="&gt;&gt;dgd_LeadDefect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tp_Mark.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioBtn_Template3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;column_Retest_BrokenArea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn26.HeaderText" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="tp_Pin1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;col_Length.Name" xml:space="preserve">
+    <value>col_Length</value>
+  </data>
+  <data name="&gt;&gt;group_SelectTemplate.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dgd_Defect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 316</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Template2.Name" xml:space="preserve">
+    <value>radioBtn_Template2</value>
+  </data>
+  <data name="pnl_Span.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 28</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1ROI.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Pin1ROI.Text" xml:space="preserve">
+    <value>Offline Test</value>
+  </data>
+  <data name="dgd_Lead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn30.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn30</value>
+  </data>
+  <data name="chk_Grab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 24</value>
+  </data>
+  <data name="lbl_V2Process.TabIndex" type="System.Int32, mscorlib">
+    <value>204</value>
+  </data>
+  <data name="radioBtn_Template1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dgd_MarkResult1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 208</value>
+  </data>
+  <data name="lbl_GrabDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 29</value>
+  </data>
+  <data name="lbl_ResultMaxSpan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 23</value>
+  </data>
+  <data name="&gt;&gt;tp_PocketPosition.Parent" xml:space="preserve">
+    <value>tab_Result</value>
+  </data>
+  <data name="&gt;&gt;dgd_SitOffset.Parent" xml:space="preserve">
+    <value>tp_SitOffset</value>
+  </data>
+  <data name="&gt;&gt;col_Width.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn13.Width" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tp_Empty.Text" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="&gt;&gt;dgd_Package.Name" xml:space="preserve">
+    <value>dgd_Package</value>
+  </data>
+  <data name="&gt;&gt;tab_Result.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_V2Process.Name" xml:space="preserve">
+    <value>lbl_V2Process</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 129</value>
+  </data>
+  <data name="col_BaseOffset.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="lbl_ResultStatus1.Text" xml:space="preserve">
+    <value>-----</value>
+  </data>
+  <data name="tp_PocketPosition.Text" xml:space="preserve">
+    <value>Pocket Position</value>
+  </data>
+  <data name="radioBtn_Template3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 468</value>
+  </data>
+  <data name="dgd_LeadDefect.TabIndex" type="System.Int32, mscorlib">
+    <value>885</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn15.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn15</value>
+  </data>
+  <data name="lbl_Retest_DualPocket.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lbl_V2Process.Text" xml:space="preserve">
+    <value>Process (ms)</value>
+  </data>
+  <data name="col_AGV.HeaderText" xml:space="preserve">
+    <value>Ave Gray Value</value>
+  </data>
+  <data name="&gt;&gt;dgd_Package.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbo_TemplateNo.Name" xml:space="preserve">
+    <value>cbo_TemplateNo</value>
+  </data>
+  <data name="tab_Result.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 101</value>
+  </data>
+  <data name="column_Retest.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="dgd_MarkResult2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 210</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn10.HeaderText" xml:space="preserve">
+    <value>Retest</value>
+  </data>
+  <data name="lbl_ResultStatus2_DualPocket.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn12.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn12</value>
+  </data>
+  <data name="srmLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="group_SelectTemplate.TabIndex" type="System.Int32, mscorlib">
+    <value>869</value>
+  </data>
+  <data name="column_JointMark.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn47.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn27.Width" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultMaxSpan.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dc_Unit.HeaderText" xml:space="preserve">
+    <value>Img</value>
+  </data>
+  <data name="&gt;&gt;timer_MarkTestResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn42.HeaderText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;pnl_GroupDefect.Parent" xml:space="preserve">
+    <value>tp_Lead</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus1.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;lbl_Test_DualPocket.Name" xml:space="preserve">
+    <value>lbl_Test_DualPocket</value>
+  </data>
+  <data name="tp_Package.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="srmLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="&gt;&gt;col_Retest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tab_Result.Name" xml:space="preserve">
+    <value>tab_Result</value>
+  </data>
+  <data name="&gt;&gt;column_Test_BrokenArea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tab_Result.Type" xml:space="preserve">
+    <value>SRMControl.SRMTabControl, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dgd_LeadDefect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 77</value>
+  </data>
+  <data name="dgd_Defect.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;dgd_MiddleDefect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tp_PocketPosition.Name" xml:space="preserve">
+    <value>tp_PocketPosition</value>
+  </data>
+  <data name="&gt;&gt;group_SelectTemplate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_ResultMinSpan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 23</value>
+  </data>
+  <data name="lbl_V2Grab.TabIndex" type="System.Int32, mscorlib">
+    <value>202</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Name" xml:space="preserve">
+    <value>srmLabel6</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn16.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn35.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;dgd_Package.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn20.Width" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;tp_Package.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;column_Test_BrokenArea.Name" xml:space="preserve">
+    <value>column_Test_BrokenArea</value>
+  </data>
+  <data name="&gt;&gt;dgd_MiddleDefect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="&gt;&gt;tp_PocketPosition.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tp_Empty.Parent" xml:space="preserve">
+    <value>tab_Result</value>
+  </data>
+  <data name="dgd_Pin1Result.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tp_Orient.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="column_Label.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="dgd_MarkResult1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;group_SelectTemplate.Name" xml:space="preserve">
+    <value>group_SelectTemplate</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn16.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn16</value>
+  </data>
+  <data name="tp_SitOffset.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;col_Retest.Name" xml:space="preserve">
+    <value>col_Retest</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn14.Width" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus1_DualPocket.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+    <value>Pin 1</value>
+  </data>
+  <data name="&gt;&gt;tp_Orient.Name" xml:space="preserve">
+    <value>tp_Orient</value>
+  </data>
+  <data name="tp_SitOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 392</value>
+  </data>
+  <data name="cbo_TemplateNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 31</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus2_DualPocket.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tp_Lead.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_V2Grab.Text" xml:space="preserve">
+    <value>Grab (ms)</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProcessTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn23.Width" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;btn_Inspect.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lbl_GrabDelay.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgd_Defect.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;cbo_TemplateNo.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="col_Angle.HeaderText" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="radioBtn_Template1.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;dgd_EmptyResult.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn48.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn7</value>
+  </data>
+  <data name="&gt;&gt;dgd_MiddleDefect.Name" xml:space="preserve">
+    <value>dgd_MiddleDefect</value>
+  </data>
+  <data name="tp_Pin1.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;col_Gap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;column_JointMark.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Parent" xml:space="preserve">
+    <value>pnl_Span</value>
+  </data>
+  <data name="&gt;&gt;lbl_Test_DualPocket.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgd_Lead_GroupDimension2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_SetReferenceChars.Name" xml:space="preserve">
+    <value>lbl_SetReferenceChars</value>
+  </data>
+  <data name="&gt;&gt;column_Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_TotalTime.Name" xml:space="preserve">
+    <value>lbl_TotalTime</value>
+  </data>
+  <data name="lbl_V2Grab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn9.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn9</value>
+  </data>
+  <data name="lbl_GrabDelay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgd_MiddleDefect.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="lbl_ResultMaxSpan.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="&gt;&gt;lbl_Retest_DualPocket.Name" xml:space="preserve">
+    <value>lbl_Retest_DualPocket</value>
+  </data>
+  <data name="&gt;&gt;tp_SitOffset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Offset.HeaderText" xml:space="preserve">
+    <value>OffSet</value>
+  </data>
+  <data name="dgd_Lead.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn19.HeaderText" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn14.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn14</value>
+  </data>
+  <data name="lbl_ResultStatus2_DualPocket.TabIndex" type="System.Int32, mscorlib">
+    <value>940</value>
+  </data>
+  <data name="&gt;&gt;chk_Grab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgd_Pin1Result.Name" xml:space="preserve">
+    <value>dgd_Pin1Result</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn13.HeaderText" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn31.Width" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="srmLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 17</value>
+  </data>
+  <data name="tp_Empty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 392</value>
+  </data>
+  <data name="tp_Mark.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tp_Package.Parent" xml:space="preserve">
+    <value>tab_Result</value>
+  </data>
+  <data name="lbl_ResultMinSpan.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbl_Retest_DualPocket.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 9</value>
+  </data>
+  <data name="dgd_SitOffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pnl_GroupDefect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="dgd_EmptyResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 0</value>
+  </data>
+  <data name="dc_Area.Width" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="tp_Pin1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 392</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultMinSpan.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_ResultStatus1_DualPocket.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14.25pt, style=Bold</value>
+  </data>
+  <data name="tp_Empty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="&gt;&gt;dc_Area.Name" xml:space="preserve">
+    <value>dc_Area</value>
+  </data>
+  <data name="&gt;&gt;dgd_Defect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn35.HeaderText" xml:space="preserve">
+    <value>Pocket Position</value>
+  </data>
+  <data name="lbl_ResultMinSpan.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus1_DualPocket.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="lbl_ResultStatus2_DualPocket.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 35</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1ROI.Name" xml:space="preserve">
+    <value>lbl_Pin1ROI</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn18.HeaderText" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="column_Retest_AGVPercent.HeaderText" xml:space="preserve">
+    <value>Ave Gray Value (Retest)</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn45.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn18.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn18</value>
+  </data>
+  <data name="group_SelectTemplate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 36</value>
+  </data>
+  <data name="lbl_TotalTime.TabIndex" type="System.Int32, mscorlib">
+    <value>208</value>
+  </data>
+  <data name="&gt;&gt;lbl_TotalTime.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn22.Width" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chk_WantCheckEmpty.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Template.Text" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="tp_Package.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_GrabTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn19.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn19</value>
+  </data>
+  <data name="lbl_ResultStatus1_DualPocket.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tp_Mark.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Parent" xml:space="preserve">
+    <value>pnl_Span</value>
+  </data>
+  <data name="cbo_TemplateNo.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 73</value>
+  </data>
+  <data name="srmLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn36.HeaderText" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="&gt;&gt;dgd_OrientResult.Parent" xml:space="preserve">
+    <value>tp_Orient</value>
+  </data>
+  <data name="lbl_ResultStatus1_DualPocket.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 35</value>
+  </data>
+  <data name="lbl_ResultMaxSpan.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn3</value>
+  </data>
+  <data name="pnl_Template.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;col_AGV.Name" xml:space="preserve">
+    <value>col_AGV</value>
+  </data>
+  <data name="&gt;&gt;tp_Empty.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="col_Retest.Width" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;col_BaseOffset.Name" xml:space="preserve">
+    <value>col_BaseOffset</value>
+  </data>
+  <data name="tp_Package.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgd_PocketPositionResult.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgd_SitOffset.TabIndex" type="System.Int32, mscorlib">
+    <value>871</value>
+  </data>
+  <data name="radioBtn_Template1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>454, 468</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Template.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;dgd_MarkResult2.Parent" xml:space="preserve">
+    <value>tp_Mark</value>
+  </data>
+  <data name="&gt;&gt;dgd_Defect.Name" xml:space="preserve">
+    <value>dgd_Defect</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultMaxSpan.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dgd_EmptyResult.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="srmLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="&gt;&gt;btn_Inspect.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tp_SitOffset.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl_SetReferenceChars.Text" xml:space="preserve">
+    <value>Select Template :</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn22.HeaderText" xml:space="preserve">
+    <value>Mean Gray</value>
+  </data>
+  <data name="dgd_Package.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 74</value>
+  </data>
+  <data name="&gt;&gt;lbl_GrabTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgd_MiddleDefect.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn11.HeaderText" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.Width" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;dgd_Lead_GroupDimension2.Name" xml:space="preserve">
+    <value>dgd_Lead_GroupDimension2</value>
+  </data>
+  <data name="lbl_ResultStatus1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 45</value>
+  </data>
+  <data name="lbl_TotalTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 23</value>
+  </data>
+  <data name="radioBtn_Template3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 24</value>
+  </data>
+  <data name="chk_Grab.TabIndex" type="System.Int32, mscorlib">
+    <value>927</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn14.HeaderText" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="lbl_ResultStatus1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn31.HeaderText" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tp_Mark.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="col_Width.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;column_JointMark.Name" xml:space="preserve">
+    <value>column_JointMark</value>
+  </data>
+  <data name="chk_Grab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 535</value>
+  </data>
+  <data name="&gt;&gt;col_Angle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgd_Lead.Name" xml:space="preserve">
+    <value>dgd_Lead</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn31.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn31</value>
+  </data>
+  <data name="btn_Close.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Template.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Name" xml:space="preserve">
+    <value>srmLabel4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Retest_DualPocket.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnl_Template.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;lbl_GrabDelay.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pnl_GroupDefect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 159</value>
+  </data>
+  <data name="&gt;&gt;column_Retest_ExcessArea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_ResultStatus2_DualPocket.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="pnl_GroupDefect.TabIndex" type="System.Int32, mscorlib">
+    <value>887</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Template.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 7</value>
+  </data>
+  <data name="lbl_Pin1ROI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="column_AGVPercent.HeaderText" xml:space="preserve">
+    <value>Ave Gray Value</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tp_Package.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="srmLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="column_Retest_MissingArea.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="lbl_GrabTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="column_JointMark.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioBtn_Template2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 24</value>
+  </data>
+  <data name="pnl_Template.TabIndex" type="System.Int32, mscorlib">
+    <value>870</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn23.HeaderText" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="lbl_GrabTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 29</value>
+  </data>
+  <data name="pnl_Span.TabIndex" type="System.Int32, mscorlib">
+    <value>935</value>
+  </data>
+  <data name="dgd_Lead_GroupDimension2.TabIndex" type="System.Int32, mscorlib">
+    <value>885</value>
+  </data>
+  <data name="col_BaseOffset.HeaderText" xml:space="preserve">
+    <value>Base Offset</value>
+  </data>
+  <data name="&gt;&gt;column_Retest_ExcessArea.Name" xml:space="preserve">
+    <value>column_Retest_ExcessArea</value>
+  </data>
+  <data name="&gt;&gt;tp_Pin1.Name" xml:space="preserve">
+    <value>tp_Pin1</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgd_Pin1Result.Parent" xml:space="preserve">
+    <value>tp_Pin1</value>
+  </data>
+  <data name="&gt;&gt;tab_Result.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_ResultMaxSpan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 2</value>
+  </data>
+  <data name="&gt;&gt;dgd_MarkResult1.Parent" xml:space="preserve">
+    <value>tp_Mark</value>
+  </data>
+  <data name="dgd_Lead_GroupDimension2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tab_Result.Padding" type="System.Drawing.Point, System.Drawing">
+    <value>8, 3</value>
+  </data>
+  <data name="dgd_MiddleDefect.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;column_Test_MissingArea.Name" xml:space="preserve">
+    <value>column_Test_MissingArea</value>
+  </data>
+  <data name="&gt;&gt;dgd_EmptyResult.Name" xml:space="preserve">
+    <value>dgd_EmptyResult</value>
+  </data>
+  <data name="&gt;&gt;dgd_LeadDefect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_SetReferenceChars.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="dgd_PocketPositionResult.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus2_DualPocket.Name" xml:space="preserve">
+    <value>lbl_ResultStatus2_DualPocket</value>
+  </data>
+  <data name="column_Test.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;pnl_Span.Name" xml:space="preserve">
+    <value>pnl_Span</value>
+  </data>
+  <data name="lbl_V2Grab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 29</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgd_PocketPositionResult.Name" xml:space="preserve">
+    <value>dgd_PocketPositionResult</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn34.HeaderText" xml:space="preserve">
+    <value>Test (pixels)</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus1_DualPocket.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="col_Offset.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="dgd_SitOffset.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckEmpty.Parent" xml:space="preserve">
+    <value>tp_Empty</value>
+  </data>
+  <data name="lbl_SetReferenceChars.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tp_Package.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dc_Area.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultMaxSpan.Parent" xml:space="preserve">
+    <value>pnl_Span</value>
+  </data>
+  <data name="btn_Inspect.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="tp_PocketPosition.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="tp_Mark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn35.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn35</value>
+  </data>
+  <data name="&gt;&gt;tp_Pin1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_TotalTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 73</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultMinSpan.Name" xml:space="preserve">
+    <value>lbl_ResultMinSpan</value>
+  </data>
+  <data name="lbl_V2Process.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 23</value>
+  </data>
+  <data name="&gt;&gt;btn_Inspect.Name" xml:space="preserve">
+    <value>btn_Inspect</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Test_DualPocket.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chk_Grab.Text" xml:space="preserve">
+    <value>Grab Before Test</value>
+  </data>
+  <data name="col_BaseArea.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;dgd_Defect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;column_Label.Name" xml:space="preserve">
+    <value>column_Label</value>
+  </data>
+  <data name="dgd_Pin1Result.TabIndex" type="System.Int32, mscorlib">
+    <value>870</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn32.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn32</value>
+  </data>
+  <data name="lbl_ResultMaxSpan.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultMaxSpan.Name" xml:space="preserve">
+    <value>lbl_ResultMaxSpan</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tp_Orient.Text" xml:space="preserve">
+    <value>Orient</value>
+  </data>
+  <data name="tp_SitOffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="&gt;&gt;col_Offset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tp_Package.Text" xml:space="preserve">
+    <value>Package</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgd_PocketPositionResult.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="lbl_Template.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbl_Retest_DualPocket.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn33.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn33</value>
+  </data>
+  <data name="lbl_TotalTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn46.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;imageList_AutoForm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="column_Retest_BrokenArea.HeaderText" xml:space="preserve">
+    <value>Broken (Retest)</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;column_Retest.Name" xml:space="preserve">
+    <value>column_Retest</value>
+  </data>
+  <data name="tp_Lead.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lbl_Retest_DualPocket.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_SetReferenceChars.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn42.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_SetReferenceChars.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="cbo_TemplateNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 3</value>
+  </data>
+  <data name="lbl_GrabTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 23</value>
+  </data>
+  <data name="&gt;&gt;dgd_PocketPositionResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_GrabTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tp_Lead.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgd_MarkResult1.TabIndex" type="System.Int32, mscorlib">
+    <value>872</value>
+  </data>
+  <data name="tp_SitOffset.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;dgd_OrientResult.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tp_Orient.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn44.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn36.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn36</value>
+  </data>
+  <data name="&gt;&gt;lbl_V2Grab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgd_Pin1Result.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_GrabDelay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>934</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn17.HeaderText" xml:space="preserve">
+    <value>Defect</value>
+  </data>
+  <data name="dgd_LeadDefect.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lbl_ResultStatus1_DualPocket.Text" xml:space="preserve">
+    <value>-----</value>
+  </data>
+  <data name="&gt;&gt;group_SelectTemplate.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="dc_Area.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="column_Retest_JointMark.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="column_Retest_BrokenArea.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_Length.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="column_Label.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_AGV.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn33.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="column_Test_ExcessArea.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn45.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imageList_AutoForm.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>201, 12</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn29.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn42.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_BaseOffset.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn31.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn27.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn17.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="column_Test_BrokenArea.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn22.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn19.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_Offset.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn23.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="timer_MarkTestResult.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>33, 10</value>
+  </metadata>
+  <metadata name="column_Retest.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn20.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn46.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_BaseArea.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn10.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dc_No.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn34.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn48.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn25.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn16.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn43.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_Retest.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn15.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dc_Unit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="column_Retest_AGVPercent.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_Gap.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_Pitch.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="column_Retest_MissingArea.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>88</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn47.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="column_Test_MissingArea.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn13.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn26.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn21.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn30.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_Skew.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn11.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn28.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn35.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn18.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn44.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn32.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="column_JointMark.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="column_Retest_ExcessArea.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_Width.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_Angle.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn24.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn14.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn12.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="column_Set.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="column_AGVPercent.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="column_Test.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_Variance.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn36.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

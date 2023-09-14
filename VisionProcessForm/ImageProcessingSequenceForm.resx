@@ -1,0 +1,1636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;Open.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_Dilate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="grpbox_Threshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Threshold.Name" xml:space="preserve">
+    <value>trackBar_Threshold</value>
+  </data>
+  <data name="btn_OK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>546, 519</value>
+  </data>
+  <data name="srmLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="pic_ROI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 350</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_Close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 26</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxThreshold.Parent" xml:space="preserve">
+    <value>pnl_MinMaxThreshod</value>
+  </data>
+  <data name="txt_MinErode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 17</value>
+  </data>
+  <data name="btn_Threshold.Text" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="trackBar_Threshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 22</value>
+  </data>
+  <data name="&gt;&gt;srmLabel12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_MaxThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Name" xml:space="preserve">
+    <value>srmLabel16</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="srmLabel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Name" xml:space="preserve">
+    <value>srmLabel2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Prewitt.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Open.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxDilate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 15</value>
+  </data>
+  <data name="&gt;&gt;txt_Open.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txt_MinErode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="grpbox_Close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 60</value>
+  </data>
+  <data name="txt_MinThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txt_Erode.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="srmLabel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="&gt;&gt;Dilate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="srmLabel13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_MaxThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>962</value>
+  </data>
+  <data name="chk_MinResidue.Text" xml:space="preserve">
+    <value>Auto Threshold</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxOpen.Parent" xml:space="preserve">
+    <value>grpbox_Open</value>
+  </data>
+  <data name="lbl_ThresholdValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="srmLabel11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Open.TabIndex" type="System.Int32, mscorlib">
+    <value>881</value>
+  </data>
+  <data name="&gt;&gt;txt_MinOpen.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="srmLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>960</value>
+  </data>
+  <data name="lbl_ThresholdValue.TabIndex" type="System.Int32, mscorlib">
+    <value>956</value>
+  </data>
+  <data name="pnl_MinMaxThreshod.TabIndex" type="System.Int32, mscorlib">
+    <value>961</value>
+  </data>
+  <data name="trackBar_Threshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 23</value>
+  </data>
+  <data name="&gt;&gt;srmLabel15.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Erode.Text" xml:space="preserve">
+    <value>Add to Sequence</value>
+  </data>
+  <data name="grpbox_Prewitt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 45</value>
+  </data>
+  <data name="chk_MinResidue.TabIndex" type="System.Int32, mscorlib">
+    <value>965</value>
+  </data>
+  <data name="srmLabel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 28</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_MaxOpen.TabIndex" type="System.Int32, mscorlib">
+    <value>885</value>
+  </data>
+  <data name="&gt;&gt;txt_MinDilate.Name" xml:space="preserve">
+    <value>txt_MinDilate</value>
+  </data>
+  <data name="grpbox_Dilate.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Parent" xml:space="preserve">
+    <value>pnl_MinMaxThreshod</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btn_OK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 34</value>
+  </data>
+  <data name="&gt;&gt;btn_Threshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_Relative.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="Close.Text" xml:space="preserve">
+    <value>Add to Sequence</value>
+  </data>
+  <data name="srmLabel15.TabIndex" type="System.Int32, mscorlib">
+    <value>964</value>
+  </data>
+  <data name="grpbox_Open.TabIndex" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="&gt;&gt;Threshold.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pnl_Relative.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 14</value>
+  </data>
+  <data name="txt_MaxErode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 40</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Name" xml:space="preserve">
+    <value>srmLabel4</value>
+  </data>
+  <data name="grpbox_Erode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 65</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;pic_ROI.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="pic_ROI.TabIndex" type="System.Int32, mscorlib">
+    <value>196</value>
+  </data>
+  <data name="srmLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>961</value>
+  </data>
+  <data name="txt_MinOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxClose.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Parent" xml:space="preserve">
+    <value>grpbox_Open</value>
+  </data>
+  <data name="&gt;&gt;btn_Threshold.Name" xml:space="preserve">
+    <value>btn_Threshold</value>
+  </data>
+  <data name="srmLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 38</value>
+  </data>
+  <data name="srmLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="&gt;&gt;pic_ROI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel11.Text" xml:space="preserve">
+    <value>Erode :</value>
+  </data>
+  <data name="btn_Threshold.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Erode.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Dilate.Name" xml:space="preserve">
+    <value>grpbox_Dilate</value>
+  </data>
+  <data name="srmLabel6.Text" xml:space="preserve">
+    <value>Min :</value>
+  </data>
+  <data name="txt_Erode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="Dilate.TabIndex" type="System.Int32, mscorlib">
+    <value>880</value>
+  </data>
+  <data name="&gt;&gt;chk_MinResidue.Parent" xml:space="preserve">
+    <value>grpbox_Threshold</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Close.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_MinOpen.Name" xml:space="preserve">
+    <value>txt_MinOpen</value>
+  </data>
+  <data name="grpbox_Threshold.Text" xml:space="preserve">
+    <value>Threshold Setting</value>
+  </data>
+  <data name="&gt;&gt;lbl_ThresholdValue.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Parent" xml:space="preserve">
+    <value>grpbox_Close</value>
+  </data>
+  <data name="trackBar_Threshold.TabIndex" type="System.Int32, mscorlib">
+    <value>957</value>
+  </data>
+  <data name="&gt;&gt;txt_Erode.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pnl_Relative.Parent" xml:space="preserve">
+    <value>grpbox_Threshold</value>
+  </data>
+  <data name="srmLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>962</value>
+  </data>
+  <data name="srmLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="srmLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_MinClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 13</value>
+  </data>
+  <data name="srmLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>962</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxOpen.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_Threshold.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;Erode.Parent" xml:space="preserve">
+    <value>grpbox_Erode</value>
+  </data>
+  <data name="srmLabel17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_Close.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Dilate.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Threshold.Name" xml:space="preserve">
+    <value>grpbox_Threshold</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Prewitt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="srmLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;pnl_MinMaxThreshod.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpbox_Close.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Erode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;cbo_ImageSequence.Name" xml:space="preserve">
+    <value>cbo_ImageSequence</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="pnl_Relative.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 31</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Parent" xml:space="preserve">
+    <value>grpbox_Erode</value>
+  </data>
+  <data name="srmLabel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="col_ImageProcessing.Width" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="&gt;&gt;srmLabel12.Parent" xml:space="preserve">
+    <value>grpbox_Dilate</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxDilate.Parent" xml:space="preserve">
+    <value>grpbox_Dilate</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Threshold.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="grpbox_Dilate.Text" xml:space="preserve">
+    <value>Dilate Setting</value>
+  </data>
+  <data name="srmLabel16.Text" xml:space="preserve">
+    <value>Min :</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Parent" xml:space="preserve">
+    <value>grpbox_Erode</value>
+  </data>
+  <data name="grpbox_Open.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 378</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Parent" xml:space="preserve">
+    <value>grpbox_Threshold</value>
+  </data>
+  <data name="txt_Relative.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 2</value>
+  </data>
+  <data name="Threshold.Text" xml:space="preserve">
+    <value>Add to Sequence</value>
+  </data>
+  <data name="srmLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 13</value>
+  </data>
+  <data name="&gt;&gt;Erode.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel11.TabIndex" type="System.Int32, mscorlib">
+    <value>961</value>
+  </data>
+  <data name="srmLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 15</value>
+  </data>
+  <data name="dgd_Sequence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 25</value>
+  </data>
+  <data name="&gt;&gt;Erode.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Relative.Name" xml:space="preserve">
+    <value>pnl_Relative</value>
+  </data>
+  <data name="txt_MaxOpen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 36</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxErode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Close.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_MaxClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="srmLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>961</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel15.Name" xml:space="preserve">
+    <value>srmLabel15</value>
+  </data>
+  <data name="&gt;&gt;cbo_ImageSequence.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 28</value>
+  </data>
+  <data name="srmLabel17.TabIndex" type="System.Int32, mscorlib">
+    <value>963</value>
+  </data>
+  <data name="Prewitt.TabIndex" type="System.Int32, mscorlib">
+    <value>883</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="grpbox_Prewitt.Text" xml:space="preserve">
+    <value>Prewitt Setting</value>
+  </data>
+  <data name="srmLabel5.Text" xml:space="preserve">
+    <value>Max :</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="srmLabel17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_Relative.TabIndex" type="System.Int32, mscorlib">
+    <value>961</value>
+  </data>
+  <data name="lbl_ThresholdValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 49</value>
+  </data>
+  <data name="srmLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;pnl_Relative.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Open.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxErode.Parent" xml:space="preserve">
+    <value>grpbox_Erode</value>
+  </data>
+  <data name="Erode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="&gt;&gt;dgd_Sequence.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;col_ImageProcessing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 519</value>
+  </data>
+  <data name="Dilate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Erode.Name" xml:space="preserve">
+    <value>grpbox_Erode</value>
+  </data>
+  <data name="txt_Erode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 28</value>
+  </data>
+  <data name="grpbox_Dilate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 60</value>
+  </data>
+  <data name="&gt;&gt;txt_Erode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="srmLabel4.Text" xml:space="preserve">
+    <value>Max :</value>
+  </data>
+  <data name="srmLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="txt_MaxDilate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="grpbox_Prewitt.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="txt_MinThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>961</value>
+  </data>
+  <data name="Close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="col_ImageProcessing.HeaderText" xml:space="preserve">
+    <value>Image Processing Sequence</value>
+  </data>
+  <data name="trackBar_Threshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel15.Text" xml:space="preserve">
+    <value>Max :</value>
+  </data>
+  <data name="txt_Close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Open.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Name" xml:space="preserve">
+    <value>srmLabel17</value>
+  </data>
+  <data name="&gt;&gt;pnl_MinMaxThreshod.Name" xml:space="preserve">
+    <value>pnl_MinMaxThreshod</value>
+  </data>
+  <data name="srmLabel14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel7.Text" xml:space="preserve">
+    <value>Max :</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 16</value>
+  </data>
+  <data name="btn_Threshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;txt_Close.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Parent" xml:space="preserve">
+    <value>grpbox_Open</value>
+  </data>
+  <data name="&gt;&gt;lbl_ThresholdValue.Name" xml:space="preserve">
+    <value>lbl_ThresholdValue</value>
+  </data>
+  <data name="&gt;&gt;Prewitt.Name" xml:space="preserve">
+    <value>Prewitt</value>
+  </data>
+  <data name="grpbox_Threshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 67</value>
+  </data>
+  <data name="&gt;&gt;txt_MinDilate.Parent" xml:space="preserve">
+    <value>grpbox_Dilate</value>
+  </data>
+  <data name="btn_OK.TabIndex" type="System.Int32, mscorlib">
+    <value>958</value>
+  </data>
+  <data name="srmLabel14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="srmLabel10.Text" xml:space="preserve">
+    <value>Min :</value>
+  </data>
+  <data name="grpbox_Erode.Text" xml:space="preserve">
+    <value>Erode Setting</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Dilate.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="srmLabel16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxClose.Name" xml:space="preserve">
+    <value>txt_MaxClose</value>
+  </data>
+  <data name="srmLabel13.TabIndex" type="System.Int32, mscorlib">
+    <value>964</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.Name" xml:space="preserve">
+    <value>srmLabel14</value>
+  </data>
+  <data name="&gt;&gt;txt_Open.Parent" xml:space="preserve">
+    <value>grpbox_Open</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Close.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Dilate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="&gt;&gt;txt_Relative.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Open.Name" xml:space="preserve">
+    <value>txt_Open</value>
+  </data>
+  <data name="Threshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_MinClose.TabIndex" type="System.Int32, mscorlib">
+    <value>886</value>
+  </data>
+  <data name="srmLabel16.TabIndex" type="System.Int32, mscorlib">
+    <value>963</value>
+  </data>
+  <data name="lbl_ThresholdValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Name" xml:space="preserve">
+    <value>srmLabel10</value>
+  </data>
+  <data name="&gt;&gt;txt_MinOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_MinResidue.Name" xml:space="preserve">
+    <value>chk_MinResidue</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Parent" xml:space="preserve">
+    <value>grpbox_Dilate</value>
+  </data>
+  <data name="btn_OK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_Dilate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 25</value>
+  </data>
+  <data name="Threshold.TabIndex" type="System.Int32, mscorlib">
+    <value>878</value>
+  </data>
+  <data name="&gt;&gt;Close.Parent" xml:space="preserve">
+    <value>grpbox_Close</value>
+  </data>
+  <data name="grpbox_Open.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 60</value>
+  </data>
+  <data name="srmLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Prewitt.Text" xml:space="preserve">
+    <value>Add to Sequence</value>
+  </data>
+  <data name="&gt;&gt;Close.Name" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Prewitt.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txt_MinOpen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 13</value>
+  </data>
+  <data name="srmLabel11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 9</value>
+  </data>
+  <data name="Close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 23</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Close.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Dilate.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 34</value>
+  </data>
+  <data name="srmLabel10.TabIndex" type="System.Int32, mscorlib">
+    <value>961</value>
+  </data>
+  <data name="pic_ROI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Name" xml:space="preserve">
+    <value>srmLabel9</value>
+  </data>
+  <data name="&gt;&gt;txt_Erode.Name" xml:space="preserve">
+    <value>txt_Erode</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Close.Name" xml:space="preserve">
+    <value>grpbox_Close</value>
+  </data>
+  <data name="chk_MinResidue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 24</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxClose.Parent" xml:space="preserve">
+    <value>grpbox_Close</value>
+  </data>
+  <data name="srmLabel3.Text" xml:space="preserve">
+    <value>Min :</value>
+  </data>
+  <data name="&gt;&gt;pic_ROI.Name" xml:space="preserve">
+    <value>pic_ROI</value>
+  </data>
+  <data name="srmLabel13.Text" xml:space="preserve">
+    <value>Open :</value>
+  </data>
+  <data name="Threshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 10</value>
+  </data>
+  <data name="&gt;&gt;cbo_ImageSequence.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="srmLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Name" xml:space="preserve">
+    <value>srmLabel5</value>
+  </data>
+  <data name="&gt;&gt;txt_Dilate.Parent" xml:space="preserve">
+    <value>grpbox_Dilate</value>
+  </data>
+  <data name="srmLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pnl_Relative.TabIndex" type="System.Int32, mscorlib">
+    <value>962</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pnl_MinMaxThreshod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxDilate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="&gt;&gt;txt_MinClose.Name" xml:space="preserve">
+    <value>txt_MinClose</value>
+  </data>
+  <data name="srmLabel2.Text" xml:space="preserve">
+    <value>Threshold Value :</value>
+  </data>
+  <data name="srmLabel13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>957</value>
+  </data>
+  <data name="srmLabel12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="grpbox_Erode.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="txt_Dilate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="&gt;&gt;btn_Threshold.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;col_ImageProcessing.Name" xml:space="preserve">
+    <value>col_ImageProcessing</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Name" xml:space="preserve">
+    <value>srmLabel6</value>
+  </data>
+  <data name="grpbox_Erode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxThreshold.Name" xml:space="preserve">
+    <value>txt_MaxThreshold</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Name" xml:space="preserve">
+    <value>srmLabel7</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 350</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Dilate.Name" xml:space="preserve">
+    <value>Dilate</value>
+  </data>
+  <data name="&gt;&gt;Prewitt.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="&gt;&gt;chk_MinResidue.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Erode.Name" xml:space="preserve">
+    <value>Erode</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Threshold.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txt_Close.Parent" xml:space="preserve">
+    <value>grpbox_Close</value>
+  </data>
+  <data name="grpbox_Threshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 169</value>
+  </data>
+  <data name="srmLabel10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_MaxThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 25</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Parent" xml:space="preserve">
+    <value>pnl_Relative</value>
+  </data>
+  <data name="&gt;&gt;srmLabel12.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_ImageSequence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 26</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Image Processing Sequence</value>
+  </data>
+  <data name="&gt;&gt;txt_MinErode.Parent" xml:space="preserve">
+    <value>grpbox_Erode</value>
+  </data>
+  <data name="&gt;&gt;Close.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Name" xml:space="preserve">
+    <value>srmLabel1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbo_ImageSequence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>515, 5</value>
+  </data>
+  <data name="srmLabel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Threshold.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="srmLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 49</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ImageProcessingSequenceForm</value>
+  </data>
+  <data name="srmLabel1.Text" xml:space="preserve">
+    <value>Image at sequence:</value>
+  </data>
+  <data name="grpbox_Open.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_Close.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="Prewitt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.Parent" xml:space="preserve">
+    <value>grpbox_Close</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Threshold.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="srmLabel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 27</value>
+  </data>
+  <data name="grpbox_Close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 444</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>960</value>
+  </data>
+  <data name="Open.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="srmLabel9.Text" xml:space="preserve">
+    <value>Max :</value>
+  </data>
+  <data name="&gt;&gt;txt_MinOpen.Parent" xml:space="preserve">
+    <value>grpbox_Open</value>
+  </data>
+  <data name="&gt;&gt;txt_Relative.Parent" xml:space="preserve">
+    <value>pnl_Relative</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="cbo_ImageSequence.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="btn_Threshold.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Name" xml:space="preserve">
+    <value>srmLabel8</value>
+  </data>
+  <data name="srmLabel14.Text" xml:space="preserve">
+    <value>Close :</value>
+  </data>
+  <data name="trackBar_Threshold.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_Open.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Threshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_Relative.Name" xml:space="preserve">
+    <value>txt_Relative</value>
+  </data>
+  <data name="txt_MinThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="&gt;&gt;txt_MinClose.Parent" xml:space="preserve">
+    <value>grpbox_Close</value>
+  </data>
+  <data name="lbl_ThresholdValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="&gt;&gt;dgd_Sequence.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpbox_Prewitt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Parent" xml:space="preserve">
+    <value>grpbox_Close</value>
+  </data>
+  <data name="srmLabel12.TabIndex" type="System.Int32, mscorlib">
+    <value>963</value>
+  </data>
+  <data name="btn_Threshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 30</value>
+  </data>
+  <data name="&gt;&gt;chk_MinResidue.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Open.Name" xml:space="preserve">
+    <value>grpbox_Open</value>
+  </data>
+  <data name="&gt;&gt;txt_Dilate.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pnl_Relative.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;dgd_Sequence.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txt_MaxClose.TabIndex" type="System.Int32, mscorlib">
+    <value>887</value>
+  </data>
+  <data name="srmLabel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 27</value>
+  </data>
+  <data name="srmLabel17.Text" xml:space="preserve">
+    <value>Rel. :</value>
+  </data>
+  <data name="btn_Threshold.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Dilate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Erode.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txt_MinDilate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="srmLabel15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel14.TabIndex" type="System.Int32, mscorlib">
+    <value>965</value>
+  </data>
+  <data name="srmLabel15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxOpen.Name" xml:space="preserve">
+    <value>txt_MaxOpen</value>
+  </data>
+  <data name="pnl_MinMaxThreshod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 14</value>
+  </data>
+  <data name="grpbox_Prewitt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 510</value>
+  </data>
+  <data name="grpbox_Close.Text" xml:space="preserve">
+    <value>Close Setting</value>
+  </data>
+  <data name="txt_MinClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="txt_MinDilate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="btn_Threshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 393</value>
+  </data>
+  <data name="&gt;&gt;srmLabel15.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Erode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 25</value>
+  </data>
+  <data name="dgd_Sequence.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="srmLabel8.Text" xml:space="preserve">
+    <value>Min :</value>
+  </data>
+  <data name="&gt;&gt;txt_MinThreshold.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_ThresholdValue.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Parent" xml:space="preserve">
+    <value>grpbox_Dilate</value>
+  </data>
+  <data name="txt_MaxOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Parent" xml:space="preserve">
+    <value>grpbox_Open</value>
+  </data>
+  <data name="btn_Threshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;srmLabel12.Name" xml:space="preserve">
+    <value>srmLabel12</value>
+  </data>
+  <data name="grpbox_Erode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 241</value>
+  </data>
+  <data name="txt_MaxErode.TabIndex" type="System.Int32, mscorlib">
+    <value>881</value>
+  </data>
+  <data name="srmLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 39</value>
+  </data>
+  <data name="Close.TabIndex" type="System.Int32, mscorlib">
+    <value>882</value>
+  </data>
+  <data name="txt_MaxDilate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 37</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chk_MinResidue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_Erode.Parent" xml:space="preserve">
+    <value>grpbox_Erode</value>
+  </data>
+  <data name="srmLabel12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Name" xml:space="preserve">
+    <value>srmLabel11</value>
+  </data>
+  <data name="&gt;&gt;btn_Threshold.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="srmLabel9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="grpbox_Dilate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 312</value>
+  </data>
+  <data name="srmLabel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 30</value>
+  </data>
+  <data name="Dilate.Text" xml:space="preserve">
+    <value>Add to Sequence</value>
+  </data>
+  <data name="grpbox_Dilate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Threshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="&gt;&gt;txt_MinThreshold.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pnl_MinMaxThreshod.Parent" xml:space="preserve">
+    <value>grpbox_Threshold</value>
+  </data>
+  <data name="&gt;&gt;cbo_ImageSequence.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txt_MinErode.Name" xml:space="preserve">
+    <value>txt_MinErode</value>
+  </data>
+  <data name="srmLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>962</value>
+  </data>
+  <data name="srmLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 42</value>
+  </data>
+  <data name="srmLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxErode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Prewitt.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Prewitt.Parent" xml:space="preserve">
+    <value>grpbox_Prewitt</value>
+  </data>
+  <data name="grpbox_Open.Text" xml:space="preserve">
+    <value>Open Setting</value>
+  </data>
+  <data name="srmLabel12.Text" xml:space="preserve">
+    <value>Dilate :</value>
+  </data>
+  <data name="&gt;&gt;Threshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_MinDilate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 14</value>
+  </data>
+  <data name="btn_OK.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_ImageSequence.TabIndex" type="System.Int32, mscorlib">
+    <value>956</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Threshold.Parent" xml:space="preserve">
+    <value>grpbox_Threshold</value>
+  </data>
+  <data name="txt_MinDilate.TabIndex" type="System.Int32, mscorlib">
+    <value>882</value>
+  </data>
+  <data name="srmLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;srmLabel15.Parent" xml:space="preserve">
+    <value>pnl_MinMaxThreshod</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chk_MinResidue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 40</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pic_ROI.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Prewitt.Name" xml:space="preserve">
+    <value>grpbox_Prewitt</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxErode.Name" xml:space="preserve">
+    <value>txt_MaxErode</value>
+  </data>
+  <data name="Open.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_MinThreshold.Parent" xml:space="preserve">
+    <value>pnl_MinMaxThreshod</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>724, 558</value>
+  </data>
+  <data name="txt_MaxClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 36</value>
+  </data>
+  <data name="txt_Dilate.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Threshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_Open.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="srmLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 19</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxThreshold.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxThreshold.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_MinDilate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Dilate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Name" xml:space="preserve">
+    <value>srmLabel13</value>
+  </data>
+  <data name="&gt;&gt;lbl_ThresholdValue.Parent" xml:space="preserve">
+    <value>grpbox_Threshold</value>
+  </data>
+  <data name="&gt;&gt;txt_MinThreshold.Name" xml:space="preserve">
+    <value>txt_MinThreshold</value>
+  </data>
+  <data name="srmLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_MaxDilate.TabIndex" type="System.Int32, mscorlib">
+    <value>883</value>
+  </data>
+  <data name="txt_MaxErode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="txt_Open.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="&gt;&gt;Threshold.Name" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="srmLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>958</value>
+  </data>
+  <data name="&gt;&gt;txt_MinClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btn_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pnl_MinMaxThreshod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 47</value>
+  </data>
+  <data name="&gt;&gt;dgd_Sequence.Name" xml:space="preserve">
+    <value>dgd_Sequence</value>
+  </data>
+  <data name="srmLabel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Name" xml:space="preserve">
+    <value>btn_OK</value>
+  </data>
+  <data name="srmLabel10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Name" xml:space="preserve">
+    <value>srmLabel3</value>
+  </data>
+  <data name="srmLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="grpbox_Threshold.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 37</value>
+  </data>
+  <data name="&gt;&gt;txt_MinErode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Open.Text" xml:space="preserve">
+    <value>Add to Sequence</value>
+  </data>
+  <data name="Prewitt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 15</value>
+  </data>
+  <data name="&gt;&gt;Open.Parent" xml:space="preserve">
+    <value>grpbox_Open</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pic_ROI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="txt_MinOpen.TabIndex" type="System.Int32, mscorlib">
+    <value>884</value>
+  </data>
+  <data name="dgd_Sequence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 5</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Erode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_Dilate.Name" xml:space="preserve">
+    <value>txt_Dilate</value>
+  </data>
+  <data name="srmLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 38</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxDilate.Name" xml:space="preserve">
+    <value>txt_MaxDilate</value>
+  </data>
+  <data name="srmLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>959</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Parent" xml:space="preserve">
+    <value>grpbox_Erode</value>
+  </data>
+  <data name="btn_Threshold.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_MinErode.TabIndex" type="System.Int32, mscorlib">
+    <value>880</value>
+  </data>
+  <data name="srmLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_Close.Name" xml:space="preserve">
+    <value>txt_Close</value>
+  </data>
+  <data name="&gt;&gt;grpbox_Open.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="srmLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="&gt;&gt;Open.Name" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="srmLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Threshold.Parent" xml:space="preserve">
+    <value>grpbox_Threshold</value>
+  </data>
+  <data name="Prewitt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="&gt;&gt;Dilate.Parent" xml:space="preserve">
+    <value>grpbox_Dilate</value>
+  </data>
+  <data name="&gt;&gt;txt_MinClose.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txt_Relative.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="grpbox_Close.TabIndex" type="System.Int32, mscorlib">
+    <value>169</value>
+  </data>
+  <data name="&gt;&gt;txt_MinErode.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Erode.TabIndex" type="System.Int32, mscorlib">
+    <value>879</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_Open.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 25</value>
+  </data>
+  <data name="lbl_ThresholdValue.Text" xml:space="preserve">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;Open.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>959</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_ImageProcessing.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

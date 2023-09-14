@@ -1,0 +1,2004 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_Title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold, Underline</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_Title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 9</value>
+  </data>
+  <data name="lbl_Title.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 26</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_Title.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lbl_Title.Text" xml:space="preserve">
+    <value>Camera Settings</value>
+  </data>
+  <data name="lbl_Title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.Name" xml:space="preserve">
+    <value>lbl_Title</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btn_AutoWhiteBalance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="btn_AutoWhiteBalance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_AutoWhiteBalance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 34</value>
+  </data>
+  <data name="btn_AutoWhiteBalance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_AutoWhiteBalance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 31</value>
+  </data>
+  <data name="btn_AutoWhiteBalance.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="btn_AutoWhiteBalance.Text" xml:space="preserve">
+    <value>Auto WB</value>
+  </data>
+  <data name="btn_AutoWhiteBalance.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btn_AutoWhiteBalance.Name" xml:space="preserve">
+    <value>btn_AutoWhiteBalance</value>
+  </data>
+  <data name="&gt;&gt;btn_AutoWhiteBalance.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_AutoWhiteBalance.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btn_AutoWhiteBalance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_BlueRatio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_BlueRatio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_BlueRatio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_BlueRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 50</value>
+  </data>
+  <data name="lbl_BlueRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="lbl_BlueRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="lbl_BlueRatio.Text" xml:space="preserve">
+    <value>B Ratio</value>
+  </data>
+  <data name="lbl_BlueRatio.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_BlueRatio.Name" xml:space="preserve">
+    <value>lbl_BlueRatio</value>
+  </data>
+  <data name="&gt;&gt;lbl_BlueRatio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_BlueRatio.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lbl_BlueRatio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_RedRatio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_RedRatio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_RedRatio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_RedRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 50</value>
+  </data>
+  <data name="lbl_RedRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="lbl_RedRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="lbl_RedRatio.Text" xml:space="preserve">
+    <value>R Ratio</value>
+  </data>
+  <data name="lbl_RedRatio.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_RedRatio.Name" xml:space="preserve">
+    <value>lbl_RedRatio</value>
+  </data>
+  <data name="&gt;&gt;lbl_RedRatio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_RedRatio.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lbl_RedRatio.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_BlueRatio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_BlueRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 46</value>
+  </data>
+  <data name="txt_BlueRatio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_BlueRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txt_BlueRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="txt_BlueRatio.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_BlueRatio.Name" xml:space="preserve">
+    <value>txt_BlueRatio</value>
+  </data>
+  <data name="&gt;&gt;txt_BlueRatio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_BlueRatio.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txt_BlueRatio.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_RedRatio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_RedRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 46</value>
+  </data>
+  <data name="txt_RedRatio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_RedRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="txt_RedRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="txt_RedRatio.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_RedRatio.Name" xml:space="preserve">
+    <value>txt_RedRatio</value>
+  </data>
+  <data name="&gt;&gt;txt_RedRatio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_RedRatio.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txt_RedRatio.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txt_CameraGrabDelay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="txt_CameraGrabDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 20</value>
+  </data>
+  <data name="txt_CameraGrabDelay.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_CameraGrabDelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 22</value>
+  </data>
+  <data name="txt_CameraGrabDelay.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="txt_CameraGrabDelay.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGrabDelay.Name" xml:space="preserve">
+    <value>txt_CameraGrabDelay</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGrabDelay.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGrabDelay.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGrabDelay.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="srmLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="srmLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 24</value>
+  </data>
+  <data name="srmLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 14</value>
+  </data>
+  <data name="srmLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="srmLabel2.Text" xml:space="preserve">
+    <value>(0-300) ms</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Name" xml:space="preserve">
+    <value>srmLabel2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="srmLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="srmLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 24</value>
+  </data>
+  <data name="srmLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 14</value>
+  </data>
+  <data name="srmLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="srmLabel1.Text" xml:space="preserve">
+    <value>Grab Delay</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Name" xml:space="preserve">
+    <value>srmLabel1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="srmGroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt</value>
+  </data>
+  <data name="srmGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 34</value>
+  </data>
+  <data name="srmGroupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="srmGroupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="srmGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 68</value>
+  </data>
+  <data name="srmGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="srmGroupBox1.Text" xml:space="preserve">
+    <value>Global </value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox1.Name" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox1.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btn_Cancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="btn_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 523</value>
+  </data>
+  <data name="btn_Cancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 31</value>
+  </data>
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_Save.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="btn_Save.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 523</value>
+  </data>
+  <data name="btn_Save.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 31</value>
+  </data>
+  <data name="btn_Save.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Name" xml:space="preserve">
+    <value>btn_Save</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btn_ExtraGain.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="btn_ExtraGain.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_ExtraGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 104</value>
+  </data>
+  <data name="btn_ExtraGain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_ExtraGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 30</value>
+  </data>
+  <data name="btn_ExtraGain.TabIndex" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="btn_ExtraGain.Text" xml:space="preserve">
+    <value>Extra Gain Setting</value>
+  </data>
+  <data name="&gt;&gt;btn_ExtraGain.Name" xml:space="preserve">
+    <value>btn_ExtraGain</value>
+  </data>
+  <data name="&gt;&gt;btn_ExtraGain.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_ExtraGain.Parent" xml:space="preserve">
+    <value>grpBox_Camera</value>
+  </data>
+  <data name="&gt;&gt;btn_ExtraGain.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_Gain.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Gain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 75</value>
+  </data>
+  <data name="txt_Gain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Gain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="txt_Gain.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;txt_Gain.Name" xml:space="preserve">
+    <value>txt_Gain</value>
+  </data>
+  <data name="&gt;&gt;txt_Gain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Gain.Parent" xml:space="preserve">
+    <value>grpBox_Camera</value>
+  </data>
+  <data name="&gt;&gt;txt_Gain.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 61</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Gain</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>grpBox_Camera</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txt_Light4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 26</value>
+  </data>
+  <data name="txt_Light4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Light4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="txt_Light4.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="&gt;&gt;txt_Light4.Name" xml:space="preserve">
+    <value>txt_Light4</value>
+  </data>
+  <data name="&gt;&gt;txt_Light4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Light4.Parent" xml:space="preserve">
+    <value>pnl_Lighting4</value>
+  </data>
+  <data name="&gt;&gt;txt_Light4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Light4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_Light4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Light4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 3</value>
+  </data>
+  <data name="lbl_Light4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Light4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 20</value>
+  </data>
+  <data name="lbl_Light4.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="lbl_Light4.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="lbl_Light4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light4.Name" xml:space="preserve">
+    <value>lbl_Light4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light4.Parent" xml:space="preserve">
+    <value>pnl_Lighting4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_Light3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 26</value>
+  </data>
+  <data name="txt_Light3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Light3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="txt_Light3.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="&gt;&gt;txt_Light3.Name" xml:space="preserve">
+    <value>txt_Light3</value>
+  </data>
+  <data name="&gt;&gt;txt_Light3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Light3.Parent" xml:space="preserve">
+    <value>pnl_Lighting3</value>
+  </data>
+  <data name="&gt;&gt;txt_Light3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Light3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_Light3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Light3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 3</value>
+  </data>
+  <data name="lbl_Light3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Light3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 20</value>
+  </data>
+  <data name="lbl_Light3.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="lbl_Light3.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="lbl_Light3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light3.Name" xml:space="preserve">
+    <value>lbl_Light3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light3.Parent" xml:space="preserve">
+    <value>pnl_Lighting3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_Light2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 26</value>
+  </data>
+  <data name="txt_Light2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Light2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="txt_Light2.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="&gt;&gt;txt_Light2.Name" xml:space="preserve">
+    <value>txt_Light2</value>
+  </data>
+  <data name="&gt;&gt;txt_Light2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Light2.Parent" xml:space="preserve">
+    <value>pnl_Lighting2</value>
+  </data>
+  <data name="&gt;&gt;txt_Light2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Light2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_Light2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Light2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 3</value>
+  </data>
+  <data name="lbl_Light2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Light2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 20</value>
+  </data>
+  <data name="lbl_Light2.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="lbl_Light2.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="lbl_Light2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light2.Name" xml:space="preserve">
+    <value>lbl_Light2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light2.Parent" xml:space="preserve">
+    <value>pnl_Lighting2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="srmLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 39</value>
+  </data>
+  <data name="srmLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="srmLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="srmLabel5.Text" xml:space="preserve">
+    <value>% </value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Name" xml:space="preserve">
+    <value>srmLabel5</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Parent" xml:space="preserve">
+    <value>grpBox_Camera</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="srmLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="srmLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 77</value>
+  </data>
+  <data name="srmLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="srmLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="srmLabel4.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Name" xml:space="preserve">
+    <value>srmLabel4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Parent" xml:space="preserve">
+    <value>grpBox_Camera</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txt_Shutter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Shutter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 35</value>
+  </data>
+  <data name="txt_Shutter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Shutter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="txt_Shutter.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="&gt;&gt;txt_Shutter.Name" xml:space="preserve">
+    <value>txt_Shutter</value>
+  </data>
+  <data name="&gt;&gt;txt_Shutter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Shutter.Parent" xml:space="preserve">
+    <value>grpBox_Camera</value>
+  </data>
+  <data name="&gt;&gt;txt_Shutter.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 19</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Shutter </value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>grpBox_Camera</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_Light1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 26</value>
+  </data>
+  <data name="txt_Light1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Light1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="txt_Light1.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="&gt;&gt;txt_Light1.Name" xml:space="preserve">
+    <value>txt_Light1</value>
+  </data>
+  <data name="&gt;&gt;txt_Light1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Light1.Parent" xml:space="preserve">
+    <value>pnl_Lighting1</value>
+  </data>
+  <data name="&gt;&gt;txt_Light1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Light1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_Light1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Light1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 3</value>
+  </data>
+  <data name="lbl_Light1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Light1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 20</value>
+  </data>
+  <data name="lbl_Light1.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="lbl_Light1.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="lbl_Light1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light1.Name" xml:space="preserve">
+    <value>lbl_Light1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light1.Parent" xml:space="preserve">
+    <value>pnl_Lighting1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>332, 17</value>
+  </metadata>
+  <data name="trackBar_Gain.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_Gain.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_Gain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 79</value>
+  </data>
+  <data name="trackBar_Gain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 21</value>
+  </data>
+  <data name="trackBar_Gain.TabIndex" type="System.Int32, mscorlib">
+    <value>978</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Gain.Name" xml:space="preserve">
+    <value>trackBar_Gain</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Gain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Gain.Parent" xml:space="preserve">
+    <value>grpBox_Camera</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Gain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="trackBar_Shutter.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_Shutter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_Shutter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 35</value>
+  </data>
+  <data name="trackBar_Shutter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 21</value>
+  </data>
+  <data name="trackBar_Shutter.TabIndex" type="System.Int32, mscorlib">
+    <value>977</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Shutter.Name" xml:space="preserve">
+    <value>trackBar_Shutter</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Shutter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Shutter.Parent" xml:space="preserve">
+    <value>grpBox_Camera</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Shutter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpBox_Camera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 109</value>
+  </data>
+  <data name="grpBox_Camera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 141</value>
+  </data>
+  <data name="grpBox_Camera.TabIndex" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="grpBox_Camera.Text" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Camera.Name" xml:space="preserve">
+    <value>grpBox_Camera</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Camera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Camera.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Camera.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tre_ImageView.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="tre_ImageView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 109</value>
+  </data>
+  <data name="tre_ImageView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 400</value>
+  </data>
+  <data name="tre_ImageView.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="&gt;&gt;tre_ImageView.Name" xml:space="preserve">
+    <value>tre_ImageView</value>
+  </data>
+  <data name="&gt;&gt;tre_ImageView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tre_ImageView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tre_ImageView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnl_Lighting.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Light9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_Light9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Light9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 3</value>
+  </data>
+  <data name="lbl_Light9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Light9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 20</value>
+  </data>
+  <data name="lbl_Light9.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="lbl_Light9.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="lbl_Light9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light9.Name" xml:space="preserve">
+    <value>lbl_Light9</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light9.Parent" xml:space="preserve">
+    <value>pnl_Lighting9</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_Light9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 26</value>
+  </data>
+  <data name="txt_Light9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Light9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="txt_Light9.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="&gt;&gt;txt_Light9.Name" xml:space="preserve">
+    <value>txt_Light9</value>
+  </data>
+  <data name="&gt;&gt;txt_Light9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Light9.Parent" xml:space="preserve">
+    <value>pnl_Lighting9</value>
+  </data>
+  <data name="&gt;&gt;txt_Light9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="trackBar_Light9.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_Light9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_Light9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 26</value>
+  </data>
+  <data name="trackBar_Light9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 21</value>
+  </data>
+  <data name="trackBar_Light9.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light9.Name" xml:space="preserve">
+    <value>trackBar_Light9</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light9.Parent" xml:space="preserve">
+    <value>pnl_Lighting9</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnl_Lighting9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnl_Lighting9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 400</value>
+  </data>
+  <data name="pnl_Lighting9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 50</value>
+  </data>
+  <data name="pnl_Lighting9.TabIndex" type="System.Int32, mscorlib">
+    <value>991</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting9.Name" xml:space="preserve">
+    <value>pnl_Lighting9</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting9.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_Light8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_Light8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Light8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 3</value>
+  </data>
+  <data name="lbl_Light8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Light8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 20</value>
+  </data>
+  <data name="lbl_Light8.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="lbl_Light8.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="lbl_Light8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light8.Name" xml:space="preserve">
+    <value>lbl_Light8</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light8.Parent" xml:space="preserve">
+    <value>pnl_Lighting8</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_Light8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 26</value>
+  </data>
+  <data name="txt_Light8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Light8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="txt_Light8.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="&gt;&gt;txt_Light8.Name" xml:space="preserve">
+    <value>txt_Light8</value>
+  </data>
+  <data name="&gt;&gt;txt_Light8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Light8.Parent" xml:space="preserve">
+    <value>pnl_Lighting8</value>
+  </data>
+  <data name="&gt;&gt;txt_Light8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="trackBar_Light8.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_Light8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_Light8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 26</value>
+  </data>
+  <data name="trackBar_Light8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 21</value>
+  </data>
+  <data name="trackBar_Light8.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light8.Name" xml:space="preserve">
+    <value>trackBar_Light8</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light8.Parent" xml:space="preserve">
+    <value>pnl_Lighting8</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnl_Lighting8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnl_Lighting8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 350</value>
+  </data>
+  <data name="pnl_Lighting8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 50</value>
+  </data>
+  <data name="pnl_Lighting8.TabIndex" type="System.Int32, mscorlib">
+    <value>990</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting8.Name" xml:space="preserve">
+    <value>pnl_Lighting8</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting8.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Light7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_Light7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Light7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 3</value>
+  </data>
+  <data name="lbl_Light7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Light7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 20</value>
+  </data>
+  <data name="lbl_Light7.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="lbl_Light7.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="lbl_Light7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light7.Name" xml:space="preserve">
+    <value>lbl_Light7</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light7.Parent" xml:space="preserve">
+    <value>pnl_Lighting7</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_Light7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 26</value>
+  </data>
+  <data name="txt_Light7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Light7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="txt_Light7.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="&gt;&gt;txt_Light7.Name" xml:space="preserve">
+    <value>txt_Light7</value>
+  </data>
+  <data name="&gt;&gt;txt_Light7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Light7.Parent" xml:space="preserve">
+    <value>pnl_Lighting7</value>
+  </data>
+  <data name="&gt;&gt;txt_Light7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="trackBar_Light7.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_Light7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_Light7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 26</value>
+  </data>
+  <data name="trackBar_Light7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 21</value>
+  </data>
+  <data name="trackBar_Light7.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light7.Name" xml:space="preserve">
+    <value>trackBar_Light7</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light7.Parent" xml:space="preserve">
+    <value>pnl_Lighting7</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnl_Lighting7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnl_Lighting7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 300</value>
+  </data>
+  <data name="pnl_Lighting7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 50</value>
+  </data>
+  <data name="pnl_Lighting7.TabIndex" type="System.Int32, mscorlib">
+    <value>989</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting7.Name" xml:space="preserve">
+    <value>pnl_Lighting7</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting7.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_Light6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_Light6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Light6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 3</value>
+  </data>
+  <data name="lbl_Light6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Light6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 20</value>
+  </data>
+  <data name="lbl_Light6.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="lbl_Light6.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="lbl_Light6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light6.Name" xml:space="preserve">
+    <value>lbl_Light6</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light6.Parent" xml:space="preserve">
+    <value>pnl_Lighting6</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_Light6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 26</value>
+  </data>
+  <data name="txt_Light6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Light6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="txt_Light6.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="&gt;&gt;txt_Light6.Name" xml:space="preserve">
+    <value>txt_Light6</value>
+  </data>
+  <data name="&gt;&gt;txt_Light6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Light6.Parent" xml:space="preserve">
+    <value>pnl_Lighting6</value>
+  </data>
+  <data name="&gt;&gt;txt_Light6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="trackBar_Light6.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_Light6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_Light6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 26</value>
+  </data>
+  <data name="trackBar_Light6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 21</value>
+  </data>
+  <data name="trackBar_Light6.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light6.Name" xml:space="preserve">
+    <value>trackBar_Light6</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light6.Parent" xml:space="preserve">
+    <value>pnl_Lighting6</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnl_Lighting6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnl_Lighting6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 250</value>
+  </data>
+  <data name="pnl_Lighting6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 50</value>
+  </data>
+  <data name="pnl_Lighting6.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting6.Name" xml:space="preserve">
+    <value>pnl_Lighting6</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting6.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_Light5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_Light5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Light5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 3</value>
+  </data>
+  <data name="lbl_Light5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Light5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 20</value>
+  </data>
+  <data name="lbl_Light5.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="lbl_Light5.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="lbl_Light5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light5.Name" xml:space="preserve">
+    <value>lbl_Light5</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light5.Parent" xml:space="preserve">
+    <value>pnl_Lighting5</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_Light5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 26</value>
+  </data>
+  <data name="txt_Light5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Light5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="txt_Light5.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="&gt;&gt;txt_Light5.Name" xml:space="preserve">
+    <value>txt_Light5</value>
+  </data>
+  <data name="&gt;&gt;txt_Light5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Light5.Parent" xml:space="preserve">
+    <value>pnl_Lighting5</value>
+  </data>
+  <data name="&gt;&gt;txt_Light5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="trackBar_Light5.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_Light5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_Light5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 26</value>
+  </data>
+  <data name="trackBar_Light5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 21</value>
+  </data>
+  <data name="trackBar_Light5.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light5.Name" xml:space="preserve">
+    <value>trackBar_Light5</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light5.Parent" xml:space="preserve">
+    <value>pnl_Lighting5</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnl_Lighting5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnl_Lighting5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 200</value>
+  </data>
+  <data name="pnl_Lighting5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 50</value>
+  </data>
+  <data name="pnl_Lighting5.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting5.Name" xml:space="preserve">
+    <value>pnl_Lighting5</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting5.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="trackBar_Light4.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_Light4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_Light4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 26</value>
+  </data>
+  <data name="trackBar_Light4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 21</value>
+  </data>
+  <data name="trackBar_Light4.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light4.Name" xml:space="preserve">
+    <value>trackBar_Light4</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light4.Parent" xml:space="preserve">
+    <value>pnl_Lighting4</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnl_Lighting4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnl_Lighting4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 150</value>
+  </data>
+  <data name="pnl_Lighting4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 50</value>
+  </data>
+  <data name="pnl_Lighting4.TabIndex" type="System.Int32, mscorlib">
+    <value>986</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting4.Name" xml:space="preserve">
+    <value>pnl_Lighting4</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting4.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="trackBar_Light3.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_Light3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_Light3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 26</value>
+  </data>
+  <data name="trackBar_Light3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 21</value>
+  </data>
+  <data name="trackBar_Light3.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light3.Name" xml:space="preserve">
+    <value>trackBar_Light3</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light3.Parent" xml:space="preserve">
+    <value>pnl_Lighting3</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnl_Lighting3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnl_Lighting3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 100</value>
+  </data>
+  <data name="pnl_Lighting3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 50</value>
+  </data>
+  <data name="pnl_Lighting3.TabIndex" type="System.Int32, mscorlib">
+    <value>985</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting3.Name" xml:space="preserve">
+    <value>pnl_Lighting3</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting3.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="trackBar_Light2.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_Light2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_Light2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 26</value>
+  </data>
+  <data name="trackBar_Light2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 21</value>
+  </data>
+  <data name="trackBar_Light2.TabIndex" type="System.Int32, mscorlib">
+    <value>980</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light2.Name" xml:space="preserve">
+    <value>trackBar_Light2</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light2.Parent" xml:space="preserve">
+    <value>pnl_Lighting2</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnl_Lighting2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnl_Lighting2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="pnl_Lighting2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 50</value>
+  </data>
+  <data name="pnl_Lighting2.TabIndex" type="System.Int32, mscorlib">
+    <value>984</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting2.Name" xml:space="preserve">
+    <value>pnl_Lighting2</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting2.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="trackBar_Light1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_Light1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_Light1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 26</value>
+  </data>
+  <data name="trackBar_Light1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 21</value>
+  </data>
+  <data name="trackBar_Light1.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light1.Name" xml:space="preserve">
+    <value>trackBar_Light1</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light1.Parent" xml:space="preserve">
+    <value>pnl_Lighting1</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Light1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnl_Lighting1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnl_Lighting1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnl_Lighting1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 50</value>
+  </data>
+  <data name="pnl_Lighting1.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting1.Name" xml:space="preserve">
+    <value>pnl_Lighting1</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting1.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pnl_Lighting.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnl_Lighting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="pnl_Lighting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 225</value>
+  </data>
+  <data name="pnl_Lighting.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting.Name" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting.Parent" xml:space="preserve">
+    <value>grpBox_Lighting</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpBox_Lighting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 256</value>
+  </data>
+  <data name="grpBox_Lighting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 253</value>
+  </data>
+  <data name="grpBox_Lighting.TabIndex" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="grpBox_Lighting.Text" xml:space="preserve">
+    <value>Lighting (1-255)</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Lighting.Name" xml:space="preserve">
+    <value>grpBox_Lighting</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Lighting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Lighting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Lighting.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_EnhanceImage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="btn_EnhanceImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_EnhanceImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 213</value>
+  </data>
+  <data name="btn_EnhanceImage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_EnhanceImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 30</value>
+  </data>
+  <data name="btn_EnhanceImage.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="btn_EnhanceImage.Text" xml:space="preserve">
+    <value>Enhance Image</value>
+  </data>
+  <data name="&gt;&gt;btn_EnhanceImage.Name" xml:space="preserve">
+    <value>btn_EnhanceImage</value>
+  </data>
+  <data name="&gt;&gt;btn_EnhanceImage.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_EnhanceImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_EnhanceImage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>591, 565</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CameraSettingsImageView</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CameraSettingsImageView</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

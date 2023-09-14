@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;txt_CenterROI_Bottom.Parent" xml:space="preserve">
+    <value>pnl_Center</value>
+  </data>
+  <data name="&gt;&gt;txt_LeftROI_Right.Parent" xml:space="preserve">
+    <value>pnl_Left</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_OK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 6</value>
+  </data>
+  <data name="&gt;&gt;pnl_Button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="panel9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACgAAABxCAIAAAAoHXYFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAEySURBVGhD7c2xbQRAEMSw79ytO2E6oe4NeBkL0Ocv+skY
+        LKqAwaIKGCyqgMGiChgsqoDBogoYLKqAwaIKGCyqgMGiChgsqoDBogoYLKqAwaIKGCyqgMGiChgsqoDB
+        ogoYLKqAwaIKGCyqgMGiChgsqoDBogoYLKqAwaIKGCyqgMGiChgsqoDBogoYLKqAwaIK5IPlxs/c+Jkb
+        P3PjZ278zI2fufEzN37mxs/c+JkbP3PjZ278zI2f+bfjRRUwWFQBg0UVMFhUAYNFFTBYVAGDRRUwWFQB
+        g0UVMFhUAYNFFTBYVAGDRRUwWFQBg0UVMFhUAYNFFTBYVAGDRRUwWFQBg0UVMFhUAYNFFTBYVAGDRRUw
+        WFQBg0UVMFhUAYNFFTBYVAGDRRUwWFQBg0UVMPiCz+cXcTl0/iTyaDoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;txt_RightROI_Left.Parent" xml:space="preserve">
+    <value>pnl_Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txt_RightROI_Bottom.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="txt_TopROI_Top.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pnl_Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_TopROI_Top.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 12</value>
+  </data>
+  <data name="&gt;&gt;pnl_Bottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_CenterROI_Bottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 151</value>
+  </data>
+  <data name="txt_LeftROI_Left.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txt_BottomROI_Left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pnl_Left.Name" xml:space="preserve">
+    <value>pnl_Left</value>
+  </data>
+  <data name="txt_RightROI_Right.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 40</value>
+  </data>
+  <data name="btn_OK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;panel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_RightROI_Top.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_TopROI_Right.Name" xml:space="preserve">
+    <value>txt_TopROI_Right</value>
+  </data>
+  <data name="&gt;&gt;txt_RightROI_Bottom.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txt_CenterROI_Top.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 6</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_LeftROI_Right.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_RightROI_Left.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;pnl_Center.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_BottomROI_Right.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;panel9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_BottomROI_Left.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txt_LeftROI_Top.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="panel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 32</value>
+  </data>
+  <data name="panel9.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txt_TopROI_Left.Name" xml:space="preserve">
+    <value>txt_TopROI_Left</value>
+  </data>
+  <data name="&gt;&gt;pnl_Left.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_TopROI_Left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="panel10.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAHEAAABxCAIAAABtHNuHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAD6SURBVHhe7dAxAQAADMOgOa/1meAMErhF69Tr1OvU69Tr
+        1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr
+        1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr
+        1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr
+        1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU69Tr1OvU61TbHiNvQDReUAKcAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 34</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Pad Edge Image No Setting</value>
+  </data>
+  <data name="txt_CenterROI_Right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Parent" xml:space="preserve">
+    <value>pnl_Button</value>
+  </data>
+  <data name="&gt;&gt;txt_RightROI_Left.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_LeftROI_Left.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 6</value>
+  </data>
+  <data name="&gt;&gt;txt_LeftROI_Left.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_RightROI_Right.Parent" xml:space="preserve">
+    <value>pnl_Right</value>
+  </data>
+  <data name="&gt;&gt;txt_RightROI_Left.Name" xml:space="preserve">
+    <value>txt_RightROI_Left</value>
+  </data>
+  <data name="txt_CenterROI_Bottom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;txt_BottomROI_Bottom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_BottomROI_Right.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txt_BottomROI_Top.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 9</value>
+  </data>
+  <data name="txt_CenterROI_Right.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 76</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="pnl_Bottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 117</value>
+  </data>
+  <data name="&gt;&gt;pnl_Center.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 32</value>
+  </data>
+  <data name="&gt;&gt;txt_RightROI_Bottom.Name" xml:space="preserve">
+    <value>txt_RightROI_Bottom</value>
+  </data>
+  <data name="&gt;&gt;txt_LeftROI_Bottom.Parent" xml:space="preserve">
+    <value>pnl_Left</value>
+  </data>
+  <data name="&gt;&gt;txt_LeftROI_Top.Name" xml:space="preserve">
+    <value>txt_LeftROI_Top</value>
+  </data>
+  <data name="txt_BottomROI_Bottom.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 40</value>
+  </data>
+  <data name="&gt;&gt;txt_BottomROI_Bottom.Name" xml:space="preserve">
+    <value>txt_BottomROI_Bottom</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;pnl_Button.Name" xml:space="preserve">
+    <value>pnl_Button</value>
+  </data>
+  <data name="txt_CenterROI_Top.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txt_LeftROI_Top.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 6</value>
+  </data>
+  <data name="&gt;&gt;txt_CenterROI_Left.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_RightROI_Right.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_TopROI_Left.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txt_CenterROI_Left.Parent" xml:space="preserve">
+    <value>pnl_Center</value>
+  </data>
+  <data name="&gt;&gt;pnl_Left.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_CenterROI_Right.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txt_TopROI_Right.Parent" xml:space="preserve">
+    <value>pnl_Top</value>
+  </data>
+  <data name="panel8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACgAAABxCAIAAAAoHXYFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAExSURBVGhD7c2hcQRAEMTAz9ypmzQdZu0bXGNV6fNNPxmD
+        RRUwWFQBg0UVMFhUAYNFFTBYVAGDRRUwWFQBg0UVMFhUAYNFFTBYVAGDRRUwWFQBg0UVMFhUAYNFFTBY
+        VAGDRRUwWFQBg0UVMFhUAYNFFTBYVAGDRRUwWFQBg0UVMFhUAYNFFTBYVAGDRRUwWFQBg0V16I3PvPGZ
+        Nz7zxmfe+Mwbn3njM2985o3PvPGZNz7zxmfe+Mwbn3njP2ewqAIGiypgsKgCBosqYLCoAgaLKmCwqAIG
+        iypgsKgCBosqYLCoAgaLKmCwqAIGiypgsKgCBosqYLCoAgaLKmCwqAIGiypgsKgCBosqYLCoAgaLKmCw
+        qAIGiypgsKgCBosqYLCoAgaLKmCwqAIGiypg8I98Pr/EhXT+VQ6ypwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;txt_LeftROI_Top.Parent" xml:space="preserve">
+    <value>pnl_Left</value>
+  </data>
+  <data name="txt_TopROI_Right.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="panel2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txt_BottomROI_Left.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Bottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnl_Button.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="txt_TopROI_Right.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 44</value>
+  </data>
+  <data name="txt_TopROI_Bottom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;panel8.Parent" xml:space="preserve">
+    <value>pnl_Left</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Name" xml:space="preserve">
+    <value>btn_OK</value>
+  </data>
+  <data name="&gt;&gt;txt_TopROI_Right.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_TopROI_Right.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_TopROI_Top.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_TopROI_Right.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pnl_Left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 176</value>
+  </data>
+  <data name="pnl_Bottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 114</value>
+  </data>
+  <data name="&gt;&gt;pnl_Top.Name" xml:space="preserve">
+    <value>pnl_Top</value>
+  </data>
+  <data name="pnl_Center.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;txt_TopROI_Left.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnl_Left.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="txt_RightROI_Top.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="panel10.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pnl_Top.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 115</value>
+  </data>
+  <data name="&gt;&gt;txt_TopROI_Bottom.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_BottomROI_Top.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;txt_BottomROI_Left.Name" xml:space="preserve">
+    <value>txt_BottomROI_Left</value>
+  </data>
+  <data name="&gt;&gt;panel9.Name" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;txt_BottomROI_Right.Parent" xml:space="preserve">
+    <value>pnl_Bottom</value>
+  </data>
+  <data name="&gt;&gt;pnl_Right.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel10.Name" xml:space="preserve">
+    <value>panel10</value>
+  </data>
+  <data name="&gt;&gt;txt_LeftROI_Left.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_BottomROI_Right.Name" xml:space="preserve">
+    <value>txt_BottomROI_Right</value>
+  </data>
+  <data name="txt_RightROI_Right.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 75</value>
+  </data>
+  <data name="txt_RightROI_Right.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txt_LeftROI_Left.Parent" xml:space="preserve">
+    <value>pnl_Left</value>
+  </data>
+  <data name="txt_RightROI_Bottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="txt_BottomROI_Bottom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pnl_Button.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="txt_BottomROI_Left.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;txt_CenterROI_Bottom.Name" xml:space="preserve">
+    <value>txt_CenterROI_Bottom</value>
+  </data>
+  <data name="&gt;&gt;pnl_Right.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_LeftROI_Left.Name" xml:space="preserve">
+    <value>txt_LeftROI_Left</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="txt_RightROI_Left.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 75</value>
+  </data>
+  <data name="pnl_Left.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txt_CenterROI_Left.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_RightROI_Left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="txt_CenterROI_Bottom.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txt_LeftROI_Bottom.Name" xml:space="preserve">
+    <value>txt_LeftROI_Bottom</value>
+  </data>
+  <data name="&gt;&gt;txt_BottomROI_Left.Parent" xml:space="preserve">
+    <value>pnl_Bottom</value>
+  </data>
+  <data name="&gt;&gt;txt_TopROI_Top.Name" xml:space="preserve">
+    <value>txt_TopROI_Top</value>
+  </data>
+  <data name="pnl_Right.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="pnl_Right.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 0</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_BottomROI_Top.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="txt_TopROI_Left.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;txt_TopROI_Top.Parent" xml:space="preserve">
+    <value>pnl_Top</value>
+  </data>
+  <data name="pnl_Left.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="txt_CenterROI_Right.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txt_LeftROI_Right.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txt_CenterROI_Left.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 176</value>
+  </data>
+  <data name="panel8.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txt_CenterROI_Top.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="&gt;&gt;txt_LeftROI_Top.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 114</value>
+  </data>
+  <data name="&gt;&gt;panel10.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txt_RightROI_Bottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 150</value>
+  </data>
+  <data name="&gt;&gt;txt_CenterROI_Bottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel10.Parent" xml:space="preserve">
+    <value>pnl_Center</value>
+  </data>
+  <data name="&gt;&gt;txt_LeftROI_Right.Name" xml:space="preserve">
+    <value>txt_LeftROI_Right</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnl_Center.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="txt_LeftROI_Bottom.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 114</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 115</value>
+  </data>
+  <data name="txt_RightROI_Bottom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txt_CenterROI_Top.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;txt_RightROI_Top.Parent" xml:space="preserve">
+    <value>pnl_Right</value>
+  </data>
+  <data name="txt_TopROI_Left.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 44</value>
+  </data>
+  <data name="&gt;&gt;txt_TopROI_Top.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>pnl_Top</value>
+  </data>
+  <data name="txt_LeftROI_Bottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 150</value>
+  </data>
+  <data name="txt_TopROI_Top.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="&gt;&gt;txt_CenterROI_Top.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel8.Name" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="panel8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="pnl_Top.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;txt_BottomROI_Bottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_CenterROI_Left.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_LeftROI_Right.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 75</value>
+  </data>
+  <data name="&gt;&gt;txt_TopROI_Left.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel9.Parent" xml:space="preserve">
+    <value>pnl_Right</value>
+  </data>
+  <data name="panel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 33</value>
+  </data>
+  <data name="pnl_Center.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 176</value>
+  </data>
+  <data name="panel10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>pnl_Bottom</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RectGauge4LImageForm</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;pnl_Top.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_BottomROI_Bottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 82</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_CenterROI_Top.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnl_Center.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 0</value>
+  </data>
+  <data name="&gt;&gt;txt_CenterROI_Right.Name" xml:space="preserve">
+    <value>txt_CenterROI_Right</value>
+  </data>
+  <data name="txt_CenterROI_Right.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txt_CenterROI_Left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="txt_RightROI_Top.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="&gt;&gt;pnl_Top.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_RightROI_Bottom.Parent" xml:space="preserve">
+    <value>pnl_Right</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_LeftROI_Right.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_BottomROI_Top.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="pnl_Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 408</value>
+  </data>
+  <data name="&gt;&gt;pnl_Bottom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_LeftROI_Bottom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;txt_CenterROI_Bottom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 39</value>
+  </data>
+  <data name="txt_BottomROI_Bottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="&gt;&gt;pnl_Right.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_LeftROI_Right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="&gt;&gt;txt_LeftROI_Bottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_BottomROI_Right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="txt_RightROI_Right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="&gt;&gt;txt_LeftROI_Top.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_OK.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="&gt;&gt;txt_RightROI_Right.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_RightROI_Top.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 6</value>
+  </data>
+  <data name="txt_TopROI_Top.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txt_LeftROI_Left.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 75</value>
+  </data>
+  <data name="&gt;&gt;txt_BottomROI_Right.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_TopROI_Left.Parent" xml:space="preserve">
+    <value>pnl_Top</value>
+  </data>
+  <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnl_Top.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="txt_TopROI_Bottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="panel2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAHEAAAAoCAIAAABGnYK4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAACRSURBVGhD7dDBDYBADMTA65zW+bgEQ3SRp4FsfPKJJ56a
+        +mrqq6mvpr6a+mrqq6mvpr6a+mrqq6mvpr6a+mrqq6mvpr6a+mrqq6mvpr6a+mrqq6mvpr6a+mrqq6mv
+        pr6a+mj6Aw5OY80O/DSNNTvw0zTW7MBP01izAz9NY80O/DSNNTvw0zTW7MBP01iTy5zzAtzCdP56YufO
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;txt_BottomROI_Top.Parent" xml:space="preserve">
+    <value>pnl_Bottom</value>
+  </data>
+  <data name="txt_TopROI_Bottom.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="panel9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txt_RightROI_Left.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnl_Left.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;txt_RightROI_Right.Name" xml:space="preserve">
+    <value>txt_RightROI_Right</value>
+  </data>
+  <data name="&gt;&gt;txt_CenterROI_Top.Parent" xml:space="preserve">
+    <value>pnl_Center</value>
+  </data>
+  <data name="&gt;&gt;txt_RightROI_Bottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="&gt;&gt;txt_BottomROI_Left.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panel10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_LeftROI_Right.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;pnl_Bottom.Name" xml:space="preserve">
+    <value>pnl_Bottom</value>
+  </data>
+  <data name="txt_CenterROI_Left.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 76</value>
+  </data>
+  <data name="&gt;&gt;txt_BottomROI_Top.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>490, 453</value>
+  </data>
+  <data name="&gt;&gt;txt_TopROI_Bottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>pnl_Button</value>
+  </data>
+  <data name="&gt;&gt;txt_RightROI_Top.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_BottomROI_Top.Name" xml:space="preserve">
+    <value>txt_BottomROI_Top</value>
+  </data>
+  <data name="pnl_Top.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_OK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_LeftROI_Top.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="&gt;&gt;txt_CenterROI_Right.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_LeftROI_Bottom.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnl_Right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 176</value>
+  </data>
+  <data name="txt_TopROI_Bottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 85</value>
+  </data>
+  <data name="&gt;&gt;txt_CenterROI_Left.Name" xml:space="preserve">
+    <value>txt_CenterROI_Left</value>
+  </data>
+  <data name="txt_BottomROI_Left.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 50</value>
+  </data>
+  <data name="txt_CenterROI_Bottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="pnl_Center.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="panel4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAHEAAAAoCAIAAABGnYK4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAACRSURBVGhD7dDBDYBADMTA65zW+bgEixyRp4FsfPJXzx1Y
+        swM/TWPNDvw0jTU78NM01uzAT9NYswM/TWPNDvw0jTU78NM01nyAgzHU1FdTX019NfXV1FdTX019NfXV
+        1FdTX019NfXV1FdTX019NfXV1FdTX019NfXV1FdTX019NfXV1FdTX019NfXV1EfTmM55AfpHdP7n9pEe
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="txt_LeftROI_Left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="pnl_Right.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="pnl_Bottom.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txt_LeftROI_Bottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="txt_BottomROI_Right.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;txt_TopROI_Bottom.Parent" xml:space="preserve">
+    <value>pnl_Top</value>
+  </data>
+  <data name="pnl_Bottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 291</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 36</value>
+  </data>
+  <data name="txt_BottomROI_Right.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 51</value>
+  </data>
+  <data name="&gt;&gt;txt_TopROI_Bottom.Name" xml:space="preserve">
+    <value>txt_TopROI_Bottom</value>
+  </data>
+  <data name="btn_OK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 34</value>
+  </data>
+  <data name="&gt;&gt;pnl_Center.Name" xml:space="preserve">
+    <value>pnl_Center</value>
+  </data>
+  <data name="&gt;&gt;pnl_Right.Name" xml:space="preserve">
+    <value>pnl_Right</value>
+  </data>
+  <data name="txt_TopROI_Right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 21</value>
+  </data>
+  <data name="&gt;&gt;txt_BottomROI_Bottom.Parent" xml:space="preserve">
+    <value>pnl_Bottom</value>
+  </data>
+  <data name="&gt;&gt;txt_RightROI_Top.Name" xml:space="preserve">
+    <value>txt_RightROI_Top</value>
+  </data>
+  <data name="pnl_Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 48</value>
+  </data>
+  <data name="&gt;&gt;txt_BottomROI_Top.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Top.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_RightROI_Left.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;txt_CenterROI_Top.Name" xml:space="preserve">
+    <value>txt_CenterROI_Top</value>
+  </data>
+  <data name="txt_LeftROI_Top.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txt_RightROI_Top.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;txt_CenterROI_Right.Parent" xml:space="preserve">
+    <value>pnl_Center</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

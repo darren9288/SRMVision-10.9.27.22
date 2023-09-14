@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AE34954E-A282-4483-A7AC-F16A7B6CB59B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AutoMode</RootNamespace>
+    <AssemblyName>AutoMode</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>RELEASE</DefineConstants>
+    <ErrorReport>none</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x64</PlatformTarget>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Labtop|AnyCPU' ">
+    <OutputPath>bin\Labtop\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'RTXDebug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\RTXDebug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;RTXDebug</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'RTXRelease|AnyCPU' ">
+    <OutputPath>bin\RTXRelease\</OutputPath>
+    <DefineConstants>TRACE;RTXRelease</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>none</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug_2_12|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug_2_12\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Debug_2_12</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_2_12|AnyCPU'">
+    <OutputPath>bin\Release_2_12\</OutputPath>
+    <DefineConstants>Release_2_12</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>none</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\VisionRef64\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\VisionRef64\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Eyefinder, Version=1.0.3.0, Culture=neutral, PublicKeyToken=75b7ec17dd7c14c3">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\SRMRef\Eyefinder.dll</HintPath>
+    </Reference>
+    <Reference Include="SRMControl, Version=5.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\SRMRef\5_5\SRMControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoForm.Designer.cs">
+      <DependentUpon>AutoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AutoDisplayAllPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoDisplayAllPage.Designer.cs">
+      <DependentUpon>AutoDisplayAllPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadImageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadImageForm.designer.cs">
+      <DependentUpon>LoadImageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadRecipeImageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadRecipeImageForm.Designer.cs">
+      <DependentUpon>LoadRecipeImageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewLotForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewLotForm.Designer.cs">
+      <DependentUpon>NewLotForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreviousLotImageFolderList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreviousLotImageFolderList.Designer.cs">
+      <DependentUpon>PreviousLotImageFolderList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AutoForm.resx">
+      <DependentUpon>AutoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutoForm.zh-CHS.resx">
+      <DependentUpon>AutoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutoForm.zh-CHT.resx">
+      <DependentUpon>AutoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutoDisplayAllPage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AutoDisplayAllPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutoDisplayAllPage.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AutoDisplayAllPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutoDisplayAllPage.zh-CHT.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AutoDisplayAllPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadImageForm.resx">
+      <DependentUpon>LoadImageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadImageForm.zh-CHS.resx">
+      <DependentUpon>LoadImageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadRecipeImageForm.resx">
+      <DependentUpon>LoadRecipeImageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadRecipeImageForm.zh-CHS.resx">
+      <DependentUpon>LoadRecipeImageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewLotForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewLotForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewLotForm.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewLotForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewLotForm.zh-CHT.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewLotForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviousLotImageFolderList.resx">
+      <DependentUpon>PreviousLotImageFolderList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviousLotImageFolderList.zh-CHS.resx">
+      <DependentUpon>PreviousLotImageFolderList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeCopyForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RecipeCopyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeCopyForm.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RecipeCopyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeCopyForm.zh-CHT.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RecipeCopyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeCopyToExistingForm.resx">
+      <DependentUpon>RecipeCopyToExistingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeCopyToExistingForm.zh-CHS.resx">
+      <DependentUpon>RecipeCopyToExistingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeExportForm.zh-CHS.resx">
+      <DependentUpon>RecipeExportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RecipeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeForm.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RecipeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeForm.zh-CHT.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RecipeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeImportForm.resx">
+      <DependentUpon>RecipeImportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeImportForm.zh-CHS.resx">
+      <DependentUpon>RecipeImportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeRenameForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RecipeRenameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeRenameForm.zh-CHS.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RecipeRenameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeRenameForm.zh-CHT.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RecipeRenameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeExportForm.resx">
+      <DependentUpon>RecipeExportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipeVerificationForm.resx">
+      <DependentUpon>RecipeVerificationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResetCountForm.resx">
+      <DependentUpon>ResetCountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResetCountForm.zh-CHS.resx">
+      <DependentUpon>ResetCountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResetCountForm.zh-CHT.resx">
+      <DependentUpon>ResetCountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveOptionForm.resx">
+      <DependentUpon>SaveOptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveOptionForm.zh-CHS.resx">
+      <DependentUpon>SaveOptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectVisionDisplay.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectVisionDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TemplateImageForm.resx">
+      <DependentUpon>TemplateImageForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TemplateImageForm.zh-CHS.resx">
+      <DependentUpon>TemplateImageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RecipeCopyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecipeCopyForm.Designer.cs">
+      <DependentUpon>RecipeCopyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecipeCopyToExistingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecipeCopyToExistingForm.Designer.cs">
+      <DependentUpon>RecipeCopyToExistingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecipeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecipeForm.Designer.cs">
+      <DependentUpon>RecipeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecipeImportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecipeImportForm.designer.cs">
+      <DependentUpon>RecipeImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecipeRenameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecipeRenameForm.Designer.cs">
+      <DependentUpon>RecipeRenameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecipeExportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecipeExportForm.designer.cs">
+      <DependentUpon>RecipeExportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecipeVerificationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecipeVerificationForm.Designer.cs">
+      <DependentUpon>RecipeVerificationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResetCountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResetCountForm.designer.cs">
+      <DependentUpon>ResetCountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveOptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveOptionForm.designer.cs">
+      <DependentUpon>SaveOptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectVisionDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectVisionDisplay.Designer.cs">
+      <DependentUpon>SelectVisionDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateImageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TemplateImageForm.designer.cs">
+      <DependentUpon>TemplateImageForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{f769dac6-b921-48c4-830f-4272a837384a}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ImageAcquisition\ImageAcquisition.csproj">
+      <Project>{752CB5EB-B0E0-4672-80D2-1555DABF053A}</Project>
+      <Name>ImageAcquisition</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SharedMemory\SharedMemory.csproj">
+      <Project>{D9D4F292-BD2C-45EC-8946-61264B971FC0}</Project>
+      <Name>SharedMemory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VisionModule\VisionModule.csproj">
+      <Project>{74D942FD-62F1-443A-9CC8-2A91D66D18CB}</Project>
+      <Name>VisionModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VisionProcessing\VisionProcessing.csproj">
+      <Project>{537E3E35-3C93-4247-B340-7AF1AB7E89E3}</Project>
+      <Name>VisionProcessing</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

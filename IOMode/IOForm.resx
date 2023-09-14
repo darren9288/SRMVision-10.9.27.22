@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;InputIOComboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CardRadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ColumnOutputIONumber.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;InputIOTimer.Name" xml:space="preserve">
+    <value>InputIOTimer</value>
+  </data>
+  <data name="&gt;&gt;IODiagnosticButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ColumnOutputIONumber.HeaderText" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="OutputIODataGridView.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Remove2MenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="IODiagnosticButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 55</value>
+  </data>
+  <data name="InputIOComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 30</value>
+  </data>
+  <data name="ColumnInputIOBit.HeaderText" xml:space="preserve">
+    <value>Bit</value>
+  </data>
+  <data name="&gt;&gt;WantIODiagnosticCheckBox.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Remove1MenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;OutputIOGroupBox.Name" xml:space="preserve">
+    <value>OutputIOGroupBox</value>
+  </data>
+  <data name="WantIODiagnosticCheckBox.Text" xml:space="preserve">
+    <value>I/O Diagnostic On/Off</value>
+  </data>
+  <data name="&gt;&gt;CloseButton.Name" xml:space="preserve">
+    <value>CloseButton</value>
+  </data>
+  <data name="IODiagnosticButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SynchronizeCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Select4MenuItem.Name" xml:space="preserve">
+    <value>Select4MenuItem</value>
+  </data>
+  <data name="CardRadioButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt</value>
+  </data>
+  <data name="OutputIODataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 62</value>
+  </data>
+  <data name="InputIODataGridView.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;ColumnOutputIOUserGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IOContextMenuStrip.Name" xml:space="preserve">
+    <value>IOContextMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;Remove2MenuItem.Name" xml:space="preserve">
+    <value>Remove2MenuItem</value>
+  </data>
+  <data name="&gt;&gt;Remove4MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InputIOGroupBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;OutputIOTimer.Name" xml:space="preserve">
+    <value>OutputIOTimer</value>
+  </data>
+  <data name="&gt;&gt;CloseButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblOutputIO.Name" xml:space="preserve">
+    <value>lblOutputIO</value>
+  </data>
+  <data name="OutputIOComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;ColumnInputIODesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Remove4MenuItem.Text" xml:space="preserve">
+    <value>Remove from Channel 4</value>
+  </data>
+  <data name="&gt;&gt;ColumnInputIONumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnInputIODesc.Name" xml:space="preserve">
+    <value>ColumnInputIODesc</value>
+  </data>
+  <data name="OutputIOGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ColumnInputIOState.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOutputIO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 30</value>
+  </data>
+  <data name="ColumnInputIOChannel.HeaderText" xml:space="preserve">
+    <value>Chl</value>
+  </data>
+  <data name="Select2MenuItem.Text" xml:space="preserve">
+    <value>Select to Channel 2</value>
+  </data>
+  <data name="lblOutputIO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;CloseButton.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ColumnOutputIOBit.HeaderText" xml:space="preserve">
+    <value>Bit</value>
+  </data>
+  <data name="&gt;&gt;CardRadioButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ColumnInputIODesc.HeaderText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Remove4MenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OutputIOComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;IODiagnosticButton.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>I/O Trigger</value>
+  </data>
+  <data name="&gt;&gt;lblOutputIO.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="OutputIODataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="IODiagnosticButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt</value>
+  </data>
+  <data name="WantIODiagnosticCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 24</value>
+  </data>
+  <data name="ModuleRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 24</value>
+  </data>
+  <data name="CloseButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt</value>
+  </data>
+  <data name="SynchronizeCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 24</value>
+  </data>
+  <data name="&gt;&gt;ModuleRadioButton.Name" xml:space="preserve">
+    <value>ModuleRadioButton</value>
+  </data>
+  <data name="OutputIOGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;ColumnInputIOBit.Name" xml:space="preserve">
+    <value>ColumnInputIOBit</value>
+  </data>
+  <data name="InputIOComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="IOContextMenuStrip.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;lblOutputIO.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SynchronizeCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ModuleRadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>IOForm</value>
+  </data>
+  <data name="&gt;&gt;OutputIOGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ColumnInputIOOnOff.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;OutputIODataGridView.Parent" xml:space="preserve">
+    <value>OutputIOGroupBox</value>
+  </data>
+  <data name="CloseButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnInputIOState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInputIO.Name" xml:space="preserve">
+    <value>lblInputIO</value>
+  </data>
+  <data name="InputIODataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="SynchronizeCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="IODiagnosticButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 553</value>
+  </data>
+  <data name="&gt;&gt;ColumnOutputIOOnOff.Name" xml:space="preserve">
+    <value>ColumnOutputIOOnOff</value>
+  </data>
+  <data name="OutputIOGroupBox.Text" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="&gt;&gt;InputIODataGridView.Parent" xml:space="preserve">
+    <value>InputIOGroupBox</value>
+  </data>
+  <data name="&gt;&gt;CardRadioButton.Type" xml:space="preserve">
+    <value>SRMControl.SRMRadioButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ColumnInputIONumber.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;ColumnOutputIOOnOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnOutputIOState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InputIOComboBox.Name" xml:space="preserve">
+    <value>InputIOComboBox</value>
+  </data>
+  <data name="ModuleRadioButton.Text" xml:space="preserve">
+    <value>Group By Module</value>
+  </data>
+  <data name="Select1MenuItem.Text" xml:space="preserve">
+    <value>Select to Channel 1</value>
+  </data>
+  <data name="Select1MenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="&gt;&gt;SynchronizeCheckBox.Name" xml:space="preserve">
+    <value>SynchronizeCheckBox</value>
+  </data>
+  <data name="OutputIOGroupBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt, style=Bold</value>
+  </data>
+  <data name="ColumnOutputIOChannel.HeaderText" xml:space="preserve">
+    <value>Chl</value>
+  </data>
+  <data name="InputIOImageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAy
+        EwAAAk1TRnQBSQFMAgEBAgEAASQBAAEoAQABGAEAARgBAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFg
+        AwABGAMAAQEBAAEgBgABJP8AugABAQMAAQEDAAEBAwABAQMAAQEDAAEBSwABAQMAAQEDAAEBAwABAQMA
+        AQEDAAEB/wABAAMBAQIDBwEKAxAEFgEfAxkBIwMZASMDFgEfAxABFgMHAQoDAQECOAADAQECAwcBCgMQ
+        BBYBHwMZASMDGQEjAxYBHwMQARYDBwEKAwEBAvMAAQEDBwEJAxYBHgMpAT4DOgFgA0QBeQNIAYQDSAGE
+        A0QBeQM6AWEDKQE/AxYBHwMHAQkDAAEBKwABAQMHAQkDFgEeAykBPgM6AWADRAF5A0gBhANIAYQDRAF5
+        AzoBYQMpAT8DFgEfAwcBCQMAAQHnAAEBAwsBDwMkATUDQwF4AVQCUwGsAVoCTwHTAV8CQAHoAV8CQAHo
+        AWACUAHUAVUCVAGyAVACTwGeA0wBkwM/AW0DJAE2AwsBDwMAAQEjAAEBAwsBDwMkATUDQwF4AVQCUwGs
+        AVoCTwHTAV8CQAHoAV8CQAHoAWACUAHUAVUCVAGyAVACTwGeA0wBkwM/AW0DJAE2AwsBDwMAAQHfAAEB
+        AwsBDwMwAUwBWQJUAb8BfwFeAV0B/gKaAYwB/wLQAbgB/wLwAdIB/wLxAdMB/wLTAboB/wKcAY0B/wF/
+        AV0BXAH+AVoCVAHFAVICUQGhAUcCRgGBAykBPwMLAQ8DAAEBGwABAQMLAQ8DMAFMAVkCVAG/AV0BfwFB
+        Af4BYgHDAXkB/wGBAeQBgQH/AYEB9QGLAf8BgQH2AY0B/wGBAeUBgQH/AWUBxgF7Af8BXQF/AUIB/gFa
+        AlQBxQFSAlEBoQFHAkYBgQMpAT8DCwEPAwABAdgAAwcBCQMzAVIBXwJAAegCmAGMAf8C6AHNAf8C7gHR
+        Af8C9AHVAf8C+wHaAf8C/QHdAf8C9gHXAf8C8QHTAf8C6wHPAf8CmQGNAf8BXAI6AeoBUQJQAaIBRwJG
+        AYADJAE1AwcBCRgAAwcBCQMzAVIBXwJAAegBXQG+AXEB/wGBAe4BggH/AYEB8wGHAf8BgQH4AY0B/wGB
+        AfwBlQH/AYEB/QGXAf8BgQH5AY8B/wGBAfUBigH/AYEB8AGFAf8BXwHAAXQB/wFcAjoB6gFRAlABogFH
+        AkYBgAMkATUDBwEJ1AADAQECAyIBMgFhAkAB5gKuAZ4B/wLcAcMB/wLeAcUB/wLlAcsB/wLuAc8B/wLz
+        AdUB/wL0AdQB/wLvAdIB/wLpAc0B/wLhAccB/wLgAcUB/wKxAZ8B/wFiAjwB6QNRAaABPwI+AWwDFgEf
+        AwEBAhAAAwEBAgMiATIBYQJAAeYBaQHLAYEB/wGBAegBgQH/AYEB6QGBAf8BgQHvAYEB/wGBAfIBiAH/
+        AYEB9wGNAf8BgQH4AY4B/wGBAfUBiQH/AYEB7wGDAf8BgQHrAYEB/wGBAeoBgQH/AWwBzQGBAf8BYgI8
+        AekDUQGgAT8CPgFsAxYBHwMBAQLQAAMHAQoBVwJVAbcCmQGPAf8C0QG6Af8C1AG8Af8C2gHBAf8C4gHG
+        Af8C5gHMAf8C6gHPAf8C7AHPAf8C6QHNAf8C5AHJAf8C3AHEAf8C1gG+Af8C0wG8Af8CmQGPAf8BWwJU
+        AcQDTAGTAykBPgMHAQoQAAMHAQoBVwJVAbcBXQG+AXIB/wGBAd8BgQH/AYEB4gGBAf8BgQHmAYEB/wGB
+        AewBgQH/AYEB7gGBAf8BgQHxAYQB/wGBAfEBhgH/AYEB7wGDAf8BgQHsAYEB/wGBAekBgQH/AYEB5AGB
+        Af8BgQHhAYEB/wFdAb4BcwH/AVsCVAHEA0wBkwMpAT4DBwEK0AADKwFCA38B/gLFAbAB/wLIAbIB/wLO
+        AbgB/wLVAb0B/wLcAcMB/wLfAcUB/wLiAccB/wLiAccB/wLgAcYB/wLcAcMB/wLXAb4B/wLQAbkB/wLK
+        AbUB/wLHAbEB/wF/AX4BfQH+AVACTwGeAzoBYQMQARYQAAMrAUIBZQF/AUQB/gF4AdkBgQH/AXoB2wGB
+        Af8BgAHeAYEB/wGBAeMBgQH/AYEB6AGBAf8BgQHrAYEB/wGBAe0BgQH/AYEB7QGBAf8BgQHqAYEB/wGB
+        AegBgQH/AYEB5AGBAf8BgQHgAYEB/wF6AdsBgQH/AXkB2gGBAf8BZAF/AUQB/gFQAk8BngM6AWEDEAEW
+        0AABTwJOAZcCmgGRAf8CvwGrAf8CwgGwAf8CyQG0Af8CzwG4Af8C1AG8Af8C2QG/Af8C2wHCAf8C2gHC
+        Af8C2AHBAf8C1QG9Af8C0AG5Af8CywG1Af8CxAGwAf8CwQGtAf8CmgGRAf8BVQJUAbIDRAF6AxYBHxAA
+        AU8CTgGXAVsBvAFyAf8BcwHUAYEB/wF3AdgBgQH/AXoB2wGBAf8BgQHfAYEB/wGBAeIBgQH/AYEB5QGB
+        Af8BgQHmAYEB/wGBAeYBgQH/AYEB5QGBAf8BgQHjAYEB/wGBAeABgQH/AXsB3AGBAf8BdwHYAYEB/wF0
+        AdUBgQH/AV0BvgFzAf8BVQJUAbIDRAF6AxYBH88AAQEBXAJQAc0CqAGaAf8CuAGmAf8CvQGqAf8CwwGv
+        Af8CyAGzAf8CzQG2Af8C0AG5Af8C0QG6Af8C0wG6Af8C0AG5Af8CzwG3Af8CywG0Af8CxgGwAf8CvwGs
+        Af8CugGoAf8CqQGbAf8BYQJPAdUDSAGGAxkBIwMAAQELAAEBAVoCUAHNAWUBxgF8Af8BbwHQAYEB/wFy
+        AdMBgQH/AXYB1wGBAf8BeQHaAYEB/wF8Ad0BgQH/AYEB3wGBAf8BgQHiAYEB/wGBAeIBgQH/AYEB4AGB
+        Af8BgAHeAYEB/wF6AdsBgQH/AXcB2AGBAf8BcwHUAYEB/wFwAdEBgQH/AWUBxgGAAf8BXgJPAdUDSAGG
+        AxkBIwMAAQHLAAEBAWQCOgHqAqkBmwH/ArEBogH/ArcBpgH/ArwBqgH/AsEBrgH/AsUBsAH/AsgBtAH/
+        AskBtQH/AskBtAH/AsgBswH/AsYBsQH/AsIBrgH/Ar4BqwH/ArkBpwH/ArMBpAH/AqsBnAH/AWkCOwHr
+        A0gBhgMZASMDAAEBCwABAQFcAjoB6gFkAcUBfAH/AWoBywGBAf8BbgHPAYEB/wFyAdMBgQH/AXUB1gGB
+        Af8BdwHYAYEB/wF5AdoBgQH/AXoB2wGBAf8BegHbAYEB/wF5AdoBgQH/AXgB2QGBAf8BdQHWAYEB/wFz
+        AdQBgQH/AW8B0AGBAf8BawHMAYEB/wFmAccBgAH/AWACOwHrA0gBhgMZASMDAAEBzAABZAI6AeoCpAGX
+        Af8CqwGcAf8CsQGhAf8CtQGlAf8CugGoAf8CvQGpAf8CvgGrAf8CwQGsAf8CwQGsAf8CwAGtAf8CvgGr
+        Af8CuwGpAf8CtwGmAf8CsgGiAf8CrQGeAf8CpQGZAf8BaQI7AesDRAF6AxYBHxAAAVwCOgHqAWEBwgF2
+        Af8BZgHHAYAB/wFqAcsBgQH/AWwBzgGBAf8BbgHRAYEB/wFvAdMBgQH/AXEB1QGBAf8BcAHVAYEB/wFy
+        AdYBgQH/AXEB1QGBAf8BcQHUAYEB/wFuAdEBgQH/AW4BzwGBAf8BawHMAYEB/wFnAcgBgQH/AWMBxAF5
+        Af8BYAI7AesDRAF6AxYBH9AAAVwCUgHMAp0BlAH/AqUBmAH/Aq4BoAH/ArkBqwH/AsIBtQH/AsgBvAH/
+        AswBwQH/As4BwQH/As4BwQH/AswBvwH/AscBugH/AsEBswH/ArcBqQH/Aq0BngH/AqcBmQH/Ap4BlAH/
+        AWACUAHUAzoBYQMQARYQAAFcAlIBzAFcAb0BcgH/AWEBwwF3Af8BbgHJAYEB/wGBAdABgQH/AYEB1wGB
+        Af8BgQHbAYEB/wGBAd0BhQH/AYEB3gGIAf8BgQHeAYgB/wGBAd0BhAH/AYEB2gGBAf8BgQHWAYEB/wF8
+        Ac8BgQH/AWcByAGBAf8BYwHEAXkB/wFdAb4BcwH/AWACUAHUAzoBYQMQARbQAANMAZICmQGUAf8CogGX
+        Af8CuAGtAf8CvgG0Af8CxQG5Af8CyAG+Af8CzAHCAf8CzQHFAf8CzQHDAf8CzQHBAf8CyQG/Af8CxAG6
+        Af8CvgGzAf8CtQGrAf8CogGUAf8CmQGTAf8BVQJTAa0DKQE+AwcBChAAA0wBkgFYAbkBcQH/AWYBwQF4
+        Af8BgQHPAYEB/wGBAdQBgQH/AYEB1wGBAf8BgQHcAYYB/wGBAd4BjAH/AYEB3wGNAf8BgQHfAY0B/wGB
+        Ad4BiwH/AYEB2gGEAf8BgQHYAYEB/wGBAdQBgQH/AYEBzgGBAf8BYQHBAXQB/wFZAboBcgH/AVUCUwGt
+        AykBPgMHAQrQAAMkATUDfwH+ApoBjgH/ArYBrQH/ArwBtQH/AsMBvAH/AskBwgH/As0BxQH/As4BxwH/
+        As4BxgH/AswBxAH/AsgBwAH/AsIBugH/Ar0BtAH/ArUBrAH/ApsBjwH/A38B/gNDAXgDFgEeAwEBAhAA
+        AyQBNQFrAX8BRAH+AV4BvAFuAf8BgQHPAYEB/wGBAdQBgQH/AYEB1wGDAf8BgQHbAYsB/wGGAd0BkgH/
+        AYkB3gGWAf8BiQHeAZUB/wGEAd0BkQH/AYEB2gGJAf8BgQHXAYEB/wGBAdIBgQH/AYEBzQGBAf8BXgG8
+        AW0B/wFrAX8BRAH+A0MBeAMWAR4DAQEC1AABVgJTAbECmQGUAf8CpgGeAf8CvgG3Af8CwwG8Af8CywHD
+        Af8CzgHIAf8C0QHLAf8C0AHKAf8CzQHHAf8CyAHDAf8CwwG8Af8CvAG2Af8CpwGfAf8CmQGUAf8BWQJU
+        Ab8DJAE1AwcBCRgAAVYCUwGxAVUBuQFuAf8BgAHEAYEB/wGBAdMBgQH/AYEB1wGIAf8BiQHbAZMB/wGR
+        Ad4BnAH/AZYB4AGfAf8BlQHgAZ8B/wGQAd4BmgH/AYYB2gGQAf8BgQHWAYUB/wGBAdIBgQH/AYEBxAGB
+        Af8BVQG5AXAB/wFZAlQBvwMkATUDBwEJ2AADFAEbAWUCQwHlApQBjQH/AqgBoAH/AsgBwgH/AswBxwH/
+        AtEBzQH/AtQBzwH/AtMBzwH/AtABywH/AssBxQH/AsUBvwH/AqoBowH/ApQBjgH/AWYCQAHoAzEBTQML
+        AQ8DAAEBGAADFAEbAWUCQwHlAVIBtgFmAf8BgQHFAYEB/wGKAdoBkgH/AZMB3QGbAf8BnQHhAaQB/wGk
+        AeIBqwH/AaMB4gGqAf8BmgHgAaEB/wGPAdwBlwH/AYYB2QGNAf8BgQHGAYEB/wFTAbcBZwH/AV8CQAHo
+        AzEBTQMLAQ8DAAEB3AADIQEwAWUCQwHlApcBkwH/ApQBjAH/ArkBtAH/AtYB1AH/At8B3AH/At0B2gH/
+        AtUB0gH/ArwBtQH/ApcBkAH/ApcBkwH/AWQCQAHnAzMBUgMLAQ8DAAEBIAADIQEwAWUCQwHlAVIBtwFt
+        Af8BZAG4AW4B/wGBAdEBgQH/Aa4B5AGzAf8BvQHpAcEB/wG5AegBvQH/AawB4wGwAf8BgQHSAYEB/wFs
+        AbsBdQH/AVIBtwFsAf8BZAJAAecDMwFSAwsBDwMAAQHkAAMUARsBVgJTAbEDfwH+ApcBkgH/AosBhQH/
+        ApQBjAH/ApUBjgH/Ao8BiAH/ApUBkgH/A38B/gFXAlUBtwMjATQDBwEJAwABASgAAxQBGwFWAlMBsQFu
+        AX8BTwH+AVABtgFqAf8BTAGxAVwB/wFlAbcBbwH/AWYBuAFxAf8BUgGzAWEB/wFQAbYBagH/AW4BfwFP
+        Af4BVwJVAbcDIwE0AwcBCQMAAQHwAAMkATUBTQJMAZEBXAJSAcwBZAI6AeoBZAI6AeoBXAJQAc0BTwJO
+        AZcDKwFCAwcBCgMBAQI4AAMkATUBTQJMAZEBXAJSAcwBXAI6AeoBXAI6AeoBWgJQAc0BTwJOAZcDKwFC
+        AwcBCgMBAQL/AAQAAQEDAAEBAwABAQMAAQEDAAEBAwABAUsAAQEDAAEBAwABAQMAAQEDAAEBAwABAf8A
+        /wBmAAFCAU0BPgcAAT4DAAEoAwABYAMAARgDAAEBAQABAQUAASABARYAA/8BAAb/BgAB/wGBAv8BgQH/
+        BgAB/gEAAX8B/gEAAX8GAAH4AQABHwH4AQABHwYAAfABAAEPAfABAAEPBgAB4AEAAQcB4AEAAQcGAAHg
+        AQABBwHgAQABBwYAAcABAAEDAcABAAEDBgABwAEAAQMBwAEAAQMGAAHAAQABAwHAAQABAwYAAcABAAED
+        AcABAAEDBgABgAEAAQEBgAEAAQEGAAGAAQABAQGAAQABAQYAAcABAAEDAcABAAEDBgABwAEAAQMBwAEA
+        AQMGAAHAAQABAwHAAQABAwYAAcABAAEDAcABAAEDBgAB4AEAAQcB4AEAAQcGAAHgAQABBwHgAQABBwYA
+        AfABAAEPAfABAAEPBgAB+AEAAR8B+AEAAR8GAAH+AQABfwH+AQABfwYAAf8BgQL/AYEB/wYABv8cAAs=
+</value>
+  </data>
+  <data name="lblInputIO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt</value>
+  </data>
+  <data name="Remove3MenuItem.Text" xml:space="preserve">
+    <value>Remove from Channel 3</value>
+  </data>
+  <data name="CloseButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="OutputIOImageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAc
+        EgAAAk1TRnQBSQFMAgEBAgEAASQBAAEoAQABGAEAARgBAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFg
+        AwABGAMAAQEBAAEgBgABJP8AugABAQMAAQEDAAEBAwABAQMAAQEDAAEBSwABAQMAAQEDAAEBAwABAQMA
+        AQEDAAEB/wABAAMBAQIDBwEKAxAEFgEfAxkBIwMZASMDFgEfAxABFgMHAQoDAQECOAADAQECAwcBCgMQ
+        BBYBHwMZASMDGQEjAxYBHwMQARYDBwEKAwEBAvMAAQEDBwEJAxYBHgMpAT4DOgFgA0QBeQNIAYQDSAGE
+        A0QBeQM6AWEDKQE/AxYBHwMHAQkDAAEBKwABAQMHAQkDFgEeAykBPgM6AWADRAF5A0gBhANIAYQDRAF5
+        AzoBYQMpAT8DFgEfAwcBCQMAAQHnAAEBAwsBDwMkATUDQwF4AVQCUwGsAVoCTwHTAV8CQAHoAV8CQAHo
+        AWACUAHUAVUCVAGyAVACTwGeA0wBkwM/AW0DJAE2AwsBDwMAAQEjAAEBAwsBDwMkATUDQwF4AVQCUwGs
+        AVoCTwHTAV8CQAHoAV8CQAHoAWACUAHUAVUCVAGyAVACTwGeA0wBkwM/AW0DJAE2AwsBDwMAAQHfAAEB
+        AwsBDwMwAUwBWQJUAb8BfwFeAV0B/gKaAYwB/wLQAbgB/wLwAdIB/wLxAdMB/wLTAboB/wKcAY0B/wF/
+        AV0BXAH+AVoCVAHFAVICUQGhAUcCRgGBAykBPwMLAQ8DAAEBGwABAQMLAQ8DMAFMAVkCVAG/AV0BRAF/
+        Af4BbwGBAeYB/wGBAZUB9QH/AYUBtgH9Af8BiAG6Af0B/wGBAZgB9gH/AXIBgQHoAf8BXgFEAX8B/gFa
+        AlQBxQFSAlEBoQFHAkYBgQMpAT8DCwEPAwABAdgAAwcBCQMzAVIBXwJAAegCmAGMAf8C6AHNAf8C7gHR
+        Af8C9AHVAf8C+wHaAf8C/QHdAf8C9gHXAf8C8QHTAf8C6wHPAf8CmQGNAf8BXAI6AeoBUQJQAaIBRwJG
+        AYADJAE1AwcBCRgAAwcBCQMzAVIBXwJAAegBYAGBAeoB/wGBAZsC/wGBAaoC/wGCAbYC/wGQAcQC/wGU
+        AcgC/wGGAboC/wGBAa4C/wGBAaAC/wFjAYEB6wH/AVwCOgHqAVECUAGiAUcCRgGAAyQBNQMHAQnUAAMB
+        AQIDIgEyAWECQAHmAq4BngH/AtwBwwH/At4BxQH/AuUBywH/Au4BzwH/AvMB1QH/AvQB1AH/Au8B0gH/
+        AukBzQH/AuEBxwH/AuABxQH/ArEBnwH/AWICPAHpA1EBoAE/Aj4BbAMWAR8DAQECEAADAQECAyIBMgFh
+        AkAB5gFmAYEB9AH/AYEBigL/AYEBkgL/AYEBoAL/AYEBrQL/AYMBtgL/AYUBuAL/AYEBsAL/AYEBpAL/
+        AYEBlgL/AYEBjgL/AWoBgQH0Af8BYgI8AekDUQGgAT8CPgFsAxYBHwMBAQLQAAMHAQoBVwJVAbcCmQGP
+        Af8C0QG6Af8C1AG8Af8C2gHBAf8C4gHGAf8C5gHMAf8C6gHPAf8C7AHPAf8C6QHNAf8C5AHJAf8C3AHE
+        Af8C1gG+Af8C0wG8Af8CmQGPAf8BWwJUAcQDTAGTAykBPgMHAQoQAAMHAQoBVwJVAbcBUAF8AfEB/wF5
+        AYEC/wKBAv8BgQGMAv8BgQGYAv8BgQGiAv8BgQGpAv8BgQGqAv8BgQGkAv8BgQGbAv8BgQGPAv8BgQGC
+        Av8BgAGBAv8BUgGBAfAB/wFbAlQBxANMAZMDKQE+AwcBCtAAAysBQgN/Af4CxQGwAf8CyAGyAf8CzgG4
+        Af8C1QG9Af8C3AHDAf8C3wHFAf8C4gHHAf8C4gHHAf8C4AHGAf8C3AHDAf8C1wG+Af8C0AG5Af8CygG1
+        Af8CxwGxAf8BfwF+AX0B/gFQAk8BngM6AWEDEAEWEAADKwFCAVwBRAF/Af4BYwGBAv8BbwGBAv8BfAGB
+        Av8BgQGDAv8BgQGNAv8BgQGVAv8BgQGZAv8BgQGaAv8BgQGXAv8BgQGQAv8BgQGGAv8CgQL/AXMBgQL/
+        AWgBgQL/AVwBRAF/Af4BUAJPAZ4DOgFhAxABFtAAAU8CTgGXApoBkQH/Ar8BqwH/AsIBsAH/AskBtAH/
+        As8BuAH/AtQBvAH/AtkBvwH/AtsBwgH/AtoBwgH/AtgBwQH/AtUBvQH/AtABuQH/AssBtQH/AsQBsAH/
+        AsEBrQH/ApoBkQH/AVUCVAGyA0QBegMWAR8QAAFPAk4BlwFEAXIB9QH/AVsBgQL/AWYBgQL/AXEBgQL/
+        AYABgQL/AoEC/wGBAYYC/wGBAYoC/wGBAYsC/wGBAYgC/wGBAYIC/wKBAv8BdgGBAv8BaQGBAv8BXwGB
+        Av8BRQFzAfUB/wFVAlQBsgNEAXoDFgEfzwABAQFcAlABzQKoAZoB/wK4AaYB/wK9AaoB/wLDAa8B/wLI
+        AbMB/wLNAbYB/wLQAbkB/wLRAboB/wLTAboB/wLQAbkB/wLPAbcB/wLLAbQB/wLGAbAB/wK/AawB/wK6
+        AagB/wKpAZsB/wFhAk8B1QNIAYYDGQEjAwABAQsAAQEBWgJQAc0BQwF1AfwB/wFRAYEC/wFcAYEC/wFo
+        AYEC/wFxAYEC/wF5AYEC/wGAAYEC/wKBAv8CgQL/AoEC/wF7AYEC/wFyAYEC/wFrAYEC/wFhAYEC/wFW
+        AYEC/wFHAXgB/AH/AV4CTwHVA0gBhgMZASMDAAEBywABAQFkAjoB6gKpAZsB/wKxAaIB/wK3AaYB/wK8
+        AaoB/wLBAa4B/wLFAbAB/wLIAbQB/wLJAbUB/wLJAbQB/wLIAbMB/wLGAbEB/wLCAa4B/wK+AasB/wK5
+        AacB/wKzAaQB/wKrAZwB/wFpAjsB6wNIAYYDGQEjAwABAQsAAQEBXAI6AeoBPAFuAf4B/wFJAXwC/wFS
+        AYEC/wFbAYEC/wFjAYEC/wFqAYEC/wFvAYEC/wFyAYEC/wFyAYEC/wFwAYEC/wFsAYEC/wFmAYEC/wFe
+        AYEC/wFVAYEC/wFMAYEC/wE/AXMB/gH/AWACOwHrA0gBhgMZASMDAAEBzAABZAI6AeoCpAGXAf8CqwGc
+        Af8CsQGhAf8CtQGlAf8CugGoAf8CvQGpAf8CvgGrAf8CwQGsAf8CwQGsAf8CwAGtAf8CvgGrAf8CuwGp
+        Af8CtwGmAf8CsgGiAf8CrQGeAf8CpQGZAf8BaQI7AesDRAF6AxYBHxAAAVwCOgHqATgBaQH9Af8BPQFw
+        Av8BRwF6Av8BTgGBAv8BVQGBAv8BWQGBAv8BXQGBAv8BXwGBAv8BXwGBAv8BXgGBAv8BWwGBAv8BWAGB
+        Av8BUgGBAv8BSQF8Av8BQAFzAf4B/wE4AWoB/QH/AWACOwHrA0QBegMWAR/QAAFcAlIBzAKdAZQB/wKl
+        AZgB/wKuAaAB/wK5AasB/wLCAbUB/wLIAbwB/wLMAcEB/wLOAcEB/wLOAcEB/wLMAb8B/wLHAboB/wLB
+        AbMB/wK3AakB/wKtAZ4B/wKnAZkB/wKeAZQB/wFgAlAB1AM6AWEDEAEWEAABXAJSAcwBOAFoAfkB/wE4
+        AWgB/AH/AUUBdgL/AWIBgQL/AXoBgQL/AoEC/wGBAYIC/wGBAYYC/wGBAYYC/wKBAv8CgQL/AXMBgQL/
+        AVsBgQL/AT4BcQH+Af8BOAFpAf4B/wE4AWgB+gH/AWACUAHUAzoBYQMQARbQAANMAZICmQGUAf8CogGX
+        Af8CuAGtAf8CvgG0Af8CxQG5Af8CyAG+Af8CzAHCAf8CzQHFAf8CzQHDAf8CzQHBAf8CyQG/Af8CxAG6
+        Af8CvgGzAf8CtQGrAf8CogGUAf8CmQGTAf8BVQJTAa0DKQE+AwcBChAAA0wBkgE4AWcB+QH/AUIBbwH5
+        Af8BbwGBAfwB/wF6AYEB/QH/AoEB/gH/AoEB/gH/AYEBhAL/AYEBiAL/AYEBhwL/AYEBgwL/AoEC/wKB
+        Af4B/wF4AYEC/wFoAYEB/AH/ATsBagH5Af8BOAFnAfkB/wFVAlMBrQMpAT4DBwEK0AADJAE1A38B/gKa
+        AY4B/wK2Aa0B/wK8AbUB/wLDAbwB/wLJAcIB/wLNAcUB/wLOAccB/wLOAcYB/wLMAcQB/wLIAcAB/wLC
+        AboB/wK9AbQB/wK1AawB/wKbAY8B/wN/Af4DQwF4AxYBHgMBAQIQAAMkATUBWwFEAX8B/gE+AWoB9gH/
+        AXsBgQH5Af8CgQH7Af8CgQH8Af8BgQGDAf0B/wGBAYoB/QH/AYEBjgH+Af8BgQGNAf4B/wGBAYkB/gH/
+        AoEB/QH/AoEB/AH/AoEB+wH/AXcBgQH5Af8BPQFpAfYB/wFbAUQBfwH+A0MBeAMWAR4DAQEC1AABVgJT
+        AbECmQGUAf8CpgGeAf8CvgG3Af8CwwG8Af8CywHDAf8CzgHIAf8C0QHLAf8C0AHKAf8CzQHHAf8CyAHD
+        Af8CwwG8Af8CvAG2Af8CpwGfAf8CmQGUAf8BWQJUAb8DJAE1AwcBCRgAAVYCUwGxATgBZQH5Af8BYwGB
+        AfUB/wKBAfgB/wGBAYMB+gH/AYEBjwH7Af8BgQGXAfwB/wGDAZoB/AH/AYIBmgH8Af8BgQGUAfwB/wGB
+        AYwB+wH/AoEB+gH/AoEB+QH/AWUBgQH2Af8BOAFlAfkB/wFZAlQBvwMkATUDBwEJ2AADFAEbAWUCQwHl
+        ApQBjQH/AqgBoAH/AsgBwgH/AswBxwH/AtEBzQH/AtQBzwH/AtMBzwH/AtABywH/AssBxQH/AsUBvwH/
+        AqoBowH/ApQBjgH/AWYCQAHoAzEBTQMLAQ8DAAEBGAADFAEbAWUCQwHlATgBYQH1Af8BcgGBAfQB/wGB
+        AZEB+QH/AYQBmgH5Af8BjgGiAfoB/wGWAakB+gH/AZUBqAH6Af8BiwGgAfoB/wGBAZYB+QH/AYEBjQH5
+        Af8BdgGBAfQB/wE4AWIB9gH/AV8CQAHoAzEBTQMLAQ8DAAEB3AADIQEwAWUCQwHlApcBkwH/ApQBjAH/
+        ArkBtAH/AtYB1AH/At8B3AH/At0B2gH/AtUB0gH/ArwBtQH/ApcBkAH/ApcBkwH/AWQCQAHnAzMBUgML
+        AQ8DAAEBIAADIQEwAWUCQwHlATgBYgH3Af8BUAF1AfAB/wKBAfUB/wGlAbMB+gH/AbQBwQH7Af8BsAG+
+        AfoB/wGhAbEB+QH/AYEBhAH1Af8BWAF7AfAB/wE4AWEB9wH/AWQCQAHnAzMBUgMLAQ8DAAEB5AADFAEb
+        AVYCUwGxA38B/gKXAZIB/wKLAYUB/wKUAYwB/wKVAY4B/wKPAYgB/wKVAZIB/wN/Af4BVwJVAbcDIwE0
+        AwcBCQMAAQEoAAMUARsBVgJTAbEBWwFEAX8B/gE4AV8B9QH/ATgBXQHwAf8BUAF2Ae8B/wFTAXgB7wH/
+        ATgBYgHwAf8BOAFeAfUB/wFbAUQBfwH+AVcCVQG3AyMBNAMHAQkDAAEB8AADJAE1AU0CTAGRAVwCUgHM
+        AWQCOgHqAWQCOgHqAVwCUAHNAU8CTgGXAysBQgMHAQoDAQECOAADJAE1AU0CTAGRAVwCUgHMAVwCOgHq
+        AVwCOgHqAVoCUAHNAU8CTgGXAysBQgMHAQoDAQEC/wAEAAEBAwABAQMAAQEDAAEBAwABAQMAAQFLAAEB
+        AwABAQMAAQEDAAEBAwABAQMAAQH/AP8AZgABQgFNAT4HAAE+AwABKAMAAWADAAEYAwABAQEAAQEFAAEg
+        AQEWAAP/AQAG/wYAAf8BgQL/AYEB/wYAAf4BAAF/Af4BAAF/BgAB+AEAAR8B+AEAAR8GAAHwAQABDwHw
+        AQABDwYAAeABAAEHAeABAAEHBgAB4AEAAQcB4AEAAQcGAAHAAQABAwHAAQABAwYAAcABAAEDAcABAAED
+        BgABwAEAAQMBwAEAAQMGAAHAAQABAwHAAQABAwYAAYABAAEBAYABAAEBBgABgAEAAQEBgAEAAQEGAAHA
+        AQABAwHAAQABAwYAAcABAAEDAcABAAEDBgABwAEAAQMBwAEAAQMGAAHAAQABAwHAAQABAwYAAeABAAEH
+        AeABAAEHBgAB4AEAAQcB4AEAAQcGAAHwAQABDwHwAQABDwYAAfgBAAEfAfgBAAEfBgAB/gEAAX8B/gEA
+        AX8GAAH/AYEC/wGBAf8GAAb/HAAL
+</value>
+  </data>
+  <data name="ModuleRadioButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt</value>
+  </data>
+  <data name="ColumnInputIONumber.HeaderText" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="InputIOGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="IODiagnosticButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="WantIODiagnosticCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="InputIOGroupBox.Text" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="ColumnOutputIOState.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInputIO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 30</value>
+  </data>
+  <data name="lblInputIO.Text" xml:space="preserve">
+    <value>Module :</value>
+  </data>
+  <data name="&gt;&gt;InputIOGroupBox.Name" xml:space="preserve">
+    <value>InputIOGroupBox</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="InputIOGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 544</value>
+  </data>
+  <data name="&gt;&gt;OutputIOGroupBox.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;OutputIOComboBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblOutputIO.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;InputIOTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Remove1MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInputIO.Parent" xml:space="preserve">
+    <value>InputIOGroupBox</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ColumnOutputIOOnOff.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblInputIO.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="OutputIOComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;OutputIODataGridView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dc_CardNo.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="ColumnInputIOOnOff.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="CardRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="ColumnOutputIODesc.HeaderText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="lblOutputIO.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblOutputIO.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="InputIOComboBox.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblOutputIO.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Select4MenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="WantIODiagnosticCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt</value>
+  </data>
+  <data name="OutputIODataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Remove3MenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;OutputIODataGridView.Name" xml:space="preserve">
+    <value>OutputIODataGridView</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>CardNo</value>
+  </data>
+  <data name="&gt;&gt;ColumnInputIOChannel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OutputIOImageList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="&gt;&gt;ColumnOutputIOBit.Name" xml:space="preserve">
+    <value>ColumnOutputIOBit</value>
+  </data>
+  <data name="SynchronizeCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 559</value>
+  </data>
+  <data name="&gt;&gt;OutputIOImageList.Name" xml:space="preserve">
+    <value>OutputIOImageList</value>
+  </data>
+  <data name="&gt;&gt;Remove2MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Remove1MenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="InputIOGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;lblOutputIO.Parent" xml:space="preserve">
+    <value>OutputIOGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ModuleRadioButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ColumnInputIOOnOff.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Remove3MenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;ColumnOutputIOChannel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="InputIODataGridView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="WantIODiagnosticCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Remove1MenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OutputIOGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;CardRadioButton.Name" xml:space="preserve">
+    <value>CardRadioButton</value>
+  </data>
+  <data name="InputIOGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>512, 2</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="dc_CardNo.HeaderText" xml:space="preserve">
+    <value>CardNo</value>
+  </data>
+  <data name="InputIOComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="Remove2MenuItem.Text" xml:space="preserve">
+    <value>Remove from Channel 2</value>
+  </data>
+  <data name="&gt;&gt;InputIODataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="InputIODataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 62</value>
+  </data>
+  <data name="Select4MenuItem.Text" xml:space="preserve">
+    <value>Select to Channel 4</value>
+  </data>
+  <data name="InputIOGroupBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ColumnOutputIOBit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IODiagnosticButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ColumnInputIOState.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lblOutputIO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 22</value>
+  </data>
+  <data name="&gt;&gt;OutputIOComboBox.Name" xml:space="preserve">
+    <value>OutputIOComboBox</value>
+  </data>
+  <data name="Remove2MenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="IODiagnosticButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblInputIO.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="OutputIOGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 544</value>
+  </data>
+  <data name="Select3MenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="&gt;&gt;OutputIOGroupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;InputIOGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;InputIOImageList.Name" xml:space="preserve">
+    <value>InputIOImageList</value>
+  </data>
+  <data name="Select2MenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Remove4MenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="&gt;&gt;ColumnInputIOState.Name" xml:space="preserve">
+    <value>ColumnInputIOState</value>
+  </data>
+  <data name="&gt;&gt;CloseButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ColumnOutputIOOnOff.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Select3MenuItem.Text" xml:space="preserve">
+    <value>Select to Channel 3</value>
+  </data>
+  <data name="&gt;&gt;lblInputIO.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ColumnInputIODesc.Width" type="System.Int32, mscorlib">
+    <value>240</value>
+  </data>
+  <data name="&gt;&gt;InputIOImageList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dc_CardNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ColumnOutputIOChannel.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;OutputIODataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ModuleRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;WantIODiagnosticCheckBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="OutputIOComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;Select3MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Select4MenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="ColumnInputIOChannel.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;ColumnInputIOBit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WantIODiagnosticCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 584</value>
+  </data>
+  <data name="ColumnOutputIOState.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;OutputIOComboBox.Parent" xml:space="preserve">
+    <value>OutputIOGroupBox</value>
+  </data>
+  <data name="Select3MenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;ColumnOutputIONumber.Name" xml:space="preserve">
+    <value>ColumnOutputIONumber</value>
+  </data>
+  <data name="&gt;&gt;Remove1MenuItem.Name" xml:space="preserve">
+    <value>Remove1MenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnOutputIOState.Name" xml:space="preserve">
+    <value>ColumnOutputIOState</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnOutputIODesc.Name" xml:space="preserve">
+    <value>ColumnOutputIODesc</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 6</value>
+  </data>
+  <data name="CardRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>521, 563</value>
+  </data>
+  <data name="ColumnOutputIOUserGroup.HeaderText" xml:space="preserve">
+    <value>User Group</value>
+  </data>
+  <data name="&gt;&gt;CardRadioButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;InputIODataGridView.Name" xml:space="preserve">
+    <value>InputIODataGridView</value>
+  </data>
+  <data name="Select1MenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="IODiagnosticButton.Text" xml:space="preserve">
+    <value>Diagnostic</value>
+  </data>
+  <data name="ColumnOutputIOUserGroup.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Remove4MenuItem.Name" xml:space="preserve">
+    <value>Remove4MenuItem</value>
+  </data>
+  <data name="CloseButton.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="SynchronizeCheckBox.Text" xml:space="preserve">
+    <value>Synchronize Input and Output IO</value>
+  </data>
+  <data name="&gt;&gt;ColumnOutputIOChannel.Name" xml:space="preserve">
+    <value>ColumnOutputIOChannel</value>
+  </data>
+  <data name="OutputIODataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 482</value>
+  </data>
+  <data name="&gt;&gt;Remove3MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnInputIOChannel.Name" xml:space="preserve">
+    <value>ColumnInputIOChannel</value>
+  </data>
+  <data name="&gt;&gt;Select2MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ModuleRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 563</value>
+  </data>
+  <data name="&gt;&gt;InputIODataGridView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ColumnOutputIOBit.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="Remove4MenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;Remove3MenuItem.Name" xml:space="preserve">
+    <value>Remove3MenuItem</value>
+  </data>
+  <data name="Remove3MenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="lblInputIO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 22</value>
+  </data>
+  <data name="&gt;&gt;OutputIOTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnOutputIONumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Remove1MenuItem.Text" xml:space="preserve">
+    <value>Remove from Channel 1</value>
+  </data>
+  <data name="Remove2MenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="OutputIOComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;Select2MenuItem.Name" xml:space="preserve">
+    <value>Select2MenuItem</value>
+  </data>
+  <data name="&gt;&gt;WantIODiagnosticCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="IODiagnosticButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ColumnInputIOBit.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="CardRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 24</value>
+  </data>
+  <data name="IOContextMenuStrip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;ColumnInputIOOnOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OutputIOComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 30</value>
+  </data>
+  <data name="lblInputIO.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IODiagnosticButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK6QAA
+        CukB/XXO0wAABXRJREFUWEfNl1tsVFUUhncRBEqBQYGWi7SggJRbR+hcO6VTeqMgt6FYpkXLUBSwgQIt
+        BUql3APlEhoaMqUt9MKDCcYYNWiiiYJWo8gDxoAJRqAaNSjGaPSBxN9/nTkDp2fmwRcmnOTL2WvNPmf/
+        s/Zaa8+oR+mKizH6depeAbmogkBMaPzzkqq+VMSVB5M+IuBi8DIQC6o+AjxvUMS+7z7n4hkhEVQlH6j9
+        d2LDiX9CkVCqkozVBPjepePYX7Gh6V5YQAOZqAmIb6FDnLFEqRNksiYg3eGC3WaDw+GAw+6ALZ3YCG2N
+        sE/uRjs8T8cx2wm3OwPZXi/ycvNQmF+IRQsXwefzobjYD7+/BCUlpWEBjfcFOJ1OcTzAZhiHyTLZT5MB
+        Jp/5OYfJJqtXByIFuFyu3hPd5DGDLeTq9zjCxfu90gdMod5zzCLDzxioqKiIFOB2uHtPTDeMw2Tr934K
+        lk39kdadCDXd8LngMdlek02qq6ojBTjcDqgAJ5QRP6khJWQFKSY+3bc4ZCefHYrc7glQ62jPJ8+TPPIy
+        mauPM8lqIqJEiGBVqK2p/R8RMO9lkkL6hVEYML8vVIqC8/xY+L6cgvjSx6GcCtnnx2t+beuMzy0x2WTP
+        7j1RBLhMAkT1SIXEyngMXtlfe9GKb6Zh/H6LtqD/q+lYevFZpOy1YGRNAipv22EpH/Ag5H0V4nLisOEW
+        I8tvreWN/u6Gww2RApwsw/CD2n0OYQYvv5IK69kkJB+yoPxqGjznxmnbUnHNhpmtScjoegrpLaNRfSMD
+        WV2Mwjw+J8k7mlFqHYe9d/MwZssQqCH0DSR895EjRyIFWOc8B2XnhAIimfsK9/mgBeu+noUF703C4vcn
+        Yc5bKQh8ZsWIukFY9UkaEusSsOLSDJIG57lk1HzvxYhDgzBu8zAtKjt6chG4Ykfhm6nae60NYzBxtwVV
+        J7ZGCpiUMwVlN6Zj+103dv7mQd3Pmaj/JQupnSOx+ZoLW7/18ABRqLvpRcbbySi4MBlqJ+1bOaj/MQ+q
+        SmHNZQe29nixrWcutv+Qg7IvHBhybCB2/TQPS7vTUP/rAqy97sS6U1HKcJZnNjgMNY5ZRKpBEpF21c1M
+        lHxohXpRYeNVD3bczsGMg6O1cNffKcA2ilDTOJdh1ypIknEiYQ7JdjX8sQxN//qhFtGOV2g83RgpwGXX
+        c6APkXs+6U8SFYo/tmLqziTt5b53ZuLo30tgWTlQazqVPdko/dQGNUp/TkpS7mG4aHl3Joo+SNfeJb72
+        M+2RAtxOUxUYG8gThM1HLVOwH01BECWhBjRbwdX8DCZvpriw8EL9HmYhGU4kGrqv42xHpIAsb1Yo+aSB
+        SAVs0MfSWkWMJOgmheGvJWDT77mhhaRJyTeWkpXOKeW2hsh2yDZOJeUklcwkM8gYRqA1SgTy8/KhEjjB
+        QqRclhJRLuUzlMh2SGccRpKJzBVxMpb5g3TfciLRkrGUtHTRsC1zGIGoWyBHpnx4H/mG5sNIXma02ZDU
+        kyafCDfaL5hs0t4eRUBRUVHviQuIKDf6VprsDGLYWw3mSS+71GSTqAJK/fyRYJwoDcloC9EiIFti9Jkj
+        YH6GdJyJkoRl/rJQG5VTT062CiIZLFshfjnh2B21fZdjWRKPfUFLXElQ6R+SiC+RNMIK0SpF5khSSgKK
+        zZw52XwyUkBgVQDrA+uxZe0W1FTUoHZjLXZV78KB2gM4XH8Yx/cdR9OhJgSPB9F2sg2dwU50tHSgq7kL
+        nac7Q7SQZn1sRj4jbcE2tLa0hgXovwn3XK/THLEk69XXufg+MoGw1SgeuErtJ6JKQvMwkTVkLVlT1mbF
+        KhaU4i89LSQxQdaSNWXt+1e0P5APk0fhUuo/t82yHXA9r+MAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="CardRadioButton.Text" xml:space="preserve">
+    <value>Group By Card</value>
+  </data>
+  <data name="InputIOComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="OutputIOComboBox.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1014, 617</value>
+  </data>
+  <data name="&gt;&gt;Select3MenuItem.Name" xml:space="preserve">
+    <value>Select3MenuItem</value>
+  </data>
+  <data name="IOContextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 186</value>
+  </data>
+  <data name="InputIOComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;ModuleRadioButton.Type" xml:space="preserve">
+    <value>SRMControl.SRMRadioButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ColumnInputIONumber.Name" xml:space="preserve">
+    <value>ColumnInputIONumber</value>
+  </data>
+  <data name="lblInputIO.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblInputIO.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dc_CardNo.Name" xml:space="preserve">
+    <value>dc_CardNo</value>
+  </data>
+  <data name="ColumnOutputIODesc.Width" type="System.Int32, mscorlib">
+    <value>240</value>
+  </data>
+  <data name="&gt;&gt;WantIODiagnosticCheckBox.Name" xml:space="preserve">
+    <value>WantIODiagnosticCheckBox</value>
+  </data>
+  <data name="lblOutputIO.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;IOContextMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="InputIOComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="&gt;&gt;ColumnInputIOOnOff.Name" xml:space="preserve">
+    <value>ColumnInputIOOnOff</value>
+  </data>
+  <data name="CloseButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>887, 553</value>
+  </data>
+  <data name="IODiagnosticButton.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="CloseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 55</value>
+  </data>
+  <data name="OutputIODataGridView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;OutputIOComboBox.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ColumnOutputIOUserGroup.Name" xml:space="preserve">
+    <value>ColumnOutputIOUserGroup</value>
+  </data>
+  <data name="&gt;&gt;InputIOComboBox.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="InputIODataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 482</value>
+  </data>
+  <data name="InputIOGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Select1MenuItem.Name" xml:space="preserve">
+    <value>Select1MenuItem</value>
+  </data>
+  <data name="Select2MenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="&gt;&gt;IODiagnosticButton.Name" xml:space="preserve">
+    <value>IODiagnosticButton</value>
+  </data>
+  <data name="&gt;&gt;SynchronizeCheckBox.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="InputIODataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ColumnOutputIODesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InputIOComboBox.Parent" xml:space="preserve">
+    <value>InputIOGroupBox</value>
+  </data>
+  <data name="&gt;&gt;SynchronizeCheckBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Select1MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblOutputIO.Text" xml:space="preserve">
+    <value>Module :</value>
+  </data>
+  <data name="ColumnOutputIOOnOff.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;InputIOGroupBox.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="SynchronizeCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;ModuleRadioButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Select4MenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="OutputIOGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <metadata name="ColumnInputIODesc.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnInputIONumber.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnInputIOBit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnOutputIOUserGroup.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnInputIOChannel.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnOutputIONumber.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnOutputIOBit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dc_CardNo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>84</value>
+  </metadata>
+  <metadata name="InputIOImageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>278, 12</value>
+  </metadata>
+  <metadata name="IOContextMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>573, 16</value>
+  </metadata>
+  <metadata name="ColumnOutputIOOnOff.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="InputIOTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>22, 14</value>
+  </metadata>
+  <metadata name="OutputIOImageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>417, 12</value>
+  </metadata>
+  <metadata name="ColumnOutputIODesc.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnInputIOOnOff.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnOutputIOChannel.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="OutputIOTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>141, 14</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnOutputIOState.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnInputIOState.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

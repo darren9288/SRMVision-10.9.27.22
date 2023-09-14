@@ -1,0 +1,2481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_Title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold, Underline</value>
+  </data>
+  <data name="lbl_Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 11</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_Title.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 30</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_Title.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lbl_Title.Text" xml:space="preserve">
+    <value>Calibration Camera Settings</value>
+  </data>
+  <data name="lbl_Title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.Name" xml:space="preserve">
+    <value>lbl_Title</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label41.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 42</value>
+  </data>
+  <data name="label41.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="label41.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label41.Text" xml:space="preserve">
+    <value>Camera Gain</value>
+  </data>
+  <data name="&gt;&gt;label41.Name" xml:space="preserve">
+    <value>label41</value>
+  </data>
+  <data name="&gt;&gt;label41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label41.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;label41.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label42.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 105</value>
+  </data>
+  <data name="label42.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="label42.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>Shutter </value>
+  </data>
+  <data name="&gt;&gt;label42.Name" xml:space="preserve">
+    <value>label42</value>
+  </data>
+  <data name="&gt;&gt;label42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label42.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;label42.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btn_Cancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="btn_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 258</value>
+  </data>
+  <data name="btn_Cancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 31</value>
+  </data>
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_Save.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="btn_Save.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 258</value>
+  </data>
+  <data name="btn_Save.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 31</value>
+  </data>
+  <data name="btn_Save.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Name" xml:space="preserve">
+    <value>btn_Save</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="srmLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 105</value>
+  </data>
+  <data name="srmLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 16</value>
+  </data>
+  <data name="srmLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="srmLabel3.Text" xml:space="preserve">
+    <value>% </value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Name" xml:space="preserve">
+    <value>srmLabel3</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Image1Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Image1Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image1Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 74</value>
+  </data>
+  <data name="lbl_Image1Label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image1Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lbl_Image1Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="lbl_Image1Label1.Text" xml:space="preserve">
+    <value>(0-255) </value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label1.Name" xml:space="preserve">
+    <value>lbl_Image1Label1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label1.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="srmLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 42</value>
+  </data>
+  <data name="srmLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="srmLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="srmLabel4.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Name" xml:space="preserve">
+    <value>srmLabel4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txt_Image1Light1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 72</value>
+  </data>
+  <data name="txt_Image1Light1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Image1Light1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_Image1Light1.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light1.Name" xml:space="preserve">
+    <value>txt_Image1Light1</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light1.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="txt_CameraGain1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 40</value>
+  </data>
+  <data name="txt_CameraGain1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_CameraGain1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_CameraGain1.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGain1.Name" xml:space="preserve">
+    <value>txt_CameraGain1</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGain1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGain1.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGain1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lbl_Image1Light1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image1Light1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 72</value>
+  </data>
+  <data name="lbl_Image1Light1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image1Light1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 13</value>
+  </data>
+  <data name="lbl_Image1Light1.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="lbl_Image1Light1.Text" xml:space="preserve">
+    <value>Strobe Intensity</value>
+  </data>
+  <data name="lbl_Image1Light1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light1.Name" xml:space="preserve">
+    <value>lbl_Image1Light1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light1.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label4.Name" xml:space="preserve">
+    <value>lbl_Image1Label4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label4.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light4.Name" xml:space="preserve">
+    <value>txt_Image1Light4</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light4.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light4.Name" xml:space="preserve">
+    <value>lbl_Image1Light4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light4.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label3.Name" xml:space="preserve">
+    <value>lbl_Image1Label3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label3.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light3.Name" xml:space="preserve">
+    <value>txt_Image1Light3</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light3.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light3.Name" xml:space="preserve">
+    <value>lbl_Image1Light3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light3.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label2.Name" xml:space="preserve">
+    <value>lbl_Image1Label2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light2.Name" xml:space="preserve">
+    <value>txt_Image1Light2</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light2.Name" xml:space="preserve">
+    <value>lbl_Image1Light2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Name" xml:space="preserve">
+    <value>srmLabel5</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter1.Name" xml:space="preserve">
+    <value>txt_CameraShutter1</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter1.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="tp_GrabSetting1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tp_GrabSetting1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tp_GrabSetting1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tp_GrabSetting1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 171</value>
+  </data>
+  <data name="tp_GrabSetting1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tp_GrabSetting1.Text" xml:space="preserve">
+    <value>Grab 1</value>
+  </data>
+  <data name="&gt;&gt;tp_GrabSetting1.Name" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;tp_GrabSetting1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tp_GrabSetting1.Parent" xml:space="preserve">
+    <value>tabCtrl_Camera</value>
+  </data>
+  <data name="&gt;&gt;tp_GrabSetting1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label4.Name" xml:space="preserve">
+    <value>lbl_Image2Label4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label4.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light4.Name" xml:space="preserve">
+    <value>txt_Image2Light4</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light4.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light4.Name" xml:space="preserve">
+    <value>lbl_Image2Light4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light4.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label3.Name" xml:space="preserve">
+    <value>lbl_Image2Label3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label3.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light3.Name" xml:space="preserve">
+    <value>txt_Image2Light3</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light3.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light3.Name" xml:space="preserve">
+    <value>lbl_Image2Light3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light3.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label2.Name" xml:space="preserve">
+    <value>lbl_Image2Label2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light2.Name" xml:space="preserve">
+    <value>txt_Image2Light2</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light2.Name" xml:space="preserve">
+    <value>lbl_Image2Light2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Name" xml:space="preserve">
+    <value>srmLabel7</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label1.Name" xml:space="preserve">
+    <value>lbl_Image2Label1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label1.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGain2.Name" xml:space="preserve">
+    <value>txt_CameraGain2</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGain2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGain2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGain2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Name" xml:space="preserve">
+    <value>srmLabel9</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter2.Name" xml:space="preserve">
+    <value>txt_CameraShutter2</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light1.Name" xml:space="preserve">
+    <value>txt_Image2Light1</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light1.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light1.Name" xml:space="preserve">
+    <value>lbl_Image2Light1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light1.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="tp_GrabSetting2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tp_GrabSetting2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 171</value>
+  </data>
+  <data name="tp_GrabSetting2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tp_GrabSetting2.Text" xml:space="preserve">
+    <value>Grab 2</value>
+  </data>
+  <data name="&gt;&gt;tp_GrabSetting2.Name" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;tp_GrabSetting2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tp_GrabSetting2.Parent" xml:space="preserve">
+    <value>tabCtrl_Camera</value>
+  </data>
+  <data name="&gt;&gt;tp_GrabSetting2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Image3Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Image3Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image3Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 147</value>
+  </data>
+  <data name="lbl_Image3Label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image3Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lbl_Image3Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="lbl_Image3Label4.Text" xml:space="preserve">
+    <value>(0-255) </value>
+  </data>
+  <data name="lbl_Image3Label4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Label4.Name" xml:space="preserve">
+    <value>lbl_Image3Label4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Label4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Label4.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Label4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_Image3Light4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 145</value>
+  </data>
+  <data name="txt_Image3Light4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Image3Light4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_Image3Light4.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="txt_Image3Light4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_Image3Light4.Name" xml:space="preserve">
+    <value>txt_Image3Light4</value>
+  </data>
+  <data name="&gt;&gt;txt_Image3Light4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image3Light4.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;txt_Image3Light4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Image3Light4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image3Light4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 141</value>
+  </data>
+  <data name="lbl_Image3Light4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image3Light4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 20</value>
+  </data>
+  <data name="lbl_Image3Light4.TabIndex" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="lbl_Image3Light4.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="lbl_Image3Light4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_Image3Light4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Light4.Name" xml:space="preserve">
+    <value>lbl_Image3Light4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Light4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Light4.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Light4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_Image3Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Image3Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image3Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 122</value>
+  </data>
+  <data name="lbl_Image3Label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image3Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lbl_Image3Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="lbl_Image3Label3.Text" xml:space="preserve">
+    <value>(0-255) </value>
+  </data>
+  <data name="lbl_Image3Label3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Label3.Name" xml:space="preserve">
+    <value>lbl_Image3Label3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Label3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Label3.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_Image3Light3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 120</value>
+  </data>
+  <data name="txt_Image3Light3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Image3Light3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_Image3Light3.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="txt_Image3Light3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_Image3Light3.Name" xml:space="preserve">
+    <value>txt_Image3Light3</value>
+  </data>
+  <data name="&gt;&gt;txt_Image3Light3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image3Light3.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;txt_Image3Light3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_Image3Light3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image3Light3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 120</value>
+  </data>
+  <data name="lbl_Image3Light3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image3Light3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 13</value>
+  </data>
+  <data name="lbl_Image3Light3.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="lbl_Image3Light3.Text" xml:space="preserve">
+    <value>Strobe Intensity</value>
+  </data>
+  <data name="lbl_Image3Light3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_Image3Light3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Light3.Name" xml:space="preserve">
+    <value>lbl_Image3Light3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Light3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Light3.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Light3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl_Image3Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Image3Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image3Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 98</value>
+  </data>
+  <data name="lbl_Image3Label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image3Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lbl_Image3Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="lbl_Image3Label2.Text" xml:space="preserve">
+    <value>(0-255) </value>
+  </data>
+  <data name="lbl_Image3Label2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Label2.Name" xml:space="preserve">
+    <value>lbl_Image3Label2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Label2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Label2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txt_Image3Light2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 96</value>
+  </data>
+  <data name="txt_Image3Light2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Image3Light2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_Image3Light2.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="txt_Image3Light2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_Image3Light2.Name" xml:space="preserve">
+    <value>txt_Image3Light2</value>
+  </data>
+  <data name="&gt;&gt;txt_Image3Light2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image3Light2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;txt_Image3Light2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbl_Image3Light2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image3Light2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 96</value>
+  </data>
+  <data name="lbl_Image3Light2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image3Light2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 13</value>
+  </data>
+  <data name="lbl_Image3Light2.TabIndex" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="lbl_Image3Light2.Text" xml:space="preserve">
+    <value>Strobe Intensity</value>
+  </data>
+  <data name="lbl_Image3Light2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_Image3Light2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Light2.Name" xml:space="preserve">
+    <value>lbl_Image3Light2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Light2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Light2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Light2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="srmLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 15</value>
+  </data>
+  <data name="srmLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="srmLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="srmLabel8.Text" xml:space="preserve">
+    <value>% </value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Name" xml:space="preserve">
+    <value>srmLabel8</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbl_Image3Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Image3Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image3Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 74</value>
+  </data>
+  <data name="lbl_Image3Label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image3Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lbl_Image3Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="lbl_Image3Label1.Text" xml:space="preserve">
+    <value>(0-255) </value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Label1.Name" xml:space="preserve">
+    <value>lbl_Image3Label1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Label1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Label1.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Label1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txt_CameraGain3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 40</value>
+  </data>
+  <data name="txt_CameraGain3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_CameraGain3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_CameraGain3.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGain3.Name" xml:space="preserve">
+    <value>txt_CameraGain3</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGain3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGain3.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGain3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="srmLabel11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 42</value>
+  </data>
+  <data name="srmLabel11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="srmLabel11.TabIndex" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="srmLabel11.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Name" xml:space="preserve">
+    <value>srmLabel11</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txt_CameraShutter3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 11</value>
+  </data>
+  <data name="txt_CameraShutter3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_CameraShutter3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_CameraShutter3.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter3.Name" xml:space="preserve">
+    <value>txt_CameraShutter3</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter3.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 42</value>
+  </data>
+  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Camera Gain</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 15</value>
+  </data>
+  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Shutter </value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="txt_Image3Light1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 72</value>
+  </data>
+  <data name="txt_Image3Light1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Image3Light1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_Image3Light1.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="&gt;&gt;txt_Image3Light1.Name" xml:space="preserve">
+    <value>txt_Image3Light1</value>
+  </data>
+  <data name="&gt;&gt;txt_Image3Light1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image3Light1.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;txt_Image3Light1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lbl_Image3Light1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image3Light1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 72</value>
+  </data>
+  <data name="lbl_Image3Light1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image3Light1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 13</value>
+  </data>
+  <data name="lbl_Image3Light1.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="lbl_Image3Light1.Text" xml:space="preserve">
+    <value>Strobe Intensity</value>
+  </data>
+  <data name="lbl_Image3Light1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Light1.Name" xml:space="preserve">
+    <value>lbl_Image3Light1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Light1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Light1.Parent" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image3Light1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="tp_GrabSetting3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tp_GrabSetting3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tp_GrabSetting3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 171</value>
+  </data>
+  <data name="tp_GrabSetting3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tp_GrabSetting3.Text" xml:space="preserve">
+    <value>Grab 3</value>
+  </data>
+  <data name="&gt;&gt;tp_GrabSetting3.Name" xml:space="preserve">
+    <value>tp_GrabSetting3</value>
+  </data>
+  <data name="&gt;&gt;tp_GrabSetting3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tp_GrabSetting3.Parent" xml:space="preserve">
+    <value>tabCtrl_Camera</value>
+  </data>
+  <data name="&gt;&gt;tp_GrabSetting3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabCtrl_Camera.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="tabCtrl_Camera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 53</value>
+  </data>
+  <data name="tabCtrl_Camera.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabCtrl_Camera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 197</value>
+  </data>
+  <data name="tabCtrl_Camera.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;tabCtrl_Camera.Name" xml:space="preserve">
+    <value>tabCtrl_Camera</value>
+  </data>
+  <data name="&gt;&gt;tabCtrl_Camera.Type" xml:space="preserve">
+    <value>SRMControl.SRMTabControl, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabCtrl_Camera.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabCtrl_Camera.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_Image1Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Image1Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image1Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 147</value>
+  </data>
+  <data name="lbl_Image1Label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image1Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lbl_Image1Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="lbl_Image1Label4.Text" xml:space="preserve">
+    <value>(0-255) </value>
+  </data>
+  <data name="lbl_Image1Label4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label4.Name" xml:space="preserve">
+    <value>lbl_Image1Label4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label4.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_Image1Light4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 145</value>
+  </data>
+  <data name="txt_Image1Light4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Image1Light4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_Image1Light4.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="txt_Image1Light4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light4.Name" xml:space="preserve">
+    <value>txt_Image1Light4</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light4.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Image1Light4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image1Light4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 141</value>
+  </data>
+  <data name="lbl_Image1Light4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image1Light4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 20</value>
+  </data>
+  <data name="lbl_Image1Light4.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="lbl_Image1Light4.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="lbl_Image1Light4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_Image1Light4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light4.Name" xml:space="preserve">
+    <value>lbl_Image1Light4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light4.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_Image1Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Image1Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image1Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 122</value>
+  </data>
+  <data name="lbl_Image1Label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image1Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lbl_Image1Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="lbl_Image1Label3.Text" xml:space="preserve">
+    <value>(0-255) </value>
+  </data>
+  <data name="lbl_Image1Label3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label3.Name" xml:space="preserve">
+    <value>lbl_Image1Label3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label3.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_Image1Light3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 120</value>
+  </data>
+  <data name="txt_Image1Light3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Image1Light3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_Image1Light3.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="txt_Image1Light3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light3.Name" xml:space="preserve">
+    <value>txt_Image1Light3</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light3.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_Image1Light3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image1Light3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 120</value>
+  </data>
+  <data name="lbl_Image1Light3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image1Light3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 13</value>
+  </data>
+  <data name="lbl_Image1Light3.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="lbl_Image1Light3.Text" xml:space="preserve">
+    <value>Strobe Intensity</value>
+  </data>
+  <data name="lbl_Image1Light3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_Image1Light3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light3.Name" xml:space="preserve">
+    <value>lbl_Image1Light3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light3.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl_Image1Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Image1Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image1Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 98</value>
+  </data>
+  <data name="lbl_Image1Label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image1Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lbl_Image1Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="lbl_Image1Label2.Text" xml:space="preserve">
+    <value>(0-255) </value>
+  </data>
+  <data name="lbl_Image1Label2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label2.Name" xml:space="preserve">
+    <value>lbl_Image1Label2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Label2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txt_Image1Light2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 96</value>
+  </data>
+  <data name="txt_Image1Light2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Image1Light2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_Image1Light2.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="txt_Image1Light2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light2.Name" xml:space="preserve">
+    <value>txt_Image1Light2</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;txt_Image1Light2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl_Image1Light2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image1Light2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 96</value>
+  </data>
+  <data name="lbl_Image1Light2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image1Light2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 13</value>
+  </data>
+  <data name="lbl_Image1Light2.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="lbl_Image1Light2.Text" xml:space="preserve">
+    <value>Strobe Intensity</value>
+  </data>
+  <data name="lbl_Image1Light2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_Image1Light2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light2.Name" xml:space="preserve">
+    <value>lbl_Image1Light2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image1Light2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="srmLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 15</value>
+  </data>
+  <data name="srmLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="srmLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="srmLabel5.Text" xml:space="preserve">
+    <value>% </value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Name" xml:space="preserve">
+    <value>srmLabel5</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txt_CameraShutter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 11</value>
+  </data>
+  <data name="txt_CameraShutter1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_CameraShutter1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_CameraShutter1.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter1.Name" xml:space="preserve">
+    <value>txt_CameraShutter1</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter1.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 15</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Shutter </value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tp_GrabSetting1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lbl_Image2Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Image2Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image2Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 147</value>
+  </data>
+  <data name="lbl_Image2Label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image2Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lbl_Image2Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="lbl_Image2Label4.Text" xml:space="preserve">
+    <value>(0-255) </value>
+  </data>
+  <data name="lbl_Image2Label4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label4.Name" xml:space="preserve">
+    <value>lbl_Image2Label4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label4.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_Image2Light4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 145</value>
+  </data>
+  <data name="txt_Image2Light4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Image2Light4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_Image2Light4.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="txt_Image2Light4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light4.Name" xml:space="preserve">
+    <value>txt_Image2Light4</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light4.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Image2Light4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image2Light4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 141</value>
+  </data>
+  <data name="lbl_Image2Light4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image2Light4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 20</value>
+  </data>
+  <data name="lbl_Image2Light4.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="lbl_Image2Light4.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="lbl_Image2Light4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_Image2Light4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light4.Name" xml:space="preserve">
+    <value>lbl_Image2Light4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light4.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_Image2Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Image2Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image2Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 122</value>
+  </data>
+  <data name="lbl_Image2Label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image2Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lbl_Image2Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="lbl_Image2Label3.Text" xml:space="preserve">
+    <value>(0-255) </value>
+  </data>
+  <data name="lbl_Image2Label3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label3.Name" xml:space="preserve">
+    <value>lbl_Image2Label3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label3.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_Image2Light3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 120</value>
+  </data>
+  <data name="txt_Image2Light3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Image2Light3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_Image2Light3.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="txt_Image2Light3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light3.Name" xml:space="preserve">
+    <value>txt_Image2Light3</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light3.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_Image2Light3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image2Light3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 120</value>
+  </data>
+  <data name="lbl_Image2Light3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image2Light3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 13</value>
+  </data>
+  <data name="lbl_Image2Light3.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="lbl_Image2Light3.Text" xml:space="preserve">
+    <value>Strobe Intensity</value>
+  </data>
+  <data name="lbl_Image2Light3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_Image2Light3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light3.Name" xml:space="preserve">
+    <value>lbl_Image2Light3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light3.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl_Image2Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Image2Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image2Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 98</value>
+  </data>
+  <data name="lbl_Image2Label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image2Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lbl_Image2Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="lbl_Image2Label2.Text" xml:space="preserve">
+    <value>(0-255) </value>
+  </data>
+  <data name="lbl_Image2Label2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label2.Name" xml:space="preserve">
+    <value>lbl_Image2Label2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txt_Image2Light2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 96</value>
+  </data>
+  <data name="txt_Image2Light2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Image2Light2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_Image2Light2.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="txt_Image2Light2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light2.Name" xml:space="preserve">
+    <value>txt_Image2Light2</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbl_Image2Light2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image2Light2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 96</value>
+  </data>
+  <data name="lbl_Image2Light2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image2Light2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 13</value>
+  </data>
+  <data name="lbl_Image2Light2.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="lbl_Image2Light2.Text" xml:space="preserve">
+    <value>Strobe Intensity</value>
+  </data>
+  <data name="lbl_Image2Light2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_Image2Light2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light2.Name" xml:space="preserve">
+    <value>lbl_Image2Light2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="srmLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 15</value>
+  </data>
+  <data name="srmLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="srmLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="srmLabel7.Text" xml:space="preserve">
+    <value>% </value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Name" xml:space="preserve">
+    <value>srmLabel7</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbl_Image2Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Image2Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image2Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 74</value>
+  </data>
+  <data name="lbl_Image2Label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image2Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lbl_Image2Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="lbl_Image2Label1.Text" xml:space="preserve">
+    <value>(0-255) </value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label1.Name" xml:space="preserve">
+    <value>lbl_Image2Label1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label1.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Label1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txt_CameraGain2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 40</value>
+  </data>
+  <data name="txt_CameraGain2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_CameraGain2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_CameraGain2.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGain2.Name" xml:space="preserve">
+    <value>txt_CameraGain2</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGain2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGain2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraGain2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="srmLabel9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 42</value>
+  </data>
+  <data name="srmLabel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="srmLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="srmLabel9.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Name" xml:space="preserve">
+    <value>srmLabel9</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txt_CameraShutter2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 11</value>
+  </data>
+  <data name="txt_CameraShutter2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_CameraShutter2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_CameraShutter2.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter2.Name" xml:space="preserve">
+    <value>txt_CameraShutter2</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter2.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;txt_CameraShutter2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 42</value>
+  </data>
+  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Camera Gain</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 15</value>
+  </data>
+  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Shutter </value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="txt_Image2Light1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 72</value>
+  </data>
+  <data name="txt_Image2Light1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_Image2Light1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="txt_Image2Light1.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light1.Name" xml:space="preserve">
+    <value>txt_Image2Light1</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light1.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;txt_Image2Light1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lbl_Image2Light1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Image2Light1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 72</value>
+  </data>
+  <data name="lbl_Image2Light1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Image2Light1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 13</value>
+  </data>
+  <data name="lbl_Image2Light1.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="lbl_Image2Light1.Text" xml:space="preserve">
+    <value>Strobe Intensity</value>
+  </data>
+  <data name="lbl_Image2Light1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light1.Name" xml:space="preserve">
+    <value>lbl_Image2Light1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light1.Parent" xml:space="preserve">
+    <value>tp_GrabSetting2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Image2Light1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>378, 302</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>600, 310</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CalibrationCameraSettings</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CalibrationCameraSettings</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

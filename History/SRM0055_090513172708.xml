@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+  <Lot>
+    <LotID description="Lot ID">SRM0055</LotID>
+    <OperatorID description="Operator ID">Suki45</OperatorID>
+    <RecipeID description="Recipe ID">Default</RecipeID>
+    <LotStartTime description="Lot Start Time">090513172708</LotStartTime>
+    <LotStopTime description="Lot Stop Time">20090514084630</LotStopTime>
+  </Lot>
+  <VisionFeature>
+    <VisionName description="Name">MarkOrient</VisionName>
+    <Total description="Total">0</Total>
+    <Pass description="Pass">0</Pass>
+    <Fail description="Fail Detail">
+      <Mark>0</Mark>
+      <Orient>0</Orient>
+    </Fail>
+  </VisionFeature>
+  <VisionFeature>
+    <VisionName description="Name">InPocket</VisionName>
+    <Total description="Total">0</Total>
+    <Pass description="Pass">0</Pass>
+    <Fail description="Fail Detail">
+      <Mark>0</Mark>
+      <Orient>0</Orient>
+    </Fail>
+  </VisionFeature>
+</Root>

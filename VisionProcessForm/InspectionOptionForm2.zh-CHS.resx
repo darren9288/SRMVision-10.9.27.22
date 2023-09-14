@@ -1,0 +1,909 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tp_Orient.Text" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="tp_Orient_ForMO.Text" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="tp_Mark.Text" xml:space="preserve">
+    <value>字模</value>
+  </data>
+  <data name="tp_PackageSimple.Text" xml:space="preserve">
+    <value>塑封体</value>
+  </data>
+  <data name="tp_OrientPad.Text" xml:space="preserve">
+    <value>衬垫方向</value>
+  </data>
+  <data name="tp_Pad.Text" xml:space="preserve">
+    <value>衬垫</value>
+  </data>
+  <data name="tp_PackagePadSimple.Text" xml:space="preserve">
+    <value>衬垫塑封体</value>
+  </data>
+  <data name="tp_Lead.Text" xml:space="preserve">
+    <value>管脚</value>
+  </data>
+  <data name="tp_Lead3D.Text" xml:space="preserve">
+    <value>管脚3D</value>
+  </data>
+  <data name="tp_Lead3DPkg.Text" xml:space="preserve">
+    <value>管脚3D 塑封体</value>
+  </data>
+  <data name="tp_ColorPad.Text" xml:space="preserve">
+    <value>衬垫颜色</value>
+  </data>
+  <data name="tp_ColorPackage.Text" xml:space="preserve">
+    <value>塑封体颜色</value>
+  </data>
+  <data name="chk_WantInspectOrientYTolerance.Text" xml:space="preserve">
+    <value>方向 Y 容许度</value>
+  </data>
+  <data name="chk_WantInspectOrientXTolerance.Text" xml:space="preserve">
+    <value>方向 X 容许度</value>
+  </data>
+  <data name="chk_WantInspectOrientAngleTolerance.Text" xml:space="preserve">
+    <value>方向角度容许度</value>
+  </data>
+  <data name="chk_InspectOrient_ForMO.Text" xml:space="preserve">
+    <value>检测方向</value>
+  </data>
+  <data name="chk_MarkAverageGrayValue.Text" xml:space="preserve">
+    <value>平均灰色值</value>
+  </data>
+  <data name="chk_BrokenMark.Text" xml:space="preserve">
+    <value>破损字模</value>
+  </data>
+  <data name="chk_MarkAngle.Text" xml:space="preserve">
+    <value>字模角度</value>
+  </data>
+  <data name="chk_TextShifted.Text" xml:space="preserve">
+    <value>字体偏移</value>
+  </data>
+  <data name="chk_JointMark.Text" xml:space="preserve">
+    <value>合并字模</value>
+  </data>
+  <data name="chk_MissingMark.Text" xml:space="preserve">
+    <value>缺少字模</value>
+  </data>
+  <data name="chk_GroupExtraMark.Text" xml:space="preserve">
+    <value>额外字模总面积</value>
+  </data>
+  <data name="chk_ExtraMarkUncheckArea.Text" xml:space="preserve">
+    <value>额外字模 (侧边范围)</value>
+  </data>
+  <data name="chk_ExtraMark.Text" xml:space="preserve">
+    <value>额外字模</value>
+  </data>
+  <data name="chk_GroupExcessMark.Text" xml:space="preserve">
+    <value>过量字模总面积</value>
+  </data>
+  <data name="chk_ExcessMarkCharArea.Text" xml:space="preserve">
+    <value>过量字模</value>
+  </data>
+  <data name="chk_CheckMark.Text" xml:space="preserve">
+    <value>视检 字模</value>
+  </data>
+  <data name="chk_SetAllTemplates.Text" xml:space="preserve">
+    <value>统一设定全部模板</value>
+  </data>
+  <data name="lbl_Template.Text" xml:space="preserve">
+    <value>模板</value>
+  </data>
+  <data name="lbl_PageLabel.Text" xml:space="preserve">
+    <value>字模设定</value>
+  </data>
+  <data name="chk_CheckChippedOffDark_Length.Text" xml:space="preserve">
+    <value>Chipped Off 暗色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_CheckChippedOffDark_Area.Text" xml:space="preserve">
+    <value>Chipped Off 暗色缺陷 (面积)</value>
+  </data>
+  <data name="chk_CheckChippedOffBright_Length.Text" xml:space="preserve">
+    <value>Chipped Off 亮色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_CheckChippedOffBright_Area.Text" xml:space="preserve">
+    <value>Chipped Off 亮色缺陷 (面积)</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chk_MoldFlashBrightFieldArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="chk_MoldFlashBrightFieldArea.Text" xml:space="preserve">
+    <value>Mold Flash 亮色缺陷 (面积)</value>
+  </data>
+  <data name="chk_CrackDarkFieldLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="chk_CrackDarkFieldLength.Text" xml:space="preserve">
+    <value>Crack 暗色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_CrackDarkFieldArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="chk_CrackDarkFieldArea.Text" xml:space="preserve">
+    <value>Crack 暗色缺陷 (面积)</value>
+  </data>
+  <data name="chk_DarkField4Length.Text" xml:space="preserve">
+    <value>暗色缺陷4 (长宽尺度)</value>
+  </data>
+  <data name="chk_DarkField4Area.Text" xml:space="preserve">
+    <value>暗色缺陷4 (面积)</value>
+  </data>
+  <data name="chk_DarkField3Length.Text" xml:space="preserve">
+    <value>暗色缺陷3 (长宽尺度)</value>
+  </data>
+  <data name="chk_DarkField3Area.Text" xml:space="preserve">
+    <value>暗色缺陷3 (面积)</value>
+  </data>
+  <data name="chk_VoidDarkFieldLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 343</value>
+  </data>
+  <data name="chk_VoidDarkFieldLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 24</value>
+  </data>
+  <data name="chk_VoidDarkFieldLength.Text" xml:space="preserve">
+    <value>Void 暗色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_VoidDarkFieldArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 318</value>
+  </data>
+  <data name="chk_VoidDarkFieldArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 24</value>
+  </data>
+  <data name="chk_VoidDarkFieldArea.Text" xml:space="preserve">
+    <value>Void 暗色缺陷 (面积)</value>
+  </data>
+  <data name="chk_DarkField2Length.Text" xml:space="preserve">
+    <value>暗色缺陷2 (长宽尺度)</value>
+  </data>
+  <data name="chk_DarkField2Area.Text" xml:space="preserve">
+    <value>暗色缺陷2 (面积)</value>
+  </data>
+  <data name="chk_DarkFieldLength.Text" xml:space="preserve">
+    <value>暗色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_DarkFieldArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="chk_DarkFieldArea.Text" xml:space="preserve">
+    <value>暗色缺陷 (面积)</value>
+  </data>
+  <data name="chk_BrightFieldLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="chk_BrightFieldLength.Text" xml:space="preserve">
+    <value>亮色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_BrightFieldArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="chk_BrightFieldArea.Text" xml:space="preserve">
+    <value>亮色缺陷 (面积)</value>
+  </data>
+  <data name="chk_InspectPackage2.Text" xml:space="preserve">
+    <value>视检 塑封体 缺陷</value>
+  </data>
+  <data name="chk_CheckPkgAngle.Text" xml:space="preserve">
+    <value>塑封体角度</value>
+  </data>
+  <data name="chk_CheckPkgSize2.Text" xml:space="preserve">
+    <value>视检 塑封体 尺寸</value>
+  </data>
+  <data name="chk_WantInspectOrientYTolerance_Pad.Text" xml:space="preserve">
+    <value>方向 Y 容许度</value>
+  </data>
+  <data name="chk_WantInspectOrientXTolerance_Pad.Text" xml:space="preserve">
+    <value>方向 X 容许度</value>
+  </data>
+  <data name="chk_WantInspectOrientAngleTolerance_Pad.Text" xml:space="preserve">
+    <value>方向角度容许度</value>
+  </data>
+  <data name="chk_CheckSpanY_SidePad.Text" xml:space="preserve">
+    <value>衬垫跨距Y</value>
+  </data>
+  <data name="chk_CheckSpanX_SidePad.Text" xml:space="preserve">
+    <value>衬垫跨距X</value>
+  </data>
+  <data name="chk_CheckEdgeDistance_SidePad.Text" xml:space="preserve">
+    <value>衬垫边缘距离</value>
+  </data>
+  <data name="chk_CheckStandOff_SidePad.Text" xml:space="preserve">
+    <value>衬垫站立度</value>
+  </data>
+  <data name="chk_CheckEdgeLimit_SidePad.Text" xml:space="preserve">
+    <value>衬垫边缘界限</value>
+  </data>
+  <data name="chk_CheckSmear_SidePad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 20</value>
+  </data>
+  <data name="chk_CheckSmear_SidePad.Text" xml:space="preserve">
+    <value>衬垫边缘漏铜（长度）</value>
+  </data>
+  <data name="chk_CheckForeignMaterialLength_SidePad.Text" xml:space="preserve">
+    <value>异物 / 污染 (长宽)</value>
+  </data>
+  <data name="chk_CheckForeignMaterialTotalArea_SidePad.Text" xml:space="preserve">
+    <value>异物 / 污染 (总面积)</value>
+  </data>
+  <data name="chk_CheckForeignMaterialArea_SidePad.Text" xml:space="preserve">
+    <value>异物 / 污染 (面积)</value>
+  </data>
+  <data name="chk_CheckBrokenLength_SidePad.Text" xml:space="preserve">
+    <value>衬垫破损 (长宽)</value>
+  </data>
+  <data name="chk_CheckBrokenArea_SidePad.Text" xml:space="preserve">
+    <value>衬垫破损 (面积)</value>
+  </data>
+  <data name="chk_CheckExcess_SidePad.Text" xml:space="preserve">
+    <value>衬垫外延/漏铜 （面积）</value>
+  </data>
+  <data name="chk_Gap_SidePad.Text" xml:space="preserve">
+    <value>衬垫间隔 / 间距</value>
+  </data>
+  <data name="chk_WidthHeight_SidePad.Text" xml:space="preserve">
+    <value>衬垫尺寸</value>
+  </data>
+  <data name="chk_Area_SidePad.Text" xml:space="preserve">
+    <value>衬垫面积</value>
+  </data>
+  <data name="chk_OffSet_SidePad.Text" xml:space="preserve">
+    <value>衬垫偏移</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 20</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>侧边衬垫:</value>
+  </data>
+  <data name="chk_CheckSpanY_Pad.Text" xml:space="preserve">
+    <value>衬垫跨距Y</value>
+  </data>
+  <data name="chk_CheckSpanX_Pad.Text" xml:space="preserve">
+    <value>衬垫跨距X</value>
+  </data>
+  <data name="chk_CheckEdgeDistance_Pad.Text" xml:space="preserve">
+    <value>衬垫边缘距离</value>
+  </data>
+  <data name="chk_CheckStandOff_Pad.Text" xml:space="preserve">
+    <value>衬垫站立度</value>
+  </data>
+  <data name="chk_CheckEdgeLimit_Pad.Text" xml:space="preserve">
+    <value>衬垫边缘界限</value>
+  </data>
+  <data name="chk_CheckSmear_Pad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 20</value>
+  </data>
+  <data name="chk_CheckSmear_Pad.Text" xml:space="preserve">
+    <value>衬垫边缘漏铜（长度）</value>
+  </data>
+  <data name="chk_CheckForeignMaterialLength_Pad.Text" xml:space="preserve">
+    <value>异物 / 污染 (长宽)</value>
+  </data>
+  <data name="chk_CheckForeignMaterialTotalArea_Pad.Text" xml:space="preserve">
+    <value>异物 / 污染 (总面积)</value>
+  </data>
+  <data name="chk_CheckForeignMaterialArea_Pad.Text" xml:space="preserve">
+    <value>异物 / 污染 (面积)</value>
+  </data>
+  <data name="chk_CheckBrokenLength_Pad.Text" xml:space="preserve">
+    <value>衬垫破损 (长宽)</value>
+  </data>
+  <data name="chk_CheckBrokenArea_Pad.Text" xml:space="preserve">
+    <value>衬垫破损 (面积)</value>
+  </data>
+  <data name="chk_CheckExcess_Pad.Text" xml:space="preserve">
+    <value>衬垫外延/漏铜 （面积）</value>
+  </data>
+  <data name="chk_Gap_Pad.Text" xml:space="preserve">
+    <value>衬垫间隔 / 间距</value>
+  </data>
+  <data name="chk_WidthHeight_Pad.Text" xml:space="preserve">
+    <value>衬垫尺寸</value>
+  </data>
+  <data name="chk_Area_Pad.Text" xml:space="preserve">
+    <value>衬垫面积</value>
+  </data>
+  <data name="chk_OffSet_Pad.Text" xml:space="preserve">
+    <value>衬垫偏移</value>
+  </data>
+  <data name="chk_InspectPad.Text" xml:space="preserve">
+    <value>检测衬垫</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 20</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>中部衬垫:</value>
+  </data>
+  <data name="chk_ForeignMaterialBrightFieldLength_SidePad.Text" xml:space="preserve">
+    <value>异物 / 污染 亮色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_ForeignMaterialBrightFieldArea_SidePad.Text" xml:space="preserve">
+    <value>异物 / 污染 亮色缺陷 (面积)</value>
+  </data>
+  <data name="chk_MoldFlashBrightFieldLength_SidePad.Text" xml:space="preserve">
+    <value>Mold Flash 亮色缺陷 (长宽尺度)</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chk_MoldFlashBrightFieldArea_SidePad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chk_MoldFlashBrightFieldArea_SidePad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_MoldFlashBrightFieldArea_SidePad.Text" xml:space="preserve">
+    <value>Mold Flash 亮色缺陷 (面积)</value>
+  </data>
+  <data name="chk_ChippedOffBrightFieldArea_SidePad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_ChippedOffBrightFieldArea_SidePad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_ChippedOffBrightFieldArea_SidePad.Text" xml:space="preserve">
+    <value>Chipped Off 亮色缺陷 (面积)</value>
+  </data>
+  <data name="chk_ChippedOffDarkFieldArea_SidePad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_ChippedOffDarkFieldArea_SidePad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_ChippedOffDarkFieldArea_SidePad.Text" xml:space="preserve">
+    <value>Chipped Off 暗色缺陷 (面积)</value>
+  </data>
+  <data name="chk_CrackDarkFieldLength_SidePad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_CrackDarkFieldLength_SidePad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_CrackDarkFieldLength_SidePad.Text" xml:space="preserve">
+    <value>Crack 暗色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_CrackDarkFieldArea_SidePad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_CrackDarkFieldArea_SidePad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_CrackDarkFieldArea_SidePad.Text" xml:space="preserve">
+    <value>Crack 暗色缺陷 (面积)</value>
+  </data>
+  <data name="chk_DarkFieldLength_SidePad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_DarkFieldLength_SidePad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_DarkFieldLength_SidePad.Text" xml:space="preserve">
+    <value>暗色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_DarkFieldArea_SidePad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_DarkFieldArea_SidePad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_DarkFieldArea_SidePad.Text" xml:space="preserve">
+    <value>暗色缺陷 (面积)</value>
+  </data>
+  <data name="chk_BrightFieldLength_SidePad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_BrightFieldLength_SidePad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_BrightFieldLength_SidePad.Text" xml:space="preserve">
+    <value>亮色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_BrightFieldArea_SidePad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_BrightFieldArea_SidePad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_BrightFieldArea_SidePad.Text" xml:space="preserve">
+    <value>亮色缺陷 (面积)</value>
+  </data>
+  <data name="chk_InspectPackage_SidePad2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_InspectPackage_SidePad2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 20</value>
+  </data>
+  <data name="chk_InspectPackage_SidePad2.Text" xml:space="preserve">
+    <value>视检 塑封体 缺陷</value>
+  </data>
+  <data name="chk_CheckPkgSize_SidePad2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_CheckPkgSize_SidePad2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 20</value>
+  </data>
+  <data name="chk_CheckPkgSize_SidePad2.Text" xml:space="preserve">
+    <value>视检 塑封体 尺寸</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 20</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>侧边塑封体:</value>
+  </data>
+  <data name="chk_ForeignMaterialBrightFieldLength_Pad.Text" xml:space="preserve">
+    <value>异物 / 污染 亮色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_ForeignMaterialBrightFieldArea_Pad.Text" xml:space="preserve">
+    <value>异物 / 污染 亮色缺陷 (面积)</value>
+  </data>
+  <data name="chk_MoldFlashBrightFieldLength_Pad.Text" xml:space="preserve">
+    <value>Mold Flash 亮色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_MoldFlashBrightFieldArea_Pad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_MoldFlashBrightFieldArea_Pad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_MoldFlashBrightFieldArea_Pad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="chk_MoldFlashBrightFieldArea_Pad.Text" xml:space="preserve">
+    <value>Mold Flash 亮色缺陷 (面积)</value>
+  </data>
+  <data name="chk_ChippedOffBrightFieldArea_Pad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_ChippedOffBrightFieldArea_Pad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_ChippedOffBrightFieldArea_Pad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="chk_ChippedOffBrightFieldArea_Pad.Text" xml:space="preserve">
+    <value>Chipped Off 亮色缺陷 (面积)</value>
+  </data>
+  <data name="chk_ChippedOffDarkFieldArea_Pad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_ChippedOffDarkFieldArea_Pad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_ChippedOffDarkFieldArea_Pad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="chk_ChippedOffDarkFieldArea_Pad.Text" xml:space="preserve">
+    <value>Chipped Off 暗色缺陷 (面积)</value>
+  </data>
+  <data name="chk_CrackDarkFieldLength_Pad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_CrackDarkFieldLength_Pad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_CrackDarkFieldLength_Pad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="chk_CrackDarkFieldLength_Pad.Text" xml:space="preserve">
+    <value>Crack 暗色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_CrackDarkFieldArea_Pad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_CrackDarkFieldArea_Pad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_CrackDarkFieldArea_Pad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="chk_CrackDarkFieldArea_Pad.Text" xml:space="preserve">
+    <value>Crack 暗色缺陷 (面积)</value>
+  </data>
+  <data name="chk_DarkFieldLength_Pad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_DarkFieldLength_Pad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_DarkFieldLength_Pad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="chk_DarkFieldLength_Pad.Text" xml:space="preserve">
+    <value>暗色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_DarkFieldArea_Pad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_DarkFieldArea_Pad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_DarkFieldArea_Pad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="chk_DarkFieldArea_Pad.Text" xml:space="preserve">
+    <value>暗色缺陷 (面积)</value>
+  </data>
+  <data name="chk_BrightFieldLength_Pad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_BrightFieldLength_Pad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_BrightFieldLength_Pad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="chk_BrightFieldLength_Pad.Text" xml:space="preserve">
+    <value>亮色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_BrightFieldArea_Pad.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_BrightFieldArea_Pad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_BrightFieldArea_Pad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 20</value>
+  </data>
+  <data name="chk_BrightFieldArea_Pad.Text" xml:space="preserve">
+    <value>亮色缺陷 (面积)</value>
+  </data>
+  <data name="chk_InspectPackage_Pad2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_InspectPackage_Pad2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 20</value>
+  </data>
+  <data name="chk_InspectPackage_Pad2.Text" xml:space="preserve">
+    <value>视检 塑封体 缺陷</value>
+  </data>
+  <data name="chk_CheckPkgSize_Pad2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_CheckPkgSize_Pad2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 20</value>
+  </data>
+  <data name="chk_CheckPkgSize_Pad2.Text" xml:space="preserve">
+    <value>视检 塑封体 尺寸</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 20</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>中部塑封体:</value>
+  </data>
+  <data name="chk_BaseLeadArea.Text" xml:space="preserve">
+    <value>Base管脚面积</value>
+  </data>
+  <data name="chk_BaseLeadOffset.Text" xml:space="preserve">
+    <value>Base管脚偏移</value>
+  </data>
+  <data name="chk_AverageGrayValue_Lead.Text" xml:space="preserve">
+    <value>管脚平均灰色值</value>
+  </data>
+  <data name="chk_CheckForeignMaterialLength_Lead.Text" xml:space="preserve">
+    <value>异物 / 污染 (长宽)</value>
+  </data>
+  <data name="chk_CheckForeignMaterialTotalArea_Lead.Text" xml:space="preserve">
+    <value>异物 / 污染 (总面积)</value>
+  </data>
+  <data name="chk_CheckForeignMaterialArea_Lead.Text" xml:space="preserve">
+    <value>异物 / 污染 (面积)</value>
+  </data>
+  <data name="chk_Span_Lead.Text" xml:space="preserve">
+    <value>管脚跨距</value>
+  </data>
+  <data name="chk_Variance_Lead.Text" xml:space="preserve">
+    <value>管脚尺寸方差</value>
+  </data>
+  <data name="chk_PitchGap_Lead.Text" xml:space="preserve">
+    <value>管脚间距 / 间隔</value>
+  </data>
+  <data name="chk_WidthHeight_Lead.Text" xml:space="preserve">
+    <value>管脚长度 / 宽度</value>
+  </data>
+  <data name="chk_OffSet_Lead.Text" xml:space="preserve">
+    <value>管脚偏移</value>
+  </data>
+  <data name="chk_Skew_Lead.Text" xml:space="preserve">
+    <value>管脚歪斜</value>
+  </data>
+  <data name="chk_InspectLead.Text" xml:space="preserve">
+    <value>视检管脚</value>
+  </data>
+  <data name="chk_LeadBurrWidth.Text" xml:space="preserve">
+    <value>管脚毛刺宽度</value>
+  </data>
+  <data name="chk_LeadMinAndMaxWidth_Lead3D.Text" xml:space="preserve">
+    <value>管脚最小和最大宽度</value>
+  </data>
+  <data name="chk_AverageGrayValue_Lead3D.Text" xml:space="preserve">
+    <value>管脚平均灰色值</value>
+  </data>
+  <data name="chk_CheckForeignMaterialLength_Lead3D.Text" xml:space="preserve">
+    <value>异物 / 污染 (长宽)</value>
+  </data>
+  <data name="chk_CheckForeignMaterialTotalArea_Lead3D.Text" xml:space="preserve">
+    <value>异物 / 污染 (总面积)</value>
+  </data>
+  <data name="chk_CheckForeignMaterialArea_Lead3D.Text" xml:space="preserve">
+    <value>异物 / 污染 (面积)</value>
+  </data>
+  <data name="chk_LeadSweeps_Lead3D.Text" xml:space="preserve">
+    <value>全管脚偏离</value>
+  </data>
+  <data name="chk_Span_Lead3D.Text" xml:space="preserve">
+    <value>跨距</value>
+  </data>
+  <data name="chk_Coplan_Lead3D.Text" xml:space="preserve">
+    <value>共面性</value>
+  </data>
+  <data name="chk_StandoffVariance_Lead3D.Text" xml:space="preserve">
+    <value>站立度方差</value>
+  </data>
+  <data name="chk_StandOff_Lead3D.Text" xml:space="preserve">
+    <value>站立度</value>
+  </data>
+  <data name="chk_PitchVariance_Lead3D.Text" xml:space="preserve">
+    <value>管脚间距方差</value>
+  </data>
+  <data name="chk_PitchGap_Lead3D.Text" xml:space="preserve">
+    <value>管脚间距 / 间隔</value>
+  </data>
+  <data name="chk_LengthVariance_Lead3D.Text" xml:space="preserve">
+    <value>管脚长度方差</value>
+  </data>
+  <data name="chk_Length_Lead3D.Text" xml:space="preserve">
+    <value>管脚长度</value>
+  </data>
+  <data name="chk_UnCutTiebar_Lead3D.Text" xml:space="preserve">
+    <value>未分离连杆</value>
+  </data>
+  <data name="chk_Width_Lead3D.Text" xml:space="preserve">
+    <value>管脚宽度</value>
+  </data>
+  <data name="chk_Offset_Lead3D.Text" xml:space="preserve">
+    <value>管脚偏移</value>
+  </data>
+  <data name="chk_Skew_Lead3D.Text" xml:space="preserve">
+    <value>管脚歪斜</value>
+  </data>
+  <data name="chk_MoldFlashBrightFieldArea_Lead3D.Text" xml:space="preserve">
+    <value>Mold Flash 亮色缺陷 (面积)</value>
+  </data>
+  <data name="chk_ChippedOffBrightFieldArea_Lead3D.Text" xml:space="preserve">
+    <value>Chipped Off 亮色缺陷 (面积)</value>
+  </data>
+  <data name="chk_ChippedOffDarkFieldArea_Lead3D.Text" xml:space="preserve">
+    <value>Chipped Off 暗色缺陷 (面积)</value>
+  </data>
+  <data name="chk_CrackDarkFieldLength_Lead3D.Text" xml:space="preserve">
+    <value>Crack 暗色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_CrackDarkFieldArea_Lead3D.Text" xml:space="preserve">
+    <value>Crack 暗色缺陷 (面积)</value>
+  </data>
+  <data name="chk_DarkFieldLength_Lead3D.Text" xml:space="preserve">
+    <value>暗色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_DarkFieldArea_Lead3D.Text" xml:space="preserve">
+    <value>暗色缺陷 (面积)</value>
+  </data>
+  <data name="chk_BrightFieldLength_Lead3D.Text" xml:space="preserve">
+    <value>亮色缺陷 (长宽尺度)</value>
+  </data>
+  <data name="chk_BrightFieldArea_Lead3D.Text" xml:space="preserve">
+    <value>亮色缺陷 (面积)</value>
+  </data>
+  <data name="chk_InspectPackage_Lead3D.Text" xml:space="preserve">
+    <value>视检塑封体缺陷</value>
+  </data>
+  <data name="chk_CheckPkgSize_Lead3D.Text" xml:space="preserve">
+    <value>视检塑封体尺寸</value>
+  </data>
+  <data name="chk_CheckSealEdgeStraightness.Text" xml:space="preserve">
+    <value>Seal边缘直线度</value>
+  </data>
+  <data name="chk_CheckSealSprocketHoleRoundness.Text" xml:space="preserve">
+    <value>Seal Sprocket Hole 圆度</value>
+  </data>
+  <data name="chk_CheckSealSprocketHoleBroken.Text" xml:space="preserve">
+    <value>Seal Sprocket Hole 破损</value>
+  </data>
+  <data name="chk_CheckSealSprocketHoleDefect.Text" xml:space="preserve">
+    <value>Seal Sprocket Hole 缺陷</value>
+  </data>
+  <data name="chk_CheckSealSprocketHoleDiameter.Text" xml:space="preserve">
+    <value>Seal Sprocket Hole 直徑</value>
+  </data>
+  <data name="chk_CheckSealSprocketHoleDistance.Text" xml:space="preserve">
+    <value>Seal Sprocket Hole 距离</value>
+  </data>
+  <data name="chk_CheckSealBroken.Text" xml:space="preserve">
+    <value>Seal破损间距</value>
+  </data>
+  <data name="chk_CheckSealBubble.Text" xml:space="preserve">
+    <value>Seal破损面积 / 气泡</value>
+  </data>
+  <data name="chk_CheckSealUnitOrient.Text" xml:space="preserve">
+    <value>检测元件取向</value>
+  </data>
+  <data name="chk_CheckSealUnitPresent.Text" xml:space="preserve">
+    <value>检测元件存在</value>
+  </data>
+  <data name="chk_CheckSealOverHeat.Text" xml:space="preserve">
+    <value>Seal过热 / 卷带划痕</value>
+  </data>
+  <data name="chk_CheckSealDistance.Text" xml:space="preserve">
+    <value>Seal距离</value>
+  </data>
+  <data name="chk_CheckSealWidth.Text" xml:space="preserve">
+    <value>Seal宽度</value>
+  </data>
+  <data name="chk_CheckSealShifted.Text" xml:space="preserve">
+    <value>Seal 偏移</value>
+  </data>
+  <data name="lbl_SidePadColor_Left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 20</value>
+  </data>
+  <data name="lbl_SidePadColor_Left.Text" xml:space="preserve">
+    <value>侧边颜色(左):</value>
+  </data>
+  <data name="lbl_SidePadColor_Bottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 20</value>
+  </data>
+  <data name="lbl_SidePadColor_Bottom.Text" xml:space="preserve">
+    <value>侧边颜色(下):</value>
+  </data>
+  <data name="lbl_SidePadColor_Right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 20</value>
+  </data>
+  <data name="lbl_SidePadColor_Right.Text" xml:space="preserve">
+    <value>侧边颜色(右):</value>
+  </data>
+  <data name="lbl_SidePadColor_Top.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 20</value>
+  </data>
+  <data name="lbl_SidePadColor_Top.Text" xml:space="preserve">
+    <value>侧边颜色(上):</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 20</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>中部颜色:</value>
+  </data>
+  <data name="lbl_Pin1ROI.Text" xml:space="preserve">
+    <value>视检选项</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>储存</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="btn_ControlSetting.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_ControlSetting.Text" xml:space="preserve">
+    <value>视检选项特别管控</value>
+  </data>
+</root>

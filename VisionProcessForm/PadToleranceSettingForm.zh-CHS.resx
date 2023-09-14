@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_SetDescription.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="lbl_SetDescription.Text" xml:space="preserve">
+    <value>*双击格子以设定最小/最大数值.</value>
+  </data>
+  <data name="btn_Close.Text" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="radioBtn_Middle.Text" xml:space="preserve">
+    <value>中间</value>
+  </data>
+  <data name="radioBtn_Down.Text" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="radioBtn_Left.Text" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="radioBtn_Up.Text" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="radioBtn_Right.Text" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn74.HeaderText" xml:space="preserve">
+    <value>最小</value>
+  </data>
+  <data name="column_Max.HeaderText" xml:space="preserve">
+    <value>最大</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn75.HeaderText" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="chk_DisplayGroupNo.Text" xml:space="preserve">
+    <value>显示组别号码</value>
+  </data>
+  <data name="btn_OffsetSetting.Text" xml:space="preserve">
+    <value>补偿值设置</value>
+  </data>
+  <data name="btn_SelectUseToleranceType.Text" xml:space="preserve">
+    <value>衬垫/组 设置</value>
+  </data>
+  <data name="btn_LoadTolFromFile.Text" xml:space="preserve">
+    <value>从文件加载容限</value>
+  </data>
+  <data name="chk_DisplayResult.Text" xml:space="preserve">
+    <value>显示结果</value>
+  </data>
+  <data name="btn_SaveTolToFile.Text" xml:space="preserve">
+    <value>储存容限到文件</value>
+  </data>
+  <data name="btn_UpdateTolerance.Text" xml:space="preserve">
+    <value>更新上限/下限容限</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>最大偏移值</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>偏移值</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>最大面积</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>最小宽度</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+    <value>最大宽度</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn9.HeaderText" xml:space="preserve">
+    <value>最小长度</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn10.HeaderText" xml:space="preserve">
+    <value>长度</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn11.HeaderText" xml:space="preserve">
+    <value>最大长度</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn12.HeaderText" xml:space="preserve">
+    <value>最小间距</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn13.HeaderText" xml:space="preserve">
+    <value>间距</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn14.HeaderText" xml:space="preserve">
+    <value>最大间距</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn15.HeaderText" xml:space="preserve">
+    <value>最小间隔</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn16.HeaderText" xml:space="preserve">
+    <value>间隔</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn17.HeaderText" xml:space="preserve">
+    <value>最大间隔</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn18.HeaderText" xml:space="preserve">
+    <value>最大破损面积</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dataGridViewTextBoxColumn18.Width" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="col_BrokenArea.HeaderText" xml:space="preserve">
+    <value>破损面积</value>
+  </data>
+  <data name="column_BrokenX.HeaderText" xml:space="preserve">
+    <value>最大破损长度</value>
+  </data>
+  <data name="col_BrokenLength.HeaderText" xml:space="preserve">
+    <value>破损长度</value>
+  </data>
+  <data name="Col_MaxExcess.HeaderText" xml:space="preserve">
+    <value>最大外延/漏铜</value>
+  </data>
+  <data name="col_Excess.HeaderText" xml:space="preserve">
+    <value>外延/漏铜</value>
+  </data>
+  <data name="col_MaxSmear.HeaderText" xml:space="preserve">
+    <value>最大边缘漏铜</value>
+  </data>
+  <data name="col_Smear.HeaderText" xml:space="preserve">
+    <value>边缘漏铜</value>
+  </data>
+  <data name="col_EdgeLimitTop.HeaderText" xml:space="preserve">
+    <value>边缘界限（上）</value>
+  </data>
+  <data name="col_Top.HeaderText" xml:space="preserve">
+    <value>边缘（上）</value>
+  </data>
+  <data name="col_EdgeLimitRight.HeaderText" xml:space="preserve">
+    <value>边缘界限（右）</value>
+  </data>
+  <data name="col_Right.HeaderText" xml:space="preserve">
+    <value>边缘（右）</value>
+  </data>
+  <data name="col_EdgeLimitBottom.HeaderText" xml:space="preserve">
+    <value>边缘界限（下）</value>
+  </data>
+  <data name="col_Bottom.HeaderText" xml:space="preserve">
+    <value>边缘（下）</value>
+  </data>
+  <data name="col_EdgeLimitLeft.HeaderText" xml:space="preserve">
+    <value>边缘界限（左）</value>
+  </data>
+  <data name="col_Left.HeaderText" xml:space="preserve">
+    <value>边缘（左）</value>
+  </data>
+  <data name="col_MaxStandOffTop.HeaderText" xml:space="preserve">
+    <value>最大站立度（上）</value>
+  </data>
+  <data name="col_StandOffTop.HeaderText" xml:space="preserve">
+    <value>站立度（上）</value>
+  </data>
+  <data name="col_MaxStandOffBottom.HeaderText" xml:space="preserve">
+    <value>最大站立度（下）</value>
+  </data>
+  <data name="col_StandOffBottom.HeaderText" xml:space="preserve">
+    <value>站立度（下）</value>
+  </data>
+  <data name="col_MaxStandOffLeft.HeaderText" xml:space="preserve">
+    <value>最大站立度（左）</value>
+  </data>
+  <data name="col_StandOffLeft.HeaderText" xml:space="preserve">
+    <value>站立度（左）</value>
+  </data>
+  <data name="col_MaxStandOffRight.HeaderText" xml:space="preserve">
+    <value>最大站立度（右）</value>
+  </data>
+  <data name="col_StandOffRight.HeaderText" xml:space="preserve">
+    <value>站立度（右）</value>
+  </data>
+  <data name="col_MinD1.HeaderText" xml:space="preserve">
+    <value>最小尺寸 1</value>
+  </data>
+  <data name="col_D1.HeaderText" xml:space="preserve">
+    <value>尺寸 1</value>
+  </data>
+  <data name="col_MaxD1.HeaderText" xml:space="preserve">
+    <value>最大尺寸 1</value>
+  </data>
+  <data name="col_MinD2.HeaderText" xml:space="preserve">
+    <value>最小尺寸 2</value>
+  </data>
+  <data name="col_D2.HeaderText" xml:space="preserve">
+    <value>尺寸 2</value>
+  </data>
+  <data name="col_MaxD2.HeaderText" xml:space="preserve">
+    <value>最大尺寸 2</value>
+  </data>
+  <data name="col_MinD3.HeaderText" xml:space="preserve">
+    <value>最小尺寸 3</value>
+  </data>
+  <data name="col_D3.HeaderText" xml:space="preserve">
+    <value>尺寸 3</value>
+  </data>
+  <data name="col_MaxD3.HeaderText" xml:space="preserve">
+    <value>最大尺寸 3</value>
+  </data>
+  <data name="col_MinD4.HeaderText" xml:space="preserve">
+    <value>最小尺寸 4</value>
+  </data>
+  <data name="col_D4.HeaderText" xml:space="preserve">
+    <value>尺寸 4</value>
+  </data>
+  <data name="col_MaxD4.HeaderText" xml:space="preserve">
+    <value>最大尺寸 4</value>
+  </data>
+  <data name="col_MinD5.HeaderText" xml:space="preserve">
+    <value>最小尺寸 5</value>
+  </data>
+  <data name="col_D5.HeaderText" xml:space="preserve">
+    <value>尺寸 5</value>
+  </data>
+  <data name="col_MaxD5.HeaderText" xml:space="preserve">
+    <value>最大尺寸 5</value>
+  </data>
+  <data name="col_MinD6.HeaderText" xml:space="preserve">
+    <value>最小尺寸 6</value>
+  </data>
+  <data name="col_D6.HeaderText" xml:space="preserve">
+    <value>尺寸 6</value>
+  </data>
+  <data name="col_MaxD6.HeaderText" xml:space="preserve">
+    <value>最大尺寸 6</value>
+  </data>
+  <data name="col_MinD7.HeaderText" xml:space="preserve">
+    <value>最小尺寸 7</value>
+  </data>
+  <data name="col_D7.HeaderText" xml:space="preserve">
+    <value>尺寸 7</value>
+  </data>
+  <data name="col_MaxD7.HeaderText" xml:space="preserve">
+    <value>最大尺寸 7</value>
+  </data>
+  <data name="col_MinD8.HeaderText" xml:space="preserve">
+    <value>最小尺寸 8</value>
+  </data>
+  <data name="col_D8.HeaderText" xml:space="preserve">
+    <value>尺寸 8</value>
+  </data>
+  <data name="col_MaxD8.HeaderText" xml:space="preserve">
+    <value>最大尺寸 8</value>
+  </data>
+  <data name="col_MinD9.HeaderText" xml:space="preserve">
+    <value>最小尺寸 9</value>
+  </data>
+  <data name="col_D9.HeaderText" xml:space="preserve">
+    <value>尺寸 9</value>
+  </data>
+  <data name="col_MaxD9.HeaderText" xml:space="preserve">
+    <value>最大尺寸 9</value>
+  </data>
+  <data name="col_MinD10.HeaderText" xml:space="preserve">
+    <value>最小尺寸 10</value>
+  </data>
+  <data name="col_D10.HeaderText" xml:space="preserve">
+    <value>尺寸 10</value>
+  </data>
+  <data name="col_MaxD10.HeaderText" xml:space="preserve">
+    <value>最大尺寸 10</value>
+  </data>
+  <data name="column_GolWidth.HeaderText" xml:space="preserve">
+    <value>Gol 宽度</value>
+  </data>
+  <data name="column_GolWidth.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="column_GolLength.HeaderText" xml:space="preserve">
+    <value>Gol 长度</value>
+  </data>
+  <data name="column_GolLength.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="column_GolPitch.HeaderText" xml:space="preserve">
+    <value>Gol 间距</value>
+  </data>
+  <data name="column_GolGap.HeaderText" xml:space="preserve">
+    <value>Gol 间隔</value>
+  </data>
+  <data name="column_GolGap.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="srmLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 23</value>
+  </data>
+  <data name="srmLabel3.Text" xml:space="preserve">
+    <value>异物 / 污染 - 最大总面积:</value>
+  </data>
+  <data name="srmLabel3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_PinScoreTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 23</value>
+  </data>
+  <data name="lbl_PinScoreTitle.Text" xml:space="preserve">
+    <value>异物 / 污染 - 最大长度:</value>
+  </data>
+  <data name="lbl_PinScoreTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="srmLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 23</value>
+  </data>
+  <data name="srmLabel1.Text" xml:space="preserve">
+    <value>异物 / 污染 - 最大面积:</value>
+  </data>
+  <data name="srmLabel1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="srmButton1.Text" xml:space="preserve">
+    <value>储存</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>衬垫容许度设置</value>
+  </data>
+</root>

@@ -1,0 +1,1740 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_Live3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting5.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Btn_Live1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 18</value>
+  </data>
+  <data name="&gt;&gt;btn_Live7.Parent" xml:space="preserve">
+    <value>pnl_Lighting7</value>
+  </data>
+  <data name="btn_Live7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_Live2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_Live6.TabIndex" type="System.Int32, mscorlib">
+    <value>991</value>
+  </data>
+  <data name="btn_Live7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="txt_Light5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;txt_Light9.Name" xml:space="preserve">
+    <value>txt_Light9</value>
+  </data>
+  <data name="btn_Live5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;lbl_TestLightning.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Btn_Grab1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_Live5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Grab9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;txt_Light6.Name" xml:space="preserve">
+    <value>txt_Light6</value>
+  </data>
+  <data name="&gt;&gt;Btn_Live1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_Live6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;txt_Light4.Name" xml:space="preserve">
+    <value>txt_Light4</value>
+  </data>
+  <data name="grpBox_Lighting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 229</value>
+  </data>
+  <data name="btn_Grab9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 18</value>
+  </data>
+  <data name="btn_Grab3.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="btn_Live7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_Light9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Btn_Live1.Name" xml:space="preserve">
+    <value>Btn_Live1</value>
+  </data>
+  <data name="lbl_Light2.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="btn_Live4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light6.Parent" xml:space="preserve">
+    <value>pnl_Lighting6</value>
+  </data>
+  <data name="&gt;&gt;txt_Light5.Name" xml:space="preserve">
+    <value>txt_Light5</value>
+  </data>
+  <data name="txt_Light9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 337</value>
+  </data>
+  <data name="btn_Grab5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 18</value>
+  </data>
+  <data name="txt_Light7.TabIndex" type="System.Int32, mscorlib">
+    <value>991</value>
+  </data>
+  <data name="txt_Light8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="&gt;&gt;txt_Light2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnl_Lighting9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 368</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light7.Parent" xml:space="preserve">
+    <value>pnl_Lighting7</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab4.Parent" xml:space="preserve">
+    <value>pnl_Lighting4</value>
+  </data>
+  <data name="&gt;&gt;btn_Live5.Name" xml:space="preserve">
+    <value>btn_Live5</value>
+  </data>
+  <data name="btn_Live8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab5.Parent" xml:space="preserve">
+    <value>pnl_Lighting5</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab8.Parent" xml:space="preserve">
+    <value>pnl_Lighting8</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Live6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;btn_Live8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_StopTest.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_Light5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="&gt;&gt;Btn_Grab6.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Light5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 2</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting9.Name" xml:space="preserve">
+    <value>pnl_Lighting9</value>
+  </data>
+  <data name="pnl_Lighting.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_Light2.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="txt_Light8.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_Light6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Lighting.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lbl_TestLightning.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btn_Grab7.Text" xml:space="preserve">
+    <value>Grab</value>
+  </data>
+  <data name="txt_Light3.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="btn_Live5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="&gt;&gt;txt_Light5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnl_Lighting3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="btn_Grab2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_TestLightning.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="pnl_Lighting4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 138</value>
+  </data>
+  <data name="lbl_Light1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_Live5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_Light7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 244</value>
+  </data>
+  <data name="&gt;&gt;txt_Light7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Btn_Grab6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_Live3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Light6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;txt_Light2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting3.Name" xml:space="preserve">
+    <value>pnl_Lighting3</value>
+  </data>
+  <data name="btn_Live4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="btn_Grab8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light2.Text" xml:space="preserve">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;txt_Light9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pnl_Lighting2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="lbl_Light5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_Grab7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 20</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light1.Name" xml:space="preserve">
+    <value>lbl_Light1</value>
+  </data>
+  <data name="btn_Grab4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="pnl_Lighting7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 276</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light8.Name" xml:space="preserve">
+    <value>lbl_Light8</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light3.Name" xml:space="preserve">
+    <value>lbl_Light3</value>
+  </data>
+  <data name="&gt;&gt;txt_Light8.Name" xml:space="preserve">
+    <value>txt_Light8</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_Grab3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Grab8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;btn_Live6.Parent" xml:space="preserve">
+    <value>pnl_Lighting6</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btn_Live6.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light9.Name" xml:space="preserve">
+    <value>lbl_Light9</value>
+  </data>
+  <data name="lbl_Light2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 18</value>
+  </data>
+  <data name="btn_StopTest.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="btn_Grab8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 18</value>
+  </data>
+  <data name="btn_Grab5.TabIndex" type="System.Int32, mscorlib">
+    <value>990</value>
+  </data>
+  <data name="Btn_Grab1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_Light7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_Grab2.Text" xml:space="preserve">
+    <value>Grab</value>
+  </data>
+  <data name="txt_Light5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 154</value>
+  </data>
+  <data name="btn_Grab4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 18</value>
+  </data>
+  <data name="&gt;&gt;btn_Live9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnl_Lighting9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 46</value>
+  </data>
+  <data name="&gt;&gt;txt_Light3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpBox_Lighting.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting.Name" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="Btn_TestLightCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 28</value>
+  </data>
+  <data name="txt_Light8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="pnl_Lighting4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="lbl_Light9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 2</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab4.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_Grab3.Text" xml:space="preserve">
+    <value>Grab</value>
+  </data>
+  <data name="lbl_Light4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light4.TabIndex" type="System.Int32, mscorlib">
+    <value>989</value>
+  </data>
+  <data name="txt_Light3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;Btn_TestLightCancel.Name" xml:space="preserve">
+    <value>Btn_TestLightCancel</value>
+  </data>
+  <data name="Btn_Live1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="btn_Live5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 18</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btn_Live9.Text" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light6.Name" xml:space="preserve">
+    <value>lbl_Light6</value>
+  </data>
+  <data name="lbl_Light7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_Light1.TabIndex" type="System.Int32, mscorlib">
+    <value>986</value>
+  </data>
+  <data name="pnl_Lighting7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="btn_Grab5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="txt_Light8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="pnl_Lighting3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 46</value>
+  </data>
+  <data name="pnl_Lighting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 15</value>
+  </data>
+  <data name="btn_Grab4.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="txt_Light1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light7.Name" xml:space="preserve">
+    <value>lbl_Light7</value>
+  </data>
+  <data name="txt_Light2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="pnl_Lighting.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="btn_Live8.Text" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab9.Parent" xml:space="preserve">
+    <value>pnl_Lighting9</value>
+  </data>
+  <data name="lbl_Light1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light6.TabIndex" type="System.Int32, mscorlib">
+    <value>990</value>
+  </data>
+  <data name="&gt;&gt;btn_StopTest.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_StopTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 303</value>
+  </data>
+  <data name="btn_Live8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 18</value>
+  </data>
+  <data name="lbl_Light9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pnl_Lighting6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="lbl_TestLightning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 26</value>
+  </data>
+  <data name="pnl_Lighting2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 46</value>
+  </data>
+  <data name="&gt;&gt;btn_Live4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_Live3.Text" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="btn_Grab9.Text" xml:space="preserve">
+    <value>Grab</value>
+  </data>
+  <data name="btn_Grab7.TabIndex" type="System.Int32, mscorlib">
+    <value>992</value>
+  </data>
+  <data name="txt_Light4.Text" xml:space="preserve">
+    <value>125</value>
+  </data>
+  <data name="Btn_Grab6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Live7.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Btn_Grab6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 18</value>
+  </data>
+  <data name="lbl_Light4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Btn_TestLightCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 303</value>
+  </data>
+  <data name="Btn_Grab1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab7.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_Live6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_Live2.Parent" xml:space="preserve">
+    <value>pnl_Lighting2</value>
+  </data>
+  <data name="pnl_Lighting1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="&gt;&gt;lbl_TestLightning.Name" xml:space="preserve">
+    <value>lbl_TestLightning</value>
+  </data>
+  <data name="&gt;&gt;btn_Live2.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab7.Name" xml:space="preserve">
+    <value>btn_Grab7</value>
+  </data>
+  <data name="pnl_Lighting4.TabIndex" type="System.Int32, mscorlib">
+    <value>986</value>
+  </data>
+  <data name="btn_Live9.TabIndex" type="System.Int32, mscorlib">
+    <value>994</value>
+  </data>
+  <data name="txt_Light1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>568, 18</value>
+  </data>
+  <data name="btn_Live2.Text" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="btn_Live6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="btn_Live7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="lbl_Light8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 18</value>
+  </data>
+  <data name="lbl_Light1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbl_Light2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="Btn_Grab6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="lbl_Light1.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="lbl_Light1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 2</value>
+  </data>
+  <data name="&gt;&gt;txt_Light3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Btn_Grab1.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="lbl_Light1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 18</value>
+  </data>
+  <data name="lbl_Light2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 2</value>
+  </data>
+  <data name="&gt;&gt;txt_Light3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Light6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="pnl_Lighting4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 46</value>
+  </data>
+  <data name="btn_Live7.TabIndex" type="System.Int32, mscorlib">
+    <value>992</value>
+  </data>
+  <data name="txt_Light9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab3.Parent" xml:space="preserve">
+    <value>pnl_Lighting3</value>
+  </data>
+  <data name="btn_Live3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 18</value>
+  </data>
+  <data name="btn_Live6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 18</value>
+  </data>
+  <data name="btn_Live5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_TestLightning.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Light2.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="Btn_Live1.Text" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="lbl_Light5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Grab7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_Live8.Parent" xml:space="preserve">
+    <value>pnl_Lighting8</value>
+  </data>
+  <data name="&gt;&gt;txt_Light8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnl_Lighting8.TabIndex" type="System.Int32, mscorlib">
+    <value>990</value>
+  </data>
+  <data name="pnl_Lighting7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 46</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting2.Name" xml:space="preserve">
+    <value>pnl_Lighting2</value>
+  </data>
+  <data name="&gt;&gt;btn_Live9.Name" xml:space="preserve">
+    <value>btn_Live9</value>
+  </data>
+  <data name="pnl_Lighting8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lbl_Light1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting8.Name" xml:space="preserve">
+    <value>pnl_Lighting8</value>
+  </data>
+  <data name="btn_Grab9.TabIndex" type="System.Int32, mscorlib">
+    <value>994</value>
+  </data>
+  <data name="Btn_Live1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="txt_Light5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab8.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Btn_Grab6.TabIndex" type="System.Int32, mscorlib">
+    <value>991</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab5.Name" xml:space="preserve">
+    <value>btn_Grab5</value>
+  </data>
+  <data name="btn_Grab5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_Light7.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab3.Name" xml:space="preserve">
+    <value>btn_Grab3</value>
+  </data>
+  <data name="&gt;&gt;btn_StopTest.Name" xml:space="preserve">
+    <value>btn_StopTest</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting8.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="txt_Light2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="pnl_Lighting5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="pnl_Lighting.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="txt_Light1.Text" xml:space="preserve">
+    <value>125</value>
+  </data>
+  <data name="txt_Light2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 18</value>
+  </data>
+  <data name="pnl_Lighting6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 46</value>
+  </data>
+  <data name="btn_Live4.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="&gt;&gt;btn_Live5.Parent" xml:space="preserve">
+    <value>pnl_Lighting5</value>
+  </data>
+  <data name="btn_Live7.Text" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="lbl_Light3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 18</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_TestLightning.Text" xml:space="preserve">
+    <value>TestLightning</value>
+  </data>
+  <data name="&gt;&gt;txt_Light7.Name" xml:space="preserve">
+    <value>txt_Light7</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting4.Name" xml:space="preserve">
+    <value>pnl_Lighting4</value>
+  </data>
+  <data name="&gt;&gt;btn_Live3.Parent" xml:space="preserve">
+    <value>pnl_Lighting3</value>
+  </data>
+  <data name="&gt;&gt;btn_Live3.Name" xml:space="preserve">
+    <value>btn_Live3</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting1.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Live3.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_Light4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btn_StopTest.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btn_Grab7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="lbl_Light9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnl_Lighting1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 46</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab9.Name" xml:space="preserve">
+    <value>btn_Grab9</value>
+  </data>
+  <data name="btn_Live6.Text" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="lbl_Light8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Btn_Live1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txt_Light9.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txt_Light7.Text" xml:space="preserve">
+    <value>125</value>
+  </data>
+  <data name="btn_Grab8.TabIndex" type="System.Int32, mscorlib">
+    <value>993</value>
+  </data>
+  <data name="txt_Light8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 292</value>
+  </data>
+  <data name="txt_Light4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="Btn_Live1.TabIndex" type="System.Int32, mscorlib">
+    <value>980</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl_Light2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Light8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting6.Name" xml:space="preserve">
+    <value>pnl_Lighting6</value>
+  </data>
+  <data name="pnl_Lighting5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 184</value>
+  </data>
+  <data name="lbl_Light3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="grpBox_Lighting.Text" xml:space="preserve">
+    <value>Lighting (1-255)</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab2.Parent" xml:space="preserve">
+    <value>pnl_Lighting2</value>
+  </data>
+  <data name="btn_Grab4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;Btn_TestLightCancel.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_Grab8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pnl_Lighting1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_Live8.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Live4.Name" xml:space="preserve">
+    <value>btn_Live4</value>
+  </data>
+  <data name="pnl_Lighting8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 322</value>
+  </data>
+  <data name="&gt;&gt;txt_Light2.Name" xml:space="preserve">
+    <value>txt_Light2</value>
+  </data>
+  <data name="&gt;&gt;btn_Live9.Parent" xml:space="preserve">
+    <value>pnl_Lighting9</value>
+  </data>
+  <data name="btn_Live3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting7.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="btn_Live4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 18</value>
+  </data>
+  <data name="txt_Light9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="lbl_TestLightning.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Light5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Light6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="pnl_Lighting5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;txt_Light8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pnl_Lighting3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 92</value>
+  </data>
+  <data name="&gt;&gt;Btn_Grab6.Parent" xml:space="preserve">
+    <value>pnl_Lighting6</value>
+  </data>
+  <data name="&gt;&gt;btn_Live7.Name" xml:space="preserve">
+    <value>btn_Live7</value>
+  </data>
+  <data name="&gt;&gt;txt_Light1.Name" xml:space="preserve">
+    <value>txt_Light1</value>
+  </data>
+  <data name="&gt;&gt;txt_Light8.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btn_Grab2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="Btn_TestLightCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Grab4.Text" xml:space="preserve">
+    <value>Grab</value>
+  </data>
+  <data name="lbl_Light7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Btn_TestLightCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="pnl_Lighting9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_Light4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 2</value>
+  </data>
+  <data name="lbl_Light4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_Light8.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="&gt;&gt;btn_Grab2.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_StopTest.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="btn_Grab2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 18</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting6.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_Grab1.Text" xml:space="preserve">
+    <value>Grab</value>
+  </data>
+  <data name="&gt;&gt;txt_Light7.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btn_Grab4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_Light1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;txt_Light4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pnl_Lighting5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 46</value>
+  </data>
+  <data name="&gt;&gt;txt_Light4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_Light5.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="txt_Light3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 58</value>
+  </data>
+  <data name="lbl_Light4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbl_Light7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 18</value>
+  </data>
+  <data name="lbl_Light3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="btn_Live9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="lbl_Light4.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light3.Parent" xml:space="preserve">
+    <value>pnl_Lighting3</value>
+  </data>
+  <data name="lbl_Light6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_Light5.Text" xml:space="preserve">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;btn_Live4.Parent" xml:space="preserve">
+    <value>pnl_Lighting4</value>
+  </data>
+  <data name="btn_Grab3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="txt_Light4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 108</value>
+  </data>
+  <data name="&gt;&gt;btn_StopTest.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_Grab8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="btn_Grab3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 18</value>
+  </data>
+  <data name="&gt;&gt;Btn_TestLightCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting.Parent" xml:space="preserve">
+    <value>grpBox_Lighting</value>
+  </data>
+  <data name="btn_Live5.Text" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Light6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 2</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab8.Name" xml:space="preserve">
+    <value>btn_Grab8</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TestLightningForm</value>
+  </data>
+  <data name="btn_Grab9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Live8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="lbl_TestLightning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 18</value>
+  </data>
+  <data name="lbl_Light7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab9.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_Live9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_Live9.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pnl_Lighting9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting2.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="lbl_Light3.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting4.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="Btn_Grab6.Text" xml:space="preserve">
+    <value>Grab</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab4.Name" xml:space="preserve">
+    <value>btn_Grab4</value>
+  </data>
+  <data name="lbl_Light9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;txt_Light7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light5.Name" xml:space="preserve">
+    <value>lbl_Light5</value>
+  </data>
+  <data name="btn_Live4.Text" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="&gt;&gt;txt_Light1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Light5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 18</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Lighting.Name" xml:space="preserve">
+    <value>grpBox_Lighting</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting3.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="Btn_Grab6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnl_Lighting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 206</value>
+  </data>
+  <data name="&gt;&gt;txt_Light4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnl_Lighting6.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="pnl_Lighting3.TabIndex" type="System.Int32, mscorlib">
+    <value>985</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Grab7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light8.Parent" xml:space="preserve">
+    <value>pnl_Lighting8</value>
+  </data>
+  <data name="&gt;&gt;txt_Light5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btn_Live5.TabIndex" type="System.Int32, mscorlib">
+    <value>990</value>
+  </data>
+  <data name="grpBox_Lighting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 58</value>
+  </data>
+  <data name="btn_Live9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="lbl_Light2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="btn_Live3.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="lbl_Light8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 2</value>
+  </data>
+  <data name="pnl_Lighting7.TabIndex" type="System.Int32, mscorlib">
+    <value>989</value>
+  </data>
+  <data name="Btn_TestLightCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light6.Text" xml:space="preserve">
+    <value>125</value>
+  </data>
+  <data name="btn_Live2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;txt_Light3.Name" xml:space="preserve">
+    <value>txt_Light3</value>
+  </data>
+  <data name="pnl_Lighting9.TabIndex" type="System.Int32, mscorlib">
+    <value>991</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light2.Name" xml:space="preserve">
+    <value>lbl_Light2</value>
+  </data>
+  <data name="grpBox_Lighting.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_TestLightCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btn_Grab4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_Light9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 18</value>
+  </data>
+  <data name="txt_Light9.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="&gt;&gt;btn_StopTest.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_Live8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="lbl_Light9.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="txt_Light8.Text" xml:space="preserve">
+    <value>125</value>
+  </data>
+  <data name="pnl_Lighting2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 46</value>
+  </data>
+  <data name="&gt;&gt;btn_Live4.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_Light2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btn_Grab5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;txt_Light6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Btn_TestLightCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="txt_Light7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="btn_Live3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="txt_Light3.Text" xml:space="preserve">
+    <value>125</value>
+  </data>
+  <data name="lbl_Light7.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="pnl_Lighting2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Lighting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light1.Parent" xml:space="preserve">
+    <value>pnl_Lighting1</value>
+  </data>
+  <data name="&gt;&gt;txt_Light5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Light6.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="txt_Light9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="grpBox_Lighting.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="btn_Grab8.Text" xml:space="preserve">
+    <value>Grab</value>
+  </data>
+  <data name="pnl_Lighting8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="&gt;&gt;btn_Live6.Name" xml:space="preserve">
+    <value>btn_Live6</value>
+  </data>
+  <data name="btn_StopTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 28</value>
+  </data>
+  <data name="btn_Live2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="&gt;&gt;Btn_Live1.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_Grab2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light9.Parent" xml:space="preserve">
+    <value>pnl_Lighting9</value>
+  </data>
+  <data name="txt_Light6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;txt_Light1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Grab7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="lbl_Light4.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="&gt;&gt;Btn_Grab1.Parent" xml:space="preserve">
+    <value>pnl_Lighting1</value>
+  </data>
+  <data name="&gt;&gt;Btn_Grab6.Name" xml:space="preserve">
+    <value>Btn_Grab6</value>
+  </data>
+  <data name="pnl_Lighting1.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="btn_Live2.TabIndex" type="System.Int32, mscorlib">
+    <value>986</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Light6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnl_Lighting1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnl_Lighting5.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="lbl_Light2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_Live9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 18</value>
+  </data>
+  <data name="Btn_Grab1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="btn_Live4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="btn_Grab3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_Light5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_Live9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="pnl_Lighting4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;txt_Light2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab7.Parent" xml:space="preserve">
+    <value>pnl_Lighting7</value>
+  </data>
+  <data name="pnl_Lighting.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;Btn_Grab1.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Live6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_Grab5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting9.Parent" xml:space="preserve">
+    <value>pnl_Lighting</value>
+  </data>
+  <data name="txt_Light9.Text" xml:space="preserve">
+    <value>125</value>
+  </data>
+  <data name="lbl_Light4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 18</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab3.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Btn_Grab1.Name" xml:space="preserve">
+    <value>Btn_Grab1</value>
+  </data>
+  <data name="btn_Live2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>314, 370</value>
+  </data>
+  <data name="btn_Live4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Btn_Live1.Parent" xml:space="preserve">
+    <value>pnl_Lighting1</value>
+  </data>
+  <data name="lbl_Light8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light2.Parent" xml:space="preserve">
+    <value>pnl_Lighting2</value>
+  </data>
+  <data name="&gt;&gt;btn_Live8.Name" xml:space="preserve">
+    <value>btn_Live8</value>
+  </data>
+  <data name="btn_Live8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;btn_Live2.Name" xml:space="preserve">
+    <value>btn_Live2</value>
+  </data>
+  <data name="txt_Light5.TabIndex" type="System.Int32, mscorlib">
+    <value>990</value>
+  </data>
+  <data name="pnl_Lighting7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btn_Grab9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Lightning Testing</value>
+  </data>
+  <data name="lbl_Light5.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="lbl_Light1.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="pnl_Lighting3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btn_Live5.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_Grab5.Text" xml:space="preserve">
+    <value>Grab</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting5.Name" xml:space="preserve">
+    <value>pnl_Lighting5</value>
+  </data>
+  <data name="lbl_Light3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_Grab9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txt_Light6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 198</value>
+  </data>
+  <data name="Btn_Live1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Live3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_Light9.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="btn_Live7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light4.Name" xml:space="preserve">
+    <value>lbl_Light4</value>
+  </data>
+  <data name="lbl_Light6.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="pnl_Lighting6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Grab2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;txt_Light1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting7.Name" xml:space="preserve">
+    <value>pnl_Lighting7</value>
+  </data>
+  <data name="btn_Grab2.TabIndex" type="System.Int32, mscorlib">
+    <value>986</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_TestLightning.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Btn_Grab1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="txt_Light1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="lbl_TestLightning.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_Live2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 18</value>
+  </data>
+  <data name="lbl_Light7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="btn_Live2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_Light3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Light3.Text" xml:space="preserve">
+    <value>Strobe Intensity </value>
+  </data>
+  <data name="&gt;&gt;grpBox_Lighting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_TestLightCancel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light4.Parent" xml:space="preserve">
+    <value>pnl_Lighting4</value>
+  </data>
+  <data name="btn_StopTest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Btn_Grab1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 18</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Btn_Grab6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="btn_Grab3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab5.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Light8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;txt_Light9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Light6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 18</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light5.Parent" xml:space="preserve">
+    <value>pnl_Lighting5</value>
+  </data>
+  <data name="pnl_Lighting6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 230</value>
+  </data>
+  <data name="pnl_Lighting8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 46</value>
+  </data>
+  <data name="lbl_Light8.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pnl_Lighting2.TabIndex" type="System.Int32, mscorlib">
+    <value>984</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab2.Name" xml:space="preserve">
+    <value>btn_Grab2</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting1.Name" xml:space="preserve">
+    <value>pnl_Lighting1</value>
+  </data>
+  <data name="&gt;&gt;btn_Grab2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_TestLightning.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16.2pt</value>
+  </data>
+  <data name="&gt;&gt;pnl_Lighting3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Live8.TabIndex" type="System.Int32, mscorlib">
+    <value>993</value>
+  </data>
+  <data name="lbl_Light6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;btn_Live7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Light3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

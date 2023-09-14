@@ -1,0 +1,2724 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;lbl_ScorePercent2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="srmGroupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 202</value>
+  </data>
+  <data name="&gt;&gt;txt_WidthLowerTolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScorePercent3.Name" xml:space="preserve">
+    <value>lbl_ScorePercent3</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="lbl_ScoreTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txt_PocketScoreTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 20</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScoreTitle.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabPage_PackageScoreSetting.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScoreTitle2.Name" xml:space="preserve">
+    <value>lbl_ScoreTitle2</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn5</value>
+  </data>
+  <data name="txt_Distance.Text" xml:space="preserve">
+    <value>0.100</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txt_MaxFarLineWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>898</value>
+  </data>
+  <data name="&gt;&gt;txt_Distance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_WidthUpperTolerance.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl_ScoreTitle3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 23</value>
+  </data>
+  <data name="srmLabel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 480</value>
+  </data>
+  <data name="&gt;&gt;lbl_Score3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="srmLabel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel10.TabIndex" type="System.Int32, mscorlib">
+    <value>883</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScoreTitle3.Name" xml:space="preserve">
+    <value>lbl_ScoreTitle3</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="group_ScoreSetting2.Text" xml:space="preserve">
+    <value>Mark Setting</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 27</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel11.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="&gt;&gt;txt_MinNearLineWidth.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chk_SetToAllOverHeatROI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_MarkToleranceScore.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_MinDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="btn_Close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 31</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Name" xml:space="preserve">
+    <value>srmLabel9</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="lbl_OrientTolerancePercent.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="lbl_ScoreTitle2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;trackBar_PocketScoreTolerance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_FarSealLineWidth.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="srmLabel13.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="tabPage_LineWidth.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;txt_DistanceMaxTolerance.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chk_DisplayResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 24</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxNearLineWidth.Name" xml:space="preserve">
+    <value>txt_MaxNearLineWidth</value>
+  </data>
+  <data name="chk_SetToAllOverHeatROI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 24</value>
+  </data>
+  <data name="&gt;&gt;lbl_GrabTime.Name" xml:space="preserve">
+    <value>lbl_GrabTime</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_ScorePercent4.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1ROI.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>888</value>
+  </data>
+  <data name="txt_MinFarLineWidth.Text" xml:space="preserve">
+    <value>0.1</value>
+  </data>
+  <data name="chk_SetToAllOverHeatROI.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lbl_ScoreTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 100</value>
+  </data>
+  <data name="srmLabel30.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel26.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="lbl_Pin1ROI.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="dgd_LineWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>925</value>
+  </data>
+  <data name="group_ScoreSetting1.Text" xml:space="preserve">
+    <value>Empty Pocket Score Setting</value>
+  </data>
+  <data name="srmLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 13</value>
+  </data>
+  <data name="lbl_ScorePercent4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="trackBar_MarkScoreTolerance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="srmLabel30.TabIndex" type="System.Int32, mscorlib">
+    <value>910</value>
+  </data>
+  <data name="srmLabel31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 13</value>
+  </data>
+  <data name="srmLabel20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxNearLineWidth.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Seal 1 Line Width </value>
+  </data>
+  <data name="tabPage_MarkScoreSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 410</value>
+  </data>
+  <data name="lbl_Score3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 23</value>
+  </data>
+  <data name="lbl_ScoreTitle4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_MarkToleranceScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="&gt;&gt;dgd_LineWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxDistance.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="lbl_ScorePercent2.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 39</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 144</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>903</value>
+  </data>
+  <data name="srmLabel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="srmLabel13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_MinNearLineWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 16</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="srmGroupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>895</value>
+  </data>
+  <data name="txt_WidthLowerTolerance.Text" xml:space="preserve">
+    <value>0.1</value>
+  </data>
+  <data name="srmLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="lbl_ScorePercent3.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_GrabTime.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="srmLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="srmLabel31.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel28.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="lbl_Pin1ROI.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;group_SealScoreSetting.Parent" xml:space="preserve">
+    <value>tabPage_SealScoreSetting</value>
+  </data>
+  <data name="lbl_MarkToleranceScore.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="tab_VisionControl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="&gt;&gt;txt_DistanceMinTolerance.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Max Tolerance :</value>
+  </data>
+  <data name="tabPage_LineWidth.Text" xml:space="preserve">
+    <value>Seal</value>
+  </data>
+  <data name="trackBar_PocketScoreTolerance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SealToleranceSettingForm</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_ScorePercent2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txt_DistanceMaxTolerance.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="srmLabel10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Score2.Name" xml:space="preserve">
+    <value>lbl_Score2</value>
+  </data>
+  <data name="srmLabel31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 70</value>
+  </data>
+  <data name="lbl_ScoreTitle4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Seal 2 Line Width </value>
+  </data>
+  <data name="lbl_ScoreTitle2.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="&gt;&gt;txt_PocketScoreTolerance.Parent" xml:space="preserve">
+    <value>group_ScoreSetting1</value>
+  </data>
+  <data name="&gt;&gt;tabPage_PackageScoreSetting.Name" xml:space="preserve">
+    <value>tabPage_PackageScoreSetting</value>
+  </data>
+  <data name="&gt;&gt;lbl_Score2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txt_WidthLowerTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 139</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;lbl_Score2.Parent" xml:space="preserve">
+    <value>tabPage_MarkScoreSetting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel20.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 77</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn10.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="columnResult.Width" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="btn_Close.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;txt_MinFarLineWidth.Name" xml:space="preserve">
+    <value>txt_MinFarLineWidth</value>
+  </data>
+  <data name="&gt;&gt;group_SealScoreSetting.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="trackBar_MarkScoreTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 43</value>
+  </data>
+  <data name="srmLabel7.Text" xml:space="preserve">
+    <value>mm^2</value>
+  </data>
+  <data name="srmLabel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 90</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox5.Name" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="lbl_ScoreTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;tab_VisionControl.Type" xml:space="preserve">
+    <value>SRMControl.SRMTabControl, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Name" xml:space="preserve">
+    <value>srmLabel7</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>912</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>879</value>
+  </data>
+  <data name="lbl_Score4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 272</value>
+  </data>
+  <data name="&gt;&gt;trackBar_MarkScoreTolerance.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel1.Text" xml:space="preserve">
+    <value>Min Score</value>
+  </data>
+  <data name="&gt;&gt;txt_Distance.Name" xml:space="preserve">
+    <value>txt_Distance</value>
+  </data>
+  <data name="dgd_LineWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 138</value>
+  </data>
+  <data name="lbl_ScorePercent4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="dgd_LineWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScorePercent4.Parent" xml:space="preserve">
+    <value>tabPage_SealScoreSetting</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_Distance.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chk_DisplayResult.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPage_PackageScoreSetting.Text" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_ProcessTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_WidthUpperTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>881</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn9.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn9</value>
+  </data>
+  <data name="srmLabel30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn9.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;trackBar_SealScoreTolerance.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="srmLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="lbl_Score2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 23</value>
+  </data>
+  <data name="lbl_Score.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="srmLabel26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;columnSetting.Name" xml:space="preserve">
+    <value>columnSetting</value>
+  </data>
+  <data name="&gt;&gt;lbl_MarkToleranceScore.Parent" xml:space="preserve">
+    <value>group_ScoreSetting2</value>
+  </data>
+  <data name="lbl_ScoreTitle2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="tabPage_SealScoreSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lbl_Score4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txt_DistanceMinTolerance.Text" xml:space="preserve">
+    <value>0.1</value>
+  </data>
+  <data name="srmLabel32.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="lbl_ScorePercent3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 242</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 100</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>882</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lbl_Score.Name" xml:space="preserve">
+    <value>lbl_Score</value>
+  </data>
+  <data name="lbl_Pin1ROI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>375, 24</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>909</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;srmLabel26.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_ScoreTitle.Text" xml:space="preserve">
+    <value>Empty Pocket Score</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Name" xml:space="preserve">
+    <value>srmLabel8</value>
+  </data>
+  <data name="&gt;&gt;lbl_MarkToleranceScore.Name" xml:space="preserve">
+    <value>lbl_MarkToleranceScore</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>902</value>
+  </data>
+  <data name="trackBar_SealScoreTolerance.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;group_ScoreSetting2.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScoreTitle.Name" xml:space="preserve">
+    <value>lbl_ScoreTitle</value>
+  </data>
+  <data name="srmLabel30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_FarSealLineWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;txt_SealScoreTolerance.Name" xml:space="preserve">
+    <value>txt_SealScoreTolerance</value>
+  </data>
+  <data name="label15.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;group_ScoreSetting1.Name" xml:space="preserve">
+    <value>group_ScoreSetting1</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="srmGroupBox1.Text" xml:space="preserve">
+    <value>Distance Setting</value>
+  </data>
+  <data name="lbl_PocketToleranceScore.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn8</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="chk_SetToAllOverHeatROI.Text" xml:space="preserve">
+    <value>Set To All OverHeat ROI</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="srmLabel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 16</value>
+  </data>
+  <data name="lbl_Score3.TabIndex" type="System.Int32, mscorlib">
+    <value>919</value>
+  </data>
+  <data name="&gt;&gt;txt_MinFarLineWidth.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;dgd_Setting.Name" xml:space="preserve">
+    <value>dgd_Setting</value>
+  </data>
+  <data name="srmLabel2.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="srmLabel11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="trackBar_MarkScoreTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 77</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Score.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmGroupBox5.Text" xml:space="preserve">
+    <value>Seal Setting</value>
+  </data>
+  <data name="&gt;&gt;lbl_PocketToleranceScore.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_ScoreTitle2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 100</value>
+  </data>
+  <data name="srmLabel1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="srmLabel11.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;tabPage_LineWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_DistanceMinTolerance.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="srmLabel28.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="srmLabel11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_NearSealLineWidth.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Score2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 101</value>
+  </data>
+  <data name="&gt;&gt;lbl_OrientTolerancePercent.Parent" xml:space="preserve">
+    <value>group_ScoreSetting1</value>
+  </data>
+  <data name="lbl_ScorePercent4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScoreTitle4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="group_SealScoreSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>921</value>
+  </data>
+  <data name="txt_MinFarLineWidth.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="txt_DistanceMaxTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 74</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="columnSetting.Width" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="btn_Close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 526</value>
+  </data>
+  <data name="&gt;&gt;trackBar_SealScoreTolerance.Parent" xml:space="preserve">
+    <value>group_SealScoreSetting</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbl_MarkToleranceScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="group_ScoreSetting2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 12</value>
+  </data>
+  <data name="lbl_Score2.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SealToleranceSettingForm</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 27</value>
+  </data>
+  <data name="&gt;&gt;group_SealScoreSetting.Name" xml:space="preserve">
+    <value>group_SealScoreSetting</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="lbl_OrientTolerancePercent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="dgd_Setting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tab_VisionControl.Name" xml:space="preserve">
+    <value>tab_VisionControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Score3.Name" xml:space="preserve">
+    <value>lbl_Score3</value>
+  </data>
+  <data name="&gt;&gt;group_ScoreSetting2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_PocketScoreTolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_MaxFarLineWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScoreTitle2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_ScorePercent2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="lbl_ScoreTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 23</value>
+  </data>
+  <data name="txt_DistanceMaxTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="lbl_Score4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmGroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;chk_DisplayResult.Name" xml:space="preserve">
+    <value>chk_DisplayResult</value>
+  </data>
+  <data name="txt_MarkScoreTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="txt_MarkScoreTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="srmLabel31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Score4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tab_VisionControl.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>48, 24</value>
+  </data>
+  <data name="srmLabel32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 70</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScorePercent2.Name" xml:space="preserve">
+    <value>lbl_ScorePercent2</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_SetToAllOverHeatROI.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScoreTitle3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 105</value>
+  </data>
+  <data name="srmLabel14.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="lbl_ScorePercent3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="trackBar_PocketScoreTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;group_ScoreSetting1.Parent" xml:space="preserve">
+    <value>tabPage_PackageScoreSetting</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScorePercent4.Name" xml:space="preserve">
+    <value>lbl_ScorePercent4</value>
+  </data>
+  <data name="&gt;&gt;dgd_Setting.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_Score4.TabIndex" type="System.Int32, mscorlib">
+    <value>923</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProcessTime.Name" xml:space="preserve">
+    <value>lbl_ProcessTime</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl_Pin1ROI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel9.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="txt_SealScoreTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="&gt;&gt;lbl_PocketToleranceScore.Name" xml:space="preserve">
+    <value>lbl_PocketToleranceScore</value>
+  </data>
+  <data name="lbl_Score4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxNearLineWidth.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;columnLabel.Name" xml:space="preserve">
+    <value>columnLabel</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Min Tolerance :</value>
+  </data>
+  <data name="&gt;&gt;chk_DisplayResult.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel20.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;trackBar_SealScoreTolerance.Name" xml:space="preserve">
+    <value>trackBar_SealScoreTolerance</value>
+  </data>
+  <data name="&gt;&gt;srmLabel21.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tabPage_SealScoreSetting.Text" xml:space="preserve">
+    <value>Seal Width &amp; Score</value>
+  </data>
+  <data name="btn_Save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 526</value>
+  </data>
+  <data name="srmLabel8.Text" xml:space="preserve">
+    <value>Min Seal Object Size</value>
+  </data>
+  <data name="srmLabel20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_MarkToleranceScore.Text" xml:space="preserve">
+    <value>Min Score</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;dgd_LineWidth.Parent" xml:space="preserve">
+    <value>tabPage_SealScoreSetting</value>
+  </data>
+  <data name="&gt;&gt;dlg_ImagesFolder.Name" xml:space="preserve">
+    <value>dlg_ImagesFolder</value>
+  </data>
+  <data name="&gt;&gt;group_SealScoreSetting.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="srmLabel32.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 27</value>
+  </data>
+  <data name="&gt;&gt;lbl_OrientTolerancePercent.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="trackBar_PocketScoreTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 43</value>
+  </data>
+  <data name="&gt;&gt;columnResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;srmLabel30.Name" xml:space="preserve">
+    <value>srmLabel30</value>
+  </data>
+  <data name="&gt;&gt;tabPage_MarkScoreSetting.Parent" xml:space="preserve">
+    <value>tab_VisionControl</value>
+  </data>
+  <data name="srmLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="srmLabel9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="group_SealScoreSetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lbl_ProcessTime.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="&gt;&gt;txt_DistanceMaxTolerance.Name" xml:space="preserve">
+    <value>txt_DistanceMaxTolerance</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="dgd_Setting.TabIndex" type="System.Int32, mscorlib">
+    <value>937</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="srmLabel14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Score2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbl_PocketToleranceScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="&gt;&gt;group_ScoreSetting1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_MarkScoreTolerance.Parent" xml:space="preserve">
+    <value>group_ScoreSetting2</value>
+  </data>
+  <data name="lbl_OrientTolerancePercent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;tabPage_SealScoreSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScorePercent2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>900</value>
+  </data>
+  <data name="lbl_ScoreTitle3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 237</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_MaxNearLineWidth.Text" xml:space="preserve">
+    <value>0.1</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScorePercent3.Parent" xml:space="preserve">
+    <value>tabPage_SealScoreSetting</value>
+  </data>
+  <data name="&gt;&gt;txt_DistanceMinTolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_ProcessTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 64</value>
+  </data>
+  <data name="txt_MinDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 46</value>
+  </data>
+  <data name="&gt;&gt;lbl_Score2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_ScorePercent3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1145, 569</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn9.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_FarSealLineWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>890</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 16</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 27</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Name" xml:space="preserve">
+    <value>srmLabel13</value>
+  </data>
+  <data name="lbl_ScoreTitle3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScorePercent3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 16</value>
+  </data>
+  <data name="srmGroupBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>891</value>
+  </data>
+  <data name="&gt;&gt;lbl_OrientTolerancePercent.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_PocketToleranceScore.Text" xml:space="preserve">
+    <value>Min Score</value>
+  </data>
+  <data name="&gt;&gt;txt_NearSealLineWidth.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="label16.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_Score3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_Score.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_NearSealLineWidth.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="srmLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 144</value>
+  </data>
+  <data name="&gt;&gt;tabPage_SealScoreSetting.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_WidthUpperTolerance.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="srmLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="lbl_ScoreTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="srmLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txt_PocketScoreTolerance.Name" xml:space="preserve">
+    <value>txt_PocketScoreTolerance</value>
+  </data>
+  <data name="srmLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="lbl_ScorePercent4.TabIndex" type="System.Int32, mscorlib">
+    <value>924</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lbl_ScoreTitle2.Text" xml:space="preserve">
+    <value>Unit Mark Score</value>
+  </data>
+  <data name="&gt;&gt;srmLabel32.Name" xml:space="preserve">
+    <value>srmLabel32</value>
+  </data>
+  <data name="lbl_Score.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Score Tolerance :</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 16</value>
+  </data>
+  <data name="&gt;&gt;srmLabel26.Parent" xml:space="preserve">
+    <value>tabPage_PackageScoreSetting</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="group_SealScoreSetting.Text" xml:space="preserve">
+    <value>Seal Score Setting</value>
+  </data>
+  <data name="srmLabel13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_ScoreTitle4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 23</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="srmLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_ScorePercent4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 276</value>
+  </data>
+  <data name="txt_MinNearLineWidth.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Name" xml:space="preserve">
+    <value>btn_Close</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScorePercent4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_MinDistance.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="lbl_Score.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_WidthUpperTolerance.Text" xml:space="preserve">
+    <value>0.100</value>
+  </data>
+  <data name="&gt;&gt;txt_FarSealLineWidth.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;chk_DisplayResult.Parent" xml:space="preserve">
+    <value>tabPage_LineWidth</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 28</value>
+  </data>
+  <data name="&gt;&gt;txt_WidthLowerTolerance.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="dgd_LineWidth.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;group_ScoreSetting2.Name" xml:space="preserve">
+    <value>group_ScoreSetting2</value>
+  </data>
+  <data name="srmLabel26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn6</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_Score3.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="group_SealScoreSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 147</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 27</value>
+  </data>
+  <data name="&gt;&gt;txt_FarSealLineWidth.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel28.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_ProcessTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbl_ScoreTitle4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 271</value>
+  </data>
+  <data name="lbl_Score4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txt_DistanceMinTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="tabPage_LineWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 410</value>
+  </data>
+  <data name="btn_Close.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="group_ScoreSetting2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 82</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgd_LineWidth.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dgd_Setting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lbl_Score4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 23</value>
+  </data>
+  <data name="srmLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="group_ScoreSetting2.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="tabPage_MarkScoreSetting.Text" xml:space="preserve">
+    <value>Mark</value>
+  </data>
+  <data name="lbl_ScoreTitle4.TabIndex" type="System.Int32, mscorlib">
+    <value>922</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbl_ProcessTime.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabPage_LineWidth.Parent" xml:space="preserve">
+    <value>tab_VisionControl</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lbl_ScorePercent2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="lbl_Score3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 238</value>
+  </data>
+  <data name="lbl_OrientTolerancePercent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="txt_Distance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="group_ScoreSetting1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 12</value>
+  </data>
+  <data name="&gt;&gt;lbl_OrientTolerancePercent.Name" xml:space="preserve">
+    <value>lbl_OrientTolerancePercent</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_MaxDistance.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Score2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;tabPage_SealScoreSetting.Name" xml:space="preserve">
+    <value>tabPage_SealScoreSetting</value>
+  </data>
+  <data name="txt_Distance.TabIndex" type="System.Int32, mscorlib">
+    <value>893</value>
+  </data>
+  <data name="lbl_ScorePercent3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lbl_ProcessTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="lbl_ProcessTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_NearSealLineWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 87</value>
+  </data>
+  <data name="dgd_LineWidth.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;tabPage_PackageScoreSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxFarLineWidth.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;columnSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 21</value>
+  </data>
+  <data name="&gt;&gt;trackBar_PocketScoreTolerance.Name" xml:space="preserve">
+    <value>trackBar_PocketScoreTolerance</value>
+  </data>
+  <data name="&gt;&gt;tabPage_MarkScoreSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="group_ScoreSetting1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 82</value>
+  </data>
+  <data name="txt_WidthUpperTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 116</value>
+  </data>
+  <data name="txt_Distance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 46</value>
+  </data>
+  <data name="&gt;&gt;srmLabel20.Name" xml:space="preserve">
+    <value>srmLabel20</value>
+  </data>
+  <data name="srmLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 165</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 31</value>
+  </data>
+  <data name="&gt;&gt;txt_MinDistance.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbl_ScorePercent2.TabIndex" type="System.Int32, mscorlib">
+    <value>146</value>
+  </data>
+  <data name="txt_MaxDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 46</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1ROI.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tab_VisionControl.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
+    <value>Buttons</value>
+  </data>
+  <data name="srmGroupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>694, 267</value>
+  </data>
+  <data name="txt_NearSealLineWidth.Text" xml:space="preserve">
+    <value>0.1</value>
+  </data>
+  <data name="columnSetting.HeaderText" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="&gt;&gt;txt_WidthLowerTolerance.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="trackBar_PocketScoreTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 23</value>
+  </data>
+  <data name="&gt;&gt;txt_DistanceMaxTolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabPage_PackageScoreSetting.Parent" xml:space="preserve">
+    <value>tab_VisionControl</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxFarLineWidth.Name" xml:space="preserve">
+    <value>txt_MaxFarLineWidth</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txt_MinFarLineWidth.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lbl_Score3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbl_ScorePercent2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 105</value>
+  </data>
+  <data name="lbl_ScorePercent3.TabIndex" type="System.Int32, mscorlib">
+    <value>920</value>
+  </data>
+  <data name="srmLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Pin1ROI.Text" xml:space="preserve">
+    <value>Tolerance Setting</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 27</value>
+  </data>
+  <data name="&gt;&gt;txt_WidthUpperTolerance.Name" xml:space="preserve">
+    <value>txt_WidthUpperTolerance</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="srmLabel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="&gt;&gt;srmLabel31.Name" xml:space="preserve">
+    <value>srmLabel31</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>885</value>
+  </data>
+  <data name="&gt;&gt;trackBar_MarkScoreTolerance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_SealScoreTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 20</value>
+  </data>
+  <data name="&gt;&gt;trackBar_PocketScoreTolerance.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_MarkScoreTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 20</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_PocketToleranceScore.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Min Tolerance :</value>
+  </data>
+  <data name="txt_WidthLowerTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Name" xml:space="preserve">
+    <value>srmLabel2</value>
+  </data>
+  <data name="&gt;&gt;txt_SealScoreTolerance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgd_Setting.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="tabPage_SealScoreSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 410</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="lbl_OrientTolerancePercent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;srmLabel30.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;tab_VisionControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel26.Name" xml:space="preserve">
+    <value>srmLabel26</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScorePercent4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_MaxDistance.Text" xml:space="preserve">
+    <value>0.1</value>
+  </data>
+  <data name="tabPage_MarkScoreSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txt_SealScoreTolerance.Parent" xml:space="preserve">
+    <value>group_SealScoreSetting</value>
+  </data>
+  <data name="&gt;&gt;tabPage_LineWidth.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_ScoreTitle2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn10.HeaderText" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="tabPage_MarkScoreSetting.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;txt_MinFarLineWidth.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 52</value>
+  </data>
+  <data name="srmLabel26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="txt_MarkScoreTolerance.Text" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="columnResult.HeaderText" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="lbl_OrientTolerancePercent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 24</value>
+  </data>
+  <data name="lbl_ScoreTitle3.Text" xml:space="preserve">
+    <value>Seal 1 Score</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxDistance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="trackBar_MarkScoreTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 23</value>
+  </data>
+  <data name="lbl_Score4.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="srmLabel20.TabIndex" type="System.Int32, mscorlib">
+    <value>904</value>
+  </data>
+  <data name="lbl_ScoreTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel14.Text" xml:space="preserve">
+    <value>Total Grab Time:</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="&gt;&gt;txt_MarkScoreTolerance.Name" xml:space="preserve">
+    <value>txt_MarkScoreTolerance</value>
+  </data>
+  <data name="&gt;&gt;lbl_Score.Parent" xml:space="preserve">
+    <value>tabPage_PackageScoreSetting</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel30.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Name" xml:space="preserve">
+    <value>btn_Save</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 30</value>
+  </data>
+  <data name="srmLabel26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dgd_Setting.Parent" xml:space="preserve">
+    <value>tabPage_LineWidth</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_MinNearLineWidth.Text" xml:space="preserve">
+    <value>0.1</value>
+  </data>
+  <data name="txt_DistanceMaxTolerance.Text" xml:space="preserve">
+    <value>0.1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel32.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="tabPage_PackageScoreSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="txt_MinNearLineWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 87</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Name" xml:space="preserve">
+    <value>srmLabel1</value>
+  </data>
+  <data name="&gt;&gt;txt_MinDistance.Name" xml:space="preserve">
+    <value>txt_MinDistance</value>
+  </data>
+  <data name="txt_MinDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>896</value>
+  </data>
+  <data name="tabPage_PackageScoreSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn10.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn10</value>
+  </data>
+  <data name="lbl_ScorePercent3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>694, 79</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_PocketScoreTolerance.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_Distance.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_MarkToleranceScore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;txt_MarkScoreTolerance.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;trackBar_MarkScoreTolerance.Name" xml:space="preserve">
+    <value>trackBar_MarkScoreTolerance</value>
+  </data>
+  <data name="lbl_ScoreTitle3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="srmLabel21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="columnLabel.HeaderText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="tabPage_SealScoreSetting.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;txt_MinNearLineWidth.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="&gt;&gt;tab_VisionControl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Parent" xml:space="preserve">
+    <value>group_SealScoreSetting</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScorePercent3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Score3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel30.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>894</value>
+  </data>
+  <data name="chk_SetToAllOverHeatROI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 340</value>
+  </data>
+  <data name="txt_MaxNearLineWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>897</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxNearLineWidth.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="txt_MaxFarLineWidth.Text" xml:space="preserve">
+    <value>0.1</value>
+  </data>
+  <data name="txt_WidthLowerTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>884</value>
+  </data>
+  <data name="chk_SetToAllOverHeatROI.TabIndex" type="System.Int32, mscorlib">
+    <value>939</value>
+  </data>
+  <data name="srmLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="trackBar_PocketScoreTolerance.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="srmLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="lbl_GrabTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;tabPage_MarkScoreSetting.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Name" xml:space="preserve">
+    <value>srmLabel11</value>
+  </data>
+  <data name="&gt;&gt;chk_SetToAllOverHeatROI.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel31.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScoreTitle.Parent" xml:space="preserve">
+    <value>tabPage_PackageScoreSetting</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxFarLineWidth.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_ScorePercent4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxDistance.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="txt_FarSealLineWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 58</value>
+  </data>
+  <data name="tab_VisionControl.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="srmLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 17</value>
+  </data>
+  <data name="tabPage_PackageScoreSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 410</value>
+  </data>
+  <data name="txt_MaxDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="srmLabel32.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 165</value>
+  </data>
+  <data name="lbl_Score.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 36</value>
+  </data>
+  <data name="lbl_ScoreTitle4.Text" xml:space="preserve">
+    <value>Seal 2 Score</value>
+  </data>
+  <data name="srmLabel10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel10.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Parent" xml:space="preserve">
+    <value>group_SealScoreSetting</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_ScoreTitle3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel28.Parent" xml:space="preserve">
+    <value>group_ScoreSetting2</value>
+  </data>
+  <data name="&gt;&gt;txt_WidthLowerTolerance.Name" xml:space="preserve">
+    <value>txt_WidthLowerTolerance</value>
+  </data>
+  <data name="txt_NearSealLineWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>887</value>
+  </data>
+  <data name="lbl_Score.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 101</value>
+  </data>
+  <data name="txt_MinNearLineWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>894</value>
+  </data>
+  <data name="trackBar_SealScoreTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="tab_VisionControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 442</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.Width" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="srmLabel21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 100</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScoreTitle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>906</value>
+  </data>
+  <data name="srmLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 18</value>
+  </data>
+  <data name="srmLabel28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 24</value>
+  </data>
+  <data name="&gt;&gt;dgd_LineWidth.Name" xml:space="preserve">
+    <value>dgd_LineWidth</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_DistanceMinTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 97</value>
+  </data>
+  <data name="txt_FarSealLineWidth.Text" xml:space="preserve">
+    <value>0.1</value>
+  </data>
+  <data name="label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="srmLabel30.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="lbl_OrientTolerancePercent.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>914</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;txt_Distance.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1ROI.Name" xml:space="preserve">
+    <value>lbl_Pin1ROI</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;srmLabel21.Name" xml:space="preserve">
+    <value>srmLabel21</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_ScorePercent2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabPage_SealScoreSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="txt_SealScoreTolerance.Text" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="group_ScoreSetting1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lbl_ScoreTitle3.TabIndex" type="System.Int32, mscorlib">
+    <value>918</value>
+  </data>
+  <data name="srmLabel21.TabIndex" type="System.Int32, mscorlib">
+    <value>907</value>
+  </data>
+  <data name="&gt;&gt;lbl_PocketToleranceScore.Parent" xml:space="preserve">
+    <value>group_ScoreSetting1</value>
+  </data>
+  <data name="srmLabel20.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScoreTitle4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="group_ScoreSetting2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;txt_MarkScoreTolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Score4.Parent" xml:space="preserve">
+    <value>tabPage_SealScoreSetting</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox1.Name" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="srmLabel30.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_PocketToleranceScore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txt_MinFarLineWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>895</value>
+  </data>
+  <data name="&gt;&gt;trackBar_PocketScoreTolerance.Parent" xml:space="preserve">
+    <value>group_ScoreSetting1</value>
+  </data>
+  <data name="chk_DisplayResult.TabIndex" type="System.Int32, mscorlib">
+    <value>938</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txt_MaxFarLineWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 58</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 121</value>
+  </data>
+  <data name="&gt;&gt;lbl_Score3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_PocketToleranceScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="txt_PocketScoreTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="txt_PocketScoreTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txt_MaxNearLineWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 87</value>
+  </data>
+  <data name="lbl_Score2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 18</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 82</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScorePercent2.Parent" xml:space="preserve">
+    <value>tabPage_MarkScoreSetting</value>
+  </data>
+  <data name="lbl_ScoreTitle2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 23</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScoreTitle2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxDistance.Name" xml:space="preserve">
+    <value>txt_MaxDistance</value>
+  </data>
+  <data name="columnLabel.Width" type="System.Int32, mscorlib">
+    <value>172</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txt_SealScoreTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>912</value>
+  </data>
+  <data name="&gt;&gt;tabPage_LineWidth.Name" xml:space="preserve">
+    <value>tabPage_LineWidth</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_FarSealLineWidth.Name" xml:space="preserve">
+    <value>txt_FarSealLineWidth</value>
+  </data>
+  <data name="txt_MaxNearLineWidth.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Score4.Name" xml:space="preserve">
+    <value>lbl_Score4</value>
+  </data>
+  <data name="&gt;&gt;lbl_GrabTime.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox5.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScoreTitle3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbl_ScoreTitle4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxFarLineWidth.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;txt_SealScoreTolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Score.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 27</value>
+  </data>
+  <data name="&gt;&gt;lbl_MarkToleranceScore.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel26.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;group_ScoreSetting1.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_MinDistance.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="btn_Close.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_FarSealLineWidth.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_NearSealLineWidth.Name" xml:space="preserve">
+    <value>txt_NearSealLineWidth</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;chk_SetToAllOverHeatROI.Name" xml:space="preserve">
+    <value>chk_SetToAllOverHeatROI</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="trackBar_MarkScoreTolerance.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="srmLabel31.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="&gt;&gt;trackBar_SealScoreTolerance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Save.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="srmLabel13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;txt_MinNearLineWidth.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="chk_DisplayResult.Text" xml:space="preserve">
+    <value>Display Result</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Pin1ROI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="srmLabel31.Text" xml:space="preserve">
+    <value>Total Process Time:</value>
+  </data>
+  <data name="&gt;&gt;dgd_LineWidth.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Name" xml:space="preserve">
+    <value>srmLabel10</value>
+  </data>
+  <data name="srmLabel20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_DisplayResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 372</value>
+  </data>
+  <data name="lbl_GrabTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.Name" xml:space="preserve">
+    <value>srmLabel14</value>
+  </data>
+  <data name="tabPage_PackageScoreSetting.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 16</value>
+  </data>
+  <data name="lbl_GrabTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 30</value>
+  </data>
+  <data name="&gt;&gt;txt_WidthUpperTolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="trackBar_SealScoreTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 23</value>
+  </data>
+  <data name="&gt;&gt;srmLabel21.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_SetToAllOverHeatROI.Parent" xml:space="preserve">
+    <value>tabPage_LineWidth</value>
+  </data>
+  <data name="&gt;&gt;tabPage_MarkScoreSetting.Name" xml:space="preserve">
+    <value>tabPage_MarkScoreSetting</value>
+  </data>
+  <data name="srmLabel21.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="lbl_Pin1ROI.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="dgd_Setting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 334</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_DistanceMinTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>905</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="txt_NearSealLineWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="dgd_Setting.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox1.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txt_NearSealLineWidth.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="label17.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chk_DisplayResult.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="trackBar_SealScoreTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 43</value>
+  </data>
+  <data name="srmLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 36</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabPage_SealScoreSetting.Parent" xml:space="preserve">
+    <value>tab_VisionControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1ROI.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 24</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>901</value>
+  </data>
+  <data name="group_ScoreSetting1.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="trackBar_SealScoreTolerance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_MarkToleranceScore.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScoreTitle4.Parent" xml:space="preserve">
+    <value>tabPage_SealScoreSetting</value>
+  </data>
+  <data name="&gt;&gt;columnLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel26.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="lbl_PocketToleranceScore.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="&gt;&gt;txt_DistanceMinTolerance.Name" xml:space="preserve">
+    <value>txt_DistanceMinTolerance</value>
+  </data>
+  <data name="&gt;&gt;txt_MinNearLineWidth.Name" xml:space="preserve">
+    <value>txt_MinNearLineWidth</value>
+  </data>
+  <data name="tabPage_LineWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="&gt;&gt;txt_MinDistance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_PocketScoreTolerance.Text" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;lbl_Score3.Parent" xml:space="preserve">
+    <value>tabPage_SealScoreSetting</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnResult.Name" xml:space="preserve">
+    <value>columnResult</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="srmLabel13.TabIndex" type="System.Int32, mscorlib">
+    <value>886</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>srmGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;group_ScoreSetting2.Parent" xml:space="preserve">
+    <value>tabPage_MarkScoreSetting</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbl_Score.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 23</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="txt_MinDistance.Text" xml:space="preserve">
+    <value>0.1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel28.Name" xml:space="preserve">
+    <value>srmLabel28</value>
+  </data>
+  <data name="chk_DisplayResult.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel28.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>913</value>
+  </data>
+  <data name="tabPage_MarkScoreSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="txt_MaxFarLineWidth.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage_LineWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txt_MaxNearLineWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScoreTitle2.Parent" xml:space="preserve">
+    <value>tabPage_MarkScoreSetting</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;srmLabel20.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="srmGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 133</value>
+  </data>
+  <data name="lbl_GrabTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="&gt;&gt;srmLabel21.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="lbl_GrabTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Save.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="txt_MinFarLineWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Score2.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="txt_WidthUpperTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Max Tolerance :</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScoreTitle4.Name" xml:space="preserve">
+    <value>lbl_ScoreTitle4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel28.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_ScoreTitle3.Parent" xml:space="preserve">
+    <value>tabPage_SealScoreSetting</value>
+  </data>
+  <data name="&gt;&gt;dlg_ImagesFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;trackBar_MarkScoreTolerance.Parent" xml:space="preserve">
+    <value>group_ScoreSetting2</value>
+  </data>
+  <data name="txt_MinFarLineWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 58</value>
+  </data>
+  <data name="srmLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="tab_VisionControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 27</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="srmLabel21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txt_MaxDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>899</value>
+  </data>
+  <data name="txt_DistanceMaxTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>908</value>
+  </data>
+  <data name="group_SealScoreSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 82</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>165, 17</value>
+  </metadata>
+  <metadata name="columnResult.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn10.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="columnSetting.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="columnLabel.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dlg_ImagesFolder.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

@@ -1,0 +1,2166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel33.Text" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="&gt;&gt;group_GeneralDefectSetting.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralTotalAreaDark.Name" xml:space="preserve">
+    <value>txt_GeneralTotalAreaDark</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgd_Position.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="srmLabel33.TabIndex" type="System.Int32, mscorlib">
+    <value>990</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Pin1.Parent" xml:space="preserve">
+    <value>tp_Pin1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel27.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralAreaBright.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel23.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="group_Pin1Setting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 9</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="srmLabel17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Crack.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn5</value>
+  </data>
+  <data name="&gt;&gt;srmLabel33.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_GeneralVerticalBright.TabIndex" type="System.Int32, mscorlib">
+    <value>974</value>
+  </data>
+  <data name="&gt;&gt;tp_PH.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tp_PackageSimple.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel37.Text" xml:space="preserve">
+    <value>mm2</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralVerticalBright.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralChipAreaDark.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralHorizontalBright.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 100</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Name" xml:space="preserve">
+    <value>btn_Save</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1ToleranceScore.Parent" xml:space="preserve">
+    <value>group_Pin1Setting</value>
+  </data>
+  <data name="srmLabel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="tp_Package.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 458</value>
+  </data>
+  <data name="group_Crack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 320</value>
+  </data>
+  <data name="srmLabel16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="group_MoldFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 81</value>
+  </data>
+  <data name="srmLabel27.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;group_PackageOffset.Parent" xml:space="preserve">
+    <value>tp_Package</value>
+  </data>
+  <data name="txt_GeneralVerticalBright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="txt_GeneralTotalAreaBright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 123</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Pin1.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="groupBox_Pin1Score.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 94</value>
+  </data>
+  <data name="srmLabel35.TabIndex" type="System.Int32, mscorlib">
+    <value>993</value>
+  </data>
+  <data name="tp_PackageSimple.Text" xml:space="preserve">
+    <value>Package (Center ROI)</value>
+  </data>
+  <data name="srmLabel13.Text" xml:space="preserve">
+    <value>mm2</value>
+  </data>
+  <data name="group_GeneralDefectSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 153</value>
+  </data>
+  <data name="group_PackageOffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 352</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn6</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 34</value>
+  </data>
+  <data name="group_PHSetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lbl_Pin1ScorePercent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Title.Text" xml:space="preserve">
+    <value>Lead3D Tolerance Setting</value>
+  </data>
+  <data name="chk_DisplayResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 24</value>
+  </data>
+  <data name="lbl_Title.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="&gt;&gt;lbl_PinScoreTitle.Parent" xml:space="preserve">
+    <value>groupBox_Pin1Score</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralVerticalBright.Name" xml:space="preserve">
+    <value>txt_GeneralVerticalBright</value>
+  </data>
+  <data name="txt_GeneralAreaDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 97</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1ToleranceScore.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dgd_Position.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 452</value>
+  </data>
+  <data name="lbl_CrackVertical.Text" xml:space="preserve">
+    <value>Crack Length</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1ScorePercent.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1ToleranceScore.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="group_PackageOffset.TabIndex" type="System.Int32, mscorlib">
+    <value>958</value>
+  </data>
+  <data name="srmLabel26.TabIndex" type="System.Int32, mscorlib">
+    <value>973</value>
+  </data>
+  <data name="btn_Save.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 23</value>
+  </data>
+  <data name="group_PackageOffset.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btn_PackageOffset.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_Pin1TolerancePercent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;srmLabel23.Name" xml:space="preserve">
+    <value>srmLabel23</value>
+  </data>
+  <data name="txt_GeneralChipAreaDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 45</value>
+  </data>
+  <data name="&gt;&gt;srmLabel27.Name" xml:space="preserve">
+    <value>srmLabel27</value>
+  </data>
+  <data name="srmLabel30.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="tp_PackageSimple.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 458</value>
+  </data>
+  <data name="lbl_Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;txt_BlackAreaArea.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel18.TabIndex" type="System.Int32, mscorlib">
+    <value>1003</value>
+  </data>
+  <data name="&gt;&gt;group_Pin1Setting.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_CrackVertical.Parent" xml:space="preserve">
+    <value>group_Crack</value>
+  </data>
+  <data name="&gt;&gt;txt_CrackVerticalDark.Parent" xml:space="preserve">
+    <value>group_Crack</value>
+  </data>
+  <data name="&gt;&gt;tp_Pin1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="srmLabel31.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="txt_GeneralAreaBright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="group_Crack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 135</value>
+  </data>
+  <data name="&gt;&gt;lbl_Crack.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_Mold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="group_Crack.Text" xml:space="preserve">
+    <value>Crack Defect</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralChipAreaBright.Parent" xml:space="preserve">
+    <value>group_ChippedOff</value>
+  </data>
+  <data name="&gt;&gt;txt_CrackAreaDark.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tp_Package.Name" xml:space="preserve">
+    <value>tp_Package</value>
+  </data>
+  <data name="srmLabel23.Text" xml:space="preserve">
+    <value>Dark Defect</value>
+  </data>
+  <data name="&gt;&gt;srmLabel23.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="srmLabel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="lbl_PHBlobBlackArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 56</value>
+  </data>
+  <data name="&gt;&gt;chk_DisplayResult.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1Score.Parent" xml:space="preserve">
+    <value>groupBox_Pin1Score</value>
+  </data>
+  <data name="txt_CrackHorizontalDark.TabIndex" type="System.Int32, mscorlib">
+    <value>1005</value>
+  </data>
+  <data name="txt_GeneralHorizontalDark.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tab_VisionControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>375, 490</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Pin1Tolerance.Name" xml:space="preserve">
+    <value>trackBar_Pin1Tolerance</value>
+  </data>
+  <data name="tab_VisionControl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="&gt;&gt;dgd_PackageSetting.Parent" xml:space="preserve">
+    <value>tp_Package</value>
+  </data>
+  <data name="&gt;&gt;txt_CrackVerticalDark.Name" xml:space="preserve">
+    <value>txt_CrackVerticalDark</value>
+  </data>
+  <data name="&gt;&gt;txt_MoldFlashAreaBright.Parent" xml:space="preserve">
+    <value>group_MoldFlash</value>
+  </data>
+  <data name="lbl_CrackHorizontal.Text" xml:space="preserve">
+    <value>Crack Width</value>
+  </data>
+  <data name="lbl_Crack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Lead3DPkgToleranceForm</value>
+  </data>
+  <data name="group_Pin1Setting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;group_MoldFlash.Parent" xml:space="preserve">
+    <value>tp_PackageSimple</value>
+  </data>
+  <data name="&gt;&gt;lbl_PHBlobBlackArea.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 23</value>
+  </data>
+  <data name="lbl_PHBlobBlackArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="srmLabel40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 23</value>
+  </data>
+  <data name="&gt;&gt;lbl_Chip.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_CrackHorizontalDark.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn9.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn9</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralChipAreaDark.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_CrackVerticalDark.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 23</value>
+  </data>
+  <data name="srmLabel27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 74</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralVerticalBright.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tp_PackageSimple.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;group_PHSetting.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_PinScoreTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;group_ChippedOff.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="srmLabel26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1ScorePercent.Name" xml:space="preserve">
+    <value>lbl_Pin1ScorePercent</value>
+  </data>
+  <data name="tp_PackageSimple.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="srmLabel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 45</value>
+  </data>
+  <data name="srmLabel17.TabIndex" type="System.Int32, mscorlib">
+    <value>977</value>
+  </data>
+  <data name="&gt;&gt;tab_VisionControl.Type" xml:space="preserve">
+    <value>SRMControl.SRMTabControl, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralAreaBright.Name" xml:space="preserve">
+    <value>txt_GeneralAreaBright</value>
+  </data>
+  <data name="group_MoldFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 239</value>
+  </data>
+  <data name="&gt;&gt;txt_MoldFlashAreaBright.Name" xml:space="preserve">
+    <value>txt_MoldFlashAreaBright</value>
+  </data>
+  <data name="srmLabel23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Pin1ScorePercent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="group_PHSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 99</value>
+  </data>
+  <data name="group_Pin1Setting.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1TolerancePercent.Name" xml:space="preserve">
+    <value>lbl_Pin1TolerancePercent</value>
+  </data>
+  <data name="&gt;&gt;group_ChippedOff.Name" xml:space="preserve">
+    <value>group_ChippedOff</value>
+  </data>
+  <data name="&gt;&gt;chk_DisplayResult.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_CrackHorizontalDark.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;srmLabel30.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel31.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel23.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn9.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="dgd_PackageSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 452</value>
+  </data>
+  <data name="srmLabel40.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="&gt;&gt;lbl_CrackVertical.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_GeneralHorizontalBright.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="srmLabel30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_CrackHorizontal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 71</value>
+  </data>
+  <data name="txt_GeneralVerticalBright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 45</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="txt_GeneralVerticalDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 45</value>
+  </data>
+  <data name="&gt;&gt;timer_Lead3D.Name" xml:space="preserve">
+    <value>timer_Lead3D</value>
+  </data>
+  <data name="srmLabel32.TabIndex" type="System.Int32, mscorlib">
+    <value>989</value>
+  </data>
+  <data name="txt_CrackAreaDark.TabIndex" type="System.Int32, mscorlib">
+    <value>1008</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Pin1Tolerance.Parent" xml:space="preserve">
+    <value>group_Pin1Setting</value>
+  </data>
+  <data name="&gt;&gt;lbl_Chip.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel32.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chk_DisplayResult.Text" xml:space="preserve">
+    <value>Display Result</value>
+  </data>
+  <data name="&gt;&gt;srmLabel26.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Chip.Parent" xml:space="preserve">
+    <value>group_ChippedOff</value>
+  </data>
+  <data name="&gt;&gt;srmLabel18.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_PHBlobBlackArea.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txt_CrackHorizontalDark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Parent" xml:space="preserve">
+    <value>group_MoldFlash</value>
+  </data>
+  <data name="lbl_Pin1TolerancePercent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 24</value>
+  </data>
+  <data name="srmLabel30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 23</value>
+  </data>
+  <data name="srmLabel37.TabIndex" type="System.Int32, mscorlib">
+    <value>997</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralAreaDark.Name" xml:space="preserve">
+    <value>txt_GeneralAreaDark</value>
+  </data>
+  <data name="srmLabel51.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tp_Position.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox_Pin1Score.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 62</value>
+  </data>
+  <data name="lbl_Pin1TolerancePercent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btn_PackageOffset.Text" xml:space="preserve">
+    <value>Package Offset</value>
+  </data>
+  <data name="trackBar_Pin1Tolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 23</value>
+  </data>
+  <data name="txt_MoldFlashAreaBright.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_PinScoreTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 23</value>
+  </data>
+  <data name="&gt;&gt;srmLabel26.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="lbl_Crack.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Pin1TolerancePercent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="&gt;&gt;srmLabel19.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1ScorePercent.Parent" xml:space="preserve">
+    <value>groupBox_Pin1Score</value>
+  </data>
+  <data name="lbl_PHBlobBlackArea.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_Pin1ToleranceScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="lbl_Pin1Score.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 23</value>
+  </data>
+  <data name="group_ChippedOff.TabIndex" type="System.Int32, mscorlib">
+    <value>193</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralAreaDark.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Pin1Score.Name" xml:space="preserve">
+    <value>groupBox_Pin1Score</value>
+  </data>
+  <data name="srmLabel16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralTotalAreaBright.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="btn_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 19</value>
+  </data>
+  <data name="lbl_Crack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 100</value>
+  </data>
+  <data name="lbl_Chip.TabIndex" type="System.Int32, mscorlib">
+    <value>998</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1ScorePercent.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel34.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_GeneralChipAreaBright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 45</value>
+  </data>
+  <data name="group_GeneralDefectSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>191</value>
+  </data>
+  <data name="lbl_CrackVertical.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralVerticalBright.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="tp_PH.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralHorizontalBright.Name" xml:space="preserve">
+    <value>txt_GeneralHorizontalBright</value>
+  </data>
+  <data name="&gt;&gt;group_GeneralDefectSetting.Name" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel52.Name" xml:space="preserve">
+    <value>srmLabel52</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Lead3DPkgToleranceForm</value>
+  </data>
+  <data name="&gt;&gt;txt_BlackAreaArea.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_CrackVertical.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 100</value>
+  </data>
+  <data name="&gt;&gt;tab_VisionControl.Name" xml:space="preserve">
+    <value>tab_VisionControl</value>
+  </data>
+  <data name="srmLabel34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Pin1ToleranceScore.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="&gt;&gt;group_Pin1Setting.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Pin1ScorePercent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="&gt;&gt;chk_DisplayResult.Name" xml:space="preserve">
+    <value>chk_DisplayResult</value>
+  </data>
+  <data name="srmLabel31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;group_PHSetting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_Pin1ScorePercent.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="lbl_Pin1ScorePercent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 5</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Parent" xml:space="preserve">
+    <value>group_PHSetting</value>
+  </data>
+  <data name="txt_CrackHorizontalDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 71</value>
+  </data>
+  <data name="tp_PH.Text" xml:space="preserve">
+    <value>PH</value>
+  </data>
+  <data name="srmLabel14.TabIndex" type="System.Int32, mscorlib">
+    <value>1000</value>
+  </data>
+  <data name="btn_PackageOffset.TabIndex" type="System.Int32, mscorlib">
+    <value>940</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.Parent" xml:space="preserve">
+    <value>group_Crack</value>
+  </data>
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 523</value>
+  </data>
+  <data name="&gt;&gt;txt_BlackAreaArea.Name" xml:space="preserve">
+    <value>txt_BlackAreaArea</value>
+  </data>
+  <data name="btn_PackageOffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 37</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="lbl_CrackHorizontal.TabIndex" type="System.Int32, mscorlib">
+    <value>1007</value>
+  </data>
+  <data name="txt_GeneralHorizontalDark.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="group_MoldFlash.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="txt_BlackAreaArea.TabIndex" type="System.Int32, mscorlib">
+    <value>974</value>
+  </data>
+  <data name="&gt;&gt;srmLabel37.Name" xml:space="preserve">
+    <value>srmLabel37</value>
+  </data>
+  <data name="tp_Position.Text" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="txt_GeneralChipAreaDark.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel51.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="trackBar_Pin1Tolerance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgd_Position.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dgd_PackageSetting.Name" xml:space="preserve">
+    <value>dgd_PackageSetting</value>
+  </data>
+  <data name="btn_Save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 523</value>
+  </data>
+  <data name="&gt;&gt;txt_CrackVerticalDark.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="srmLabel14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="group_GeneralDefectSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_BlackAreaArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="group_ChippedOff.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;group_MoldFlash.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel30.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_CrackVerticalDark.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Pin1ToleranceScore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;dgd_Position.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_CrackAreaDark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;srmLabel30.Name" xml:space="preserve">
+    <value>srmLabel30</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;srmLabel34.Name" xml:space="preserve">
+    <value>srmLabel34</value>
+  </data>
+  <data name="group_ChippedOff.Text" xml:space="preserve">
+    <value>Chipped Off Defect</value>
+  </data>
+  <data name="&gt;&gt;srmLabel38.Name" xml:space="preserve">
+    <value>srmLabel38</value>
+  </data>
+  <data name="&gt;&gt;tp_Pin1.Parent" xml:space="preserve">
+    <value>tab_VisionControl</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Pin1Score.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel27.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="trackBar_Pin1Tolerance.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="srmLabel34.TabIndex" type="System.Int32, mscorlib">
+    <value>994</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1ToleranceScore.Name" xml:space="preserve">
+    <value>lbl_Pin1ToleranceScore</value>
+  </data>
+  <data name="&gt;&gt;srmLabel37.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel52.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralHorizontalDark.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="group_PHSetting.Text" xml:space="preserve">
+    <value>PH Setting</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralTotalAreaBright.Name" xml:space="preserve">
+    <value>txt_GeneralTotalAreaBright</value>
+  </data>
+  <data name="&gt;&gt;group_PHSetting.Name" xml:space="preserve">
+    <value>group_PHSetting</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralHorizontalDark.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btn_PackageOffset.Parent" xml:space="preserve">
+    <value>group_PackageOffset</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>374, 569</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn9.HeaderText" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="lbl_Pin1ToleranceScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="group_ChippedOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 153</value>
+  </data>
+  <data name="&gt;&gt;tp_PH.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Name" xml:space="preserve">
+    <value>srmLabel13</value>
+  </data>
+  <data name="tp_Pin1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;lbl_PinScoreTitle.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;group_MoldFlash.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Name" xml:space="preserve">
+    <value>srmLabel17</value>
+  </data>
+  <data name="srmLabel40.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="srmLabel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 23</value>
+  </data>
+  <data name="&gt;&gt;srmLabel18.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="group_MoldFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="&gt;&gt;group_ChippedOff.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_GeneralHorizontalDark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="tp_Position.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1TolerancePercent.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_CrackHorizontalDark.Name" xml:space="preserve">
+    <value>txt_CrackHorizontalDark</value>
+  </data>
+  <data name="srmLabel35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 123</value>
+  </data>
+  <data name="group_Crack.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="srmLabel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 61</value>
+  </data>
+  <data name="&gt;&gt;lbl_PinScoreTitle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgd_PackageSetting.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="btn_PackageOffset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_PackageOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 30</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralTotalAreaDark.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>938</value>
+  </data>
+  <data name="&gt;&gt;srmLabel32.Name" xml:space="preserve">
+    <value>srmLabel32</value>
+  </data>
+  <data name="lbl_Pin1ScorePercent.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="&gt;&gt;srmLabel30.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;srmLabel51.Name" xml:space="preserve">
+    <value>srmLabel51</value>
+  </data>
+  <data name="srmLabel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 13</value>
+  </data>
+  <data name="tp_Pin1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="srmLabel16.TabIndex" type="System.Int32, mscorlib">
+    <value>973</value>
+  </data>
+  <data name="tp_PackageSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="srmLabel24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 45</value>
+  </data>
+  <data name="tp_PH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Parent" xml:space="preserve">
+    <value>group_PHSetting</value>
+  </data>
+  <data name="lbl_Pin1Score.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_GeneralVerticalDark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralChipAreaBright.Name" xml:space="preserve">
+    <value>txt_GeneralChipAreaBright</value>
+  </data>
+  <data name="&gt;&gt;tp_PH.Parent" xml:space="preserve">
+    <value>tab_VisionControl</value>
+  </data>
+  <data name="srmLabel32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Chip.Text" xml:space="preserve">
+    <value>Chipped Off Area</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_DisplayResult.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn2</value>
+  </data>
+  <data name="lbl_CrackHorizontal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dgd_PackageSetting.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Pin1.Name" xml:space="preserve">
+    <value>groupBox_Pin1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="srmLabel51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="srmLabel37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 23</value>
+  </data>
+  <data name="srmLabel35.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_MoldFlashAreaBright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 45</value>
+  </data>
+  <data name="&gt;&gt;txt_CrackAreaDark.Parent" xml:space="preserve">
+    <value>group_Crack</value>
+  </data>
+  <data name="tp_Package.Text" xml:space="preserve">
+    <value>Package</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Chip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 38</value>
+  </data>
+  <data name="srmLabel27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 23</value>
+  </data>
+  <data name="txt_GeneralTotalAreaDark.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1TolerancePercent.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_GeneralTotalAreaDark.TabIndex" type="System.Int32, mscorlib">
+    <value>992</value>
+  </data>
+  <data name="&gt;&gt;lbl_Chip.Name" xml:space="preserve">
+    <value>lbl_Chip</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="txt_GeneralHorizontalDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 71</value>
+  </data>
+  <data name="txt_GeneralTotalAreaBright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="groupBox_Pin1Score.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Pin1Tolerance.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 23</value>
+  </data>
+  <data name="txt_GeneralTotalAreaDark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="srmLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="txt_GeneralVerticalDark.TabIndex" type="System.Int32, mscorlib">
+    <value>980</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Pin1Score.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 1</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Pin1Tolerance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Pin1Score.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="srmLabel37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 45</value>
+  </data>
+  <data name="lbl_Crack.Text" xml:space="preserve">
+    <value>Crack Area</value>
+  </data>
+  <data name="group_ChippedOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 86</value>
+  </data>
+  <data name="&gt;&gt;tp_Pin1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_CrackHorizontal.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_Pin1Tolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="srmLabel32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 74</value>
+  </data>
+  <data name="lbl_Crack.TabIndex" type="System.Int32, mscorlib">
+    <value>1010</value>
+  </data>
+  <data name="srmLabel33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 23</value>
+  </data>
+  <data name="&gt;&gt;srmLabel52.Parent" xml:space="preserve">
+    <value>group_ChippedOff</value>
+  </data>
+  <data name="lbl_Title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="srmLabel23.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="srmLabel30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 97</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn4</value>
+  </data>
+  <data name="&gt;&gt;btn_PackageOffset.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dgd_Position.TabIndex" type="System.Int32, mscorlib">
+    <value>958</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Name" xml:space="preserve">
+    <value>srmLabel16</value>
+  </data>
+  <data name="lbl_Mold.TabIndex" type="System.Int32, mscorlib">
+    <value>1001</value>
+  </data>
+  <data name="txt_GeneralChipAreaBright.TabIndex" type="System.Int32, mscorlib">
+    <value>995</value>
+  </data>
+  <data name="btn_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 34</value>
+  </data>
+  <data name="&gt;&gt;group_GeneralDefectSetting.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_CrackVerticalDark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="srmLabel40.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel51.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>375, 24</value>
+  </data>
+  <data name="srmLabel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;lbl_PinScoreTitle.Name" xml:space="preserve">
+    <value>lbl_PinScoreTitle</value>
+  </data>
+  <data name="lbl_Pin1Score.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="tab_VisionControl.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
+    <value>Buttons</value>
+  </data>
+  <data name="srmLabel19.TabIndex" type="System.Int32, mscorlib">
+    <value>1001</value>
+  </data>
+  <data name="&gt;&gt;srmLabel27.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel32.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel19.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_Pin1Tolerance.Name" xml:space="preserve">
+    <value>txt_Pin1Tolerance</value>
+  </data>
+  <data name="lbl_Pin1Score.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 19</value>
+  </data>
+  <data name="srmLabel18.Text" xml:space="preserve">
+    <value>mm2</value>
+  </data>
+  <data name="srmLabel31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 23</value>
+  </data>
+  <data name="srmLabel52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="txt_GeneralTotalAreaDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 123</value>
+  </data>
+  <data name="srmLabel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 13</value>
+  </data>
+  <data name="&gt;&gt;txt_MoldFlashAreaBright.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txt_CrackAreaDark.Name" xml:space="preserve">
+    <value>txt_CrackAreaDark</value>
+  </data>
+  <data name="&gt;&gt;srmLabel18.Parent" xml:space="preserve">
+    <value>group_Crack</value>
+  </data>
+  <data name="&gt;&gt;srmLabel31.Name" xml:space="preserve">
+    <value>srmLabel31</value>
+  </data>
+  <data name="&gt;&gt;srmLabel19.Parent" xml:space="preserve">
+    <value>group_MoldFlash</value>
+  </data>
+  <data name="&gt;&gt;srmLabel35.Name" xml:space="preserve">
+    <value>srmLabel35</value>
+  </data>
+  <data name="txt_Pin1Tolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="lbl_Title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralHorizontalDark.Name" xml:space="preserve">
+    <value>txt_GeneralHorizontalDark</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralTotalAreaDark.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="srmLabel38.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="txt_CrackAreaDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 100</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.Name" xml:space="preserve">
+    <value>lbl_Title</value>
+  </data>
+  <data name="&gt;&gt;tab_VisionControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="group_GeneralDefectSetting.Text" xml:space="preserve">
+    <value>General Defect</value>
+  </data>
+  <data name="&gt;&gt;srmLabel26.Name" xml:space="preserve">
+    <value>srmLabel26</value>
+  </data>
+  <data name="&gt;&gt;srmLabel26.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="trackBar_Pin1Tolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="txt_GeneralChipAreaBright.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tp_Position.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_PHBlobBlackArea.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;group_MoldFlash.Name" xml:space="preserve">
+    <value>group_MoldFlash</value>
+  </data>
+  <data name="srmLabel27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralHorizontalBright.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lbl_Mold.Parent" xml:space="preserve">
+    <value>group_MoldFlash</value>
+  </data>
+  <data name="lbl_Pin1TolerancePercent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;group_Pin1Setting.Parent" xml:space="preserve">
+    <value>groupBox_Pin1</value>
+  </data>
+  <data name="srmLabel14.Text" xml:space="preserve">
+    <value>Dark Defect</value>
+  </data>
+  <data name="lbl_Pin1Score.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_Crack.Name" xml:space="preserve">
+    <value>lbl_Crack</value>
+  </data>
+  <data name="txt_GeneralAreaDark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Mold.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;srmLabel40.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Mold.Name" xml:space="preserve">
+    <value>lbl_Mold</value>
+  </data>
+  <data name="txt_BlackAreaArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1Score.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_CrackHorizontal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="lbl_Pin1TolerancePercent.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="srmLabel26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_GeneralAreaBright.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="&gt;&gt;srmLabel32.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralVerticalDark.Name" xml:space="preserve">
+    <value>txt_GeneralVerticalDark</value>
+  </data>
+  <data name="&gt;&gt;txt_MoldFlashAreaBright.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel38.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tp_Package.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel26.Text" xml:space="preserve">
+    <value>Bright Defect</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="txt_CrackHorizontalDark.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_PHBlobBlackArea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralVerticalDark.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lbl_Crack.Parent" xml:space="preserve">
+    <value>group_Crack</value>
+  </data>
+  <data name="srmLabel34.Text" xml:space="preserve">
+    <value>Total Area</value>
+  </data>
+  <data name="tp_Package.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbl_PinScoreTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="group_PHSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 32</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralAreaBright.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="srmLabel19.Text" xml:space="preserve">
+    <value>Bright Defect</value>
+  </data>
+  <data name="srmLabel32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 23</value>
+  </data>
+  <data name="&gt;&gt;tab_VisionControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1Score.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel35.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel34.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="srmLabel24.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="txt_GeneralAreaDark.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel35.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="dgd_Position.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="txt_CrackVerticalDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 42</value>
+  </data>
+  <data name="&gt;&gt;tp_PH.Name" xml:space="preserve">
+    <value>tp_PH</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn3</value>
+  </data>
+  <data name="txt_GeneralAreaBright.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel31.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_BlackAreaArea.Parent" xml:space="preserve">
+    <value>group_PHSetting</value>
+  </data>
+  <data name="srmLabel38.TabIndex" type="System.Int32, mscorlib">
+    <value>990</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Pin1Score.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel19.Name" xml:space="preserve">
+    <value>srmLabel19</value>
+  </data>
+  <data name="trackBar_Pin1Tolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 43</value>
+  </data>
+  <data name="&gt;&gt;srmLabel52.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tab_VisionControl.TabIndex" type="System.Int32, mscorlib">
+    <value>940</value>
+  </data>
+  <data name="&gt;&gt;srmLabel38.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;group_Crack.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="&gt;&gt;btn_PackageOffset.Name" xml:space="preserve">
+    <value>btn_PackageOffset</value>
+  </data>
+  <data name="&gt;&gt;dgd_PackageSetting.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 71</value>
+  </data>
+  <data name="txt_GeneralChipAreaBright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="srmLabel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 19</value>
+  </data>
+  <data name="lbl_PinScoreTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lbl_Mold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 38</value>
+  </data>
+  <data name="&gt;&gt;txt_Pin1Tolerance.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbl_CrackHorizontal.Parent" xml:space="preserve">
+    <value>group_Crack</value>
+  </data>
+  <data name="&gt;&gt;srmLabel34.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Chip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 45</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralTotalAreaBright.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="srmLabel38.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn8</value>
+  </data>
+  <data name="dgd_Position.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Mold.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dgd_PackageSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>957</value>
+  </data>
+  <data name="txt_GeneralAreaBright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 97</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Pin1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_Pin1ScorePercent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralHorizontalDark.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_GeneralAreaDark.TabIndex" type="System.Int32, mscorlib">
+    <value>984</value>
+  </data>
+  <data name="&gt;&gt;srmLabel40.Parent" xml:space="preserve">
+    <value>group_Crack</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralAreaDark.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tp_Pin1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 458</value>
+  </data>
+  <data name="&gt;&gt;group_PackageOffset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="group_Crack.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="srmLabel26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 19</value>
+  </data>
+  <data name="tp_PH.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralChipAreaBright.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="srmLabel30.Text" xml:space="preserve">
+    <value>mm2</value>
+  </data>
+  <data name="&gt;&gt;txt_CrackAreaDark.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_Mold.Text" xml:space="preserve">
+    <value>Mold Flash Area</value>
+  </data>
+  <data name="&gt;&gt;lbl_CrackVertical.Name" xml:space="preserve">
+    <value>lbl_CrackVertical</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_GeneralVerticalBright.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_CrackHorizontal.Name" xml:space="preserve">
+    <value>lbl_CrackHorizontal</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralTotalAreaDark.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_BlackAreaArea.Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="srmLabel51.TabIndex" type="System.Int32, mscorlib">
+    <value>985</value>
+  </data>
+  <data name="tp_Pin1.Text" xml:space="preserve">
+    <value>Pin1</value>
+  </data>
+  <data name="srmLabel51.Text" xml:space="preserve">
+    <value>Dark Defect</value>
+  </data>
+  <data name="&gt;&gt;srmLabel33.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="txt_GeneralTotalAreaBright.TabIndex" type="System.Int32, mscorlib">
+    <value>991</value>
+  </data>
+  <data name="srmLabel18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel40.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1TolerancePercent.Parent" xml:space="preserve">
+    <value>group_Pin1Setting</value>
+  </data>
+  <data name="&gt;&gt;tp_PackageSimple.Parent" xml:space="preserve">
+    <value>tab_VisionControl</value>
+  </data>
+  <data name="&gt;&gt;dgd_Position.Name" xml:space="preserve">
+    <value>dgd_Position</value>
+  </data>
+  <data name="groupBox_Pin1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 173</value>
+  </data>
+  <data name="srmLabel27.TabIndex" type="System.Int32, mscorlib">
+    <value>986</value>
+  </data>
+  <data name="&gt;&gt;srmLabel40.Name" xml:space="preserve">
+    <value>srmLabel40</value>
+  </data>
+  <data name="&gt;&gt;srmLabel35.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chk_DisplayResult.TabIndex" type="System.Int32, mscorlib">
+    <value>939</value>
+  </data>
+  <data name="group_Pin1Setting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 82</value>
+  </data>
+  <data name="&gt;&gt;group_PHSetting.Parent" xml:space="preserve">
+    <value>tp_PH</value>
+  </data>
+  <data name="srmLabel35.Text" xml:space="preserve">
+    <value>mm2</value>
+  </data>
+  <data name="lbl_Chip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_Pin1Tolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_PHBlobBlackArea.TabIndex" type="System.Int32, mscorlib">
+    <value>978</value>
+  </data>
+  <data name="&gt;&gt;lbl_Pin1Score.Name" xml:space="preserve">
+    <value>lbl_Pin1Score</value>
+  </data>
+  <data name="&gt;&gt;group_Pin1Setting.Name" xml:space="preserve">
+    <value>group_Pin1Setting</value>
+  </data>
+  <data name="lbl_CrackVertical.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 42</value>
+  </data>
+  <data name="lbl_PinScoreTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tp_Position.Parent" xml:space="preserve">
+    <value>tab_VisionControl</value>
+  </data>
+  <data name="txt_MoldFlashAreaBright.TabIndex" type="System.Int32, mscorlib">
+    <value>999</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralTotalAreaBright.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 126</value>
+  </data>
+  <data name="txt_CrackAreaDark.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel37.Parent" xml:space="preserve">
+    <value>group_ChippedOff</value>
+  </data>
+  <data name="lbl_Pin1ToleranceScore.Text" xml:space="preserve">
+    <value>Min. Score</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;srmLabel31.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dgd_Position.Parent" xml:space="preserve">
+    <value>tp_Position</value>
+  </data>
+  <data name="&gt;&gt;group_PackageOffset.Name" xml:space="preserve">
+    <value>group_PackageOffset</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralAreaBright.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_CrackVertical.TabIndex" type="System.Int32, mscorlib">
+    <value>1004</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tp_PackageSimple.Name" xml:space="preserve">
+    <value>tp_PackageSimple</value>
+  </data>
+  <data name="&gt;&gt;srmLabel24.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbl_Pin1ToleranceScore.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralHorizontalBright.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="txt_GeneralHorizontalBright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="txt_MoldFlashAreaBright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="srmLabel31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 48</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralChipAreaDark.Name" xml:space="preserve">
+    <value>txt_GeneralChipAreaDark</value>
+  </data>
+  <data name="group_Pin1Setting.Text" xml:space="preserve">
+    <value>Pin1 Setting</value>
+  </data>
+  <data name="&gt;&gt;lbl_CrackHorizontal.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txt_GeneralChipAreaDark.TabIndex" type="System.Int32, mscorlib">
+    <value>996</value>
+  </data>
+  <data name="&gt;&gt;tp_Package.Parent" xml:space="preserve">
+    <value>tab_VisionControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel51.Parent" xml:space="preserve">
+    <value>group_ChippedOff</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btn_Save.TabIndex" type="System.Int32, mscorlib">
+    <value>937</value>
+  </data>
+  <data name="txt_CrackVerticalDark.TabIndex" type="System.Int32, mscorlib">
+    <value>1002</value>
+  </data>
+  <data name="&gt;&gt;srmLabel24.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel31.Text" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="txt_GeneralTotalAreaBright.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tp_Package.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="srmLabel51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 19</value>
+  </data>
+  <data name="chk_DisplayResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 529</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.Name" xml:space="preserve">
+    <value>srmLabel14</value>
+  </data>
+  <data name="srmLabel16.Text" xml:space="preserve">
+    <value>Minimum Black Area (pixels)</value>
+  </data>
+  <data name="&gt;&gt;srmLabel18.Name" xml:space="preserve">
+    <value>srmLabel18</value>
+  </data>
+  <data name="srmLabel52.Text" xml:space="preserve">
+    <value>Bright Defect</value>
+  </data>
+  <data name="group_PHSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>187</value>
+  </data>
+  <data name="lbl_PinScoreTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tp_Pin1.Name" xml:space="preserve">
+    <value>tp_Pin1</value>
+  </data>
+  <data name="txt_GeneralHorizontalBright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 71</value>
+  </data>
+  <data name="tp_PH.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 458</value>
+  </data>
+  <data name="srmLabel52.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralAreaDark.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="&gt;&gt;lbl_PHBlobBlackArea.Name" xml:space="preserve">
+    <value>lbl_PHBlobBlackArea</value>
+  </data>
+  <data name="groupBox_Pin1Score.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="&gt;&gt;group_PackageOffset.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel33.Name" xml:space="preserve">
+    <value>srmLabel33</value>
+  </data>
+  <data name="&gt;&gt;txt_Pin1Tolerance.Parent" xml:space="preserve">
+    <value>group_Pin1Setting</value>
+  </data>
+  <data name="lbl_Mold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 42</value>
+  </data>
+  <data name="&gt;&gt;srmLabel52.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="group_MoldFlash.Text" xml:space="preserve">
+    <value>Mold Flash Defect</value>
+  </data>
+  <data name="group_GeneralDefectSetting.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="srmLabel23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 19</value>
+  </data>
+  <data name="lbl_CrackVertical.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_DisplayResult.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 42</value>
+  </data>
+  <data name="tp_Pin1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="&gt;&gt;group_ChippedOff.Parent" xml:space="preserve">
+    <value>tp_PackageSimple</value>
+  </data>
+  <data name="&gt;&gt;tp_Package.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="group_PackageOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 103</value>
+  </data>
+  <data name="&gt;&gt;srmLabel24.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_Pin1Tolerance.Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;groupBox_Pin1Score.Parent" xml:space="preserve">
+    <value>groupBox_Pin1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel37.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralVerticalDark.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_PinScoreTitle.Text" xml:space="preserve">
+    <value>Pin1 Score</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Pin1TolerancePercent.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;tp_Position.Name" xml:space="preserve">
+    <value>tp_Position</value>
+  </data>
+  <data name="groupBox_Pin1.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="srmLabel13.TabIndex" type="System.Int32, mscorlib">
+    <value>1001</value>
+  </data>
+  <data name="tp_Position.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 458</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralChipAreaBright.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel24.TabIndex" type="System.Int32, mscorlib">
+    <value>985</value>
+  </data>
+  <data name="&gt;&gt;group_GeneralDefectSetting.Parent" xml:space="preserve">
+    <value>tp_PackageSimple</value>
+  </data>
+  <data name="&gt;&gt;srmLabel24.Name" xml:space="preserve">
+    <value>srmLabel24</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.Width" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="txt_GeneralChipAreaDark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;lbl_PHBlobBlackArea.Parent" xml:space="preserve">
+    <value>group_PHSetting</value>
+  </data>
+  <data name="chk_DisplayResult.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txt_GeneralHorizontalBright.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;group_Crack.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_GeneralVerticalDark.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;group_Crack.Parent" xml:space="preserve">
+    <value>tp_PackageSimple</value>
+  </data>
+  <data name="&gt;&gt;srmLabel38.Parent" xml:space="preserve">
+    <value>group_Crack</value>
+  </data>
+  <data name="srmLabel37.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;timer_Lead3D.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgd_PackageSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 3</value>
+  </data>
+  <data name="&gt;&gt;group_Crack.Name" xml:space="preserve">
+    <value>group_Crack</value>
+  </data>
+  <data name="tp_Position.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralVerticalDark.Parent" xml:space="preserve">
+    <value>group_GeneralDefectSetting</value>
+  </data>
+  <data name="txt_Pin1Tolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 20</value>
+  </data>
+  <data name="&gt;&gt;srmLabel33.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="srmLabel24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel32.Text" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="&gt;&gt;txt_CrackHorizontalDark.Parent" xml:space="preserve">
+    <value>group_Crack</value>
+  </data>
+  <data name="&gt;&gt;txt_GeneralChipAreaDark.Parent" xml:space="preserve">
+    <value>group_ChippedOff</value>
+  </data>
+  <data name="groupBox_Pin1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel17.Text" xml:space="preserve">
+    <value>Current Black Area (pixels)</value>
+  </data>
+  <data name="tab_VisionControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 26</value>
+  </data>
+  <data name="groupBox_Pin1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 15</value>
+  </data>
+  <data name="&gt;&gt;dgd_PackageSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="timer_Lead3D.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

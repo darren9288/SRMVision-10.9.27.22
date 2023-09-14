@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txt_Trials.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_Parts1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Trials1.Parent" xml:space="preserve">
+    <value>group_GRRSetting</value>
+  </data>
+  <data name="group_InspectionCounter.Text" xml:space="preserve">
+    <value>Inspection Counter</value>
+  </data>
+  <data name="&gt;&gt;lbl_TrialsCounter.Name" xml:space="preserve">
+    <value>lbl_TrialsCounter</value>
+  </data>
+  <data name="lbl_Operators1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 64</value>
+  </data>
+  <data name="radioBtn_Dynamic.Text" xml:space="preserve">
+    <value>Dynamic</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Static.Type" xml:space="preserve">
+    <value>SRMControl.SRMRadioButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_TrialsCounter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Static.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Operators1.Parent" xml:space="preserve">
+    <value>group_GRRSetting</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_Trials1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Unit1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_PartsCounter.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbl_Unit1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="radioBtn_Static.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_Parts2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="radioBtn_Static.Text" xml:space="preserve">
+    <value>Static</value>
+  </data>
+  <data name="&gt;&gt;lbl_PartsCounter.Name" xml:space="preserve">
+    <value>lbl_PartsCounter</value>
+  </data>
+  <data name="group_InspectionCounter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="lbl_Parts1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_Trials2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Trials2.Parent" xml:space="preserve">
+    <value>group_InspectionCounter</value>
+  </data>
+  <data name="lbl_OperatorsCounter.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_Operators.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_Unit1.TabIndex" type="System.Int32, mscorlib">
+    <value>255</value>
+  </data>
+  <data name="group_InspectionCounter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 136</value>
+  </data>
+  <data name="lbl_Operators1.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="lbl_PartsCounter.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="lbl_Operators2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Unit1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_Trials1.Name" xml:space="preserve">
+    <value>lbl_Trials1</value>
+  </data>
+  <data name="lbl_Parts1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Parts2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;group_GRRSetting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_ResultStatus1.TabIndex" type="System.Int32, mscorlib">
+    <value>258</value>
+  </data>
+  <data name="lbl_Trials2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_ResultStatus1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lbl_Parts2.Text" xml:space="preserve">
+    <value>Parts :</value>
+  </data>
+  <data name="lbl_Parts2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_OperatorsCounter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Vision3GRRPage</value>
+  </data>
+  <data name="lbl_Trials1.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;lbl_Parts1.Name" xml:space="preserve">
+    <value>lbl_Parts1</value>
+  </data>
+  <data name="lbl_Parts2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 34</value>
+  </data>
+  <data name="&gt;&gt;txt_Trials.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_Operators1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_Trials2.Name" xml:space="preserve">
+    <value>lbl_Trials2</value>
+  </data>
+  <data name="&gt;&gt;group_InspectionCounter.Name" xml:space="preserve">
+    <value>group_InspectionCounter</value>
+  </data>
+  <data name="&gt;&gt;group_GRRSetting.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txt_Trials.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_ResultStatus2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 55</value>
+  </data>
+  <data name="lbl_Trials2.Text" xml:space="preserve">
+    <value>Trials :</value>
+  </data>
+  <data name="group_InspectionCounter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 371</value>
+  </data>
+  <data name="group_GRRMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="radioBtn_Dynamic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 24</value>
+  </data>
+  <data name="lbl_OperatorsCounter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 64</value>
+  </data>
+  <data name="&gt;&gt;lbl_Operators2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="group_GRRMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 55</value>
+  </data>
+  <data name="lbl_Parts1.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="&gt;&gt;txt_Operators.Name" xml:space="preserve">
+    <value>txt_Operators</value>
+  </data>
+  <data name="radioBtn_Static.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="lbl_ResultStatus1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 18pt, style=Bold</value>
+  </data>
+  <data name="lbl_TrialsCounter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 99</value>
+  </data>
+  <data name="lbl_Trials1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 96</value>
+  </data>
+  <data name="&gt;&gt;lbl_PartsCounter.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Unit2.Name" xml:space="preserve">
+    <value>lbl_Unit2</value>
+  </data>
+  <data name="lbl_TrialsCounter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Parts1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_TrialsCounter.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_OperatorsCounter.Name" xml:space="preserve">
+    <value>lbl_OperatorsCounter</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_PartsCounter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="group_GRRSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>204</value>
+  </data>
+  <data name="&gt;&gt;lbl_PartsCounter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_Unit1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_ResultStatus2.TabIndex" type="System.Int32, mscorlib">
+    <value>257</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="radioBtn_Static.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="lbl_OperatorsCounter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="txt_Operators.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 24</value>
+  </data>
+  <data name="txt_Parts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 24</value>
+  </data>
+  <data name="lbl_Operators2.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="lbl_Operators2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="lbl_Trials1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Parts2.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="lbl_Operators2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 18</value>
+  </data>
+  <data name="&gt;&gt;lbl_Parts2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Trials2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 102</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>VisionGRRPage</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>319, 569</value>
+  </data>
+  <data name="lbl_Unit2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lbl_TrialsCounter.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="lbl_TrialsCounter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_Operators2.Name" xml:space="preserve">
+    <value>lbl_Operators2</value>
+  </data>
+  <data name="radioBtn_Dynamic.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="txt_Operators.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Dynamic.Name" xml:space="preserve">
+    <value>radioBtn_Dynamic</value>
+  </data>
+  <data name="&gt;&gt;lbl_Unit2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_ResultStatus2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Unit2.TabIndex" type="System.Int32, mscorlib">
+    <value>256</value>
+  </data>
+  <data name="group_GRRMode.Text" xml:space="preserve">
+    <value>Select GRR Mode</value>
+  </data>
+  <data name="&gt;&gt;lbl_Unit1.Name" xml:space="preserve">
+    <value>lbl_Unit1</value>
+  </data>
+  <data name="lbl_ResultStatus1.Text" xml:space="preserve">
+    <value>-----</value>
+  </data>
+  <data name="lbl_ResultStatus2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus1.Name" xml:space="preserve">
+    <value>lbl_ResultStatus1</value>
+  </data>
+  <data name="txt_Operators.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_Parts2.Parent" xml:space="preserve">
+    <value>group_InspectionCounter</value>
+  </data>
+  <data name="&gt;&gt;lbl_OperatorsCounter.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="radioBtn_Dynamic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="radioBtn_Dynamic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;group_InspectionCounter.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Operators2.Text" xml:space="preserve">
+    <value>Operators :</value>
+  </data>
+  <data name="txt_Trials.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 24</value>
+  </data>
+  <data name="&gt;&gt;lbl_Trials1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl_Unit1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lbl_PartsCounter.Parent" xml:space="preserve">
+    <value>group_InspectionCounter</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Dynamic.Type" xml:space="preserve">
+    <value>SRMControl.SRMRadioButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_Operators.Parent" xml:space="preserve">
+    <value>group_GRRSetting</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Dynamic.Parent" xml:space="preserve">
+    <value>group_GRRMode</value>
+  </data>
+  <data name="lbl_Operators1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 18</value>
+  </data>
+  <data name="&gt;&gt;lbl_Operators1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_ResultStatus1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 55</value>
+  </data>
+  <data name="lbl_Parts1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 18</value>
+  </data>
+  <data name="&gt;&gt;lbl_OperatorsCounter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_Unit2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 55</value>
+  </data>
+  <data name="radioBtn_Static.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 24</value>
+  </data>
+  <data name="&gt;&gt;txt_Parts.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;group_GRRMode.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lbl_Trials2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="radioBtn_Static.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Unit1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txt_Parts.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="lbl_PartsCounter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_Operators1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_Parts.Name" xml:space="preserve">
+    <value>txt_Parts</value>
+  </data>
+  <data name="lbl_Parts2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 18</value>
+  </data>
+  <data name="lbl_OperatorsCounter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Static.Parent" xml:space="preserve">
+    <value>group_GRRMode</value>
+  </data>
+  <data name="&gt;&gt;lbl_OperatorsCounter.Parent" xml:space="preserve">
+    <value>group_InspectionCounter</value>
+  </data>
+  <data name="&gt;&gt;group_GRRMode.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Unit2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbl_ResultStatus1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;group_InspectionCounter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Unit2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_ResultStatus1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;txt_Trials.Name" xml:space="preserve">
+    <value>txt_Trials</value>
+  </data>
+  <data name="&gt;&gt;group_GRRMode.Name" xml:space="preserve">
+    <value>group_GRRMode</value>
+  </data>
+  <data name="&gt;&gt;lbl_Parts1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Dynamic.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_Operators1.Text" xml:space="preserve">
+    <value>Operators ( 2 - 3 ) :</value>
+  </data>
+  <data name="&gt;&gt;lbl_Operators2.Parent" xml:space="preserve">
+    <value>group_InspectionCounter</value>
+  </data>
+  <data name="txt_Parts.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="lbl_Operators1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl_Unit2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl_Trials2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl_TrialsCounter.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="group_InspectionCounter.TabIndex" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Trials.Parent" xml:space="preserve">
+    <value>group_GRRSetting</value>
+  </data>
+  <data name="txt_Parts.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lbl_Trials1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="txt_Parts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 29</value>
+  </data>
+  <data name="lbl_ResultStatus1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 51</value>
+  </data>
+  <data name="txt_Operators.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 61</value>
+  </data>
+  <data name="group_GRRSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 142</value>
+  </data>
+  <data name="&gt;&gt;group_GRRMode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Trials2.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;lbl_Operators2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="group_GRRSetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_TrialsCounter.Parent" xml:space="preserve">
+    <value>group_InspectionCounter</value>
+  </data>
+  <data name="group_GRRMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 162</value>
+  </data>
+  <data name="&gt;&gt;lbl_Parts1.Parent" xml:space="preserve">
+    <value>group_GRRSetting</value>
+  </data>
+  <data name="&gt;&gt;txt_Operators.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Parts2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Unit1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;group_InspectionCounter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="radioBtn_Dynamic.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="lbl_TrialsCounter.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txt_Trials.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="group_GRRMode.TabIndex" type="System.Int32, mscorlib">
+    <value>203</value>
+  </data>
+  <data name="&gt;&gt;lbl_ResultStatus2.Name" xml:space="preserve">
+    <value>lbl_ResultStatus2</value>
+  </data>
+  <data name="lbl_Operators1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Trials2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 18</value>
+  </data>
+  <data name="&gt;&gt;timer_GRR.Name" xml:space="preserve">
+    <value>timer_GRR</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Static.Name" xml:space="preserve">
+    <value>radioBtn_Static</value>
+  </data>
+  <data name="lbl_Parts1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 32</value>
+  </data>
+  <data name="lbl_Trials2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="lbl_OperatorsCounter.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txt_Trials.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="lbl_Trials1.Text" xml:space="preserve">
+    <value>Trials ( 2 - 5 ) :</value>
+  </data>
+  <data name="lbl_ResultStatus2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;txt_Parts.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_PartsCounter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 32</value>
+  </data>
+  <data name="&gt;&gt;lbl_Unit1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="group_GRRSetting.Text" xml:space="preserve">
+    <value>GRR Setting</value>
+  </data>
+  <data name="&gt;&gt;lbl_Operators1.Name" xml:space="preserve">
+    <value>lbl_Operators1</value>
+  </data>
+  <data name="lbl_Parts1.Text" xml:space="preserve">
+    <value>Parts ( 2 - 50 ) :</value>
+  </data>
+  <data name="lbl_ResultStatus2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 18pt, style=Bold</value>
+  </data>
+  <data name="lbl_Unit2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lbl_PartsCounter.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_Unit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 51</value>
+  </data>
+  <data name="&gt;&gt;group_GRRSetting.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Operators2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 67</value>
+  </data>
+  <data name="lbl_ResultStatus2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 510</value>
+  </data>
+  <data name="lbl_ResultStatus2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbl_PartsCounter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_Operators.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="group_GRRSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 223</value>
+  </data>
+  <data name="lbl_Trials1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 18</value>
+  </data>
+  <data name="lbl_Unit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 55</value>
+  </data>
+  <data name="lbl_ResultStatus2.Text" xml:space="preserve">
+    <value>-----</value>
+  </data>
+  <data name="&gt;&gt;lbl_Trials1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;group_GRRSetting.Name" xml:space="preserve">
+    <value>group_GRRSetting</value>
+  </data>
+  <data name="&gt;&gt;lbl_Parts2.Name" xml:space="preserve">
+    <value>lbl_Parts2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Unit2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Unit2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_Parts.Parent" xml:space="preserve">
+    <value>group_GRRSetting</value>
+  </data>
+  <data name="lbl_OperatorsCounter.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="lbl_TrialsCounter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="txt_Trials.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 93</value>
+  </data>
+  <data name="lbl_Unit2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;timer_GRR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Unit1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Operators2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Unit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 510</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="timer_GRR.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>12, 10</value>
+  </metadata>
+</root>

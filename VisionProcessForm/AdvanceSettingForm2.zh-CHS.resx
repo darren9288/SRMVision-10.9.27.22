@@ -1,0 +1,2241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="btn_OK.Text" xml:space="preserve">
+    <value>储存</value>
+  </data>
+  <data name="tab_Pad.Text" xml:space="preserve">
+    <value>衬垫</value>
+  </data>
+  <data name="chk_WantSpan_Pad.Text" xml:space="preserve">
+    <value>开启检查衬垫跨距</value>
+  </data>
+  <data name="chk_WantEdgeDistance_Pad.Text" xml:space="preserve">
+    <value>开启检查衬垫边缘距离</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>衬垫界限</value>
+  </data>
+  <data name="chk_WantStandOff_Pad.Text" xml:space="preserve">
+    <value>开启检查衬垫站立度</value>
+  </data>
+  <data name="chk_WantEdgeLimit_Pad.Text" xml:space="preserve">
+    <value>开启检查衬垫边缘界限</value>
+  </data>
+  <data name="btn_PadStandOffDirectionSetting.Text" xml:space="preserve">
+    <value>站立度设置</value>
+  </data>
+  <data name="chk_WantDontCareArea_Pad.Text" xml:space="preserve">
+    <value>应用忽略區域功能</value>
+  </data>
+  <data name="chk_WantRotateSidePadImage.Text" xml:space="preserve">
+    <value>开启旋转侧衬垫</value>
+  </data>
+  <data name="chk_WantGRR.Text" xml:space="preserve">
+    <value>开启GRR</value>
+  </data>
+  <data name="chk_WantTestRunTightSetting.Text" xml:space="preserve">
+    <value>开启试跑严格设定</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chk_WantCheck4Sides.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 24</value>
+  </data>
+  <data name="chk_WantCheck4Sides.Text" xml:space="preserve">
+    <value>开启检查衬垫的4个侧面功能</value>
+  </data>
+  <data name="chk_WantPadPin1.Text" xml:space="preserve">
+    <value>开启Pin 1</value>
+  </data>
+  <data name="chk_DefinePadToleranceUsingClosestMethod.Text" xml:space="preserve">
+    <value>使用最接近的方法定义衬垫宽限</value>
+  </data>
+  <data name="chk_WantPRUnitLocationBeforeGauge.Text" xml:space="preserve">
+    <value>使用模式匹配再用仪器测量 （比较耗时）</value>
+  </data>
+  <data name="chk_WantConsiderPadImage2.Text" xml:space="preserve">
+    <value>开启检查衬垫照片2（只用于侧面Pad）</value>
+  </data>
+  <data name="chk_WantCheckPad.Text" xml:space="preserve">
+    <value>开启检查衬垫功能</value>
+  </data>
+  <data name="chk_WantCheckPH.Text" xml:space="preserve">
+    <value>开启检查吸嘴功能</value>
+  </data>
+  <data name="chk_PadWhiteOnBlack.Text" xml:space="preserve">
+    <value>黑找白</value>
+  </data>
+  <data name="tab_Pad2.Text" xml:space="preserve">
+    <value>衬垫2</value>
+  </data>
+  <data name="pnl_WantIndividualSideThickness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 311</value>
+  </data>
+  <data name="chk_WantIndividualSideThickness.Text" xml:space="preserve">
+    <value>开启侧边各别厚度</value>
+  </data>
+  <data name="pnl_UseBorderLimitMeasureOffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 266</value>
+  </data>
+  <data name="btn_PadOffsetSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 4</value>
+  </data>
+  <data name="btn_PadOffsetSetting.Text" xml:space="preserve">
+    <value>衬垫偏移测试模式</value>
+  </data>
+  <data name="srmLabel49.Text" xml:space="preserve">
+    <value>衬垫偏移测试模式</value>
+  </data>
+  <data name="pnl_BrokenPadImageNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 166</value>
+  </data>
+  <data name="srmLabel33.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel33.Text" xml:space="preserve">
+    <value>中间ROI - 衬垫破损视阈图 No:</value>
+  </data>
+  <data name="srmLabel34.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel34.Text" xml:space="preserve">
+    <value>侧边ROI - 衬垫破损视阈图 No:</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="chk_WantCPK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantCPK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="chk_WantCPK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 24</value>
+  </data>
+  <data name="chk_WantCPK.Text" xml:space="preserve">
+    <value>开启CPK</value>
+  </data>
+  <data name="txt_PadCPKCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 31</value>
+  </data>
+  <data name="txt_PadCPKCount.Text" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="chk_CheckAllPadCPK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_CheckAllPadCPK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 54</value>
+  </data>
+  <data name="chk_CheckAllPadCPK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 24</value>
+  </data>
+  <data name="chk_CheckAllPadCPK.Text" xml:space="preserve">
+    <value>记录全部（中间和侧面）Pad的CPK资料</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="srmLabel20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 34</value>
+  </data>
+  <data name="srmLabel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="srmLabel20.Text" xml:space="preserve">
+    <value>CPK记录次数</value>
+  </data>
+  <data name="srmLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 13</value>
+  </data>
+  <data name="srmLabel10.Text" xml:space="preserve">
+    <value>严格设定衬垫尺寸宽限</value>
+  </data>
+  <data name="srmLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel7.Text" xml:space="preserve">
+    <value>灰色值</value>
+  </data>
+  <data name="srmLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel9.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="srmLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 13</value>
+  </data>
+  <data name="srmLabel8.Text" xml:space="preserve">
+    <value>严格设定二进制化宽限</value>
+  </data>
+  <data name="btn_PadSensitivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 6</value>
+  </data>
+  <data name="btn_PadSensitivity.Text" xml:space="preserve">
+    <value>衬垫 ROI 敏感度设置</value>
+  </data>
+  <data name="srmLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="srmLabel11.Text" xml:space="preserve">
+    <value>衬垫敏感度：</value>
+  </data>
+  <data name="cbo_SensitivityOnPad.Items" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="cbo_SensitivityOnPad.Items1" xml:space="preserve">
+    <value>分隔</value>
+  </data>
+  <data name="cbo_SensitivityOnPad.Items2" xml:space="preserve">
+    <value>合并</value>
+  </data>
+  <data name="cbo_PadMeasurementMethod_Side.Items" xml:space="preserve">
+    <value>最大 (默认)</value>
+  </data>
+  <data name="cbo_PadMeasurementMethod_Side.Items1" xml:space="preserve">
+    <value>点</value>
+  </data>
+  <data name="srmLabel48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 13</value>
+  </data>
+  <data name="srmLabel48.Text" xml:space="preserve">
+    <value>衬垫测量方式 (侧边) ：</value>
+  </data>
+  <data name="cbo_PadMeasurementMethod.Items" xml:space="preserve">
+    <value>最大 (默认)</value>
+  </data>
+  <data name="cbo_PadMeasurementMethod.Items1" xml:space="preserve">
+    <value>点</value>
+  </data>
+  <data name="srmLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="srmLabel3.Text" xml:space="preserve">
+    <value>衬垫测量方式 ：</value>
+  </data>
+  <data name="tab_Pad3.Text" xml:space="preserve">
+    <value>衬垫3</value>
+  </data>
+  <data name="srmLabel66.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel66.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel65.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="srmLabel65.Text" xml:space="preserve">
+    <value>连接宽限 :</value>
+  </data>
+  <data name="cbo_ColorDefectLinkMethod_Pad.Items" xml:space="preserve">
+    <value>不连接</value>
+  </data>
+  <data name="cbo_ColorDefectLinkMethod_Pad.Items1" xml:space="preserve">
+    <value>最靠近</value>
+  </data>
+  <data name="srmLabel134.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="srmLabel134.Text" xml:space="preserve">
+    <value>颜色缺陷连接方式:</value>
+  </data>
+  <data name="srmLabel109.Text" xml:space="preserve">
+    <value>衬垫颜色缺陷组别设置</value>
+  </data>
+  <data name="btn_PadColorGroupSetting.Text" xml:space="preserve">
+    <value>组别设置</value>
+  </data>
+  <data name="chk_WantCheckPadColor.Text" xml:space="preserve">
+    <value>开启检测衬垫颜色缺陷</value>
+  </data>
+  <data name="chk_WantViewCheckForeignMaterialOptionWhenPackageON.Text" xml:space="preserve">
+    <value>显示异物选项</value>
+  </data>
+  <data name="chk_WantSeparateBrokenPadThresholdSetting.Text" xml:space="preserve">
+    <value>应用独立破损衬垫二进制化设置</value>
+  </data>
+  <data name="chk_ShowUseGaugeCheckBoxInLearnForm.Text" xml:space="preserve">
+    <value>显示使用Gauge选项在学习界面</value>
+  </data>
+  <data name="srmLabel119.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 9</value>
+  </data>
+  <data name="srmLabel119.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="srmLabel119.Text" xml:space="preserve">
+    <value>衬垫偏移参考点:</value>
+  </data>
+  <data name="cbo_PadOffsetReferencePoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 4</value>
+  </data>
+  <data name="srmLabel111.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 13</value>
+  </data>
+  <data name="srmLabel111.Text" xml:space="preserve">
+    <value>储存衬垫模板图片的方式:</value>
+  </data>
+  <data name="cbo_SavePadTemplateImageMethod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 4</value>
+  </data>
+  <data name="chk_WantLinkDifferentGroupPitchGap.Text" xml:space="preserve">
+    <value>开启连接不同组别间距/间隔</value>
+  </data>
+  <data name="srmLabel79.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 13</value>
+  </data>
+  <data name="srmLabel79.Text" xml:space="preserve">
+    <value>衬垫删减方式 (侧边) :</value>
+  </data>
+  <data name="cbo_PadSubtractMethod_Side.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 31</value>
+  </data>
+  <data name="srmLabel78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 13</value>
+  </data>
+  <data name="srmLabel78.Text" xml:space="preserve">
+    <value>衬垫删减方式 (中间) :</value>
+  </data>
+  <data name="cbo_PadSubtractMethod_Center.Items" xml:space="preserve">
+    <value>各别衬垫</value>
+  </data>
+  <data name="cbo_PadSubtractMethod_Center.Items1" xml:space="preserve">
+    <value>参考最佳衬垫</value>
+  </data>
+  <data name="cbo_PadSubtractMethod_Center.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 3</value>
+  </data>
+  <data name="tab_Mark.Text" xml:space="preserve">
+    <value>字模</value>
+  </data>
+  <data name="cbo_ExtraExcessMarkInspectionAreaCutMode.Items" xml:space="preserve">
+    <value>不切割</value>
+  </data>
+  <data name="cbo_ExtraExcessMarkInspectionAreaCutMode.Items1" xml:space="preserve">
+    <value>切割 OCV 范围</value>
+  </data>
+  <data name="cbo_ExtraExcessMarkInspectionAreaCutMode.Items2" xml:space="preserve">
+    <value>切割 Char ROI 范围</value>
+  </data>
+  <data name="srmLabel110.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 439</value>
+  </data>
+  <data name="srmLabel110.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 13</value>
+  </data>
+  <data name="srmLabel110.Text" xml:space="preserve">
+    <value>过量/额外字模检测范围切割模式：</value>
+  </data>
+  <data name="chk_UseDefaultMarkScoreAfterClearTemplate.Text" xml:space="preserve">
+    <value>清除字模模板后使用字模默认评分</value>
+  </data>
+  <data name="cbo_MarkTextShiftMethod.Items" xml:space="preserve">
+    <value>最大</value>
+  </data>
+  <data name="cbo_MarkTextShiftMethod.Items1" xml:space="preserve">
+    <value>最小</value>
+  </data>
+  <data name="cbo_MarkTextShiftMethod.Items2" xml:space="preserve">
+    <value>手动输入</value>
+  </data>
+  <data name="chk_WantCheckMarkAngle.Text" xml:space="preserve">
+    <value>开启检查字模角度</value>
+  </data>
+  <data name="chk_WantCheckContourOnMark.Text" xml:space="preserve">
+    <value>开启检查字模轮廓功能</value>
+  </data>
+  <data name="srmLabel69.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 412</value>
+  </data>
+  <data name="srmLabel69.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 13</value>
+  </data>
+  <data name="srmLabel69.Text" xml:space="preserve">
+    <value>字体偏移容许度方式：</value>
+  </data>
+  <data name="chk_WantCheckBarPin1.Text" xml:space="preserve">
+    <value>开启检测条状 Pin 1</value>
+  </data>
+  <data name="chk_WantDontCareArea_Mark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 24</value>
+  </data>
+  <data name="chk_WantDontCareArea_Mark.Text" xml:space="preserve">
+    <value>应用忽略區域功能</value>
+  </data>
+  <data name="srmLabel27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 342</value>
+  </data>
+  <data name="srmLabel27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel27.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 342</value>
+  </data>
+  <data name="srmLabel22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 13</value>
+  </data>
+  <data name="srmLabel22.Text" xml:space="preserve">
+    <value>小于此面积将被视为无字模</value>
+  </data>
+  <data name="txt_NoMarkMaximumBlobArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 339</value>
+  </data>
+  <data name="chk_WantCheckNoMark.Text" xml:space="preserve">
+    <value>开启检查无字模功能</value>
+  </data>
+  <data name="srmLabel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="srmLabel19.Text" xml:space="preserve">
+    <value>字模模板最高上限</value>
+  </data>
+  <data name="srmLabel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="srmLabel17.Text" xml:space="preserve">
+    <value>字模最低评分设置</value>
+  </data>
+  <data name="srmLabel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="srmLabel15.Text" xml:space="preserve">
+    <value>字模默认评分设置</value>
+  </data>
+  <data name="chk_WantClearMarkTemplateWhenNewLot.Text" xml:space="preserve">
+    <value>新批次清除全部字模模板</value>
+  </data>
+  <data name="chk_WantUseGaugeForMeasureMarkPkg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 24</value>
+  </data>
+  <data name="chk_WantUseGaugeForMeasureMarkPkg.Text" xml:space="preserve">
+    <value>使用仪器精准测量元件位置后再读取字模</value>
+  </data>
+  <data name="chk_SetTemplateBasedOnBinInfo.Text" xml:space="preserve">
+    <value>开启以Bin信号为参考设定模板</value>
+  </data>
+  <data name="chk_Set1ToAll.Text" xml:space="preserve">
+    <value>全部模板设为1</value>
+  </data>
+  <data name="chk_MultiTemplates.Text" xml:space="preserve">
+    <value>开启多个模板</value>
+  </data>
+  <data name="chk_WhiteOnBlack.Text" xml:space="preserve">
+    <value>黑找白</value>
+  </data>
+  <data name="tab_Mark2.Text" xml:space="preserve">
+    <value>字模2</value>
+  </data>
+  <data name="chk_WantRemoveBorderWhenLearnMark.Text" xml:space="preserve">
+    <value>学习字模时移除在边框建立的物体</value>
+  </data>
+  <data name="chk_WantDontCareIgnoredMarkWholeArea.Text" xml:space="preserve">
+    <value>不检测已忽略字模范围里的缺陷</value>
+  </data>
+  <data name="srmLabel76.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 13</value>
+  </data>
+  <data name="srmLabel76.Text" xml:space="preserve">
+    <value>字模评分偏移值</value>
+  </data>
+  <data name="chk_WantExcessMarkThresholdFollowExtraMarkThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 24</value>
+  </data>
+  <data name="chk_WantExcessMarkThresholdFollowExtraMarkThreshold.Text" xml:space="preserve">
+    <value>开启过量字模二进制化跟随额外字模二进制化</value>
+  </data>
+  <data name="chk_SeparateExtraMarkThreshold.Text" xml:space="preserve">
+    <value>应用独立额外字模二进制化</value>
+  </data>
+  <data name="srmLabel73.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 13</value>
+  </data>
+  <data name="srmLabel73.Text" xml:space="preserve">
+    <value>旋转插值设置 - 塑封体（暗色）</value>
+  </data>
+  <data name="srmLabel72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 13</value>
+  </data>
+  <data name="srmLabel72.Text" xml:space="preserve">
+    <value>旋转插值设置 - 塑封体（亮色）</value>
+  </data>
+  <data name="srmLabel71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="srmLabel71.Text" xml:space="preserve">
+    <value>旋转插值设置 - 字模</value>
+  </data>
+  <data name="srmLabel70.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 13</value>
+  </data>
+  <data name="srmLabel70.Text" xml:space="preserve">
+    <value>匹配最终归约设置 - 字模角度</value>
+  </data>
+  <data name="srmLabel74.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 13</value>
+  </data>
+  <data name="srmLabel74.Text" xml:space="preserve">
+    <value>匹配最终归约设置 - 方向性</value>
+  </data>
+  <data name="cbo_2DCodeType.Items" xml:space="preserve">
+    <value>矩阵码</value>
+  </data>
+  <data name="cbo_2DCodeType.Items1" xml:space="preserve">
+    <value>二维码</value>
+  </data>
+  <data name="chk_WantMark2DCode.Text" xml:space="preserve">
+    <value>开启读取二维马功能</value>
+  </data>
+  <data name="srmLabel28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="srmLabel28.Text" xml:space="preserve">
+    <value>二维码种类：</value>
+  </data>
+  <data name="chk_WantSampleAreaScore.Text" xml:space="preserve">
+    <value>开启检查字模背景面积评分</value>
+  </data>
+  <data name="btn_MarkGrayValueSensitivitySetting.Text" xml:space="preserve">
+    <value>灰色值敏感度设定</value>
+  </data>
+  <data name="srmLabel52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 32</value>
+  </data>
+  <data name="srmLabel52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="srmLabel52.Text" xml:space="preserve">
+    <value>检测模式:</value>
+  </data>
+  <data name="cbo_MarkDefectInspectionMethod.Items" xml:space="preserve">
+    <value>原始 (二进制化)</value>
+  </data>
+  <data name="cbo_MarkDefectInspectionMethod.Items1" xml:space="preserve">
+    <value>灰色值</value>
+  </data>
+  <data name="tab_Mark3.Text" xml:space="preserve">
+    <value>字模3</value>
+  </data>
+  <data name="cbo_MarkScoreMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 260</value>
+  </data>
+  <data name="srmLabel145.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 266</value>
+  </data>
+  <data name="chk_WantUseOCR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 434</value>
+  </data>
+  <data name="chk_WantUseOCRnOCV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 431</value>
+  </data>
+  <data name="chk_WantUseExcessMissingMarkAffectScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 286</value>
+  </data>
+  <data name="chk_WantUseExcessMissingMarkAffectScore.Text" xml:space="preserve">
+    <value>开启使用过量/缺少字模影响评分</value>
+  </data>
+  <data name="srmLabel135.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 217</value>
+  </data>
+  <data name="srmLabel135.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="srmLabel135.Text" xml:space="preserve">
+    <value>度</value>
+  </data>
+  <data name="txt_CheckMarkAngleMinMaxTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 214</value>
+  </data>
+  <data name="srmLabel136.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 217</value>
+  </data>
+  <data name="srmLabel136.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 13</value>
+  </data>
+  <data name="srmLabel136.Text" xml:space="preserve">
+    <value>检测字模角度范围 + - </value>
+  </data>
+  <data name="chk_WantUseUnitPatternAsMarkPattern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 238</value>
+  </data>
+  <data name="chk_WantUseUnitPatternAsMarkPattern.Text" xml:space="preserve">
+    <value>开启使用元件Pattern代替字模Pattern</value>
+  </data>
+  <data name="srmLabel117.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 193</value>
+  </data>
+  <data name="srmLabel117.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 13</value>
+  </data>
+  <data name="srmLabel117.Text" xml:space="preserve">
+    <value>检测字模原始位置，当评分低于</value>
+  </data>
+  <data name="srmLabel118.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 193</value>
+  </data>
+  <data name="txt_MarkOriPositionScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 190</value>
+  </data>
+  <data name="cbo_CompensateMarkDiffSizeMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 160</value>
+  </data>
+  <data name="srmLabel116.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 163</value>
+  </data>
+  <data name="srmLabel116.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 13</value>
+  </data>
+  <data name="srmLabel116.Text" xml:space="preserve">
+    <value>补偿不同尺寸的 字模</value>
+  </data>
+  <data name="chk_WantCheckMarkAverageGrayValue.Text" xml:space="preserve">
+    <value>开启检测字模平均灰色值</value>
+  </data>
+  <data name="srmLabel112.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="srmLabel112.Text" xml:space="preserve">
+    <value>字符ROI Y 偏移值</value>
+  </data>
+  <data name="srmLabel113.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 105</value>
+  </data>
+  <data name="srmLabel113.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel113.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_MarkCharROIOffsetY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 102</value>
+  </data>
+  <data name="srmLabel114.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="srmLabel114.Text" xml:space="preserve">
+    <value>字符ROI X 偏移值</value>
+  </data>
+  <data name="srmLabel115.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 81</value>
+  </data>
+  <data name="srmLabel115.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel115.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_MarkCharROIOffsetX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 78</value>
+  </data>
+  <data name="chk_WantCheckTotalExcessMark.Text" xml:space="preserve">
+    <value>开启检测过量字模总面积</value>
+  </data>
+  <data name="chk_WantCheckBrokenMark.Text" xml:space="preserve">
+    <value>开启检测残缺字模</value>
+  </data>
+  <data name="btn_MarkTypeInspectionSetting.Text" xml:space="preserve">
+    <value>字模类别检测设定</value>
+  </data>
+  <data name="chk_WantUseMarkTypeInspectionSetting.Text" xml:space="preserve">
+    <value>开启使用字模类别检测设定</value>
+  </data>
+  <data name="tab_BottomPosition.Text" xml:space="preserve">
+    <value>底部位置</value>
+  </data>
+  <data name="chk_PositionWantGauge.Text" xml:space="preserve">
+    <value>使用仪器测量塑封体</value>
+  </data>
+  <data name="tab_Orient.Text" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="chk_OrientWantPackage.Text" xml:space="preserve">
+    <value>开启检查塑封体</value>
+  </data>
+  <data name="gb_Pin1.Text" xml:space="preserve">
+    <value>Pin 1 设定</value>
+  </data>
+  <data name="srmLabel129.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="srmLabel129.Text" xml:space="preserve">
+    <value>Pin 1位置监控 :</value>
+  </data>
+  <data name="cbo_Pin1PositionControl.Items" xml:space="preserve">
+    <value>无监控</value>
+  </data>
+  <data name="cbo_Pin1PositionControl.Items1" xml:space="preserve">
+    <value>左上</value>
+  </data>
+  <data name="cbo_Pin1PositionControl.Items2" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="cbo_Pin1PositionControl.Items3" xml:space="preserve">
+    <value>右上</value>
+  </data>
+  <data name="cbo_Pin1PositionControl.Items4" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="cbo_Pin1PositionControl.Items5" xml:space="preserve">
+    <value>右下</value>
+  </data>
+  <data name="cbo_Pin1PositionControl.Items6" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="cbo_Pin1PositionControl.Items7" xml:space="preserve">
+    <value>下左</value>
+  </data>
+  <data name="cbo_Pin1PositionControl.Items8" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="srmLabel120.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="srmLabel120.Text" xml:space="preserve">
+    <value>Pin 1视阈图  No:</value>
+  </data>
+  <data name="chk_WantUsePin1OrientationWhenNoMark.Text" xml:space="preserve">
+    <value>当无字模时开启使用Pin1方向</value>
+  </data>
+  <data name="grp_PositionOrientation.Text" xml:space="preserve">
+    <value>位置检测方向 </value>
+  </data>
+  <data name="srmLabel84.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 55</value>
+  </data>
+  <data name="srmLabel84.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="srmLabel84.Text" xml:space="preserve">
+    <value>检测位置当分差低于</value>
+  </data>
+  <data name="txt_CheckPosOrientBlowDifferentScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 52</value>
+  </data>
+  <data name="srmLabel85.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 55</value>
+  </data>
+  <data name="chk_WantUsePositionCheckOrientation.Text" xml:space="preserve">
+    <value>开启使用位置检测方向</value>
+  </data>
+  <data name="group_OrientDirections.Text" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="radioBtn_4Directions.Text" xml:space="preserve">
+    <value>四边 (0度, 90度, 180度, 270度)</value>
+  </data>
+  <data name="radioBtn_2Directions.Text" xml:space="preserve">
+    <value>二边 (0度, 180度)</value>
+  </data>
+  <data name="tab_Package.Text" xml:space="preserve">
+    <value>塑封体</value>
+  </data>
+  <data name="cbo_ChippedOffDefectInspectionMethod_Package.Items" xml:space="preserve">
+    <value>独立4个方向</value>
+  </data>
+  <data name="cbo_ChippedOffDefectInspectionMethod_Package.Items1" xml:space="preserve">
+    <value>全部一起</value>
+  </data>
+  <data name="srmLabel156.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel156.Text" xml:space="preserve">
+    <value>Chipped Off 缺陷检测方式:</value>
+  </data>
+  <data name="srmLabel98.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 9pt</value>
+  </data>
+  <data name="srmLabel98.Text" xml:space="preserve">
+    <value>Mold Flash缺陷视阈图  No:</value>
+  </data>
+  <data name="chk_SquareUnit.Text" xml:space="preserve">
+    <value>正方形元件</value>
+  </data>
+  <data name="chk_SeperateCrackDefectSetting_Package.Text" xml:space="preserve">
+    <value>应用独立的Crack缺陷设定</value>
+  </data>
+  <data name="chk_SeperateMoldFlashDefectSetting_Package.Text" xml:space="preserve">
+    <value>应用独立的Mold Flash缺陷设定</value>
+  </data>
+  <data name="chk_SeperateChippedOffDefectSetting_Package.Text" xml:space="preserve">
+    <value>应用独立的Chipped Off缺陷设定</value>
+  </data>
+  <data name="chk_SeperateDarkField2DefectSetting_Package.Text" xml:space="preserve">
+    <value>应用独立的暗色缺陷2设定</value>
+  </data>
+  <data name="chk_WantCheckPackageAngle_Package.Text" xml:space="preserve">
+    <value>开启测量塑封体角度</value>
+  </data>
+  <data name="chk_WantDontCareArea_Package.Text" xml:space="preserve">
+    <value>应用忽略區域功能</value>
+  </data>
+  <data name="srmLabel13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt</value>
+  </data>
+  <data name="srmLabel13.Text" xml:space="preserve">
+    <value>暗色缺陷视阈图  No:</value>
+  </data>
+  <data name="chk_CheckVoidOnMarkArea.Text" xml:space="preserve">
+    <value>开启测量Mark面积功能</value>
+  </data>
+  <data name="chk_WantUseSideLightGauge.Text" xml:space="preserve">
+    <value>应用侧灯量规测量塑封体位子功能</value>
+  </data>
+  <data name="chk_CheckVoidOnMarkArea_Dark2.Text" xml:space="preserve">
+    <value>开启测量Mark面积功能</value>
+  </data>
+  <data name="srmLabel54.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 9pt</value>
+  </data>
+  <data name="srmLabel54.Text" xml:space="preserve">
+    <value>暗色缺陷2视阈图  No:</value>
+  </data>
+  <data name="lbl_SideLightPackageDefectImageNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt</value>
+  </data>
+  <data name="lbl_SideLightPackageDefectImageNo.Text" xml:space="preserve">
+    <value>亮色缺陷视阈图  No:</value>
+  </data>
+  <data name="tab_Package2.Text" xml:space="preserve">
+    <value>塑封体2</value>
+  </data>
+  <data name="srmLabel137.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel137.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel140.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="srmLabel140.Text" xml:space="preserve">
+    <value>连接宽限 :</value>
+  </data>
+  <data name="cbo_ColorDefectLinkMethod_Package.Items" xml:space="preserve">
+    <value>不连接</value>
+  </data>
+  <data name="cbo_ColorDefectLinkMethod_Package.Items1" xml:space="preserve">
+    <value>最靠近</value>
+  </data>
+  <data name="srmLabel141.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="srmLabel141.Text" xml:space="preserve">
+    <value>颜色缺陷连接方式:</value>
+  </data>
+  <data name="chk_WantCheckPackageColor.Text" xml:space="preserve">
+    <value>开启检测塑封体颜色</value>
+  </data>
+  <data name="chk_SeperateBrightDarkROITolerance_Package.Text" xml:space="preserve">
+    <value>分开亮色与暗色缺陷的ROI容许度</value>
+  </data>
+  <data name="chk_WantLinkDark4Defect.Text" xml:space="preserve">
+    <value>连接暗色4缺陷</value>
+  </data>
+  <data name="srmLabel149.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="srmLabel149.Text" xml:space="preserve">
+    <value>连接宽限 :</value>
+  </data>
+  <data name="srmLabel150.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 6</value>
+  </data>
+  <data name="srmLabel150.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel150.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_Dark4DefectLinkTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 3</value>
+  </data>
+  <data name="chk_WantLinkDark3Defect.Text" xml:space="preserve">
+    <value>连接暗色3缺陷</value>
+  </data>
+  <data name="srmLabel151.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="srmLabel151.Text" xml:space="preserve">
+    <value>连接宽限 :</value>
+  </data>
+  <data name="srmLabel152.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 6</value>
+  </data>
+  <data name="srmLabel152.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel152.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_Dark3DefectLinkTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 3</value>
+  </data>
+  <data name="chk_WantLinkMoldFlashDefect.Text" xml:space="preserve">
+    <value>连接Mold Flash缺陷</value>
+  </data>
+  <data name="srmLabel104.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 8</value>
+  </data>
+  <data name="srmLabel104.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="srmLabel104.Text" xml:space="preserve">
+    <value>连接宽限 :</value>
+  </data>
+  <data name="srmLabel105.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 8</value>
+  </data>
+  <data name="srmLabel105.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel105.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_MoldFlashDefectLinkTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 5</value>
+  </data>
+  <data name="chk_WantLinkCrackDefect.Text" xml:space="preserve">
+    <value>连接Crack缺陷</value>
+  </data>
+  <data name="srmLabel91.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 8</value>
+  </data>
+  <data name="srmLabel91.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="srmLabel91.Text" xml:space="preserve">
+    <value>连接宽限 :</value>
+  </data>
+  <data name="srmLabel90.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 8</value>
+  </data>
+  <data name="srmLabel90.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel90.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_CrackDefectLinkTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 5</value>
+  </data>
+  <data name="chk_WantLinkDark2Defect.Text" xml:space="preserve">
+    <value>连接暗色2缺陷</value>
+  </data>
+  <data name="srmLabel89.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="srmLabel89.Text" xml:space="preserve">
+    <value>连接宽限 :</value>
+  </data>
+  <data name="srmLabel88.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 8</value>
+  </data>
+  <data name="srmLabel88.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel88.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_Dark2DefectLinkTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 5</value>
+  </data>
+  <data name="chk_WantLinkDarkDefect.Text" xml:space="preserve">
+    <value>连接暗色缺陷</value>
+  </data>
+  <data name="srmLabel87.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="srmLabel87.Text" xml:space="preserve">
+    <value>连接宽限 :</value>
+  </data>
+  <data name="srmLabel86.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 8</value>
+  </data>
+  <data name="srmLabel86.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel86.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_DarkDefectLinkTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 5</value>
+  </data>
+  <data name="chk_WantLinkBrightDefect.Text" xml:space="preserve">
+    <value>连接亮色缺陷</value>
+  </data>
+  <data name="srmLabel29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="srmLabel29.Text" xml:space="preserve">
+    <value>连接宽限 :</value>
+  </data>
+  <data name="srmLabel30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 8</value>
+  </data>
+  <data name="srmLabel30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel30.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_BrightDefectLinkTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 5</value>
+  </data>
+  <data name="srmLabel53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 14</value>
+  </data>
+  <data name="srmLabel53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="srmLabel53.Text" xml:space="preserve">
+    <value>缺陷检测模式:</value>
+  </data>
+  <data name="btn_PackageGrayValueSensitivitySetting.Text" xml:space="preserve">
+    <value>灰色值敏感度设定</value>
+  </data>
+  <data name="tab_Package3.Text" xml:space="preserve">
+    <value>塑封体3</value>
+  </data>
+  <data name="chk_CheckVoidOnMarkArea_Dark4.Text" xml:space="preserve">
+    <value>开启测量Mark面积功能</value>
+  </data>
+  <data name="srmLabel147.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel147.Text" xml:space="preserve">
+    <value>暗色缺陷4视阈图  No:</value>
+  </data>
+  <data name="chk_CheckVoidOnMarkArea_Dark3.Text" xml:space="preserve">
+    <value>开启测量Mark面积功能</value>
+  </data>
+  <data name="srmLabel148.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel148.Text" xml:space="preserve">
+    <value>暗色缺陷3视阈图  No:</value>
+  </data>
+  <data name="chk_SeperateDarkField4DefectSetting_Package.Text" xml:space="preserve">
+    <value>应用独立的暗色缺陷4设定</value>
+  </data>
+  <data name="chk_SeperateDarkField3DefectSetting_Package.Text" xml:space="preserve">
+    <value>应用独立的暗色缺陷3设定</value>
+  </data>
+  <data name="tab_General.Text" xml:space="preserve">
+    <value>一般设定</value>
+  </data>
+  <data name="chk_WantUnitPRFindGauge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 24</value>
+  </data>
+  <data name="chk_WantUnitPRFindGauge.Text" xml:space="preserve">
+    <value>开启应用模式匹配定义仪器测量位子</value>
+  </data>
+  <data name="chk_UseAutoRepalceCounter.Text" xml:space="preserve">
+    <value>开启自动取代计算</value>
+  </data>
+  <data name="chk_WantCheckUnitSitProper.Text" xml:space="preserve">
+    <value>开启检查Unit正确位子功能</value>
+  </data>
+  <data name="chk_WantUseEmptyThreshold.Text" xml:space="preserve">
+    <value>使用二进制化</value>
+  </data>
+  <data name="chk_WantUseEmptyPattern.Text" xml:space="preserve">
+    <value>使用Pattern</value>
+  </data>
+  <data name="chk_WantCheckEmpty.Text" xml:space="preserve">
+    <value>开启检查空袋</value>
+  </data>
+  <data name="tab_Lead.Text" xml:space="preserve">
+    <value>管脚</value>
+  </data>
+  <data name="srmLabel138.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="srmLabel138.Text" xml:space="preserve">
+    <value>度</value>
+  </data>
+  <data name="srmLabel139.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="srmLabel139.Text" xml:space="preserve">
+    <value>管脚角度 +- 容许度</value>
+  </data>
+  <data name="srmLabel64.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 9pt</value>
+  </data>
+  <data name="srmLabel64.Text" xml:space="preserve">
+    <value>Base管脚视阈图  No:</value>
+  </data>
+  <data name="chk_WantInspectBaseLead.Text" xml:space="preserve">
+    <value>开启检测Base管脚</value>
+  </data>
+  <data name="chk_WantUseMasking_Lead.Text" xml:space="preserve">
+    <value>使用白色区域掩蔽</value>
+  </data>
+  <data name="srmLabel59.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel59.Text" xml:space="preserve">
+    <value>图片旋转方式:</value>
+  </data>
+  <data name="grp_PocketDontCare.Text" xml:space="preserve">
+    <value>口袋忽视范围方式</value>
+  </data>
+  <data name="chk_WantPocketDontCareAreaBlob_Lead.Text" xml:space="preserve">
+    <value>反射点</value>
+  </data>
+  <data name="chk_WantPocketDontCareAreaFix_Lead.Text" xml:space="preserve">
+    <value>固定</value>
+  </data>
+  <data name="chk_WantPocketDontCareAreaManual_Lead.Text" xml:space="preserve">
+    <value>手动</value>
+  </data>
+  <data name="chk_WantPocketDontCareAreaAuto_Lead.Text" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="chk_WantUseAverageGrayValueMethod_Lead.Text" xml:space="preserve">
+    <value>使用平均灰色值功能</value>
+  </data>
+  <data name="btn_AverageGrayValueROITolerance_Lead.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="btn_AverageGrayValueROITolerance_Lead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 162</value>
+  </data>
+  <data name="btn_AverageGrayValueROITolerance_Lead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 32</value>
+  </data>
+  <data name="btn_AverageGrayValueROITolerance_Lead.Text" xml:space="preserve">
+    <value>平均灰色值ROI容许度</value>
+  </data>
+  <data name="chk_WantPkgToBaseTolerance_Lead.Text" xml:space="preserve">
+    <value>使用中间塑封体到Base容许度</value>
+  </data>
+  <data name="srmLabel31.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt</value>
+  </data>
+  <data name="srmLabel31.Text" xml:space="preserve">
+    <value>管脚缺陷视阈图  No:</value>
+  </data>
+  <data name="chk_WantUseGaugeMeasureLeadDimension.Text" xml:space="preserve">
+    <value>应用仪器测量管脚尺寸</value>
+  </data>
+  <data name="btn_LeadLineProfileGaugeSetting.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btn_LeadLineProfileGaugeSetting.Text" xml:space="preserve">
+    <value>          测量设定</value>
+  </data>
+  <data name="chk_WantCheckLead.Text" xml:space="preserve">
+    <value>开启检查管脚</value>
+  </data>
+  <data name="cbo_SealSprocketHolePosition.Items" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="cbo_SealSprocketHolePosition.Items1" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="cbo_SealSprocketHolePosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 115</value>
+  </data>
+  <data name="srmLabel144.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel144.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 19</value>
+  </data>
+  <data name="srmLabel144.Text" xml:space="preserve">
+    <value>Sprocket Hole 位置:</value>
+  </data>
+  <data name="chk_WantCheckSealEdgeStraightness.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="chk_WantCheckSealEdgeStraightness.Text" xml:space="preserve">
+    <value>开启检测Seal边缘直线度</value>
+  </data>
+  <data name="chk_SkipSprocketHoleBrokenAndRoundnessInspection.Text" xml:space="preserve">
+    <value>跳过 Sprocket Hole破损与圆度检测</value>
+  </data>
+  <data name="chk_SkipSprocketHoleDiameterAndDefectInspection.Text" xml:space="preserve">
+    <value>跳过 Sprocket Hole直径与缺陷检测</value>
+  </data>
+  <data name="chk_WantClearSealTemplateWhenNewLot.Text" xml:space="preserve">
+    <value>新批次清除全部Seal模板</value>
+  </data>
+  <data name="srmLabel99.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 253</value>
+  </data>
+  <data name="srmLabel99.Size" type="System.Drawing.Size, System.Drawing">
+    <value>11, 13</value>
+  </data>
+  <data name="srmLabel99.Text" xml:space="preserve">
+    <value>°</value>
+  </data>
+  <data name="txt_PatternAngleTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 250</value>
+  </data>
+  <data name="srmLabel100.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 255</value>
+  </data>
+  <data name="srmLabel100.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="srmLabel100.Text" xml:space="preserve">
+    <value>角度 +- 容许度</value>
+  </data>
+  <data name="chk_SealWhiteOnBlack.Text" xml:space="preserve">
+    <value>黑找白</value>
+  </data>
+  <data name="srmLabel51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 336</value>
+  </data>
+  <data name="txt_MarkAreaBelowPercent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 333</value>
+  </data>
+  <data name="srmLabel50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 336</value>
+  </data>
+  <data name="srmLabel50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 13</value>
+  </data>
+  <data name="srmLabel50.Text" xml:space="preserve">
+    <value>字模面积少于 % 视为空白</value>
+  </data>
+  <data name="chk_WantDontCareArea_Seal.Text" xml:space="preserve">
+    <value>Seal空袋忽略區域功能</value>
+  </data>
+  <data name="cbo_CheckSealMarkMethod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 221</value>
+  </data>
+  <data name="chk_SkipSprocketHoleInspection.Text" xml:space="preserve">
+    <value>跳过 Sprocket Hole距离检测</value>
+  </data>
+  <data name="srmLabel46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 226</value>
+  </data>
+  <data name="srmLabel46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 13</value>
+  </data>
+  <data name="srmLabel46.Text" xml:space="preserve">
+    <value>检测元件存在的方法:</value>
+  </data>
+  <data name="srmCheckBox1.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="srmCheckBox2.Text" xml:space="preserve">
+    <value>Pattern 匹配评分</value>
+  </data>
+  <data name="srmLabel26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel26.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="srmLabel24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel24.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="srmLabel25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 28</value>
+  </data>
+  <data name="srmLabel25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="srmLabel25.Text" xml:space="preserve">
+    <value>塑封体尺寸</value>
+  </data>
+  <data name="group_OrientDirectionsSeal.Text" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="radioBtn_4DirectionsSeal.Text" xml:space="preserve">
+    <value>四边 (0度, 90度, 180度, 270度)</value>
+  </data>
+  <data name="radioBtn_2DirectionsSeal.Text" xml:space="preserve">
+    <value>二边 (0度, 180度)</value>
+  </data>
+  <data name="srmLabel23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 88</value>
+  </data>
+  <data name="srmLabel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="srmLabel23.Text" xml:space="preserve">
+    <value>口袋间距尺寸</value>
+  </data>
+  <data name="srmLabel127.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="srmLabel127.Text" xml:space="preserve">
+    <value>Seal边缘直线度视阈图 No：</value>
+  </data>
+  <data name="srmLabel126.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 440</value>
+  </data>
+  <data name="srmLabel126.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 13</value>
+  </data>
+  <data name="srmLabel126.Text" xml:space="preserve">
+    <value>Seal空料模板最高上限</value>
+  </data>
+  <data name="srmLabel125.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 410</value>
+  </data>
+  <data name="srmLabel125.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 13</value>
+  </data>
+  <data name="srmLabel125.Text" xml:space="preserve">
+    <value>Seal字模模板最高上限</value>
+  </data>
+  <data name="SealBrokenImageView.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="SealBrokenImageView.Text" xml:space="preserve">
+    <value>Seal破损间距视阈图 No：</value>
+  </data>
+  <data name="CheckUnitViewNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="CheckUnitViewNo.Text" xml:space="preserve">
+    <value>检测Unit视阈图 No：</value>
+  </data>
+  <data name="OverheatViewNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="OverheatViewNo.Text" xml:space="preserve">
+    <value>Seal过热视阈图 No：</value>
+  </data>
+  <data name="DistanceViewNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="DistanceViewNo.Text" xml:space="preserve">
+    <value>Seal距离视阈图 No：</value>
+  </data>
+  <data name="srmLabel108.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel108.Text" xml:space="preserve">
+    <value>Sprocket Hole视阈图 No：</value>
+  </data>
+  <data name="tab_PadPackage.Text" xml:space="preserve">
+    <value>衬垫塑封体</value>
+  </data>
+  <data name="cbo_PadPkgMoldFlashDefectType_Side.Items" xml:space="preserve">
+    <value>亮色</value>
+  </data>
+  <data name="cbo_PadPkgMoldFlashDefectType_Side.Items1" xml:space="preserve">
+    <value>暗色</value>
+  </data>
+  <data name="cbo_PadPkgMoldFlashDefectType_Center.Items" xml:space="preserve">
+    <value>亮色</value>
+  </data>
+  <data name="cbo_PadPkgMoldFlashDefectType_Center.Items1" xml:space="preserve">
+    <value>暗色</value>
+  </data>
+  <data name="srmLabel153.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel153.Text" xml:space="preserve">
+    <value>Mold Flash 缺陷类型:</value>
+  </data>
+  <data name="srmLabel154.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel154.Text" xml:space="preserve">
+    <value>侧边 :</value>
+  </data>
+  <data name="srmLabel155.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel155.Text" xml:space="preserve">
+    <value>中部 :</value>
+  </data>
+  <data name="srmLabel101.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel101.Text" xml:space="preserve">
+    <value>Mold Flash缺陷视阈图  No:</value>
+  </data>
+  <data name="srmLabel102.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel102.Text" xml:space="preserve">
+    <value>侧边 :</value>
+  </data>
+  <data name="srmLabel103.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel103.Text" xml:space="preserve">
+    <value>中部 :</value>
+  </data>
+  <data name="srmLabel40.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel40.Text" xml:space="preserve">
+    <value>侧边 :</value>
+  </data>
+  <data name="srmLabel39.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel39.Text" xml:space="preserve">
+    <value>侧边 :</value>
+  </data>
+  <data name="srmLabel37.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 19</value>
+  </data>
+  <data name="srmLabel37.Text" xml:space="preserve">
+    <value>中部 :</value>
+  </data>
+  <data name="srmLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 18</value>
+  </data>
+  <data name="srmLabel6.Text" xml:space="preserve">
+    <value>中部 :</value>
+  </data>
+  <data name="srmLabel36.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel36.Text" xml:space="preserve">
+    <value>暗色缺陷视阈图  No:</value>
+  </data>
+  <data name="srmLabel32.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel32.Text" xml:space="preserve">
+    <value>亮色缺陷视阈图  No:</value>
+  </data>
+  <data name="chk_SeperateBrightDarkROITolerance_PadPackage.Text" xml:space="preserve">
+    <value>分开亮色与暗色缺陷的ROI容许度</value>
+  </data>
+  <data name="chk_WantDontCarePadForPackage.Text" xml:space="preserve">
+    <value>在塑封体范围忽视衬垫</value>
+  </data>
+  <data name="chk_WantDontCareArea_PadPackage.Text" xml:space="preserve">
+    <value>应用忽视范围</value>
+  </data>
+  <data name="chk_SeperateForeignMaterialDefectSetting_PadPackage.Text" xml:space="preserve">
+    <value>应用独立的异物 / 污染缺陷设定</value>
+  </data>
+  <data name="chk_SeperateMoldFlashDefectSetting_PadPackage.Text" xml:space="preserve">
+    <value>应用独立的Mold Flash缺陷设定</value>
+  </data>
+  <data name="chk_SeperateChippedOffDefectSetting_PadPackage.Text" xml:space="preserve">
+    <value>应用独立的Chipped Off缺陷设定</value>
+  </data>
+  <data name="chk_SeperateCrackDefectSetting_PadPackage.Text" xml:space="preserve">
+    <value>应用独立的Crack缺陷设定</value>
+  </data>
+  <data name="chk_MeasureCenterPkgSizeUsingSidePkg.Text" xml:space="preserve">
+    <value>使用侧面塑封体测量中间Pkg尺寸</value>
+  </data>
+  <data name="tab_PadPackage2.Text" xml:space="preserve">
+    <value>衬垫塑封体 2</value>
+  </data>
+  <data name="chk_WantLinkMoldFlashDefect_PadPackage.Text" xml:space="preserve">
+    <value>连接Mold Flash缺陷</value>
+  </data>
+  <data name="srmLabel106.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 8</value>
+  </data>
+  <data name="srmLabel106.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="srmLabel106.Text" xml:space="preserve">
+    <value>连接宽限 :</value>
+  </data>
+  <data name="srmLabel107.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 8</value>
+  </data>
+  <data name="srmLabel107.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel107.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_MoldFlashDefectLinkTolerance_PadPackage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 5</value>
+  </data>
+  <data name="chk_WantLinkCrackDefect_PadPackage.Text" xml:space="preserve">
+    <value>连接Crack缺陷</value>
+  </data>
+  <data name="srmLabel92.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 8</value>
+  </data>
+  <data name="srmLabel92.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="srmLabel92.Text" xml:space="preserve">
+    <value>连接宽限 :</value>
+  </data>
+  <data name="srmLabel93.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 8</value>
+  </data>
+  <data name="srmLabel93.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel93.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_CrackDefectLinkTolerance_PadPackage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 5</value>
+  </data>
+  <data name="chk_WantLinkDarkDefect_PadPackage.Text" xml:space="preserve">
+    <value>连接暗色缺陷</value>
+  </data>
+  <data name="srmLabel94.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 8</value>
+  </data>
+  <data name="srmLabel94.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="srmLabel94.Text" xml:space="preserve">
+    <value>连接宽限 :</value>
+  </data>
+  <data name="srmLabel95.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 8</value>
+  </data>
+  <data name="srmLabel95.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel95.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_DarkDefectLinkTolerance_PadPackage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 5</value>
+  </data>
+  <data name="chk_WantLinkBrightDefect_PadPackage.Text" xml:space="preserve">
+    <value>连接亮色缺陷</value>
+  </data>
+  <data name="srmLabel96.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 8</value>
+  </data>
+  <data name="srmLabel96.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="srmLabel96.Text" xml:space="preserve">
+    <value>连接宽限 :</value>
+  </data>
+  <data name="srmLabel97.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 8</value>
+  </data>
+  <data name="srmLabel97.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel97.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_BrightDefectLinkTolerance_PadPackage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 5</value>
+  </data>
+  <data name="tab_Lead3D.Text" xml:space="preserve">
+    <value>管脚3D</value>
+  </data>
+  <data name="chk_WantDontCareArea_Lead3D.Text" xml:space="preserve">
+    <value>应用忽视范围</value>
+  </data>
+  <data name="chk_WantUseMasking_Lead3D.Text" xml:space="preserve">
+    <value>使用白色区域掩蔽</value>
+  </data>
+  <data name="chk_WantUseAverageGrayValueMethod_Lead3D.Text" xml:space="preserve">
+    <value>使用平均灰色值功能</value>
+  </data>
+  <data name="btn_AverageGrayValueROITolerance_Lead3D.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="btn_AverageGrayValueROITolerance_Lead3D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 4</value>
+  </data>
+  <data name="btn_AverageGrayValueROITolerance_Lead3D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 32</value>
+  </data>
+  <data name="btn_AverageGrayValueROITolerance_Lead3D.Text" xml:space="preserve">
+    <value>平均灰色值ROI容许度</value>
+  </data>
+  <data name="srmLabel75.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel75.Text" xml:space="preserve">
+    <value>管脚污染范围</value>
+  </data>
+  <data name="srmLabel61.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel61.Text" xml:space="preserve">
+    <value>宽度范围 :</value>
+  </data>
+  <data name="srmLabel60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel60.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel62.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel62.Text" xml:space="preserve">
+    <value>宽度范围选择点</value>
+  </data>
+  <data name="srmLabel58.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel58.Text" xml:space="preserve">
+    <value>管脚站立度方式</value>
+  </data>
+  <data name="srmLabel57.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel57.Text" xml:space="preserve">
+    <value>管脚跨距方式</value>
+  </data>
+  <data name="srmLabel56.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel56.Text" xml:space="preserve">
+    <value>管脚长度方差方式</value>
+  </data>
+  <data name="srmLabel55.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel55.Text" xml:space="preserve">
+    <value>管脚宽度显示选项</value>
+  </data>
+  <data name="chk_WantGRR_Lead3D.Text" xml:space="preserve">
+    <value>开启GRR</value>
+  </data>
+  <data name="chk_WantLead3DPin1.Text" xml:space="preserve">
+    <value>开启Pin 1</value>
+  </data>
+  <data name="chk_WantCheckPH_Lead3D.Text" xml:space="preserve">
+    <value>开启检查吸嘴功能</value>
+  </data>
+  <data name="chk_WantUseGaugeMeasureBase_Lead3D.Text" xml:space="preserve">
+    <value>使用仪器精准测量管脚Base</value>
+  </data>
+  <data name="chk_WantPkgToBaseTolerance_Lead3D.Text" xml:space="preserve">
+    <value>使用中间塑封体到Base容许度</value>
+  </data>
+  <data name="tab_Lead3D2.Text" xml:space="preserve">
+    <value>管脚3D 2</value>
+  </data>
+  <data name="srmLabel121.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 30</value>
+  </data>
+  <data name="srmLabel121.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="srmLabel121.Text" xml:space="preserve">
+    <value>匹配 Y 容许度</value>
+  </data>
+  <data name="srmLabel122.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel122.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel123.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 6</value>
+  </data>
+  <data name="srmLabel123.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="srmLabel123.Text" xml:space="preserve">
+    <value>匹配 X 容许度</value>
+  </data>
+  <data name="srmLabel124.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel124.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel128.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel128.Text" xml:space="preserve">
+    <value>图片旋转选项</value>
+  </data>
+  <data name="tab_Lead3DPackage.Text" xml:space="preserve">
+    <value>管脚3D塑封体</value>
+  </data>
+  <data name="pnl_WantDontCareArea_LeadPackage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 253</value>
+  </data>
+  <data name="chk_WantDontCareArea_LeadPackage.Text" xml:space="preserve">
+    <value>应用忽视范围</value>
+  </data>
+  <data name="panel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 110</value>
+  </data>
+  <data name="srmLabel41.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 60</value>
+  </data>
+  <data name="srmLabel41.Text" xml:space="preserve">
+    <value>暗色缺陷视阈图  No:</value>
+  </data>
+  <data name="cbo_LeadPkgDarkFieldImageNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 82</value>
+  </data>
+  <data name="srmLabel42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 118</value>
+  </data>
+  <data name="srmLabel43.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 8.25pt</value>
+  </data>
+  <data name="srmLabel43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 3</value>
+  </data>
+  <data name="srmLabel43.Text" xml:space="preserve">
+    <value>亮色缺陷视阈图  No:</value>
+  </data>
+  <data name="cbo_LeadPkgSizeImageNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 140</value>
+  </data>
+  <data name="cbo_LeadPkgBrightFieldImageNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="chk_SeperateMoldFlashDefectSetting_LeadPackage.Text" xml:space="preserve">
+    <value>应用独立的Mold Flash缺陷设定</value>
+  </data>
+  <data name="chk_SeperateChippedOffDefectSetting_LeadPackage.Text" xml:space="preserve">
+    <value>应用独立的Chipped Off缺陷设定</value>
+  </data>
+  <data name="chk_SeperateCrackDefectSetting_LeadPackage.Text" xml:space="preserve">
+    <value>应用独立的Crack缺陷设定</value>
+  </data>
+  <data name="chk_WantUseDetailThreshold_LeadPackage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 24</value>
+  </data>
+  <data name="chk_WantUseDetailThreshold_LeadPackage.Text" xml:space="preserve">
+    <value>应用多个二进制化设定来分辨不同缺陷</value>
+  </data>
+  <data name="chk_MeasureCenterPkgSizeUsingCorner.Text" xml:space="preserve">
+    <value>使用角落点测量中间Pkg尺寸</value>
+  </data>
+  <data name="tab_PocketPosition.Text" xml:space="preserve">
+    <value>口袋位置</value>
+  </data>
+  <data name="srmLabel44.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel44.Text" xml:space="preserve">
+    <value>Plate Gauge 视阈图 No:</value>
+  </data>
+  <data name="srmLabel45.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel45.Text" xml:space="preserve">
+    <value>口袋 Pattern 视阈图 No:</value>
+  </data>
+  <data name="chk_WantUsePocketGauge.Text" xml:space="preserve">
+    <value>使用Gauge</value>
+  </data>
+  <data name="chk_WantUsePocketPattern.Text" xml:space="preserve">
+    <value>使用Pattern</value>
+  </data>
+  <data name="chk_WantCheckPocketPosition.Text" xml:space="preserve">
+    <value>开启检测口袋位置</value>
+  </data>
+  <data name="tp_OrientPad.Text" xml:space="preserve">
+    <value>衬垫方向</value>
+  </data>
+  <data name="group_PadOrientDirections.Text" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="radioBtn_4Directions_Pad.Text" xml:space="preserve">
+    <value>四边 (0度, 90度, 180度, 270度)</value>
+  </data>
+  <data name="radioBtn_2Directions_Pad.Text" xml:space="preserve">
+    <value>二边 (0度, 180度)</value>
+  </data>
+  <data name="tp_Barcode.Text" xml:space="preserve">
+    <value>2D码</value>
+  </data>
+  <data name="chk_WantUseUniformize3x3.Text" xml:space="preserve">
+    <value>使用Uniformize 3x3</value>
+  </data>
+  <data name="srmLabel143.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="srmLabel143.Text" xml:space="preserve">
+    <value>忽略区域比例</value>
+  </data>
+  <data name="txt_UniformizeGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 4</value>
+  </data>
+  <data name="srmLabel81.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="srmLabel81.Text" xml:space="preserve">
+    <value>均匀亮度增益</value>
+  </data>
+  <data name="srmLabel82.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 13</value>
+  </data>
+  <data name="srmLabel82.Text" xml:space="preserve">
+    <value>检测合格后的延迟时间</value>
+  </data>
+  <data name="txt_BarcodeDelayTimeAfterPass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 4</value>
+  </data>
+  <data name="srmLabel83.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 7</value>
+  </data>
+  <data name="srmLabel83.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel83.Text" xml:space="preserve">
+    <value>毫秒</value>
+  </data>
+  <data name="srmLabel80.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel80.Text" xml:space="preserve">
+    <value>重测计数</value>
+  </data>
+  <data name="txt_BarcodeRestestCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 3</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Pattern检测范围容许度(像素)</value>
+  </data>
+  <data name="srmLabel130.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 81</value>
+  </data>
+  <data name="srmLabel130.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="srmLabel130.Text" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="srmLabel131.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 48</value>
+  </data>
+  <data name="srmLabel131.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="srmLabel131.Text" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="srmLabel132.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 48</value>
+  </data>
+  <data name="srmLabel132.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="srmLabel132.Text" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="srmLabel133.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 25</value>
+  </data>
+  <data name="srmLabel133.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="srmLabel133.Text" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="srmLabel67.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 13</value>
+  </data>
+  <data name="srmLabel67.Text" xml:space="preserve">
+    <value>2D码检测范围容许度</value>
+  </data>
+  <data name="txt_BarcodeDetectionAreaTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 3</value>
+  </data>
+  <data name="srmLabel68.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 6</value>
+  </data>
+  <data name="srmLabel68.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel68.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="chk_WantUseReferenceImage.Text" xml:space="preserve">
+    <value>使用参考图片</value>
+  </data>
+  <data name="chk_WantUseAngleRange.Text" xml:space="preserve">
+    <value>使用角度值域</value>
+  </data>
+  <data name="chk_WantUseGainRange.Text" xml:space="preserve">
+    <value>使用亮度值域</value>
+  </data>
+  <data name="chk_SkipOrientInspection.Text" xml:space="preserve">
+    <value>跳过取向视检</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>418, 537</value>
+  </data>
+  <data name="chk_WantCheckPackage.Text" xml:space="preserve">
+    <value>开启检查塑封体功能</value>
+  </data>
+  <data name="chk_WantAutoGauge.Text" xml:space="preserve">
+    <value>开启自动仪器测量</value>
+  </data>
+  <data name="pnl_WantUseGaugeMeasureDimension.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 253</value>
+  </data>
+  <data name="chk_WantUseGaugeMeasureDimension.Text" xml:space="preserve">
+    <value>使用仪器测量衬垫尺寸</value>
+  </data>
+  <data name="btn_LineProfileGaugeSetting.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btn_LineProfileGaugeSetting.Text" xml:space="preserve">
+    <value>          测量设定</value>
+  </data>
+  <data name="srmLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="srmLabel4.Text" xml:space="preserve">
+    <value>衬垫 ROI 宽限</value>
+  </data>
+  <data name="srmLabel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 131</value>
+  </data>
+  <data name="srmLabel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel14.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="chk_WantSubROI.Text" xml:space="preserve">
+    <value>开启 SubROI</value>
+  </data>
+  <data name="pnl_PackageSizeImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 12</value>
+  </data>
+  <data name="srmLabel21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9.75pt</value>
+  </data>
+  <data name="srmLabel21.Text" xml:space="preserve">
+    <value>塑封体边缘视阈图 No:</value>
+  </data>
+  <data name="chk_WantUseLeadPointOffsetMarkROI.Text" xml:space="preserve">
+    <value>开启使用管脚点来偏移字模ROI</value>
+  </data>
+  <data name="chk_WantUseDetailThreshold_PadPackage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 24</value>
+  </data>
+  <data name="chk_WantUseDetailThreshold_PadPackage.Text" xml:space="preserve">
+    <value>应用多个二进制化设定来分辨不同缺陷</value>
+  </data>
+  <data name="cbo_MissingMarkInspectionMethod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>574, 306</value>
+  </data>
+  <data name="srmLabel47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 312</value>
+  </data>
+  <data name="srmLabel47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 13</value>
+  </data>
+  <data name="srmLabel47.Text" xml:space="preserve">
+    <value>字模破损检测模式 :</value>
+  </data>
+  <data name="srmLabel38.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel38.Text" xml:space="preserve">
+    <value>侧边 :</value>
+  </data>
+  <data name="srmLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel5.Text" xml:space="preserve">
+    <value>中部 :</value>
+  </data>
+  <data name="srmLabel35.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel35.Text" xml:space="preserve">
+    <value>塑封体边缘视阈图 No:</value>
+  </data>
+  <data name="chk_SeperateVoidDefectSetting_Package.Text" xml:space="preserve">
+    <value>应用独立的Void缺陷设定</value>
+  </data>
+  <data name="chk_WantPackageGRR.Text" xml:space="preserve">
+    <value>开启GRR</value>
+  </data>
+  <data name="chk_CheckPackage.Text" xml:space="preserve">
+    <value>开启检查塑封体功能</value>
+  </data>
+  <data name="chk_WantUseDetailThreshold_Package.Text" xml:space="preserve">
+    <value>应用多个二进制化设定来分辨不同缺陷</value>
+  </data>
+  <data name="chk_WantRotateMarkImageUsingPkgAngle.Text" xml:space="preserve">
+    <value>使用塑封体角度旋转Mark图像</value>
+  </data>
+  <data name="chk_SkipMarkInspection.Text" xml:space="preserve">
+    <value>跳过Mark视检</value>
+  </data>
+  <data name="chk_WantBuildTexts.Text" xml:space="preserve">
+    <value>开启多个组合</value>
+  </data>
+  <data name="chk_MultiGroups.Text" xml:space="preserve">
+    <value>开启多个组合</value>
+  </data>
+  <data name="srmLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 435</value>
+  </data>
+  <data name="srmLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 13</value>
+  </data>
+  <data name="srmLabel2.Text" xml:space="preserve">
+    <value>衬垫尺寸宽限默认设定</value>
+  </data>
+  <data name="srmLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 435</value>
+  </data>
+  <data name="srmLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel1.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="txt_DefaultPixelTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 432</value>
+  </data>
+  <data name="lbl_Title.Text" xml:space="preserve">
+    <value>高级设定</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+</root>

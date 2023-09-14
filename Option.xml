@@ -1,0 +1,59 @@
+<Option>
+  <General>
+    <Culture>1</Culture>
+    <AutoStartApplication>1</AutoStartApplication>
+    <AutoPopupOSK>1</AutoPopupOSK>
+    <AutoLogout>0</AutoLogout>
+    <MachineID>SRM Handler</MachineID>
+    <AutoStop>0</AutoStop>
+    <WantGauge>1</WantGauge>
+    <MarkDefaultTolerance>75</MarkDefaultTolerance>
+    <ResolutionWidth>640</ResolutionWidth>
+    <ResolutionHeight>480</ResolutionHeight>
+    <DebugMode>0</DebugMode>
+    <SavePassImage>1</SavePassImage>
+    <SaveFailImage>1</SaveFailImage>
+    <PassImagePics>500</PassImagePics>
+    <FailImagePics>500</FailImagePics>
+    <SaveImageMode>1</SaveImageMode>
+    <EmptyPocketTole>50</EmptyPocketTole>
+    <WrongFaceTole>50</WrongFaceTole>
+    <StopLowYield>0</StopLowYield>
+    <LowYield>95</LowYield>
+    <MinUnitCheck>1000</MinUnitCheck>
+    <UnitDisplay description="">1</UnitDisplay>
+  </General>
+  <CustomFeature>
+    <AutoStart>0</AutoStart>
+  </CustomFeature>
+  <LightSource>
+    <RS232TimeOut>100</RS232TimeOut>
+    <BitsPerSecond>115200</BitsPerSecond>
+    <DataBits>7</DataBits>
+    <Parity>0</Parity>
+    <StopBits>0</StopBits>
+    <LEDiControl>1</LEDiControl>
+    <LEDiMaxLimit>255</LEDiMaxLimit>
+  </LightSource>
+  <TCPIP>
+    <Port>8080</Port>
+    <Enable>0</Enable>
+    <ReportAdd>C:\VsReport</ReportAdd>
+    <TimeOut>100</TimeOut>
+    <RetriesCount>0</RetriesCount>
+    <ExportReport>0</ExportReport>
+    <MainPort description="">8080</MainPort>
+    <MarkOrient description="">8081</MarkOrient>
+    <InPocket description="">8082</InPocket>
+  </TCPIP>
+  <SerialPort>
+    <CommPort>COM1</CommPort>
+    <TimeOut>100</TimeOut>
+    <RetriesCount>0</RetriesCount>
+    <BitsPerSecond>9600</BitsPerSecond>
+    <DataBits>8</DataBits>
+    <Parity>2</Parity>
+    <StopBits>0</StopBits>
+    <Enable>0</Enable>
+  </SerialPort>
+</Option>

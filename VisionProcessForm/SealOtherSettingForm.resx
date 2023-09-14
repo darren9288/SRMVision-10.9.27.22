@@ -1,0 +1,2892 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tabPage_ScoreSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 446</value>
+  </data>
+  <data name="btn_Seal2Threshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 18</value>
+  </data>
+  <data name="lbl_Title.Text" xml:space="preserve">
+    <value>MISC Setup</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_GaugeAdvanceSetting.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="srmLabel33.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="btn_GaugeAdvanceSetting.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;txt_SealEdgeSensitivity.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gb_OverHeatThreshold.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btn_UnitPresentThreshold.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Parent" xml:space="preserve">
+    <value>pnl_SprocketHoleInspectionAreaInwardTolerance</value>
+  </data>
+  <data name="&gt;&gt;group_AreaSetting.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_OverHeatROINo.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_SealEdgeSensitivity.TabIndex" type="System.Int32, mscorlib">
+    <value>952</value>
+  </data>
+  <data name="btn_Seal2BrokenAreaThreshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel33.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;gb_SealEdgeStraightnessThreshold.Parent" xml:space="preserve">
+    <value>tabPage_Setting2</value>
+  </data>
+  <data name="btn_SprocketHoleBrokenThreshold.Text" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="btn_SprocketHoleRoundnessThreshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 14</value>
+  </data>
+  <data name="&gt;&gt;txt_SealEdgeTolerance.Parent" xml:space="preserve">
+    <value>pnl_SealEdgeTolerance</value>
+  </data>
+  <data name="btn_CircleGaugeSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 42</value>
+  </data>
+  <data name="grpbox_SprocketHoleRoundnessSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 55</value>
+  </data>
+  <data name="grpbox_SprocketHoleDefectSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 55</value>
+  </data>
+  <data name="tab_VisionControl.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="srmLabel10.TabIndex" type="System.Int32, mscorlib">
+    <value>957</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Name" xml:space="preserve">
+    <value>btn_Save</value>
+  </data>
+  <data name="&gt;&gt;btn_OverHeatThreshold.Name" xml:space="preserve">
+    <value>btn_OverHeatThreshold</value>
+  </data>
+  <data name="pnl_MinSealObjectSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 181</value>
+  </data>
+  <data name="&gt;&gt;txt_SprocketHoleInspectionAreaInwardTolerance.Name" xml:space="preserve">
+    <value>txt_SprocketHoleInspectionAreaInwardTolerance</value>
+  </data>
+  <data name="srmLabel11.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="txt_Seal2AreaTolerance.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="srmLabel10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txt_SprocketHoleBrokenOutwardTolerance_Outer.TabIndex" type="System.Int32, mscorlib">
+    <value>955</value>
+  </data>
+  <data name="&gt;&gt;srmLabel36.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_Seal1BrokenAreaThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_DistanceThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="btn_Seal1BrokenAreaThreshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;grpbox_SprocketHoleBrokenSetting.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_UnitPresentThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="gb_DistanceThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 110</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowDraggingBox_Line.Parent" xml:space="preserve">
+    <value>pnl_SealGauge</value>
+  </data>
+  <data name="&gt;&gt;pnl_SealConfiguration.Parent" xml:space="preserve">
+    <value>tabPage_ScoreSetting</value>
+  </data>
+  <data name="srmLabel11.Text" xml:space="preserve">
+    <value>Select ROI No</value>
+  </data>
+  <data name="srmLabel25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 281</value>
+  </data>
+  <data name="btn_SprocketHoleDefectThreshold.Text" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Parent" xml:space="preserve">
+    <value>pnl_MinSealObjectSize</value>
+  </data>
+  <data name="gb_SealEdgeStraightnessThreshold.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btn_Seal2BrokenAreaThreshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;txt_SprocketHoleBrokenOutwardTolerance_Outer.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_SealEdgeTolerance.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel35.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_GaugeAdvanceSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>903</value>
+  </data>
+  <data name="srmLabel11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btn_GaugeAdvanceSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 0</value>
+  </data>
+  <data name="&gt;&gt;pnl_SealConfiguration.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabPage_ScoreSetting.Parent" xml:space="preserve">
+    <value>tab_VisionControl</value>
+  </data>
+  <data name="srmGroupBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btn_SealConfig.Text" xml:space="preserve">
+    <value>     Seal Config</value>
+  </data>
+  <data name="&gt;&gt;btn_Seal2Threshold.Parent" xml:space="preserve">
+    <value>gb_SealThreshold</value>
+  </data>
+  <data name="chk_SetToAllOverHeatROI.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="pnl_SealEdgeSensitivity.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="&gt;&gt;grpbox_SprocketHoleBrokenInspectionAreaTolerance.Name" xml:space="preserve">
+    <value>grpbox_SprocketHoleBrokenInspectionAreaTolerance</value>
+  </data>
+  <data name="&gt;&gt;srmLabel36.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_Seal1AreaFilter.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="srmLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 13</value>
+  </data>
+  <data name="&gt;&gt;srmLabel23.Name" xml:space="preserve">
+    <value>srmLabel23</value>
+  </data>
+  <data name="pnl_SealEdgeTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 31</value>
+  </data>
+  <data name="&gt;&gt;lbl_MinArea.Name" xml:space="preserve">
+    <value>lbl_MinArea</value>
+  </data>
+  <data name="btn_OverHeatThreshold.Text" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="srmLabel33.Text" xml:space="preserve">
+    <value>mm^2</value>
+  </data>
+  <data name="&gt;&gt;txt_SprocketHoleInspectionAreaInwardTolerance.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpbox_SprocketHoleBrokenSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 55</value>
+  </data>
+  <data name="gb_OverHeatThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 55</value>
+  </data>
+  <data name="lbl_Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btn_DistanceThreshold.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;gb_UnitPresentThreshold.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_DistanceThreshold.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txt_SealEdgeTolerance.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Setting2.Name" xml:space="preserve">
+    <value>tabPage_Setting2</value>
+  </data>
+  <data name="btn_Seal2Threshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;btn_SprocketHoleRoundnessThreshold.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnl_SprocketHoleInspectionAreaInwardTolerance.Name" xml:space="preserve">
+    <value>pnl_SprocketHoleInspectionAreaInwardTolerance</value>
+  </data>
+  <data name="&gt;&gt;lbl_SealEdgeSensitivity.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPage_ScoreSetting.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowSamplePoints_Circle.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_Seal1AreaFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="grpbox_SprocketHoleBrokenInspectionAreaTolerance.Text" xml:space="preserve">
+    <value>Sprocket Hole Broken Inspection Area Outward Setting</value>
+  </data>
+  <data name="btn_UnitPresentThreshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel34.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="srmLabel23.Text" xml:space="preserve">
+    <value>Select Template No</value>
+  </data>
+  <data name="&gt;&gt;srmLabel23.Parent" xml:space="preserve">
+    <value>gb_UnitPresentThreshold</value>
+  </data>
+  <data name="txt_SprocketHoleBrokenOutwardTolerance_Inner.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gb_SealEdgeStraightnessThreshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="tabPage_Setting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowSamplePoints_Line.Name" xml:space="preserve">
+    <value>chk_ShowSamplePoints_Line</value>
+  </data>
+  <data name="&gt;&gt;pnl_SealConfiguration.Name" xml:space="preserve">
+    <value>pnl_SealConfiguration</value>
+  </data>
+  <data name="gb_DistanceThreshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="grpbox_SprocketHoleBrokenSetting.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btn_GaugeAdvanceSetting.Parent" xml:space="preserve">
+    <value>pnl_SealGauge</value>
+  </data>
+  <data name="&gt;&gt;btn_UnitPresentThreshold.Name" xml:space="preserve">
+    <value>btn_UnitPresentThreshold</value>
+  </data>
+  <data name="group_AreaSetting.Text" xml:space="preserve">
+    <value>Seal 2 Line Edge Setting</value>
+  </data>
+  <data name="&gt;&gt;txt_Seal2AreaFilter.Name" xml:space="preserve">
+    <value>txt_Seal2AreaFilter</value>
+  </data>
+  <data name="srmLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>953</value>
+  </data>
+  <data name="chk_ShowSamplePoints_Line.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="tabPage_Setting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 446</value>
+  </data>
+  <data name="btn_CircleGaugeSetting.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;gb_SealThreshold.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="srmLabel24.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="btn_Seal1Threshold.Text" xml:space="preserve">
+    <value>Seal 1 Threshold</value>
+  </data>
+  <data name="btn_CircleGaugeSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>900</value>
+  </data>
+  <data name="&gt;&gt;lbl_MinArea.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_CircleGaugeSetting.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="lbl_MinArea.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowSamplePoints_Circle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 200</value>
+  </data>
+  <data name="&gt;&gt;btn_GaugeAdvanceSetting.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpbox_SprocketHoleRoundnessSetting.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_OverHeatThreshold.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="grpbox_SprocketHoleDefectSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 280</value>
+  </data>
+  <data name="srmLabel5.Text" xml:space="preserve">
+    <value>pix</value>
+  </data>
+  <data name="&gt;&gt;chk_SetToAllOverHeatROI.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Setting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="group_AreaSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>391, 337</value>
+  </data>
+  <data name="&gt;&gt;grpbox_SprocketHoleBrokenSetting.Name" xml:space="preserve">
+    <value>grpbox_SprocketHoleBrokenSetting</value>
+  </data>
+  <data name="srmLabel10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_ShowDraggingBox_Line.Text" xml:space="preserve">
+    <value>Show Dragging Box</value>
+  </data>
+  <data name="btn_OverHeatThreshold.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;pnl_SprocketHoleInspectionAreaInwardTolerance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_Seal2AreaFilter.Parent" xml:space="preserve">
+    <value>pnl_MinSealObjectSize</value>
+  </data>
+  <data name="srmLabel4.Text" xml:space="preserve">
+    <value>Sprocket Hole Inspection Area Inward Tolerance</value>
+  </data>
+  <data name="pnl_SprocketHoleBrokenInspectionAreaTolerance.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="srmLabel24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 18</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowDraggingBox_Line.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_Close.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;txt_OverHeatMinArea.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Name" xml:space="preserve">
+    <value>srmLabel3</value>
+  </data>
+  <data name="gb_UnitPresentThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 165</value>
+  </data>
+  <data name="btn_Seal2Threshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="lbl_SealEdgeSensitivity.TabIndex" type="System.Int32, mscorlib">
+    <value>951</value>
+  </data>
+  <data name="btn_CircleGaugeSetting.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_OverHeatThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 30</value>
+  </data>
+  <data name="&gt;&gt;txt_SprocketHoleBrokenOutwardTolerance_Inner.Name" xml:space="preserve">
+    <value>txt_SprocketHoleBrokenOutwardTolerance_Inner</value>
+  </data>
+  <data name="srmLabel7.Text" xml:space="preserve">
+    <value>mm^2</value>
+  </data>
+  <data name="btn_Seal2BrokenAreaThreshold.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="btn_Seal1Threshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 30</value>
+  </data>
+  <data name="gb_OverHeatThreshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;tab_VisionControl.Type" xml:space="preserve">
+    <value>SRMControl.SRMTabControl, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpbox_SprocketHoleDefectSetting.Parent" xml:space="preserve">
+    <value>tabPage_Setting</value>
+  </data>
+  <data name="srmLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 15</value>
+  </data>
+  <data name="&gt;&gt;gb_SealThreshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_SealEdgeSensitivity.Name" xml:space="preserve">
+    <value>txt_SealEdgeSensitivity</value>
+  </data>
+  <data name="&gt;&gt;srmLabel36.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="srmLabel23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowDraggingBox_Circle.Name" xml:space="preserve">
+    <value>chk_ShowDraggingBox_Circle</value>
+  </data>
+  <data name="txt_Seal2AreaTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>503, 197</value>
+  </data>
+  <data name="gb_SealEdgeStraightnessThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;txt_SprocketHoleBrokenOutwardTolerance_Outer.Name" xml:space="preserve">
+    <value>txt_SprocketHoleBrokenOutwardTolerance_Outer</value>
+  </data>
+  <data name="srmLabel13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pnl_SprocketHoleInspectionAreaInwardTolerance.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_SealEdgeSensitivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;group_AreaSetting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="srmLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Seal1Threshold.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_Seal2Threshold.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="btn_GaugeAdvanceSetting.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;srmLabel23.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_MarkTemplateNo.Name" xml:space="preserve">
+    <value>cbo_MarkTemplateNo</value>
+  </data>
+  <data name="gb_SealBrokenAreaThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 55</value>
+  </data>
+  <data name="gb_UnitPresentThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>151</value>
+  </data>
+  <data name="srmLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnl_SprocketHoleBrokenInspectionAreaTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 270</value>
+  </data>
+  <data name="srmLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="btn_GaugeAdvanceSetting.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="srmLabel1.Text" xml:space="preserve">
+    <value>pix</value>
+  </data>
+  <data name="&gt;&gt;grpbox_SprocketHoleBrokenSetting.Parent" xml:space="preserve">
+    <value>tabPage_Setting</value>
+  </data>
+  <data name="&gt;&gt;btn_DistanceThreshold.Parent" xml:space="preserve">
+    <value>gb_DistanceThreshold</value>
+  </data>
+  <data name="&gt;&gt;gb_SealBrokenAreaThreshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pnl_SealConfiguration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_MinSealObjectSize.Name" xml:space="preserve">
+    <value>pnl_MinSealObjectSize</value>
+  </data>
+  <data name="gb_SealThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="txt_Seal1AreaFilter.Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;txt_SprocketHoleBrokenOutwardTolerance_Outer.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Seal2Threshold.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gb_SealEdgeStraightnessThreshold.Name" xml:space="preserve">
+    <value>gb_SealEdgeStraightnessThreshold</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPage_Setting2.Text" xml:space="preserve">
+    <value>Seal Segmentation 2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Name" xml:space="preserve">
+    <value>srmLabel8</value>
+  </data>
+  <data name="&gt;&gt;txt_Seal2AreaTolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_SealConfig.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="grpbox_SprocketHoleBrokenSetting.Text" xml:space="preserve">
+    <value>Sprocket Hole Broken Setting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Parent" xml:space="preserve">
+    <value>pnl_SealEdgeSensitivity</value>
+  </data>
+  <data name="&gt;&gt;txt_SprocketHoleInspectionAreaInwardTolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_SealEdgeSensitivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 9</value>
+  </data>
+  <data name="&gt;&gt;pnl_SprocketHoleBrokenInspectionAreaTolerance.Parent" xml:space="preserve">
+    <value>tabPage_ScoreSetting</value>
+  </data>
+  <data name="gb_SealThreshold.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btn_SprocketHoleDefectThreshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_OverHeatThreshold.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_DistanceThreshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_SealConfig.Parent" xml:space="preserve">
+    <value>pnl_SealConfiguration</value>
+  </data>
+  <data name="srmLabel3.Text" xml:space="preserve">
+    <value>pix</value>
+  </data>
+  <data name="btn_Seal1BrokenAreaThreshold.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="srmInputBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>641, 537</value>
+  </data>
+  <data name="srmLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="tabPage_ScoreSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Seal1BrokenAreaThreshold.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="chk_SetToAllOverHeatROI.Text" xml:space="preserve">
+    <value>Set To All</value>
+  </data>
+  <data name="lbl_SealEdgeSensitivity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>953</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox6.Name" xml:space="preserve">
+    <value>srmGroupBox6</value>
+  </data>
+  <data name="pnl_SprocketHoleInspectionAreaInwardTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 32</value>
+  </data>
+  <data name="&gt;&gt;srmLabel25.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cbo_MarkTemplateNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 27</value>
+  </data>
+  <data name="&gt;&gt;btn_DistanceThreshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_CircleGaugeSetting.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pnl_CircleGauge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpbox_SprocketHoleBrokenInspectionAreaTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>954</value>
+  </data>
+  <data name="srmLabel2.Text" xml:space="preserve">
+    <value>Seal Edge Tolerance</value>
+  </data>
+  <data name="btn_UnitPresentThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_SprocketHoleDefectThreshold.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;txt_Seal2AreaTolerance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_DistanceThreshold.Text" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Seal1Threshold.Name" xml:space="preserve">
+    <value>btn_Seal1Threshold</value>
+  </data>
+  <data name="btn_OverHeatThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="gb_OverHeatThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="lbl_MinArea.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;pnl_SprocketHoleInspectionAreaInwardTolerance.Parent" xml:space="preserve">
+    <value>tabPage_ScoreSetting</value>
+  </data>
+  <data name="lbl_SealEdgeSensitivity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Seal1BrokenAreaThreshold.Text" xml:space="preserve">
+    <value>Seal 1 Threshold</value>
+  </data>
+  <data name="pnl_SealGauge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 94</value>
+  </data>
+  <data name="&gt;&gt;gb_OverHeatThreshold.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="srmLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="cbo_OverHeatROINo.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="gb_SealBrokenAreaThreshold.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btn_Seal2BrokenAreaThreshold.Parent" xml:space="preserve">
+    <value>gb_SealBrokenAreaThreshold</value>
+  </data>
+  <data name="srmLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;srmLabel34.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chk_ShowDraggingBox_Circle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 24</value>
+  </data>
+  <data name="btn_CircleGaugeSetting.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_ShowDraggingBox_Line.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btn_SealEdgeStraightnessThreshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pnl_MinSealObjectSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 57</value>
+  </data>
+  <data name="btn_Close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 526</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowDraggingBox_Circle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_SealEdgeSensitivity.Parent" xml:space="preserve">
+    <value>pnl_SealEdgeSensitivity</value>
+  </data>
+  <data name="&gt;&gt;lbl_MinArea.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SealOtherSettingForm</value>
+  </data>
+  <data name="&gt;&gt;gb_SealEdgeStraightnessThreshold.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnl_CircleGauge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 37</value>
+  </data>
+  <data name="gb_SealThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 55</value>
+  </data>
+  <data name="grpbox_SprocketHoleDefectSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="srmLabel33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 116</value>
+  </data>
+  <data name="gb_UnitPresentThreshold.Text" xml:space="preserve">
+    <value>Unit Present Setting</value>
+  </data>
+  <data name="&gt;&gt;txt_Seal1AreaFilter.Name" xml:space="preserve">
+    <value>txt_Seal1AreaFilter</value>
+  </data>
+  <data name="&gt;&gt;gb_DistanceThreshold.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tab_VisionControl.Name" xml:space="preserve">
+    <value>tab_VisionControl</value>
+  </data>
+  <data name="chk_ShowSamplePoints_Circle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 24</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowDraggingBox_Circle.Parent" xml:space="preserve">
+    <value>pnl_CircleGauge</value>
+  </data>
+  <data name="&gt;&gt;btn_Seal2Threshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="grpbox_SprocketHoleBrokenInspectionAreaTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 66</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;grpbox_SprocketHoleBrokenSetting.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_ShowSamplePoints_Line.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbl_MinArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 13</value>
+  </data>
+  <data name="tab_VisionControl.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>128, 24</value>
+  </data>
+  <data name="&gt;&gt;btn_Seal2BrokenAreaThreshold.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_SprocketHoleRoundnessThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_SetToAllOverHeatROI.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_MinArea.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pnl_SealEdgeSensitivity.Parent" xml:space="preserve">
+    <value>tabPage_ScoreSetting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel33.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbo_MarkTemplateNo.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;btn_SprocketHoleDefectThreshold.Parent" xml:space="preserve">
+    <value>grpbox_SprocketHoleDefectSetting</value>
+  </data>
+  <data name="srmLabel35.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="gb_SealBrokenAreaThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 225</value>
+  </data>
+  <data name="lbl_SealEdgeSensitivity.Text" xml:space="preserve">
+    <value>Seal Edge Sensitivity</value>
+  </data>
+  <data name="btn_SprocketHoleBrokenThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="srmLabel9.Text" xml:space="preserve">
+    <value>pix</value>
+  </data>
+  <data name="txt_SealEdgeSensitivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 5</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Parent" xml:space="preserve">
+    <value>gb_OverHeatThreshold</value>
+  </data>
+  <data name="&gt;&gt;pnl_SealGauge.Parent" xml:space="preserve">
+    <value>tabPage_ScoreSetting</value>
+  </data>
+  <data name="&gt;&gt;txt_Seal1AreaTolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_SprocketHoleBrokenOutwardTolerance_Outer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="tabPage_ScoreSetting.Text" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="&gt;&gt;txt_SprocketHoleBrokenOutwardTolerance_Outer.Parent" xml:space="preserve">
+    <value>grpbox_SprocketHoleBrokenInspectionAreaTolerance</value>
+  </data>
+  <data name="pnl_SealConfiguration.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;cbo_OverHeatROINo.Parent" xml:space="preserve">
+    <value>gb_OverHeatThreshold</value>
+  </data>
+  <data name="btn_SprocketHoleBrokenThreshold.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_SprocketHoleBrokenThreshold.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="srmLabel33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel58.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="srmLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="btn_Save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 526</value>
+  </data>
+  <data name="srmLabel8.Text" xml:space="preserve">
+    <value>Min Seal 1 Object Size</value>
+  </data>
+  <data name="&gt;&gt;txt_Seal1AreaTolerance.Name" xml:space="preserve">
+    <value>txt_Seal1AreaTolerance</value>
+  </data>
+  <data name="cbo_OverHeatROINo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 26</value>
+  </data>
+  <data name="btn_SealConfig.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_Seal1Threshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;dlg_ImagesFolder.Name" xml:space="preserve">
+    <value>dlg_ImagesFolder</value>
+  </data>
+  <data name="btn_UnitPresentThreshold.Text" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="btn_OverHeatThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;btn_SprocketHoleBrokenThreshold.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmInputBox1.Name" xml:space="preserve">
+    <value>srmInputBox1</value>
+  </data>
+  <data name="srmLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>954</value>
+  </data>
+  <data name="gb_SealBrokenAreaThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="btn_Seal2Threshold.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btn_SprocketHoleRoundnessThreshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_Seal2BrokenAreaThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 30</value>
+  </data>
+  <data name="srmLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel34.Name" xml:space="preserve">
+    <value>srmLabel34</value>
+  </data>
+  <data name="srmLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txt_Seal2AreaFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 30</value>
+  </data>
+  <data name="btn_CircleGaugeSetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btn_Seal2BrokenAreaThreshold.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="srmLabel34.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="srmLabel36.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btn_Seal2BrokenAreaThreshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pnl_MinSealObjectSize.TabIndex" type="System.Int32, mscorlib">
+    <value>956</value>
+  </data>
+  <data name="txt_SealEdgeSensitivity.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Setting2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel58.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="txt_SprocketHoleInspectionAreaInwardTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>952</value>
+  </data>
+  <data name="lbl_MinArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 35</value>
+  </data>
+  <data name="btn_Seal2Threshold.Text" xml:space="preserve">
+    <value>Seal 2 Threshold</value>
+  </data>
+  <data name="btn_CircleGaugeSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="chk_ShowDraggingBox_Circle.Text" xml:space="preserve">
+    <value>Show Dragging Box</value>
+  </data>
+  <data name="grpbox_SprocketHoleBrokenInspectionAreaTolerance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1413, 569</value>
+  </data>
+  <data name="srmLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Name" xml:space="preserve">
+    <value>srmLabel13</value>
+  </data>
+  <data name="gb_SealThreshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="group_AreaSetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="chk_ShowSamplePoints_Circle.TabIndex" type="System.Int32, mscorlib">
+    <value>902</value>
+  </data>
+  <data name="gb_UnitPresentThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 60</value>
+  </data>
+  <data name="lbl_MinArea.Text" xml:space="preserve">
+    <value>Min Seal 2 Object Size</value>
+  </data>
+  <data name="&gt;&gt;pnl_MinSealObjectSize.Parent" xml:space="preserve">
+    <value>tabPage_ScoreSetting</value>
+  </data>
+  <data name="srmLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 45</value>
+  </data>
+  <data name="srmLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 2</value>
+  </data>
+  <data name="srmLabel35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>565, 196</value>
+  </data>
+  <data name="srmInputBox1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;grpbox_SprocketHoleDefectSetting.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Parent" xml:space="preserve">
+    <value>grpbox_SprocketHoleBrokenInspectionAreaTolerance</value>
+  </data>
+  <data name="chk_ShowDraggingBox_Circle.TabIndex" type="System.Int32, mscorlib">
+    <value>901</value>
+  </data>
+  <data name="chk_ShowDraggingBox_Circle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;grpbox_SprocketHoleBrokenInspectionAreaTolerance.Parent" xml:space="preserve">
+    <value>pnl_SprocketHoleBrokenInspectionAreaTolerance</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowSamplePoints_Line.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 13</value>
+  </data>
+  <data name="btn_UnitPresentThreshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="chk_ShowSamplePoints_Line.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_SealEdgeSensitivity.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txt_OverHeatMinArea.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="txt_Seal2AreaTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="txt_OverHeatMinArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;srmLabel36.Name" xml:space="preserve">
+    <value>srmLabel36</value>
+  </data>
+  <data name="pnl_SprocketHoleInspectionAreaInwardTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>957</value>
+  </data>
+  <data name="srmLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmInputBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel34.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="grpbox_SprocketHoleRoundnessSetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btn_SprocketHoleDefectThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 30</value>
+  </data>
+  <data name="btn_SprocketHoleDefectThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="srmLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>951</value>
+  </data>
+  <data name="btn_OverHeatThreshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>565, 278</value>
+  </data>
+  <data name="btn_Seal2BrokenAreaThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Name" xml:space="preserve">
+    <value>btn_Close</value>
+  </data>
+  <data name="btn_SprocketHoleRoundnessThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 30</value>
+  </data>
+  <data name="&gt;&gt;txt_Seal1AreaTolerance.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pnl_SprocketHoleBrokenInspectionAreaTolerance.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;group_AreaSetting.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btn_OverHeatThreshold.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pnl_SprocketHoleBrokenInspectionAreaTolerance.Name" xml:space="preserve">
+    <value>pnl_SprocketHoleBrokenInspectionAreaTolerance</value>
+  </data>
+  <data name="&gt;&gt;txt_SealEdgeTolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel35.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_SprocketHoleInspectionAreaInwardTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 6</value>
+  </data>
+  <data name="txt_Seal1AreaTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="tabPage_Setting2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txt_SprocketHoleBrokenOutwardTolerance_Inner.Parent" xml:space="preserve">
+    <value>grpbox_SprocketHoleBrokenInspectionAreaTolerance</value>
+  </data>
+  <data name="&gt;&gt;grpbox_SprocketHoleBrokenInspectionAreaTolerance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmGroupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>391, 403</value>
+  </data>
+  <data name="btn_Close.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_CircleGaugeSetting.Parent" xml:space="preserve">
+    <value>pnl_CircleGauge</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btn_OverHeatThreshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_SealConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="pnl_SprocketHoleInspectionAreaInwardTolerance.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btn_UnitPresentThreshold.Parent" xml:space="preserve">
+    <value>gb_UnitPresentThreshold</value>
+  </data>
+  <data name="srmLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 43</value>
+  </data>
+  <data name="srmLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_SealEdgeStraightnessThreshold.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Setting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnl_SealConfiguration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 344</value>
+  </data>
+  <data name="btn_Seal2BrokenAreaThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;gb_OverHeatThreshold.Parent" xml:space="preserve">
+    <value>tabPage_Setting</value>
+  </data>
+  <data name="btn_CircleGaugeSetting.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gb_UnitPresentThreshold.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btn_Seal1BrokenAreaThreshold.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="tab_VisionControl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="&gt;&gt;txt_Seal1AreaTolerance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Setting.Name" xml:space="preserve">
+    <value>tabPage_Setting</value>
+  </data>
+  <data name="srmLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 28</value>
+  </data>
+  <data name="srmLabel58.Text" xml:space="preserve">
+    <value>mm^2</value>
+  </data>
+  <data name="&gt;&gt;btn_GaugeAdvanceSetting.Name" xml:space="preserve">
+    <value>btn_GaugeAdvanceSetting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Seal1BrokenAreaThreshold.Name" xml:space="preserve">
+    <value>btn_Seal1BrokenAreaThreshold</value>
+  </data>
+  <data name="grpbox_SprocketHoleBrokenSetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btn_CircleGaugeSetting.Text" xml:space="preserve">
+    <value>          Circle Gauge</value>
+  </data>
+  <data name="btn_UnitPresentThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="&gt;&gt;grpbox_SprocketHoleRoundnessSetting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gb_SealBrokenAreaThreshold.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btn_SprocketHoleBrokenThreshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbo_OverHeatROINo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 27</value>
+  </data>
+  <data name="group_AreaSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="btn_SealConfig.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="srmLabel25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="btn_SprocketHoleBrokenThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 30</value>
+  </data>
+  <data name="chk_ShowDraggingBox_Line.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 3</value>
+  </data>
+  <data name="&gt;&gt;srmLabel23.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;pnl_SealGauge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnl_CircleGauge.Parent" xml:space="preserve">
+    <value>tabPage_ScoreSetting</value>
+  </data>
+  <data name="btn_Seal2Threshold.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="btn_GaugeAdvanceSetting.Text" xml:space="preserve">
+    <value>          Seal Gauge</value>
+  </data>
+  <data name="&gt;&gt;txt_Seal2AreaTolerance.Name" xml:space="preserve">
+    <value>txt_Seal2AreaTolerance</value>
+  </data>
+  <data name="&gt;&gt;srmLabel58.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpbox_SprocketHoleRoundnessSetting.Text" xml:space="preserve">
+    <value>Sprocket Hole Roundness Setting</value>
+  </data>
+  <data name="&gt;&gt;grpbox_SprocketHoleRoundnessSetting.Parent" xml:space="preserve">
+    <value>tabPage_Setting</value>
+  </data>
+  <data name="srmLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 9</value>
+  </data>
+  <data name="&gt;&gt;cbo_OverHeatROINo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gb_DistanceThreshold.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnl_SealConfiguration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 51</value>
+  </data>
+  <data name="txt_SprocketHoleBrokenOutwardTolerance_Outer.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_MinArea.Parent" xml:space="preserve">
+    <value>pnl_MinSealObjectSize</value>
+  </data>
+  <data name="btn_GaugeAdvanceSetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btn_DistanceThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;txt_SealEdgeTolerance.Name" xml:space="preserve">
+    <value>txt_SealEdgeTolerance</value>
+  </data>
+  <data name="srmLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="lbl_Title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gb_SealEdgeStraightnessThreshold.Text" xml:space="preserve">
+    <value>Seal Edge Straightness Setting</value>
+  </data>
+  <data name="srmLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 2</value>
+  </data>
+  <data name="btn_Seal1Threshold.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="gb_SealThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnl_SprocketHoleBrokenInspectionAreaTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>958</value>
+  </data>
+  <data name="&gt;&gt;gb_OverHeatThreshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 31</value>
+  </data>
+  <data name="srmLabel23.TabIndex" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="&gt;&gt;btn_DistanceThreshold.Name" xml:space="preserve">
+    <value>btn_DistanceThreshold</value>
+  </data>
+  <data name="txt_OverHeatMinArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>503, 278</value>
+  </data>
+  <data name="lbl_Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>375, 24</value>
+  </data>
+  <data name="srmLabel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 13</value>
+  </data>
+  <data name="btn_SprocketHoleDefectThreshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tab_VisionControl.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
+    <value>Buttons</value>
+  </data>
+  <data name="&gt;&gt;pnl_SealEdgeTolerance.Parent" xml:space="preserve">
+    <value>tabPage_ScoreSetting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chk_ShowSamplePoints_Line.Text" xml:space="preserve">
+    <value>Show Sample Points</value>
+  </data>
+  <data name="btn_Seal1BrokenAreaThreshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pnl_CircleGauge.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btn_Seal2Threshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 30</value>
+  </data>
+  <data name="lbl_Title.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="&gt;&gt;cbo_MarkTemplateNo.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_DistanceThreshold.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel36.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="tabPage_ScoreSetting.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="chk_ShowSamplePoints_Circle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 31</value>
+  </data>
+  <data name="&gt;&gt;gb_UnitPresentThreshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmInputBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox6.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pnl_SealGauge.Name" xml:space="preserve">
+    <value>pnl_SealGauge</value>
+  </data>
+  <data name="txt_SprocketHoleBrokenOutwardTolerance_Inner.TabIndex" type="System.Int32, mscorlib">
+    <value>958</value>
+  </data>
+  <data name="&gt;&gt;btn_SealConfig.Name" xml:space="preserve">
+    <value>btn_SealConfig</value>
+  </data>
+  <data name="grpbox_SprocketHoleDefectSetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btn_SprocketHoleBrokenThreshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btn_SealConfig.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>959</value>
+  </data>
+  <data name="&gt;&gt;lbl_SealEdgeSensitivity.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel35.Name" xml:space="preserve">
+    <value>srmLabel35</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Parent" xml:space="preserve">
+    <value>grpbox_SprocketHoleBrokenInspectionAreaTolerance</value>
+  </data>
+  <data name="btn_DistanceThreshold.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txt_Seal1AreaFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 4</value>
+  </data>
+  <data name="lbl_Title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;txt_SealEdgeSensitivity.Parent" xml:space="preserve">
+    <value>pnl_SealEdgeSensitivity</value>
+  </data>
+  <data name="lbl_MinArea.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="chk_ShowDraggingBox_Circle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;gb_DistanceThreshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_SealConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 4</value>
+  </data>
+  <data name="btn_Seal1BrokenAreaThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;btn_SealEdgeStraightnessThreshold.Name" xml:space="preserve">
+    <value>btn_SealEdgeStraightnessThreshold</value>
+  </data>
+  <data name="btn_SprocketHoleRoundnessThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="gb_UnitPresentThreshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txt_SealEdgeTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 6</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gb_SealBrokenAreaThreshold.Name" xml:space="preserve">
+    <value>gb_SealBrokenAreaThreshold</value>
+  </data>
+  <data name="txt_SealEdgeTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="txt_Seal2AreaTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="grpbox_SprocketHoleRoundnessSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 390</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.Name" xml:space="preserve">
+    <value>lbl_Title</value>
+  </data>
+  <data name="&gt;&gt;srmLabel58.Name" xml:space="preserve">
+    <value>srmLabel58</value>
+  </data>
+  <data name="&gt;&gt;tab_VisionControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabPage_ScoreSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnl_SealEdgeSensitivity.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnl_CircleGauge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 57</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Parent" xml:space="preserve">
+    <value>pnl_SealEdgeTolerance</value>
+  </data>
+  <data name="pnl_SprocketHoleBrokenInspectionAreaTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 74</value>
+  </data>
+  <data name="chk_SetToAllOverHeatROI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel35.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gb_DistanceThreshold.Name" xml:space="preserve">
+    <value>gb_DistanceThreshold</value>
+  </data>
+  <data name="chk_ShowDraggingBox_Line.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 24</value>
+  </data>
+  <data name="btn_SealConfig.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btn_Close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 31</value>
+  </data>
+  <data name="btn_SealEdgeStraightnessThreshold.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="btn_GaugeAdvanceSetting.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="srmLabel5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="gb_SealBrokenAreaThreshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btn_SealEdgeStraightnessThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 30</value>
+  </data>
+  <data name="gb_DistanceThreshold.Text" xml:space="preserve">
+    <value>Distance Setting</value>
+  </data>
+  <data name="btn_SealEdgeStraightnessThreshold.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btn_Seal1Threshold.Parent" xml:space="preserve">
+    <value>gb_SealThreshold</value>
+  </data>
+  <data name="srmGroupBox6.Text" xml:space="preserve">
+    <value>Seal 2 Broken Area Setting</value>
+  </data>
+  <data name="&gt;&gt;btn_Seal1BrokenAreaThreshold.Parent" xml:space="preserve">
+    <value>gb_SealBrokenAreaThreshold</value>
+  </data>
+  <data name="srmLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="btn_UnitPresentThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 30</value>
+  </data>
+  <data name="srmLabel25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmInputBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="srmLabel36.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Setting.Parent" xml:space="preserve">
+    <value>tab_VisionControl</value>
+  </data>
+  <data name="chk_ShowDraggingBox_Line.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_SprocketHoleRoundnessThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="srmLabel24.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btn_SealEdgeStraightnessThreshold.Parent" xml:space="preserve">
+    <value>gb_SealEdgeStraightnessThreshold</value>
+  </data>
+  <data name="&gt;&gt;srmLabel25.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Name" xml:space="preserve">
+    <value>srmLabel6</value>
+  </data>
+  <data name="&gt;&gt;btn_SprocketHoleBrokenThreshold.Parent" xml:space="preserve">
+    <value>grpbox_SprocketHoleBrokenSetting</value>
+  </data>
+  <data name="srmLabel58.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_SprocketHoleDefectThreshold.Name" xml:space="preserve">
+    <value>btn_SprocketHoleDefectThreshold</value>
+  </data>
+  <data name="txt_Seal2AreaFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="pnl_SealGauge.TabIndex" type="System.Int32, mscorlib">
+    <value>954</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Name" xml:space="preserve">
+    <value>srmLabel1</value>
+  </data>
+  <data name="srmLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 10</value>
+  </data>
+  <data name="&gt;&gt;cbo_OverHeatROINo.Name" xml:space="preserve">
+    <value>cbo_OverHeatROINo</value>
+  </data>
+  <data name="grpbox_SprocketHoleDefectSetting.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btn_UnitPresentThreshold.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="gb_DistanceThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_SprocketHoleDefectThreshold.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Name" xml:space="preserve">
+    <value>srmLabel5</value>
+  </data>
+  <data name="srmLabel34.Text" xml:space="preserve">
+    <value>Area Tolerance</value>
+  </data>
+  <data name="&gt;&gt;gb_SealBrokenAreaThreshold.Parent" xml:space="preserve">
+    <value>tabPage_Setting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Name" xml:space="preserve">
+    <value>srmLabel7</value>
+  </data>
+  <data name="tabPage_Setting.Text" xml:space="preserve">
+    <value>Seal Segmentation</value>
+  </data>
+  <data name="&gt;&gt;gb_UnitPresentThreshold.Name" xml:space="preserve">
+    <value>gb_UnitPresentThreshold</value>
+  </data>
+  <data name="&gt;&gt;tab_VisionControl.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Parent" xml:space="preserve">
+    <value>pnl_SealEdgeTolerance</value>
+  </data>
+  <data name="srmLabel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 1</value>
+  </data>
+  <data name="grpbox_SprocketHoleBrokenInspectionAreaTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;srmLabel35.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chk_ShowSamplePoints_Circle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="chk_SetToAllOverHeatROI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 28</value>
+  </data>
+  <data name="&gt;&gt;btn_SprocketHoleRoundnessThreshold.Parent" xml:space="preserve">
+    <value>grpbox_SprocketHoleRoundnessSetting</value>
+  </data>
+  <data name="srmLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>956</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel34.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="srmLabel24.Text" xml:space="preserve">
+    <value>mm^2</value>
+  </data>
+  <data name="srmLabel7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;srmLabel35.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txt_Seal1AreaTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="&gt;&gt;btn_CircleGaugeSetting.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowSamplePoints_Line.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>951</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Parent" xml:space="preserve">
+    <value>grpbox_SprocketHoleBrokenInspectionAreaTolerance</value>
+  </data>
+  <data name="&gt;&gt;gb_SealThreshold.Name" xml:space="preserve">
+    <value>gb_SealThreshold</value>
+  </data>
+  <data name="tabPage_ScoreSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btn_GaugeAdvanceSetting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Name" xml:space="preserve">
+    <value>srmLabel11</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowDraggingBox_Circle.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Parent" xml:space="preserve">
+    <value>pnl_SprocketHoleInspectionAreaInwardTolerance</value>
+  </data>
+  <data name="btn_DistanceThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;btn_Seal2BrokenAreaThreshold.Name" xml:space="preserve">
+    <value>btn_Seal2BrokenAreaThreshold</value>
+  </data>
+  <data name="&gt;&gt;pnl_MinSealObjectSize.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="srmLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 3</value>
+  </data>
+  <data name="chk_ShowDraggingBox_Line.TabIndex" type="System.Int32, mscorlib">
+    <value>901</value>
+  </data>
+  <data name="srmLabel13.Text" xml:space="preserve">
+    <value>pix</value>
+  </data>
+  <data name="btn_SealEdgeStraightnessThreshold.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="srmLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 21</value>
+  </data>
+  <data name="srmLabel33.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txt_SprocketHoleBrokenOutwardTolerance_Inner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPage_Setting2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="gb_OverHeatThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 55</value>
+  </data>
+  <data name="btn_SprocketHoleDefectThreshold.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="srmLabel10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel10.Text" xml:space="preserve">
+    <value>Inner Tolerance</value>
+  </data>
+  <data name="&gt;&gt;group_AreaSetting.Name" xml:space="preserve">
+    <value>group_AreaSetting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel34.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pnl_SealEdgeTolerance.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="txt_Seal1AreaFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="grpbox_SprocketHoleBrokenSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 335</value>
+  </data>
+  <data name="btn_SprocketHoleBrokenThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="&gt;&gt;pnl_SealEdgeSensitivity.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="srmLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 13</value>
+  </data>
+  <data name="&gt;&gt;gb_SealThreshold.Parent" xml:space="preserve">
+    <value>tabPage_Setting</value>
+  </data>
+  <data name="btn_SprocketHoleBrokenThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;srmLabel24.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_SprocketHoleInspectionAreaInwardTolerance.Parent" xml:space="preserve">
+    <value>pnl_SprocketHoleInspectionAreaInwardTolerance</value>
+  </data>
+  <data name="btn_UnitPresentThreshold.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tab_VisionControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 478</value>
+  </data>
+  <data name="&gt;&gt;txt_Seal2AreaFilter.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Name" xml:space="preserve">
+    <value>srmLabel9</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Setting2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 18</value>
+  </data>
+  <data name="gb_SealBrokenAreaThreshold.Text" xml:space="preserve">
+    <value>Seal 1 / Seal 2 Broken Area Setting</value>
+  </data>
+  <data name="pnl_CircleGauge.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="pnl_SprocketHoleInspectionAreaInwardTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 238</value>
+  </data>
+  <data name="grpbox_SprocketHoleRoundnessSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="pnl_MinSealObjectSize.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="txt_Seal2AreaFilter.Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;txt_SprocketHoleBrokenOutwardTolerance_Inner.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_Seal1Threshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="&gt;&gt;btn_OverHeatThreshold.Parent" xml:space="preserve">
+    <value>gb_OverHeatThreshold</value>
+  </data>
+  <data name="&gt;&gt;cbo_MarkTemplateNo.Parent" xml:space="preserve">
+    <value>gb_UnitPresentThreshold</value>
+  </data>
+  <data name="&gt;&gt;btn_UnitPresentThreshold.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btn_SealConfig.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pnl_SealEdgeSensitivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 34</value>
+  </data>
+  <data name="&gt;&gt;srmLabel25.Name" xml:space="preserve">
+    <value>srmLabel25</value>
+  </data>
+  <data name="&gt;&gt;grpbox_SprocketHoleDefectSetting.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gb_DistanceThreshold.Parent" xml:space="preserve">
+    <value>tabPage_Setting</value>
+  </data>
+  <data name="gb_OverHeatThreshold.Text" xml:space="preserve">
+    <value>Over Heat / Tape Scratches Setting</value>
+  </data>
+  <data name="btn_SealEdgeStraightnessThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Parent" xml:space="preserve">
+    <value>pnl_MinSealObjectSize</value>
+  </data>
+  <data name="&gt;&gt;btn_SprocketHoleRoundnessThreshold.Name" xml:space="preserve">
+    <value>btn_SprocketHoleRoundnessThreshold</value>
+  </data>
+  <data name="&gt;&gt;txt_SprocketHoleBrokenOutwardTolerance_Inner.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="srmLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 28</value>
+  </data>
+  <data name="&gt;&gt;pnl_SealEdgeTolerance.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel58.Parent" xml:space="preserve">
+    <value>pnl_MinSealObjectSize</value>
+  </data>
+  <data name="gb_SealEdgeStraightnessThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 55</value>
+  </data>
+  <data name="&gt;&gt;srmLabel35.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txt_Seal2AreaTolerance.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowSamplePoints_Circle.Parent" xml:space="preserve">
+    <value>pnl_CircleGauge</value>
+  </data>
+  <data name="chk_ShowDraggingBox_Line.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;srmInputBox1.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Parent" xml:space="preserve">
+    <value>grpbox_SprocketHoleBrokenInspectionAreaTolerance</value>
+  </data>
+  <data name="&gt;&gt;chk_SetToAllOverHeatROI.Name" xml:space="preserve">
+    <value>chk_SetToAllOverHeatROI</value>
+  </data>
+  <data name="&gt;&gt;pnl_CircleGauge.Name" xml:space="preserve">
+    <value>pnl_CircleGauge</value>
+  </data>
+  <data name="srmLabel35.Text" xml:space="preserve">
+    <value>mm^2</value>
+  </data>
+  <data name="btn_Seal2Threshold.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btn_OverHeatThreshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btn_SprocketHoleRoundnessThreshold.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="tabPage_Setting2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 446</value>
+  </data>
+  <data name="txt_SealEdgeSensitivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="&gt;&gt;txt_Seal1AreaFilter.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chk_ShowSamplePoints_Circle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;gb_UnitPresentThreshold.Parent" xml:space="preserve">
+    <value>tabPage_Setting</value>
+  </data>
+  <data name="grpbox_SprocketHoleRoundnessSetting.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;pnl_SealEdgeTolerance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel58.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="chk_SetToAllOverHeatROI.TabIndex" type="System.Int32, mscorlib">
+    <value>940</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_Seal2BrokenAreaThreshold.Text" xml:space="preserve">
+    <value>Seal 2 Threshold</value>
+  </data>
+  <data name="btn_SprocketHoleDefectThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="srmGroupBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="txt_SprocketHoleBrokenOutwardTolerance_Inner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 41</value>
+  </data>
+  <data name="srmLabel25.Text" xml:space="preserve">
+    <value>Min Over Heat Size</value>
+  </data>
+  <data name="btn_SealEdgeStraightnessThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="srmLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 28</value>
+  </data>
+  <data name="txt_Seal1AreaTolerance.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_OverHeatMinArea.Name" xml:space="preserve">
+    <value>txt_OverHeatMinArea</value>
+  </data>
+  <data name="&gt;&gt;pnl_SealEdgeSensitivity.Name" xml:space="preserve">
+    <value>pnl_SealEdgeSensitivity</value>
+  </data>
+  <data name="srmLabel34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 120</value>
+  </data>
+  <data name="pnl_SealEdgeTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>955</value>
+  </data>
+  <data name="chk_ShowDraggingBox_Circle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_SprocketHoleBrokenThreshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;pnl_MinSealObjectSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Seal2Threshold.Name" xml:space="preserve">
+    <value>btn_Seal2Threshold</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="btn_SprocketHoleRoundnessThreshold.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btn_Seal1Threshold.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_Save.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="chk_SetToAllOverHeatROI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 24</value>
+  </data>
+  <data name="&gt;&gt;btn_SprocketHoleBrokenThreshold.Name" xml:space="preserve">
+    <value>btn_SprocketHoleBrokenThreshold</value>
+  </data>
+  <data name="btn_SprocketHoleDefectThreshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btn_DistanceThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 30</value>
+  </data>
+  <data name="chk_ShowSamplePoints_Circle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gb_SealEdgeStraightnessThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;pnl_SealEdgeSensitivity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel24.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txt_Seal2AreaFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="chk_ShowDraggingBox_Line.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btn_SealEdgeStraightnessThreshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_Close.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_OverHeatMinArea.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_Seal1Threshold.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;pnl_SprocketHoleBrokenInspectionAreaTolerance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmGroupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 60</value>
+  </data>
+  <data name="btn_SprocketHoleRoundnessThreshold.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="btn_SprocketHoleRoundnessThreshold.Text" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chk_ShowSamplePoints_Line.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="srmLabel13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;srmLabel24.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="gb_SealThreshold.Text" xml:space="preserve">
+    <value>Seal 1 / Seal 2 Line Edge Setting</value>
+  </data>
+  <data name="pnl_SealEdgeTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 150</value>
+  </data>
+  <data name="grpbox_SprocketHoleBrokenSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="&gt;&gt;srmLabel25.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_Seal1Threshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;btn_SealConfig.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btn_Seal1Threshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Name" xml:space="preserve">
+    <value>srmLabel10</value>
+  </data>
+  <data name="srmLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage_ScoreSetting.Name" xml:space="preserve">
+    <value>tabPage_ScoreSetting</value>
+  </data>
+  <data name="cbo_MarkTemplateNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 26</value>
+  </data>
+  <data name="btn_SprocketHoleBrokenThreshold.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pnl_SealGauge.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Name" xml:space="preserve">
+    <value>srmLabel2</value>
+  </data>
+  <data name="btn_SealConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 42</value>
+  </data>
+  <data name="srmLabel58.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 30</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowSamplePoints_Line.Parent" xml:space="preserve">
+    <value>pnl_SealGauge</value>
+  </data>
+  <data name="btn_Seal1BrokenAreaThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="&gt;&gt;gb_SealEdgeStraightnessThreshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chk_SetToAllOverHeatROI.Parent" xml:space="preserve">
+    <value>gb_OverHeatThreshold</value>
+  </data>
+  <data name="txt_SprocketHoleInspectionAreaInwardTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpbox_SprocketHoleBrokenInspectionAreaTolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_SprocketHoleInspectionAreaInwardTolerance.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chk_ShowDraggingBox_Circle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 3</value>
+  </data>
+  <data name="srmLabel25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel33.Name" xml:space="preserve">
+    <value>srmLabel33</value>
+  </data>
+  <data name="chk_ShowSamplePoints_Circle.Text" xml:space="preserve">
+    <value>Show Sample Points</value>
+  </data>
+  <data name="srmLabel1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_GaugeAdvanceSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 42</value>
+  </data>
+  <data name="btn_Seal1Threshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="srmLabel23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 13</value>
+  </data>
+  <data name="gb_DistanceThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 55</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowDraggingBox_Line.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SealOtherSettingForm</value>
+  </data>
+  <data name="srmLabel35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 18</value>
+  </data>
+  <data name="&gt;&gt;txt_Seal2AreaFilter.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="group_AreaSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 60</value>
+  </data>
+  <data name="srmLabel36.Text" xml:space="preserve">
+    <value>Area Tolerance</value>
+  </data>
+  <data name="&gt;&gt;gb_OverHeatThreshold.Name" xml:space="preserve">
+    <value>gb_OverHeatThreshold</value>
+  </data>
+  <data name="chk_ShowSamplePoints_Line.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 24</value>
+  </data>
+  <data name="&gt;&gt;btn_Seal1Threshold.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn_UnitPresentThreshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Name" xml:space="preserve">
+    <value>srmLabel4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 10</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel33.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="srmLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 15</value>
+  </data>
+  <data name="cbo_OverHeatROINo.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;pnl_SealEdgeTolerance.Name" xml:space="preserve">
+    <value>pnl_SealEdgeTolerance</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowDraggingBox_Line.Name" xml:space="preserve">
+    <value>chk_ShowDraggingBox_Line</value>
+  </data>
+  <data name="&gt;&gt;txt_Seal1AreaFilter.Parent" xml:space="preserve">
+    <value>pnl_MinSealObjectSize</value>
+  </data>
+  <data name="srmLabel33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 18</value>
+  </data>
+  <data name="&gt;&gt;grpbox_SprocketHoleDefectSetting.Name" xml:space="preserve">
+    <value>grpbox_SprocketHoleDefectSetting</value>
+  </data>
+  <data name="pnl_SealConfiguration.TabIndex" type="System.Int32, mscorlib">
+    <value>959</value>
+  </data>
+  <data name="btn_SprocketHoleDefectThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="&gt;&gt;btn_CircleGaugeSetting.Name" xml:space="preserve">
+    <value>btn_CircleGaugeSetting</value>
+  </data>
+  <data name="btn_SealEdgeStraightnessThreshold.Text" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="&gt;&gt;tabPage_Setting2.Parent" xml:space="preserve">
+    <value>tab_VisionControl</value>
+  </data>
+  <data name="btn_Seal2BrokenAreaThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 16</value>
+  </data>
+  <data name="txt_Seal1AreaTolerance.Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="srmLabel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="srmLabel13.TabIndex" type="System.Int32, mscorlib">
+    <value>953</value>
+  </data>
+  <data name="txt_OverHeatMinArea.Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;btn_SprocketHoleDefectThreshold.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmInputBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnl_SealEdgeSensitivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;srmLabel24.Name" xml:space="preserve">
+    <value>srmLabel24</value>
+  </data>
+  <data name="srmLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel6.Text" xml:space="preserve">
+    <value>Outer Tolerance</value>
+  </data>
+  <data name="pnl_SealGauge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 56</value>
+  </data>
+  <data name="srmLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_SealEdgeSensitivity.Name" xml:space="preserve">
+    <value>lbl_SealEdgeSensitivity</value>
+  </data>
+  <data name="&gt;&gt;pnl_CircleGauge.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txt_Seal2AreaTolerance.Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;cbo_MarkTemplateNo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pnl_SealGauge.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_SealEdgeTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>952</value>
+  </data>
+  <data name="srmLabel25.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowSamplePoints_Circle.Name" xml:space="preserve">
+    <value>chk_ShowSamplePoints_Circle</value>
+  </data>
+  <data name="srmLabel3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_SealEdgeStraightnessThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;srmLabel58.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabPage_Setting.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;grpbox_SprocketHoleRoundnessSetting.Name" xml:space="preserve">
+    <value>grpbox_SprocketHoleRoundnessSetting</value>
+  </data>
+  <data name="btn_Seal2Threshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Seal2BrokenAreaThreshold.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btn_Seal1BrokenAreaThreshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="grpbox_SprocketHoleDefectSetting.Text" xml:space="preserve">
+    <value>Sprocket Hole Defect Setting</value>
+  </data>
+  <data name="btn_Save.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="btn_OverHeatThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;srmLabel33.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chk_ShowSamplePoints_Line.TabIndex" type="System.Int32, mscorlib">
+    <value>902</value>
+  </data>
+  <data name="srmLabel58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 18</value>
+  </data>
+  <data name="srmLabel24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_SprocketHoleBrokenOutwardTolerance_Outer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 15</value>
+  </data>
+  <data name="lbl_SealEdgeSensitivity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbo_MarkTemplateNo.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="&gt;&gt;dlg_ImagesFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_SprocketHoleRoundnessThreshold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;txt_OverHeatMinArea.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_Seal1BrokenAreaThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 30</value>
+  </data>
+  <data name="txt_Seal1AreaTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 117</value>
+  </data>
+  <data name="tab_VisionControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 27</value>
+  </data>
+  <data name="srmLabel36.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_ShowSamplePoints_Line.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 31</value>
+  </data>
+  <data name="&gt;&gt;btn_Seal1BrokenAreaThreshold.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dlg_ImagesFolder.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>210, 13</value>
+  </metadata>
+</root>

@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_ResetVision3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="lbl_Vision2Count.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_Vision8Count.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Vision2Name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 32</value>
+  </data>
+  <data name="btn_ResetVision4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 120</value>
+  </data>
+  <data name="lbl_Vision4Name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 117</value>
+  </data>
+  <data name="lbl_Vision2Count.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 48</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision4Count.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_Vision5Count.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="lbl_Vision5Count.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btn_ResetVision2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 48</value>
+  </data>
+  <data name="btn_ResetVision8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <data name="lbl_Vision4Name.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="lbl_Vision7Count.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lbl_Vision2Name.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="lbl_Vision7Name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 32</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision7Name.Name" xml:space="preserve">
+    <value>lbl_Vision7Name</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision4.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lbl_Vision5Name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 153</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Vision3Name.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_ResetVision1.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision6.Name" xml:space="preserve">
+    <value>btn_ResetVision6</value>
+  </data>
+  <data name="btn_ResetVision7.TabIndex" type="System.Int32, mscorlib">
+    <value>158</value>
+  </data>
+  <data name="lbl_Vision7Name.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbl_Vision7Name.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision2Name.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision8Name.Name" xml:space="preserve">
+    <value>lbl_Vision8Name</value>
+  </data>
+  <data name="btn_ResetVision4.Text" xml:space="preserve">
+    <value>Reset V4</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>478, 412</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision4Count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Vision4Name.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_ResetVision4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Vision1Name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="btn_ResetVision3.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="lbl_Vision7Name.Text" xml:space="preserve">
+    <value>Vision 7 Tested Unit</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision2Count.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 40</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Reset Counter Form</value>
+  </data>
+  <data name="lbl_Vision7Count.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Vision3Name.Text" xml:space="preserve">
+    <value>Vision 3 Tested Unit</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision2.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision5Name.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_ResetVision8.Text" xml:space="preserve">
+    <value>Reset V8</value>
+  </data>
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 364</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision7Name.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision1Name.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="lbl_Vision3Count.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision3Name.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision6.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Vision6Count.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_ResetVision8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 266</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision2Count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="lbl_Vision1Count.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 12</value>
+  </data>
+  <data name="lbl_Vision4Count.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision7Name.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision8Count.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Vision8Count.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 264</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision3Count.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lbl_Vision8Count.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision3Count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_ResetVision3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 84</value>
+  </data>
+  <data name="lbl_Vision4Count.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Vision1Name.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Vision4Count.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lbl_Vision3Count.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 84</value>
+  </data>
+  <data name="btn_ResetVision3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Vision1Name.Text" xml:space="preserve">
+    <value>Vision 1 Tested Unit</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision1Name.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision6Name.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision7.Name" xml:space="preserve">
+    <value>btn_ResetVision7</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision6Count.Name" xml:space="preserve">
+    <value>lbl_Vision6Count</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetAll.Name" xml:space="preserve">
+    <value>btn_ResetAll</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision1Count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_ResetAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Vision7Name.TabIndex" type="System.Int32, mscorlib">
+    <value>157</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision6Count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Vision2Count.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision8Name.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Vision2Name.Text" xml:space="preserve">
+    <value>Vision 2 Tested Unit</value>
+  </data>
+  <data name="btn_ResetVision5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision1Name.Name" xml:space="preserve">
+    <value>lbl_Vision1Name</value>
+  </data>
+  <data name="lbl_Vision1Name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 32</value>
+  </data>
+  <data name="btn_ResetAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 317</value>
+  </data>
+  <data name="lbl_Vision1Count.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Vision2Name.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Vision7Name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 225</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision3.Name" xml:space="preserve">
+    <value>btn_ResetVision3</value>
+  </data>
+  <data name="lbl_Vision7Count.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <data name="lbl_Vision6Count.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 192</value>
+  </data>
+  <data name="btn_ResetVision7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_ResetVision5.TabIndex" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="btn_ResetVision7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision5Count.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision7Count.Name" xml:space="preserve">
+    <value>lbl_Vision7Count</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ResetCountForm</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision7Count.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision7Count.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision8Name.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Vision2Name.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbl_Vision3Count.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <data name="lbl_Vision5Count.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <data name="lbl_Vision8Count.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="btn_ResetVision6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_Vision8Name.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Vision1Count.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lbl_Vision3Count.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lbl_Vision3Name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 81</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision5Count.Name" xml:space="preserve">
+    <value>lbl_Vision5Count</value>
+  </data>
+  <data name="btn_ResetVision6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 192</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision2.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Vision3Name.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision1Count.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lbl_Vision7Count.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision5Count.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_ResetVision7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 228</value>
+  </data>
+  <data name="lbl_Vision2Count.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="btn_ResetVision3.Text" xml:space="preserve">
+    <value>Reset V3</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision7.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_ResetAll.Text" xml:space="preserve">
+    <value>Reset All</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision8Count.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_Vision1Count.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="lbl_Vision4Count.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 120</value>
+  </data>
+  <data name="btn_ResetVision1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision4Name.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Vision5Name.Text" xml:space="preserve">
+    <value>Vision 5 Tested Unit</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision2Name.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Vision6Name.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Vision5Count.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision3Name.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Vision8Count.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lbl_Vision8Name.TabIndex" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision5Name.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lbl_Vision6Name.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision8Count.Name" xml:space="preserve">
+    <value>lbl_Vision8Count</value>
+  </data>
+  <data name="btn_ResetVision4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision8.Name" xml:space="preserve">
+    <value>btn_ResetVision8</value>
+  </data>
+  <data name="lbl_Vision5Count.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 156</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision3Name.Name" xml:space="preserve">
+    <value>lbl_Vision3Name</value>
+  </data>
+  <data name="btn_ResetVision6.TabIndex" type="System.Int32, mscorlib">
+    <value>156</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision1.Name" xml:space="preserve">
+    <value>btn_ResetVision1</value>
+  </data>
+  <data name="lbl_Vision4Count.TabIndex" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="lbl_Vision7Count.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 228</value>
+  </data>
+  <data name="lbl_Vision1Name.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_ResetVision2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetAll.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lbl_Vision5Name.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Vision3Name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 32</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision8Name.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl_Vision6Name.Text" xml:space="preserve">
+    <value>Vision 6 Tested Unit</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision6Name.Name" xml:space="preserve">
+    <value>lbl_Vision6Name</value>
+  </data>
+  <data name="lbl_Vision4Name.Text" xml:space="preserve">
+    <value>Vision 4 Tested Unit</value>
+  </data>
+  <data name="btn_ResetVision1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <data name="lbl_Vision5Name.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbl_Vision3Name.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="btn_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btn_ResetAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetAll.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision7Name.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Vision3Count.TabIndex" type="System.Int32, mscorlib">
+    <value>151</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Vision1Name.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision4Count.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision3.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Vision4Name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 32</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision3Count.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision6Count.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision1.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_ResetVision4.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision4Count.Name" xml:space="preserve">
+    <value>lbl_Vision4Count</value>
+  </data>
+  <data name="lbl_Vision2Name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 45</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision7Count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision1Count.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision6Name.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision6Name.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision3Name.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision2Count.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Vision4Name.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision5Name.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Vision8Name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 261</value>
+  </data>
+  <data name="lbl_Vision8Name.Text" xml:space="preserve">
+    <value>Vision 8 Tested Unit</value>
+  </data>
+  <data name="btn_ResetAll.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision6Count.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision5Count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision4.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_ResetVision6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Vision6Name.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbl_Vision2Count.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision5Name.Name" xml:space="preserve">
+    <value>lbl_Vision5Name</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision2Count.Name" xml:space="preserve">
+    <value>lbl_Vision2Count</value>
+  </data>
+  <data name="btn_ResetVision7.Text" xml:space="preserve">
+    <value>Reset V7</value>
+  </data>
+  <data name="btn_ResetVision5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 156</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision5.Name" xml:space="preserve">
+    <value>btn_ResetVision5</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision3.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision2Name.Name" xml:space="preserve">
+    <value>lbl_Vision2Name</value>
+  </data>
+  <data name="btn_ResetVision5.Text" xml:space="preserve">
+    <value>Reset V5</value>
+  </data>
+  <data name="btn_ResetVision2.Text" xml:space="preserve">
+    <value>Reset V2</value>
+  </data>
+  <data name="lbl_Vision8Name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 32</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Vision5Name.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision2Name.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision4Name.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Vision1Count.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision3Count.Name" xml:space="preserve">
+    <value>lbl_Vision3Count</value>
+  </data>
+  <data name="btn_ResetVision1.Text" xml:space="preserve">
+    <value>Reset V1</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision1.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision4Name.Name" xml:space="preserve">
+    <value>lbl_Vision4Name</value>
+  </data>
+  <data name="lbl_Vision6Count.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btn_ResetVision8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision4.Name" xml:space="preserve">
+    <value>btn_ResetVision4</value>
+  </data>
+  <data name="lbl_Vision6Name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 189</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision4Name.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="btn_ResetVision6.Text" xml:space="preserve">
+    <value>Reset V6</value>
+  </data>
+  <data name="btn_ResetVision5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision6.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl_Vision6Count.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision1Count.Name" xml:space="preserve">
+    <value>lbl_Vision1Count</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision1Name.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision8Count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_ResetVision8.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision8.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_ResetVision2.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_ResetVision2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision5.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Vision8Name.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbl_Vision6Count.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_ResetVision2.Name" xml:space="preserve">
+    <value>btn_ResetVision2</value>
+  </data>
+  <data name="btn_ResetVision1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 12</value>
+  </data>
+  <data name="lbl_Vision5Name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 32</value>
+  </data>
+  <data name="btn_Cancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="lbl_Vision6Name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 32</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

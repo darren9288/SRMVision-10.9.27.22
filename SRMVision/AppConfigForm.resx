@@ -1,0 +1,4299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;chk_EnableTCPIP.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btn_DeviceUploadBrowseButton.Name" xml:space="preserve">
+    <value>btn_DeviceUploadBrowseButton</value>
+  </data>
+  <data name="srmLabel22.Text" xml:space="preserve">
+    <value>Stop bits</value>
+  </data>
+  <data name="&gt;&gt;txt_AutoLogOutMinutes.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="srmLabel15.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision2.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txt_TCPIPRetriesCount.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="radioBtn_Last.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="cbo_ReportFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 23</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_BrowseSECSGEMSharedFolderPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel27.Parent" xml:space="preserve">
+    <value>tab_TCPIP</value>
+  </data>
+  <data name="dcVisionName.HeaderText" xml:space="preserve">
+    <value>Vision Name</value>
+  </data>
+  <data name="srmLabel12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="srmLabel15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="VisionID.HeaderText" xml:space="preserve">
+    <value>VisionID</value>
+  </data>
+  <data name="&gt;&gt;tab_TCPIP.Parent" xml:space="preserve">
+    <value>tabCtrl_Configuration</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Parent" xml:space="preserve">
+    <value>grp_ExportLotReport</value>
+  </data>
+  <data name="srmLabel24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_VisionLotReportUploadBrowseButton.TabIndex" type="System.Int32, mscorlib">
+    <value>625</value>
+  </data>
+  <data name="srmLabel35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 39</value>
+  </data>
+  <data name="&gt;&gt;txt_NetworkUsernameEditBox.Parent" xml:space="preserve">
+    <value>tab_Network</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision5.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Name" xml:space="preserve">
+    <value>srmLabel10</value>
+  </data>
+  <data name="btn_VisionLotReportUploadBrowseButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lbl_Vision3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="&gt;&gt;srmLabel33.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="srmLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 25</value>
+  </data>
+  <data name="lbl_ReportPath.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btn_DeviceUploadBrowseButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel37.Text" xml:space="preserve">
+    <value>(0 - 5)</value>
+  </data>
+  <data name="&gt;&gt;chk_GlobalSharingCameraData.Name" xml:space="preserve">
+    <value>chk_GlobalSharingCameraData</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_First.Type" xml:space="preserve">
+    <value>SRMControl.SRMRadioButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tab_RS232.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btn_DeviceUploadBrowseButton.Parent" xml:space="preserve">
+    <value>tab_Network</value>
+  </data>
+  <data name="chk_WantUseSECSGEM.Text" xml:space="preserve">
+    <value>Want SECSGEM</value>
+  </data>
+  <data name="srmLabel27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbo_1.TabIndex" type="System.Int32, mscorlib">
+    <value>222</value>
+  </data>
+  <data name="srmLabel10.TabIndex" type="System.Int32, mscorlib">
+    <value>207</value>
+  </data>
+  <data name="srmLabel18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 24</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision3Status.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="txt_NetworkUsernameEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>623</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision2Status.Name" xml:space="preserve">
+    <value>lbl_Vision2Status</value>
+  </data>
+  <data name="btn_Connect.Text" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="&gt;&gt;srmLabel35.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tabCtrl_Configuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="srmLabel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 80</value>
+  </data>
+  <data name="cbo_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;txt_SerialPortRetriesCount.Name" xml:space="preserve">
+    <value>txt_SerialPortRetriesCount</value>
+  </data>
+  <data name="txt_IPAddress.MaxLength" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="srmLabel16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_PassImagePics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="srmLabel27.Text" xml:space="preserve">
+    <value>(100 - 5000 ms)</value>
+  </data>
+  <data name="tab_camera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 34</value>
+  </data>
+  <data name="srmLabel10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="cbo_Vision1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 31</value>
+  </data>
+  <data name="cbo_UnitDisplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 145</value>
+  </data>
+  <data name="&gt;&gt;srmLabel36.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Last.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chk_ExportLotReport.Text" xml:space="preserve">
+    <value>Export Lot Report</value>
+  </data>
+  <data name="srmLabel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 21</value>
+  </data>
+  <data name="&gt;&gt;srmLabel23.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmGroupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>201</value>
+  </data>
+  <data name="chk_PreviousVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="txt_MinUnitCheck.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="srmLabel13.Text" xml:space="preserve">
+    <value>Vision Lot Report Upload Directory</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 31</value>
+  </data>
+  <data name="chk_PreviousVersion.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chk_EnableTCPIP.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="srmLabel25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 40</value>
+  </data>
+  <data name="&gt;&gt;srmLabel21.Name" xml:space="preserve">
+    <value>srmLabel21</value>
+  </data>
+  <data name="srmLabel22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="lbl_Vision7Status.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;tab_SECSGEM.Name" xml:space="preserve">
+    <value>tab_SECSGEM</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="cbo_PreviousVersion.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;srmLabel37.Name" xml:space="preserve">
+    <value>srmLabel37</value>
+  </data>
+  <data name="&gt;&gt;tab_General.Name" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;txt_FailImagePics.Parent" xml:space="preserve">
+    <value>group_PassImage</value>
+  </data>
+  <data name="&gt;&gt;btn_BrowseSECSGEMSharedFolderPath.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="srmLabel6.Text" xml:space="preserve">
+    <value>Minimum Unit Checking</value>
+  </data>
+  <data name="srmLabel35.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_ReportPath.Text" xml:space="preserve">
+    <value>Report Path</value>
+  </data>
+  <data name="&gt;&gt;txt_SerialPortTimeOut.Parent" xml:space="preserve">
+    <value>tab_RS232</value>
+  </data>
+  <data name="srmLabel11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;srmLabel39.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items4" xml:space="preserve">
+    <value>4800</value>
+  </data>
+  <data name="&gt;&gt;chk_WantUseSECSGEM.Name" xml:space="preserve">
+    <value>chk_WantUseSECSGEM</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision2Status.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="&gt;&gt;srmLabel39.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_EmptyPocketTole.Name" xml:space="preserve">
+    <value>txt_EmptyPocketTole</value>
+  </data>
+  <data name="cbo_Vision6.Items" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lbl_Vision1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 30</value>
+  </data>
+  <data name="chk_DebugMode.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="srmLabel26.TabIndex" type="System.Int32, mscorlib">
+    <value>215</value>
+  </data>
+  <data name="chk_SaveErrorMessge.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;cbo_UnitDisplay.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="srmLabel19.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btn_Connect.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;srmLabel36.Parent" xml:space="preserve">
+    <value>tab_RS232</value>
+  </data>
+  <data name="srmLabel13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cbo_6.Items" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="btn_OK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 329</value>
+  </data>
+  <data name="lbl_Vision4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 135</value>
+  </data>
+  <data name="txt_MaxNoOfCoplanPad.Text" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;srmLabel23.Name" xml:space="preserve">
+    <value>srmLabel23</value>
+  </data>
+  <data name="&gt;&gt;cbo_5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbo_4.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Last.Name" xml:space="preserve">
+    <value>radioBtn_Last</value>
+  </data>
+  <data name="srmLabel33.Text" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="lbl_Vision6Status.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;srmLabel27.Name" xml:space="preserve">
+    <value>srmLabel27</value>
+  </data>
+  <data name="&gt;&gt;srmLabel18.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chk_SaveErrorMessge.Parent" xml:space="preserve">
+    <value>group_PassImage</value>
+  </data>
+  <data name="txt_TCPIPTimeout.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items8" xml:space="preserve">
+    <value>57600</value>
+  </data>
+  <data name="srmLabel36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 80</value>
+  </data>
+  <data name="srmLabel18.TabIndex" type="System.Int32, mscorlib">
+    <value>624</value>
+  </data>
+  <data name="srmLabel20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="srmLabel28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 16</value>
+  </data>
+  <data name="&gt;&gt;srmLabel27.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="srmLabel35.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbo_7.Items" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="lbl_Vision5Status.Text" xml:space="preserve">
+    <value>Not Connected</value>
+  </data>
+  <data name="lbl_Vision7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 240</value>
+  </data>
+  <data name="chk_PreviousVersion.Text" xml:space="preserve">
+    <value>Previous Version</value>
+  </data>
+  <data name="btn_VisionLotReportUploadBrowseButton.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="&gt;&gt;lbl_ReportPath.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel15.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_MaxNoOfCoplanPad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 67</value>
+  </data>
+  <data name="&gt;&gt;group_PassImage.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="srmLabel23.Text" xml:space="preserve">
+    <value>Parity</value>
+  </data>
+  <data name="&gt;&gt;srmLabel23.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;btn_BrowseSECSGEMSharedFolderPath.Name" xml:space="preserve">
+    <value>btn_BrowseSECSGEMSharedFolderPath</value>
+  </data>
+  <data name="srmLabel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chk_GlobalSharingCameraData.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_NetworkPasswordEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 120</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision4.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="txt_EmptyPocketTole.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="srmLabel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 21</value>
+  </data>
+  <data name="cbo_4.Items" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="chk_SavePassImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_TCPIPRetriesCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 99</value>
+  </data>
+  <data name="cbo_5.Items" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;txt_TCPIPTimeout.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chk_WantUseSECSGEM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 24</value>
+  </data>
+  <data name="srmLabel20.Text" xml:space="preserve">
+    <value>Auto Logout after</value>
+  </data>
+  <data name="srmLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision6Status.Name" xml:space="preserve">
+    <value>lbl_Vision6Status</value>
+  </data>
+  <data name="&gt;&gt;cbo_BitsPerSecond.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lbl_Vision6Status.Text" xml:space="preserve">
+    <value>Not Connected</value>
+  </data>
+  <data name="btn_BrowseSECSGEMSharedFolderPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 24</value>
+  </data>
+  <data name="&gt;&gt;txt_SECSGEMSharedFolderPath.Parent" xml:space="preserve">
+    <value>tab_SECSGEM</value>
+  </data>
+  <data name="srmLabel28.Text" xml:space="preserve">
+    <value>Time Out</value>
+  </data>
+  <data name="srmLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 18</value>
+  </data>
+  <data name="srmLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;txt_MinUnitCheck.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;chk_ExportLotReport.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Vision4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="btn_Connect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 32</value>
+  </data>
+  <data name="btn_ReportPathButton.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="&gt;&gt;cbo_5.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chk_SerialPortEnable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 111</value>
+  </data>
+  <data name="&gt;&gt;cbo_DataBits.Name" xml:space="preserve">
+    <value>cbo_DataBits</value>
+  </data>
+  <data name="&gt;&gt;txt_SerialPortTimeOut.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cbo_CommPort.Items5" xml:space="preserve">
+    <value>COM6</value>
+  </data>
+  <data name="chk_GlobalSharingCameraData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 209</value>
+  </data>
+  <data name="&gt;&gt;txt_TCPIPReportPath.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbo_Vision5.TabIndex" type="System.Int32, mscorlib">
+    <value>232</value>
+  </data>
+  <data name="&gt;&gt;cbo_7.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel29.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;VisionID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Vision4Status.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;grp_ExportLotReport.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel39.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_ReportPath.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;cbo_6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cbo_BitsPerSecond.Name" xml:space="preserve">
+    <value>cbo_BitsPerSecond</value>
+  </data>
+  <data name="txt_LowYield.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="chk_SaveFailImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 47</value>
+  </data>
+  <data name="srmLabel40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 16</value>
+  </data>
+  <data name="srmLabel10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_IPAddress.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_VisionLotReportUploadBrowseButton.Parent" xml:space="preserve">
+    <value>tab_Network</value>
+  </data>
+  <data name="lbl_Vision2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 65</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items10" xml:space="preserve">
+    <value>230400</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items12" xml:space="preserve">
+    <value>921600</value>
+  </data>
+  <data name="srmLabel22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 181</value>
+  </data>
+  <data name="lbl_Vision6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btn_Connect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;txt_WrongFaceTole.Name" xml:space="preserve">
+    <value>txt_WrongFaceTole</value>
+  </data>
+  <data name="srmLabel4.Text" xml:space="preserve">
+    <value>Report Format</value>
+  </data>
+  <data name="chk_PreviousVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>196</value>
+  </data>
+  <data name="srmLabel14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="srmLabel24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 16</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox3.Name" xml:space="preserve">
+    <value>srmGroupBox3</value>
+  </data>
+  <data name="cbo_Vision1.Items" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision6Status.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tab_RS232.Size" type="System.Drawing.Size, System.Drawing">
+    <value>608, 273</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision3.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="txt_TCPIPRetriesCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 26</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Name" xml:space="preserve">
+    <value>srmLabel3</value>
+  </data>
+  <data name="&gt;&gt;txt_IPAddress.Parent" xml:space="preserve">
+    <value>grp_ExportLotReport</value>
+  </data>
+  <data name="&gt;&gt;cbo_1.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="&gt;&gt;cbo_StopBits.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cbo_3.Items" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;cbo_4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="chk_GlobalSharingCalibrationData.Text" xml:space="preserve">
+    <value>Global Sharing Calibration Data</value>
+  </data>
+  <data name="cbo_5.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lbl_Vision5Status.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tab_General.Size" type="System.Drawing.Size, System.Drawing">
+    <value>608, 273</value>
+  </data>
+  <data name="&gt;&gt;srmLabel12.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 188</value>
+  </data>
+  <data name="srmLabel17.TabIndex" type="System.Int32, mscorlib">
+    <value>617</value>
+  </data>
+  <data name="lbl_Vision3Status.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Name" xml:space="preserve">
+    <value>srmLabel7</value>
+  </data>
+  <data name="&gt;&gt;txt_HostIPEditBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>tab_RS232</value>
+  </data>
+  <data name="&gt;&gt;srmLabel36.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbo_CommPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 31</value>
+  </data>
+  <data name="cbo_MarkUnitDisplay.Items1" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="srmLabel23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbo_Vision3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 31</value>
+  </data>
+  <data name="srmLabel6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_1.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmGroupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;chk_SavePassImage.Name" xml:space="preserve">
+    <value>chk_SavePassImage</value>
+  </data>
+  <data name="&gt;&gt;cbo_Parity.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;tabCtrl_Configuration.Type" xml:space="preserve">
+    <value>SRMControl.SRMTabControl, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_GlobalSharingCalibrationData.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="srmLabel13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision7Status.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="&gt;&gt;txt_EmptyPocketTole.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_Vision5.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="srmLabel29.TabIndex" type="System.Int32, mscorlib">
+    <value>203</value>
+  </data>
+  <data name="srmLabel24.Text" xml:space="preserve">
+    <value>Data bits</value>
+  </data>
+  <data name="srmLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_SECSGEMSharedFolderPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 24</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_PassImagePics.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="srmLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="cbo_1.Items" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;cbo_BitsPerSecond.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision1.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="chk_WantUseSECSGEM.TabIndex" type="System.Int32, mscorlib">
+    <value>634</value>
+  </data>
+  <data name="chk_WantUseNetwork.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Last.Parent" xml:space="preserve">
+    <value>srmGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;txt_TCPIPRetriesCount.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 16</value>
+  </data>
+  <data name="cbo_Parity.Items" xml:space="preserve">
+    <value>Even</value>
+  </data>
+  <data name="chk_GlobalSharingCalibrationData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 240</value>
+  </data>
+  <data name="chk_SaveErrorMessge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 99</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxNoOfCoplanPad.Name" xml:space="preserve">
+    <value>txt_MaxNoOfCoplanPad</value>
+  </data>
+  <data name="lbl_Vision2Status.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="cbo_MarkUnitDisplay.Items" xml:space="preserve">
+    <value>pixel</value>
+  </data>
+  <data name="txt_SerialPortTimeOut.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbo_CommPort.Items1" xml:space="preserve">
+    <value>COM2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision6.Name" xml:space="preserve">
+    <value>lbl_Vision6</value>
+  </data>
+  <data name="&gt;&gt;txt_NetworkPasswordEditBox.Parent" xml:space="preserve">
+    <value>tab_Network</value>
+  </data>
+  <data name="srmLabel1.Text" xml:space="preserve">
+    <value>Empty Pocket Tolerance (%)</value>
+  </data>
+  <data name="chk_SaveErrorMessge.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="srmLabel22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="&gt;&gt;txt_VisionLotReportUploadDirEditBox.Name" xml:space="preserve">
+    <value>txt_VisionLotReportUploadDirEditBox</value>
+  </data>
+  <data name="cbo_Vision4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 130</value>
+  </data>
+  <data name="cbo_PreviousVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 32</value>
+  </data>
+  <data name="cbo_Vision2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 60</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision6.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="cbo_PreviousVersion.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision2.Name" xml:space="preserve">
+    <value>cbo_Vision2</value>
+  </data>
+  <data name="btn_DeviceUploadBrowseButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;srmLabel24.Name" xml:space="preserve">
+    <value>srmLabel24</value>
+  </data>
+  <data name="group_PassImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 6</value>
+  </data>
+  <data name="&gt;&gt;txt_VisionLotReportUploadDirEditBox.Parent" xml:space="preserve">
+    <value>tab_Network</value>
+  </data>
+  <data name="&gt;&gt;chk_SaveErrorMessge.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_Vision6.Text" xml:space="preserve">
+    <value>Vision 6</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Vision4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="lbl_Vision1Status.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision5.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_DataBits.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_DeviceUploadBrowseButton.TabIndex" type="System.Int32, mscorlib">
+    <value>620</value>
+  </data>
+  <data name="&gt;&gt;srmLabel26.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_LowYield.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision4Status.Name" xml:space="preserve">
+    <value>lbl_Vision4Status</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Name" xml:space="preserve">
+    <value>srmLabel8</value>
+  </data>
+  <data name="txt_WrongFaceTole.TabIndex" type="System.Int32, mscorlib">
+    <value>186</value>
+  </data>
+  <data name="btn_ReportPathButton.TabIndex" type="System.Int32, mscorlib">
+    <value>207</value>
+  </data>
+  <data name="&gt;&gt;tab_RS232.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chk_SaveFailImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 25</value>
+  </data>
+  <data name="cbo_CommPort.TabIndex" type="System.Int32, mscorlib">
+    <value>173</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Parent" xml:space="preserve">
+    <value>tab_Network</value>
+  </data>
+  <data name="&gt;&gt;chk_GlobalSharingCameraData.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="txt_SerialPortTimeOut.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="lbl_Vision2.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision4.Name" xml:space="preserve">
+    <value>lbl_Vision4</value>
+  </data>
+  <data name="&gt;&gt;btn_ReportPathButton.Parent" xml:space="preserve">
+    <value>grp_ExportLotReport</value>
+  </data>
+  <data name="lbl_Vision7Status.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="srmLabel37.TabIndex" type="System.Int32, mscorlib">
+    <value>179</value>
+  </data>
+  <data name="lbl_Vision3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 100</value>
+  </data>
+  <data name="lbl_Vision1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision6Status.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txt_WrongFaceTole.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="chk_GlobalSharingCameraData.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel22.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbo_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="srmLabel28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel33.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_Vision5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;txt_PassImagePics.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbo_Parity.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="srmLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;btn_ReportPathButton.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_WantUseNetwork.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel25.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;srmLabel26.Parent" xml:space="preserve">
+    <value>grp_ExportLotReport</value>
+  </data>
+  <data name="&gt;&gt;srmLabel29.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_TCPIPTimeout.TabIndex" type="System.Int32, mscorlib">
+    <value>203</value>
+  </data>
+  <data name="&gt;&gt;cbo_StopBits.Name" xml:space="preserve">
+    <value>cbo_StopBits</value>
+  </data>
+  <data name="chk_GlobalSharingCalibrationData.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_ReportPathButton.Name" xml:space="preserve">
+    <value>btn_ReportPathButton</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="cbo_ReportFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 21</value>
+  </data>
+  <data name="&gt;&gt;srmLabel19.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel2.Text" xml:space="preserve">
+    <value>Wrong image face Tolerance (%)</value>
+  </data>
+  <data name="cbo_StopBits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 172</value>
+  </data>
+  <data name="&gt;&gt;txt_FailImagePics.Name" xml:space="preserve">
+    <value>txt_FailImagePics</value>
+  </data>
+  <data name="cbo_DataBits.Items" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbo_7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>578, 191</value>
+  </data>
+  <data name="&gt;&gt;srmLabel26.Name" xml:space="preserve">
+    <value>srmLabel26</value>
+  </data>
+  <data name="&gt;&gt;chk_SerialPortEnable.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="srmLabel3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="chk_WantUseNetwork.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txt_HostIPEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>622</value>
+  </data>
+  <data name="lbl_ReportPath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Vision4Status.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 135</value>
+  </data>
+  <data name="srmLabel11.Text" xml:space="preserve">
+    <value>Camera Available</value>
+  </data>
+  <data name="srmLabel16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbo_CommPort.Items4" xml:space="preserve">
+    <value>COM5</value>
+  </data>
+  <data name="srmLabel9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision6.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_BrowseSECSGEMSharedFolderPath.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_HostIPEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 49</value>
+  </data>
+  <data name="lbl_Vision7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="radioBtn_First.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;txt_NetworkPasswordEditBox.Name" xml:space="preserve">
+    <value>txt_NetworkPasswordEditBox</value>
+  </data>
+  <data name="srmLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbo_UnitDisplay.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="srmLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="srmGroupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 51</value>
+  </data>
+  <data name="btn_BrowseSECSGEMSharedFolderPath.TabIndex" type="System.Int32, mscorlib">
+    <value>625</value>
+  </data>
+  <data name="grp_ExportLotReport.TabIndex" type="System.Int32, mscorlib">
+    <value>213</value>
+  </data>
+  <data name="chk_SerialPortEnable.TabIndex" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision2.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision3.Name" xml:space="preserve">
+    <value>lbl_Vision3</value>
+  </data>
+  <data name="srmLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="srmLabel40.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="cbo_Vision6.TabIndex" type="System.Int32, mscorlib">
+    <value>233</value>
+  </data>
+  <data name="&gt;&gt;txt_MinUnitCheck.Name" xml:space="preserve">
+    <value>txt_MinUnitCheck</value>
+  </data>
+  <data name="&gt;&gt;chk_NetworkPasswordLimitCheckBox.Parent" xml:space="preserve">
+    <value>tab_Network</value>
+  </data>
+  <data name="srmLabel40.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cbo_1.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;cbo_4.Name" xml:space="preserve">
+    <value>cbo_4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="srmLabel17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_First.Parent" xml:space="preserve">
+    <value>srmGroupBox3</value>
+  </data>
+  <data name="chk_NetworkPasswordLimitCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Vision1.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="srmLabel2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision1.Name" xml:space="preserve">
+    <value>cbo_Vision1</value>
+  </data>
+  <data name="cbo_Parity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 31</value>
+  </data>
+  <data name="chk_EnableTCPIP.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chk_DebugMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="cbo_6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 31</value>
+  </data>
+  <data name="&gt;&gt;txt_SerialPortRetriesCount.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="txt_DeviceUploadDirEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>626</value>
+  </data>
+  <data name="srmLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 113</value>
+  </data>
+  <data name="&gt;&gt;txt_TCPIPPort.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txt_AutoLogOutMinutes.Name" xml:space="preserve">
+    <value>txt_AutoLogOutMinutes</value>
+  </data>
+  <data name="lbl_Vision5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="radioBtn_Last.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_EmptyPocketTole.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;cbo_CommPort.Name" xml:space="preserve">
+    <value>cbo_CommPort</value>
+  </data>
+  <data name="lbl_Vision6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 205</value>
+  </data>
+  <data name="srmLabel12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbo_Vision3.Items" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lbl_Vision7Status.TabIndex" type="System.Int32, mscorlib">
+    <value>231</value>
+  </data>
+  <data name="srmLabel33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="srmLabel29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 239</value>
+  </data>
+  <data name="srmLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision1.Name" xml:space="preserve">
+    <value>lbl_Vision1</value>
+  </data>
+  <data name="radioBtn_Last.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 27</value>
+  </data>
+  <data name="cbo_Vision3.TabIndex" type="System.Int32, mscorlib">
+    <value>219</value>
+  </data>
+  <data name="&gt;&gt;cbo_Parity.Name" xml:space="preserve">
+    <value>cbo_Parity</value>
+  </data>
+  <data name="cbo_7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 31</value>
+  </data>
+  <data name="tab_TCPIP.Text" xml:space="preserve">
+    <value>TCP/IP</value>
+  </data>
+  <data name="&gt;&gt;txt_SECSGEMSharedFolderPath.Type" xml:space="preserve">
+    <value>SRMControl.SRMTextBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="radioBtn_Last.Text" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items5" xml:space="preserve">
+    <value>9600</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Parent" xml:space="preserve">
+    <value>tab_RS232</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision4Status.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Name" xml:space="preserve">
+    <value>btn_OK</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_DataBits.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Name" xml:space="preserve">
+    <value>srmLabel9</value>
+  </data>
+  <data name="srmLabel15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 120</value>
+  </data>
+  <data name="srmLabel37.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;grp_ExportLotReport.Name" xml:space="preserve">
+    <value>grp_ExportLotReport</value>
+  </data>
+  <data name="srmLabel14.TabIndex" type="System.Int32, mscorlib">
+    <value>619</value>
+  </data>
+  <data name="&gt;&gt;srmLabel27.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision5.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="&gt;&gt;srmLabel33.Parent" xml:space="preserve">
+    <value>tab_TCPIP</value>
+  </data>
+  <data name="srmLabel40.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="txt_TCPIPPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 19</value>
+  </data>
+  <data name="srmLabel35.TabIndex" type="System.Int32, mscorlib">
+    <value>172</value>
+  </data>
+  <data name="&gt;&gt;srmLabel15.Parent" xml:space="preserve">
+    <value>tab_Network</value>
+  </data>
+  <data name="cbo_Vision4.TabIndex" type="System.Int32, mscorlib">
+    <value>220</value>
+  </data>
+  <data name="cbo_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 31</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision3.Name" xml:space="preserve">
+    <value>cbo_Vision3</value>
+  </data>
+  <data name="lbl_Vision2.Text" xml:space="preserve">
+    <value>Vision 2</value>
+  </data>
+  <data name="&gt;&gt;chk_SaveErrorMessge.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel36.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Vision1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_OK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_PreviousVersion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;chk_StopLowYield.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="txt_MaxNoOfCoplanPad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="chk_EnableTCPIP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="chk_DebugMode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision4.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="tab_TCPIP.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cbo_PreviousVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>197</value>
+  </data>
+  <data name="txt_LowYield.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 112</value>
+  </data>
+  <data name="&gt;&gt;tab_RS232.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_Vision4Status.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="txt_EmptyPocketTole.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cbo_ReportFormat.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tab_RS232.Text" xml:space="preserve">
+    <value>RS232</value>
+  </data>
+  <data name="txt_SECSGEMSharedFolderPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 26</value>
+  </data>
+  <data name="&gt;&gt;srmLabel21.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel22.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="lbl_Vision2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel8.Text" xml:space="preserve">
+    <value>Unit Display</value>
+  </data>
+  <data name="srmLabel18.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txt_SECSGEMSharedFolderPath.Name" xml:space="preserve">
+    <value>txt_SECSGEMSharedFolderPath</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cbo_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>570, 154</value>
+  </data>
+  <data name="&gt;&gt;txt_SerialPortTimeOut.Name" xml:space="preserve">
+    <value>txt_SerialPortTimeOut</value>
+  </data>
+  <data name="srmLabel35.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="srmLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>213</value>
+  </data>
+  <data name="cbo_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 31</value>
+  </data>
+  <data name="cbo_MarkUnitDisplay.Items3" xml:space="preserve">
+    <value>micron</value>
+  </data>
+  <data name="srmLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="chk_SerialPortEnable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="cbo_Vision1.TabIndex" type="System.Int32, mscorlib">
+    <value>217</value>
+  </data>
+  <data name="srmLabel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 21</value>
+  </data>
+  <data name="&gt;&gt;txt_TCPIPReportPath.Parent" xml:space="preserve">
+    <value>grp_ExportLotReport</value>
+  </data>
+  <data name="cbo_Vision2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 31</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision6Status.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="cbo_2.TabIndex" type="System.Int32, mscorlib">
+    <value>223</value>
+  </data>
+  <data name="srmLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>191</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="srmLabel26.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabCtrl_Configuration.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>96, 30</value>
+  </data>
+  <data name="cbo_Vision6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 200</value>
+  </data>
+  <data name="chk_ExportLotReport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_SECSGEMSharedFolderPath.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chk_WantUseNetwork.Name" xml:space="preserve">
+    <value>chk_WantUseNetwork</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Last.Type" xml:space="preserve">
+    <value>SRMControl.SRMRadioButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chk_SerialPortEnable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 146</value>
+  </data>
+  <data name="&gt;&gt;txt_WrongFaceTole.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_Vision4.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lbl_Vision6Status.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="lbl_Vision3Status.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="srmLabel25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_IPAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 25</value>
+  </data>
+  <data name="srmLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="cbo_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 31</value>
+  </data>
+  <data name="&gt;&gt;srmLabel38.Name" xml:space="preserve">
+    <value>srmLabel38</value>
+  </data>
+  <data name="tab_Network.Size" type="System.Drawing.Size, System.Drawing">
+    <value>608, 273</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision4.Name" xml:space="preserve">
+    <value>cbo_Vision4</value>
+  </data>
+  <data name="srmLabel27.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="btn_ReportPathButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="lbl_ReportPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chk_WantUseSECSGEM.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="srmLabel37.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbl_Vision3.Text" xml:space="preserve">
+    <value>Vision 3</value>
+  </data>
+  <data name="lbl_Vision1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="cbo_StopBits.Items2" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_AutoLogOutMinutes.TabIndex" type="System.Int32, mscorlib">
+    <value>198</value>
+  </data>
+  <data name="lbl_Vision3Status.TabIndex" type="System.Int32, mscorlib">
+    <value>215</value>
+  </data>
+  <data name="lbl_Vision6.TabIndex" type="System.Int32, mscorlib">
+    <value>227</value>
+  </data>
+  <data name="txt_SerialPortTimeOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 26</value>
+  </data>
+  <data name="srmLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 21</value>
+  </data>
+  <data name="btn_VisionLotReportUploadBrowseButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 188</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision1Status.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="&gt;&gt;dcUnits.Name" xml:space="preserve">
+    <value>dcUnits</value>
+  </data>
+  <data name="&gt;&gt;srmLabel37.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel18.Name" xml:space="preserve">
+    <value>srmLabel18</value>
+  </data>
+  <data name="chk_WantUseNetwork.TabIndex" type="System.Int32, mscorlib">
+    <value>633</value>
+  </data>
+  <data name="group_PassImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 137</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision7.Name" xml:space="preserve">
+    <value>cbo_Vision7</value>
+  </data>
+  <data name="txt_PassImagePics.TabIndex" type="System.Int32, mscorlib">
+    <value>202</value>
+  </data>
+  <data name="&gt;&gt;cbo_3.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel38.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbo_CommPort.Items2" xml:space="preserve">
+    <value>COM3</value>
+  </data>
+  <data name="&gt;&gt;cbo_6.Name" xml:space="preserve">
+    <value>cbo_6</value>
+  </data>
+  <data name="lbl_Vision4Status.TabIndex" type="System.Int32, mscorlib">
+    <value>216</value>
+  </data>
+  <data name="&gt;&gt;cbo_StopBits.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_Vision7.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="cbo_CommPort.Items8" xml:space="preserve">
+    <value>COM9</value>
+  </data>
+  <data name="srmLabel17.Text" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="&gt;&gt;chk_NetworkPasswordLimitCheckBox.Name" xml:space="preserve">
+    <value>chk_NetworkPasswordLimitCheckBox</value>
+  </data>
+  <data name="txt_TCPIPRetriesCount.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="srmLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="dgd_VisionList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 19</value>
+  </data>
+  <data name="txt_SerialPortRetriesCount.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="srmLabel12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_SaveErrorMessge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 25</value>
+  </data>
+  <data name="&gt;&gt;txt_AutoLogOutMinutes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Name" xml:space="preserve">
+    <value>srmLabel17</value>
+  </data>
+  <data name="cbo_2.Items" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="srmLabel23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioBtn_First.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel39.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel29.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="cbo_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 31</value>
+  </data>
+  <data name="group_PassImage.Text" xml:space="preserve">
+    <value>Save Image</value>
+  </data>
+  <data name="btn_BrowseSECSGEMSharedFolderPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 21</value>
+  </data>
+  <data name="srmLabel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision2Status.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_Vision7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 31</value>
+  </data>
+  <data name="&gt;&gt;txt_LowYield.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;dlg_ReportFolder.Name" xml:space="preserve">
+    <value>dlg_ReportFolder</value>
+  </data>
+  <data name="lbl_Vision1Status.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;srmLabel33.Name" xml:space="preserve">
+    <value>srmLabel33</value>
+  </data>
+  <data name="&gt;&gt;cbo_PreviousVersion.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tab_SECSGEM.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="chk_SerialPortEnable.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="srmLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 7</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="chk_GlobalSharingCameraData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="srmLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 157</value>
+  </data>
+  <data name="srmLabel39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 16</value>
+  </data>
+  <data name="&gt;&gt;chk_DebugMode.Name" xml:space="preserve">
+    <value>chk_DebugMode</value>
+  </data>
+  <data name="srmLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Parent" xml:space="preserve">
+    <value>group_PassImage</value>
+  </data>
+  <data name="srmLabel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 85</value>
+  </data>
+  <data name="&gt;&gt;txt_SerialPortRetriesCount.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_ReportFormat.Parent" xml:space="preserve">
+    <value>grp_ExportLotReport</value>
+  </data>
+  <data name="txt_MinUnitCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="lbl_Vision6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txt_NetworkPasswordEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>627</value>
+  </data>
+  <data name="lbl_Vision3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel21.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_TCPIPPort.Text" xml:space="preserve">
+    <value>8080</value>
+  </data>
+  <data name="txt_TCPIPPort.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chk_SerialPortEnable.Text" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="tab_RS232.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 34</value>
+  </data>
+  <data name="srmLabel29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="&gt;&gt;grp_ExportLotReport.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision2.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lbl_Vision1Status.Text" xml:space="preserve">
+    <value>Not Connected</value>
+  </data>
+  <data name="&gt;&gt;tab_camera.Parent" xml:space="preserve">
+    <value>tabCtrl_Configuration</value>
+  </data>
+  <data name="srmLabel38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 16</value>
+  </data>
+  <data name="cbo_Vision5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 31</value>
+  </data>
+  <data name="&gt;&gt;txt_WrongFaceTole.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbo_StopBits.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="chk_WantUseNetwork.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 231</value>
+  </data>
+  <data name="lbl_Vision5.TabIndex" type="System.Int32, mscorlib">
+    <value>226</value>
+  </data>
+  <data name="chk_ExportLotReport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 131</value>
+  </data>
+  <data name="srmLabel13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chk_SerialPortEnable.Name" xml:space="preserve">
+    <value>chk_SerialPortEnable</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision7Status.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel16.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="srmLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 135</value>
+  </data>
+  <data name="cbo_Parity.Items4" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="cbo_Vision1.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="cbo_Parity.Items2" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="cbo_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>574, 6</value>
+  </data>
+  <data name="cbo_Parity.Items1" xml:space="preserve">
+    <value>Odd</value>
+  </data>
+  <data name="srmLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="cbo_Vision2.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="srmLabel24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 87</value>
+  </data>
+  <data name="&gt;&gt;txt_TCPIPTimeout.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="grp_ExportLotReport.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="lbl_Vision5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Vision3Status.Text" xml:space="preserve">
+    <value>Not Connected</value>
+  </data>
+  <data name="srmLabel36.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision5Status.Name" xml:space="preserve">
+    <value>lbl_Vision5Status</value>
+  </data>
+  <data name="txt_TCPIPTimeout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 69</value>
+  </data>
+  <data name="cbo_MarkUnitDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 31</value>
+  </data>
+  <data name="btn_Connect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_TCPIPReportPath.TabIndex" type="System.Int32, mscorlib">
+    <value>206</value>
+  </data>
+  <data name="chk_StopLowYield.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="cbo_Vision7.TabIndex" type="System.Int32, mscorlib">
+    <value>234</value>
+  </data>
+  <data name="srmLabel28.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txt_NetworkUsernameEditBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chk_StopLowYield.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;srmLabel12.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="&gt;&gt;chk_SavePassImage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tab_SECSGEM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>608, 273</value>
+  </data>
+  <data name="&gt;&gt;chk_StopLowYield.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.Name" xml:space="preserve">
+    <value>srmLabel14</value>
+  </data>
+  <data name="cbo_UnitDisplay.Items2" xml:space="preserve">
+    <value>micron</value>
+  </data>
+  <data name="txt_SerialPortTimeOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 75</value>
+  </data>
+  <data name="chk_ExportLotReport.TabIndex" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <data name="srmLabel37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 16</value>
+  </data>
+  <data name="&gt;&gt;srmLabel23.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="srmLabel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 21</value>
+  </data>
+  <data name="btn_Connect.TabIndex" type="System.Int32, mscorlib">
+    <value>221</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbl_Vision7Status.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 240</value>
+  </data>
+  <data name="chk_SaveErrorMessge.Text" xml:space="preserve">
+    <value>Save Fail Error Message</value>
+  </data>
+  <data name="&gt;&gt;chk_SerialPortEnable.Parent" xml:space="preserve">
+    <value>tab_RS232</value>
+  </data>
+  <data name="txt_EmptyPocketTole.TabIndex" type="System.Int32, mscorlib">
+    <value>185</value>
+  </data>
+  <data name="srmLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_OK.Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision7Status.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cbo_CommPort.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="cbo_Vision2.Items" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="cbo_StopBits.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="cbo_6.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision7.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="lbl_Vision6Status.TabIndex" type="System.Int32, mscorlib">
+    <value>230</value>
+  </data>
+  <data name="lbl_Vision2Status.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Vision2Status.Text" xml:space="preserve">
+    <value>Not Connected</value>
+  </data>
+  <data name="&gt;&gt;cbo_DataBits.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="cbo_3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="srmLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 49</value>
+  </data>
+  <data name="srmLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_PassImagePics.Parent" xml:space="preserve">
+    <value>group_PassImage</value>
+  </data>
+  <data name="&gt;&gt;srmLabel20.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;cbo_ReportFormat.Name" xml:space="preserve">
+    <value>cbo_ReportFormat</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision2Status.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="chk_SavePassImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 25</value>
+  </data>
+  <data name="cbo_DataBits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 77</value>
+  </data>
+  <data name="srmLabel21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;txt_HostIPEditBox.Type" xml:space="preserve">
+    <value>SRMControl.SRMTextBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;chk_SerialPortEnable.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision5Status.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_MinUnitCheck.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_6.TabIndex" type="System.Int32, mscorlib">
+    <value>236</value>
+  </data>
+  <data name="&gt;&gt;btn_Connect.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="chk_GlobalSharingCalibrationData.TabIndex" type="System.Int32, mscorlib">
+    <value>202</value>
+  </data>
+  <data name="srmLabel35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 16</value>
+  </data>
+  <data name="&gt;&gt;tab_camera.Name" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="srmLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 21</value>
+  </data>
+  <data name="lbl_Vision7Status.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_AutoLogOutMinutes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 26</value>
+  </data>
+  <data name="txt_WrongFaceTole.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txt_DeviceUploadDirEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 26</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision1Status.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="txt_MaxNoOfCoplanPad.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_SaveFailImage.Parent" xml:space="preserve">
+    <value>group_PassImage</value>
+  </data>
+  <data name="&gt;&gt;chk_EnableTCPIP.Name" xml:space="preserve">
+    <value>chk_EnableTCPIP</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;txt_TCPIPReportPath.Type" xml:space="preserve">
+    <value>SRMControl.SRMTextBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_DeviceUploadDirEditBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_VisionLotReportUploadBrowseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 21</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision3Status.Name" xml:space="preserve">
+    <value>lbl_Vision3Status</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision3Status.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision4Status.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="srmLabel24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;tab_RS232.Parent" xml:space="preserve">
+    <value>tabCtrl_Configuration</value>
+  </data>
+  <data name="&gt;&gt;VisionID.Name" xml:space="preserve">
+    <value>VisionID</value>
+  </data>
+  <data name="srmLabel25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 16</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="&gt;&gt;cbo_UnitDisplay.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cbo_CommPort.Items6" xml:space="preserve">
+    <value>COM7</value>
+  </data>
+  <data name="cbo_DataBits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 31</value>
+  </data>
+  <data name="lbl_Vision1Status.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txt_WrongFaceTole.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 180</value>
+  </data>
+  <data name="grp_ExportLotReport.Text" xml:space="preserve">
+    <value>Export Lot Report</value>
+  </data>
+  <data name="&gt;&gt;txt_HostIPEditBox.Name" xml:space="preserve">
+    <value>txt_HostIPEditBox</value>
+  </data>
+  <data name="txt_VisionLotReportUploadDirEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 26</value>
+  </data>
+  <data name="chk_NetworkPasswordLimitCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>632</value>
+  </data>
+  <data name="tab_camera.Text" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="group_PassImage.TabIndex" type="System.Int32, mscorlib">
+    <value>187</value>
+  </data>
+  <data name="cbo_UnitDisplay.Items1" xml:space="preserve">
+    <value>mil</value>
+  </data>
+  <data name="cbo_Vision4.Items" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;srmLabel20.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 148</value>
+  </data>
+  <data name="lbl_Vision6Status.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 205</value>
+  </data>
+  <data name="srmLabel7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_PreviousVersion.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_7.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="chk_DebugMode.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_UnitDisplay.Items" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="chk_ExportLotReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="srmLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 16</value>
+  </data>
+  <data name="cbo_DataBits.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="&gt;&gt;chk_GlobalSharingCalibrationData.Name" xml:space="preserve">
+    <value>chk_GlobalSharingCalibrationData</value>
+  </data>
+  <data name="lbl_ReportPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 16</value>
+  </data>
+  <data name="srmLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="&gt;&gt;tab_Network.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chk_NetworkPasswordLimitCheckBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txt_NetworkUsernameEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 26</value>
+  </data>
+  <data name="tab_General.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision3.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="srmLabel27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 72</value>
+  </data>
+  <data name="&gt;&gt;txt_NetworkUsernameEditBox.Type" xml:space="preserve">
+    <value>SRMControl.SRMTextBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_EmptyPocketTole.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 157</value>
+  </data>
+  <data name="srmLabel23.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="cbo_Vision7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel40.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbo_MarkUnitDisplay.Items2" xml:space="preserve">
+    <value>mil</value>
+  </data>
+  <data name="srmLabel28.TabIndex" type="System.Int32, mscorlib">
+    <value>202</value>
+  </data>
+  <data name="radioBtn_Last.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="chk_SavePassImage.Text" xml:space="preserve">
+    <value>Save Pass Image</value>
+  </data>
+  <data name="srmLabel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 16</value>
+  </data>
+  <data name="tabCtrl_Configuration.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="&gt;&gt;chk_SaveFailImage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cbo_Parity.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Vision2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 329</value>
+  </data>
+  <data name="&gt;&gt;tab_RS232.Name" xml:space="preserve">
+    <value>tab_RS232</value>
+  </data>
+  <data name="srmLabel19.TabIndex" type="System.Int32, mscorlib">
+    <value>635</value>
+  </data>
+  <data name="lbl_ReportPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 69</value>
+  </data>
+  <data name="txt_FailImagePics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 49</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision7.Name" xml:space="preserve">
+    <value>lbl_Vision7</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="chk_SavePassImage.TabIndex" type="System.Int32, mscorlib">
+    <value>196</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items6" xml:space="preserve">
+    <value>19200</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision3.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Vision4.Text" xml:space="preserve">
+    <value>Vision 4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel19.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_VisionLotReportUploadBrowseButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="srmLabel22.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txt_FailImagePics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="&gt;&gt;tab_General.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_MinUnitCheck.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chk_DebugMode.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_Vision4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_DeviceUploadBrowseButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 155</value>
+  </data>
+  <data name="srmLabel18.Text" xml:space="preserve">
+    <value>SECSGEM Shared Folder Path</value>
+  </data>
+  <data name="&gt;&gt;cbo_4.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items2" xml:space="preserve">
+    <value>1200</value>
+  </data>
+  <data name="&gt;&gt;btn_VisionLotReportUploadBrowseButton.Name" xml:space="preserve">
+    <value>btn_VisionLotReportUploadBrowseButton</value>
+  </data>
+  <data name="cbo_MarkUnitDisplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 234</value>
+  </data>
+  <data name="cbo_Vision6.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;cbo_StopBits.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="srmLabel19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision1Status.Name" xml:space="preserve">
+    <value>lbl_Vision1Status</value>
+  </data>
+  <data name="&gt;&gt;dcVisionName.Name" xml:space="preserve">
+    <value>dcVisionName</value>
+  </data>
+  <data name="srmLabel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="lbl_Vision2Status.TabIndex" type="System.Int32, mscorlib">
+    <value>214</value>
+  </data>
+  <data name="&gt;&gt;chk_GlobalSharingCalibrationData.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_NetworkPasswordEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 26</value>
+  </data>
+  <data name="&gt;&gt;dgd_VisionList.Parent" xml:space="preserve">
+    <value>tab_TCPIP</value>
+  </data>
+  <data name="&gt;&gt;chk_SavePassImage.Parent" xml:space="preserve">
+    <value>group_PassImage</value>
+  </data>
+  <data name="&gt;&gt;lbl_ReportPath.Parent" xml:space="preserve">
+    <value>grp_ExportLotReport</value>
+  </data>
+  <data name="srmLabel12.Text" xml:space="preserve">
+    <value>Vision</value>
+  </data>
+  <data name="lbl_Vision7Status.Text" xml:space="preserve">
+    <value>Not Connected</value>
+  </data>
+  <data name="&gt;&gt;chk_GlobalSharingCalibrationData.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_Vision7.Text" xml:space="preserve">
+    <value>Vision 7</value>
+  </data>
+  <data name="srmLabel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 21</value>
+  </data>
+  <data name="srmLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>621</value>
+  </data>
+  <data name="&gt;&gt;srmLabel19.Parent" xml:space="preserve">
+    <value>tab_SECSGEM</value>
+  </data>
+  <data name="txt_IPAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 22</value>
+  </data>
+  <data name="srmLabel15.TabIndex" type="System.Int32, mscorlib">
+    <value>618</value>
+  </data>
+  <data name="&gt;&gt;srmLabel22.Name" xml:space="preserve">
+    <value>srmLabel22</value>
+  </data>
+  <data name="lbl_Vision2Status.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;srmLabel35.Name" xml:space="preserve">
+    <value>srmLabel35</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Parent" xml:space="preserve">
+    <value>tab_Network</value>
+  </data>
+  <data name="srmLabel20.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btn_Connect.Name" xml:space="preserve">
+    <value>btn_Connect</value>
+  </data>
+  <data name="&gt;&gt;tab_TCPIP.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel39.Name" xml:space="preserve">
+    <value>srmLabel39</value>
+  </data>
+  <data name="txt_SerialPortTimeOut.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lbl_Vision2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="dgd_VisionList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="srmLabel16.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btn_ReportPathButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision4.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="cbo_Vision6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 31</value>
+  </data>
+  <data name="cbo_6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbo_Vision1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel38.Text" xml:space="preserve">
+    <value>Retries Count</value>
+  </data>
+  <data name="btn_OK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 40</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Parent" xml:space="preserve">
+    <value>tab_Network</value>
+  </data>
+  <data name="txt_MaxNoOfCoplanPad.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="srmLabel19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 67</value>
+  </data>
+  <data name="lbl_Vision4Status.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chk_NetworkPasswordLimitCheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbo_MarkUnitDisplay.TabIndex" type="System.Int32, mscorlib">
+    <value>204</value>
+  </data>
+  <data name="cbo_Parity.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;txt_TCPIPPort.Parent" xml:space="preserve">
+    <value>tab_TCPIP</value>
+  </data>
+  <data name="&gt;&gt;cbo_UnitDisplay.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_4.TabIndex" type="System.Int32, mscorlib">
+    <value>225</value>
+  </data>
+  <data name="&gt;&gt;cbo_2.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="&gt;&gt;tabCtrl_Configuration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision7.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_FailImagePics.Text" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="srmLabel28.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbo_StopBits.Items1" xml:space="preserve">
+    <value>1.5</value>
+  </data>
+  <data name="&gt;&gt;tab_General.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_FailImagePics.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cbo_MarkUnitDisplay.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision7.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;srmLabel26.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbo_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>573, 117</value>
+  </data>
+  <data name="&gt;&gt;cbo_CommPort.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxNoOfCoplanPad.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_DeviceUploadDirEditBox.Name" xml:space="preserve">
+    <value>txt_DeviceUploadDirEditBox</value>
+  </data>
+  <data name="srmLabel1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txt_TCPIPPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 26</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision2.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="srmLabel39.TabIndex" type="System.Int32, mscorlib">
+    <value>211</value>
+  </data>
+  <data name="srmLabel33.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="srmLabel3.Text" xml:space="preserve">
+    <value>pics (1 - 10000)</value>
+  </data>
+  <data name="&gt;&gt;chk_PreviousVersion.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;tab_TCPIP.Name" xml:space="preserve">
+    <value>tab_TCPIP</value>
+  </data>
+  <data name="lbl_Vision4.TabIndex" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <data name="&gt;&gt;chk_ExportLotReport.Name" xml:space="preserve">
+    <value>chk_ExportLotReport</value>
+  </data>
+  <data name="srmLabel26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 16</value>
+  </data>
+  <data name="&gt;&gt;srmLabel20.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tab_camera.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tab_Network.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txt_VisionLotReportUploadDirEditBox.Type" xml:space="preserve">
+    <value>SRMControl.SRMTextBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="chk_DebugMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 2</value>
+  </data>
+  <data name="srmGroupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 73</value>
+  </data>
+  <data name="srmLabel26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;cbo_5.Name" xml:space="preserve">
+    <value>cbo_5</value>
+  </data>
+  <data name="cbo_CommPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 30</value>
+  </data>
+  <data name="srmLabel36.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="srmLabel20.TabIndex" type="System.Int32, mscorlib">
+    <value>199</value>
+  </data>
+  <data name="&gt;&gt;chk_SaveFailImage.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel14.Text" xml:space="preserve">
+    <value>Device Directory</value>
+  </data>
+  <data name="tabCtrl_Configuration.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="chk_SerialPortEnable.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="srmLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 21</value>
+  </data>
+  <data name="chk_GlobalSharingCameraData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 25</value>
+  </data>
+  <data name="srmLabel25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxNoOfCoplanPad.Parent" xml:space="preserve">
+    <value>tab_SECSGEM</value>
+  </data>
+  <data name="&gt;&gt;dgd_VisionList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel35.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbo_PreviousVersion.Items2" xml:space="preserve">
+    <value>Use Previous Inspection</value>
+  </data>
+  <data name="lbl_Vision3.TabIndex" type="System.Int32, mscorlib">
+    <value>211</value>
+  </data>
+  <data name="cbo_UnitDisplay.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lbl_Vision5Status.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 170</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision5.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 16</value>
+  </data>
+  <data name="&gt;&gt;txt_TCPIPRetriesCount.Name" xml:space="preserve">
+    <value>txt_TCPIPRetriesCount</value>
+  </data>
+  <data name="cbo_Parity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 125</value>
+  </data>
+  <data name="srmLabel24.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;cbo_CommPort.Parent" xml:space="preserve">
+    <value>tab_RS232</value>
+  </data>
+  <data name="chk_NetworkPasswordLimitCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="srmLabel26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Name" xml:space="preserve">
+    <value>srmLabel6</value>
+  </data>
+  <data name="srmLabel8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="tab_General.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="txt_TCPIPTimeout.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chk_GlobalSharingCameraData.Text" xml:space="preserve">
+    <value>Global Sharing Camera Data</value>
+  </data>
+  <data name="lbl_Vision5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="cbo_PreviousVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 31</value>
+  </data>
+  <data name="btn_BrowseSECSGEMSharedFolderPath.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="txt_IPAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>216</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision1.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="&gt;&gt;chk_WantUseSECSGEM.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_PreviousVersion.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;btn_Connect.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_LowYield.Name" xml:space="preserve">
+    <value>txt_LowYield</value>
+  </data>
+  <data name="srmLabel26.Text" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="cbo_UnitDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 31</value>
+  </data>
+  <data name="cbo_5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="srmLabel36.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chk_SaveFailImage.TabIndex" type="System.Int32, mscorlib">
+    <value>197</value>
+  </data>
+  <data name="srmLabel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 21</value>
+  </data>
+  <data name="cbo_DataBits.Items1" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cbo_MarkUnitDisplay.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Vision4Status.Text" xml:space="preserve">
+    <value>Not Connected</value>
+  </data>
+  <data name="chk_PreviousVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision6.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="srmLabel1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="srmLabel14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision7.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="cbo_Vision2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="chk_WantUseNetwork.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 24</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Name" xml:space="preserve">
+    <value>srmLabel5</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AppConfigForm</value>
+  </data>
+  <data name="&gt;&gt;srmLabel38.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="srmLabel39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 103</value>
+  </data>
+  <data name="chk_PreviousVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 69</value>
+  </data>
+  <data name="srmLabel40.Text" xml:space="preserve">
+    <value>Retries Count</value>
+  </data>
+  <data name="&gt;&gt;tab_SECSGEM.Parent" xml:space="preserve">
+    <value>tabCtrl_Configuration</value>
+  </data>
+  <data name="cbo_Vision1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 25</value>
+  </data>
+  <data name="&gt;&gt;txt_NetworkPasswordEditBox.Type" xml:space="preserve">
+    <value>SRMControl.SRMTextBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Vision2Status.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 65</value>
+  </data>
+  <data name="&gt;&gt;cbo_Parity.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_7.TabIndex" type="System.Int32, mscorlib">
+    <value>237</value>
+  </data>
+  <data name="&gt;&gt;srmLabel35.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_OK.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="chk_NetworkPasswordLimitCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 24</value>
+  </data>
+  <data name="btn_ReportPathButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="grp_ExportLotReport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 162</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_WrongFaceTole.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="srmLabel7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txt_TCPIPReportPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 66</value>
+  </data>
+  <data name="&gt;&gt;srmLabel20.Name" xml:space="preserve">
+    <value>srmLabel20</value>
+  </data>
+  <data name="&gt;&gt;txt_AutoLogOutMinutes.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chk_GlobalSharingCalibrationData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_HostIPEditBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 26</value>
+  </data>
+  <data name="srmLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="srmLabel23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="&gt;&gt;txt_TCPIPTimeout.Name" xml:space="preserve">
+    <value>txt_TCPIPTimeout</value>
+  </data>
+  <data name="&gt;&gt;cbo_DataBits.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision1Status.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel36.Name" xml:space="preserve">
+    <value>srmLabel36</value>
+  </data>
+  <data name="chk_EnableTCPIP.Text" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="cbo_PreviousVersion.Items" xml:space="preserve">
+    <value>Latest</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Name" xml:space="preserve">
+    <value>srmLabel11</value>
+  </data>
+  <data name="lbl_Vision1Status.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chk_PreviousVersion.Name" xml:space="preserve">
+    <value>chk_PreviousVersion</value>
+  </data>
+  <data name="srmLabel21.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="cbo_6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>541, 191</value>
+  </data>
+  <data name="&gt;&gt;btn_DeviceUploadBrowseButton.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel15.Name" xml:space="preserve">
+    <value>srmLabel15</value>
+  </data>
+  <data name="&gt;&gt;txt_PassImagePics.Name" xml:space="preserve">
+    <value>txt_PassImagePics</value>
+  </data>
+  <data name="srmLabel38.TabIndex" type="System.Int32, mscorlib">
+    <value>177</value>
+  </data>
+  <data name="cbo_PreviousVersion.Items1" xml:space="preserve">
+    <value>Use Previous Rotation</value>
+  </data>
+  <data name="&gt;&gt;chk_SaveErrorMessge.Name" xml:space="preserve">
+    <value>chk_SaveErrorMessge</value>
+  </data>
+  <data name="&gt;&gt;srmLabel12.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="cbo_BitsPerSecond.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="dcVisionName.Width" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="&gt;&gt;txt_SerialPortRetriesCount.Parent" xml:space="preserve">
+    <value>tab_RS232</value>
+  </data>
+  <data name="txt_EmptyPocketTole.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="srmLabel5.Text" xml:space="preserve">
+    <value>pics (1 - 500)</value>
+  </data>
+  <data name="&gt;&gt;srmLabel38.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tab_camera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbo_Vision3.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lbl_Vision1Status.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 30</value>
+  </data>
+  <data name="dcUnits.HeaderText" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="txt_WrongFaceTole.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tab_TCPIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 34</value>
+  </data>
+  <data name="srmLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items" xml:space="preserve">
+    <value>110</value>
+  </data>
+  <data name="srmLabel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 155</value>
+  </data>
+  <data name="&gt;&gt;srmLabel22.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cbo_1.Name" xml:space="preserve">
+    <value>cbo_1</value>
+  </data>
+  <data name="chk_StopLowYield.TabIndex" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="srmLabel39.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items11" xml:space="preserve">
+    <value>460800</value>
+  </data>
+  <data name="srmLabel27.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;chk_GlobalSharingCameraData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>640, 381</value>
+  </data>
+  <data name="&gt;&gt;tab_TCPIP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbo_Vision2.TabIndex" type="System.Int32, mscorlib">
+    <value>218</value>
+  </data>
+  <data name="srmLabel10.Text" xml:space="preserve">
+    <value>Connection Status</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision2.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 31</value>
+  </data>
+  <data name="&gt;&gt;cbo_1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="srmLabel29.Text" xml:space="preserve">
+    <value>Mark Unit Display</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision6.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel35.Parent" xml:space="preserve">
+    <value>tab_RS232</value>
+  </data>
+  <data name="lbl_Vision7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;dgd_VisionList.Name" xml:space="preserve">
+    <value>dgd_VisionList</value>
+  </data>
+  <data name="&gt;&gt;srmLabel28.Parent" xml:space="preserve">
+    <value>tab_TCPIP</value>
+  </data>
+  <data name="cbo_Vision7.Items" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="srmLabel38.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 16</value>
+  </data>
+  <data name="cbo_1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbo_4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txt_SerialPortRetriesCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 105</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision3.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="srmLabel19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="group_PassImage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Name" xml:space="preserve">
+    <value>srmLabel1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_ReportFormat.Items2" xml:space="preserve">
+    <value>Excel File (*.xls)</value>
+  </data>
+  <data name="cbo_5.TabIndex" type="System.Int32, mscorlib">
+    <value>235</value>
+  </data>
+  <data name="srmLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;tab_General.Parent" xml:space="preserve">
+    <value>tabCtrl_Configuration</value>
+  </data>
+  <data name="&gt;&gt;txt_FailImagePics.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chk_StopLowYield.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 87</value>
+  </data>
+  <data name="srmLabel21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 187</value>
+  </data>
+  <data name="tab_SECSGEM.Text" xml:space="preserve">
+    <value>SECSGEM</value>
+  </data>
+  <data name="txt_MinUnitCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 135</value>
+  </data>
+  <data name="srmLabel25.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txt_TCPIPPort.TabIndex" type="System.Int32, mscorlib">
+    <value>179</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox3.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_LowYield.TabIndex" type="System.Int32, mscorlib">
+    <value>192</value>
+  </data>
+  <data name="lbl_Vision4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel25.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="srmLabel28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 75</value>
+  </data>
+  <data name="chk_DebugMode.Text" xml:space="preserve">
+    <value>Debug Mode</value>
+  </data>
+  <data name="btn_BrowseSECSGEMSharedFolderPath.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="&gt;&gt;srmLabel15.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="srmLabel26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 28</value>
+  </data>
+  <data name="txt_LowYield.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="cbo_CommPort.Items3" xml:space="preserve">
+    <value>COM4</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision5.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="chk_SaveFailImage.Text" xml:space="preserve">
+    <value>Save Fail Image</value>
+  </data>
+  <data name="&gt;&gt;tabCtrl_Configuration.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel19.Text" xml:space="preserve">
+    <value>Max No. of CoplanPad</value>
+  </data>
+  <data name="txt_VisionLotReportUploadDirEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 188</value>
+  </data>
+  <data name="&gt;&gt;txt_EmptyPocketTole.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;cbo_MarkUnitDisplay.Name" xml:space="preserve">
+    <value>cbo_MarkUnitDisplay</value>
+  </data>
+  <data name="cbo_CommPort.Items9" xml:space="preserve">
+    <value>COM10</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Name" xml:space="preserve">
+    <value>srmLabel13</value>
+  </data>
+  <data name="VisionID.Width" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="srmLabel22.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="lbl_Vision5.Text" xml:space="preserve">
+    <value>Vision 5</value>
+  </data>
+  <data name="&gt;&gt;srmLabel40.Parent" xml:space="preserve">
+    <value>tab_TCPIP</value>
+  </data>
+  <data name="&gt;&gt;group_PassImage.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="dgd_VisionList.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="srmLabel15.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="&gt;&gt;txt_DeviceUploadDirEditBox.Type" xml:space="preserve">
+    <value>SRMControl.SRMTextBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel38.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cbo_Vision3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 95</value>
+  </data>
+  <data name="&gt;&gt;txt_EmptyPocketTole.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="srmLabel40.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tab_Network.Text" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="srmLabel39.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="lbl_Vision2Status.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="chk_EnableTCPIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 19</value>
+  </data>
+  <data name="chk_StopLowYield.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 25</value>
+  </data>
+  <data name="cbo_DataBits.Items2" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;chk_PreviousVersion.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cbo_2.Name" xml:space="preserve">
+    <value>cbo_2</value>
+  </data>
+  <data name="&gt;&gt;dlg_ReportFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;srmLabel29.Name" xml:space="preserve">
+    <value>srmLabel29</value>
+  </data>
+  <data name="lbl_Vision3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="srmLabel18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel40.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_TCPIPReportPath.Name" xml:space="preserve">
+    <value>txt_TCPIPReportPath</value>
+  </data>
+  <data name="tab_General.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 34</value>
+  </data>
+  <data name="cbo_Parity.Items3" xml:space="preserve">
+    <value>Mark</value>
+  </data>
+  <data name="&gt;&gt;cbo_5.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="&gt;&gt;txt_IPAddress.Name" xml:space="preserve">
+    <value>txt_IPAddress</value>
+  </data>
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="txt_SECSGEMSharedFolderPath.TabIndex" type="System.Int32, mscorlib">
+    <value>628</value>
+  </data>
+  <data name="srmLabel23.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="srmLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 21</value>
+  </data>
+  <data name="srmLabel27.TabIndex" type="System.Int32, mscorlib">
+    <value>204</value>
+  </data>
+  <data name="&gt;&gt;txt_SerialPortTimeOut.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel40.Name" xml:space="preserve">
+    <value>srmLabel40</value>
+  </data>
+  <data name="chk_WantUseSECSGEM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 231</value>
+  </data>
+  <data name="&gt;&gt;NetworkFolderBrowserDialog.Name" xml:space="preserve">
+    <value>NetworkFolderBrowserDialog</value>
+  </data>
+  <data name="srmLabel29.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;cbo_2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="txt_WrongFaceTole.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="chk_NetworkPasswordLimitCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 231</value>
+  </data>
+  <data name="&gt;&gt;txt_TCPIPTimeout.Parent" xml:space="preserve">
+    <value>tab_TCPIP</value>
+  </data>
+  <data name="chk_StopLowYield.Text" xml:space="preserve">
+    <value>Stop When Low Yield</value>
+  </data>
+  <data name="txt_TCPIPRetriesCount.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbo_BitsPerSecond.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="srmLabel9.Text" xml:space="preserve">
+    <value>Host IP Address</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;btn_BrowseSECSGEMSharedFolderPath.Parent" xml:space="preserve">
+    <value>tab_SECSGEM</value>
+  </data>
+  <data name="cbo_DataBits.Items3" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;chk_DebugMode.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;cbo_ReportFormat.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbo_ReportFormat.Items" xml:space="preserve">
+    <value>Text File (*.txt)</value>
+  </data>
+  <data name="srmLabel35.Text" xml:space="preserve">
+    <value>Comm Port</value>
+  </data>
+  <data name="lbl_Vision7.TabIndex" type="System.Int32, mscorlib">
+    <value>228</value>
+  </data>
+  <data name="chk_WantUseSECSGEM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;txt_VisionLotReportUploadDirEditBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbo_Vision3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;txt_LowYield.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;group_PassImage.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_StopBits.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbo_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>579, 80</value>
+  </data>
+  <data name="cbo_Vision5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cbo_3.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="chk_StopLowYield.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tab_TCPIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>608, 273</value>
+  </data>
+  <data name="srmLabel7.Text" xml:space="preserve">
+    <value>Low Yield (%)</value>
+  </data>
+  <data name="srmLabel11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chk_StopLowYield.Name" xml:space="preserve">
+    <value>chk_StopLowYield</value>
+  </data>
+  <data name="lbl_Vision7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel37.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_TCPIPTimeout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 26</value>
+  </data>
+  <data name="srmLabel26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_EnableTCPIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 28</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items7" xml:space="preserve">
+    <value>38400</value>
+  </data>
+  <data name="lbl_Vision4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;dcVisionName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmLabel25.Text" xml:space="preserve">
+    <value>Bits per second</value>
+  </data>
+  <data name="srmLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="lbl_Vision6Status.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="txt_VisionLotReportUploadDirEditBox.TabIndex" type="System.Int32, mscorlib">
+    <value>628</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision4.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="srmLabel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="lbl_Vision3Status.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 100</value>
+  </data>
+  <data name="&gt;&gt;cbo_7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel37.Parent" xml:space="preserve">
+    <value>tab_RS232</value>
+  </data>
+  <data name="cbo_CommPort.Items7" xml:space="preserve">
+    <value>COM8</value>
+  </data>
+  <data name="txt_LowYield.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;srmLabel40.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items3" xml:space="preserve">
+    <value>2400</value>
+  </data>
+  <data name="btn_ReportPathButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 28</value>
+  </data>
+  <data name="chk_SavePassImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 16</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision5Status.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl_Vision5Status.TabIndex" type="System.Int32, mscorlib">
+    <value>229</value>
+  </data>
+  <data name="&gt;&gt;cbo_UnitDisplay.Name" xml:space="preserve">
+    <value>cbo_UnitDisplay</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_StopLowYield.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="dcUnits.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision4.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="txt_NetworkUsernameEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 86</value>
+  </data>
+  <data name="dgd_VisionList.TabIndex" type="System.Int32, mscorlib">
+    <value>215</value>
+  </data>
+  <data name="cbo_Vision5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 165</value>
+  </data>
+  <data name="cbo_Vision6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 31</value>
+  </data>
+  <data name="srmLabel36.Text" xml:space="preserve">
+    <value>Time Out</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision5.Name" xml:space="preserve">
+    <value>lbl_Vision5</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_SerialPortRetriesCount.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items1" xml:space="preserve">
+    <value>300</value>
+  </data>
+  <data name="btn_DeviceUploadBrowseButton.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="lbl_Vision4Status.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;srmLabel24.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;srmLabel19.Name" xml:space="preserve">
+    <value>srmLabel19</value>
+  </data>
+  <data name="srmLabel33.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_MinUnitCheck.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;cbo_PreviousVersion.Name" xml:space="preserve">
+    <value>cbo_PreviousVersion</value>
+  </data>
+  <data name="&gt;&gt;tab_SECSGEM.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txt_TCPIPPort.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel28.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="srmLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>199</value>
+  </data>
+  <data name="lbl_Vision6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel39.Text" xml:space="preserve">
+    <value>(0 - 5)</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Parent" xml:space="preserve">
+    <value>group_PassImage</value>
+  </data>
+  <data name="cbo_StopBits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 31</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox3.Parent" xml:space="preserve">
+    <value>group_PassImage</value>
+  </data>
+  <data name="&gt;&gt;chk_WantUseNetwork.Parent" xml:space="preserve">
+    <value>tab_Network</value>
+  </data>
+  <data name="&gt;&gt;cbo_CommPort.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl_Vision3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="srmLabel12.TabIndex" type="System.Int32, mscorlib">
+    <value>208</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_MarkUnitDisplay.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lbl_Vision1Status.TabIndex" type="System.Int32, mscorlib">
+    <value>213</value>
+  </data>
+  <data name="&gt;&gt;srmLabel24.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="dgd_VisionList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 137</value>
+  </data>
+  <data name="&gt;&gt;chk_NetworkPasswordLimitCheckBox.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chk_ExportLotReport.Parent" xml:space="preserve">
+    <value>tab_TCPIP</value>
+  </data>
+  <data name="&gt;&gt;srmLabel25.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_WrongFaceTole.Text" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="txt_PassImagePics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 19</value>
+  </data>
+  <data name="srmLabel20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tab_Network.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision5.Name" xml:space="preserve">
+    <value>cbo_Vision5</value>
+  </data>
+  <data name="lbl_Vision7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txt_MaxNoOfCoplanPad.TabIndex" type="System.Int32, mscorlib">
+    <value>636</value>
+  </data>
+  <data name="srmLabel16.Text" xml:space="preserve">
+    <value>(100 - 5000 ms)</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision3.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="radioBtn_First.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 1</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 19</value>
+  </data>
+  <data name="&gt;&gt;tab_SECSGEM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_IPAddress.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="chk_ExportLotReport.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_ReportFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>214</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_Vision1.Text" xml:space="preserve">
+    <value>Vision 1</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision6.Name" xml:space="preserve">
+    <value>cbo_Vision6</value>
+  </data>
+  <data name="cbo_Vision4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 31</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel12.Name" xml:space="preserve">
+    <value>srmLabel12</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chk_NetworkPasswordLimitCheckBox.Text" xml:space="preserve">
+    <value>Enter Password When Upload Data To Server</value>
+  </data>
+  <data name="srmLabel21.Text" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="chk_EnableTCPIP.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="&gt;&gt;btn_VisionLotReportUploadBrowseButton.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_TCPIPRetriesCount.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chk_DebugMode.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;chk_EnableTCPIP.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel18.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;group_PassImage.Name" xml:space="preserve">
+    <value>group_PassImage</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 40</value>
+  </data>
+  <data name="srmLabel33.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;chk_ExportLotReport.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.Parent" xml:space="preserve">
+    <value>tab_Network</value>
+  </data>
+  <data name="txt_MinUnitCheck.Text" xml:space="preserve">
+    <value>1000</value>
+  </data>
+  <data name="&gt;&gt;srmLabel28.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_First.Name" xml:space="preserve">
+    <value>radioBtn_First</value>
+  </data>
+  <data name="&gt;&gt;NetworkFolderBrowserDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_LowYield.Text" xml:space="preserve">
+    <value>95.0</value>
+  </data>
+  <data name="cbo_2.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision2.Name" xml:space="preserve">
+    <value>lbl_Vision2</value>
+  </data>
+  <data name="&gt;&gt;tab_Network.Parent" xml:space="preserve">
+    <value>tabCtrl_Configuration</value>
+  </data>
+  <data name="srmLabel23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 134</value>
+  </data>
+  <data name="lbl_Vision7Status.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lbl_Vision5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 170</value>
+  </data>
+  <data name="&gt;&gt;cbo_3.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="&gt;&gt;chk_WantUseSECSGEM.Parent" xml:space="preserve">
+    <value>tab_SECSGEM</value>
+  </data>
+  <data name="&gt;&gt;chk_EnableTCPIP.Parent" xml:space="preserve">
+    <value>tab_TCPIP</value>
+  </data>
+  <data name="lbl_Vision5Status.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;chk_SavePassImage.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision5Status.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="srmLabel40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 102</value>
+  </data>
+  <data name="txt_DeviceUploadDirEditBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 156</value>
+  </data>
+  <data name="&gt;&gt;cbo_4.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Name" xml:space="preserve">
+    <value>srmLabel16</value>
+  </data>
+  <data name="&gt;&gt;lbl_ReportPath.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cbo_6.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabCtrl_Configuration.Name" xml:space="preserve">
+    <value>tabCtrl_Configuration</value>
+  </data>
+  <data name="&gt;&gt;txt_TCPIPPort.Name" xml:space="preserve">
+    <value>txt_TCPIPPort</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision1.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="cbo_6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_SerialPortRetriesCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 26</value>
+  </data>
+  <data name="tab_camera.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;srmLabel24.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel38.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="srmLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 180</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision7.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 21</value>
+  </data>
+  <data name="chk_WantUseNetwork.Text" xml:space="preserve">
+    <value>Want Network</value>
+  </data>
+  <data name="chk_EnableTCPIP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 187</value>
+  </data>
+  <data name="srmLabel37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 108</value>
+  </data>
+  <data name="srmLabel22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_AutoLogOutMinutes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 184</value>
+  </data>
+  <data name="lbl_Vision1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lbl_Vision6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="cbo_Vision5.Items" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;txt_FailImagePics.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;srmLabel29.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="srmLabel36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 16</value>
+  </data>
+  <data name="lbl_Vision3Status.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision6.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;srmLabel37.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbo_Vision7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 235</value>
+  </data>
+  <data name="&gt;&gt;cbo_MarkUnitDisplay.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chk_WantUseSECSGEM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbo_7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;txt_NetworkUsernameEditBox.Name" xml:space="preserve">
+    <value>txt_NetworkUsernameEditBox</value>
+  </data>
+  <data name="srmLabel28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision1.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel11.TabIndex" type="System.Int32, mscorlib">
+    <value>206</value>
+  </data>
+  <data name="&gt;&gt;chk_SaveFailImage.Name" xml:space="preserve">
+    <value>chk_SaveFailImage</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 225</value>
+  </data>
+  <data name="&gt;&gt;btn_DeviceUploadBrowseButton.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tab_Network.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 34</value>
+  </data>
+  <data name="srmLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="&gt;&gt;txt_HostIPEditBox.Parent" xml:space="preserve">
+    <value>tab_Network</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="btn_Connect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>541, 235</value>
+  </data>
+  <data name="srmLabel13.TabIndex" type="System.Int32, mscorlib">
+    <value>624</value>
+  </data>
+  <data name="srmLabel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 7</value>
+  </data>
+  <data name="chk_SerialPortEnable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 32</value>
+  </data>
+  <data name="tabCtrl_Configuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>616, 311</value>
+  </data>
+  <data name="cbo_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>578, 43</value>
+  </data>
+  <data name="cbo_CommPort.Items" xml:space="preserve">
+    <value>COM1</value>
+  </data>
+  <data name="srmLabel24.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision7Status.Name" xml:space="preserve">
+    <value>lbl_Vision7Status</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision7.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btn_ReportPathButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 63</value>
+  </data>
+  <data name="txt_SerialPortRetriesCount.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chk_GlobalSharingCalibrationData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 25</value>
+  </data>
+  <data name="txt_TCPIPReportPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="cbo_4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="lbl_Vision5Status.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;srmLabel28.Name" xml:space="preserve">
+    <value>srmLabel28</value>
+  </data>
+  <data name="lbl_ReportPath.TabIndex" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Application Settings</value>
+  </data>
+  <data name="&gt;&gt;txt_PassImagePics.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txt_IPAddress.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="srmLabel27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Name" xml:space="preserve">
+    <value>srmLabel2</value>
+  </data>
+  <data name="grp_ExportLotReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>554, 105</value>
+  </data>
+  <data name="chk_SaveFailImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_MaxNoOfCoplanPad.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items9" xml:space="preserve">
+    <value>115200</value>
+  </data>
+  <data name="btn_DeviceUploadBrowseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 21</value>
+  </data>
+  <data name="tab_camera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>608, 273</value>
+  </data>
+  <data name="cbo_3.TabIndex" type="System.Int32, mscorlib">
+    <value>224</value>
+  </data>
+  <data name="&gt;&gt;txt_LowYield.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel25.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="&gt;&gt;srmLabel18.Parent" xml:space="preserve">
+    <value>tab_SECSGEM</value>
+  </data>
+  <data name="lbl_Vision3Status.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txt_MinUnitCheck.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;cbo_3.Name" xml:space="preserve">
+    <value>cbo_3</value>
+  </data>
+  <data name="&gt;&gt;txt_DeviceUploadDirEditBox.Parent" xml:space="preserve">
+    <value>tab_Network</value>
+  </data>
+  <data name="lbl_Vision2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="&gt;&gt;srmLabel38.Parent" xml:space="preserve">
+    <value>tab_RS232</value>
+  </data>
+  <data name="&gt;&gt;cbo_6.Parent" xml:space="preserve">
+    <value>tab_camera</value>
+  </data>
+  <data name="srmLabel37.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel21.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;srmLabel39.Parent" xml:space="preserve">
+    <value>tab_TCPIP</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cbo_5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;grp_ExportLotReport.Parent" xml:space="preserve">
+    <value>tab_TCPIP</value>
+  </data>
+  <data name="lbl_Vision5Status.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision3Status.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel21.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;srmLabel25.Name" xml:space="preserve">
+    <value>srmLabel25</value>
+  </data>
+  <data name="srmLabel17.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cbo_7.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="txt_MinUnitCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="&gt;&gt;cbo_7.Name" xml:space="preserve">
+    <value>cbo_7</value>
+  </data>
+  <data name="&gt;&gt;lbl_ReportPath.Name" xml:space="preserve">
+    <value>lbl_ReportPath</value>
+  </data>
+  <data name="chk_DebugMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 25</value>
+  </data>
+  <data name="&gt;&gt;srmLabel33.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txt_EmptyPocketTole.Text" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="txt_FailImagePics.TabIndex" type="System.Int32, mscorlib">
+    <value>198</value>
+  </data>
+  <data name="chk_GlobalSharingCameraData.TabIndex" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="&gt;&gt;cbo_2.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tab_camera.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Name" xml:space="preserve">
+    <value>srmLabel4</value>
+  </data>
+  <data name="&gt;&gt;cbo_BitsPerSecond.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_WantUseNetwork.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_VisionLotReportUploadBrowseButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbl_Vision4Status.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lbl_Vision6Status.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_First.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tab_Network.Name" xml:space="preserve">
+    <value>tab_Network</value>
+  </data>
+  <data name="tab_SECSGEM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 34</value>
+  </data>
+  <data name="srmLabel21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbo_ReportFormat.Items1" xml:space="preserve">
+    <value>PDF File (*.pdf)</value>
+  </data>
+  <data name="&gt;&gt;chk_PreviousVersion.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>193</value>
+  </data>
+  <data name="radioBtn_First.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="&gt;&gt;dcUnits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgd_VisionList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioBtn_First.Text" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="&gt;&gt;txt_TCPIPRetriesCount.Parent" xml:space="preserve">
+    <value>tab_TCPIP</value>
+  </data>
+  <data name="&gt;&gt;txt_NetworkPasswordEditBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="srmLabel36.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txt_PassImagePics.Text" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="chk_SaveErrorMessge.TabIndex" type="System.Int32, mscorlib">
+    <value>203</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dcUnits.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="NetworkFolderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>163, 20</value>
+  </metadata>
+  <metadata name="VisionID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dcVisionName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dlg_ReportFolder.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

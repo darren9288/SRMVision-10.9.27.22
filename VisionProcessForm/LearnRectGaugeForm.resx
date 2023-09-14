@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_Title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_Title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold, Underline</value>
+  </data>
+  <data name="lbl_Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 9</value>
+  </data>
+  <data name="lbl_Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 24</value>
+  </data>
+  <data name="lbl_Title.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_Title.Text" xml:space="preserve">
+    <value>Rectangle Gauge</value>
+  </data>
+  <data name="lbl_Title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.Name" xml:space="preserve">
+    <value>lbl_Title</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Title.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 526</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 34</value>
+  </data>
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btn_Save.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_Save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 526</value>
+  </data>
+  <data name="btn_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 34</value>
+  </data>
+  <data name="btn_Save.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Name" xml:space="preserve">
+    <value>btn_Save</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="srmLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="srmLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 47</value>
+  </data>
+  <data name="srmLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 20</value>
+  </data>
+  <data name="srmLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="srmLabel4.Text" xml:space="preserve">
+    <value>Define Selected Gauge</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Name" xml:space="preserve">
+    <value>srmLabel4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txt_Size.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 44</value>
+  </data>
+  <data name="txt_Size.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 20</value>
+  </data>
+  <data name="txt_Size.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="txt_Size.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txt_Size.Name" xml:space="preserve">
+    <value>txt_Size</value>
+  </data>
+  <data name="&gt;&gt;txt_Size.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_Size.Parent" xml:space="preserve">
+    <value>tp_Position</value>
+  </data>
+  <data name="&gt;&gt;txt_Size.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 47</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>tp_Position</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_PosTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="txt_PosTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 20</value>
+  </data>
+  <data name="txt_PosTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="txt_PosTolerance.Text" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;txt_PosTolerance.Name" xml:space="preserve">
+    <value>txt_PosTolerance</value>
+  </data>
+  <data name="&gt;&gt;txt_PosTolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_PosTolerance.Parent" xml:space="preserve">
+    <value>tp_Position</value>
+  </data>
+  <data name="&gt;&gt;txt_PosTolerance.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 47</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Size Gap:</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tp_Position</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 16</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Tolerance:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tp_Position</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="srmLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 53</value>
+  </data>
+  <data name="srmLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="srmLabel8.Text" xml:space="preserve">
+    <value>Choice:</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Name" xml:space="preserve">
+    <value>srmLabel8</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Parent" xml:space="preserve">
+    <value>group_TransSelect</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="srmLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="srmLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="srmLabel7.Text" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Name" xml:space="preserve">
+    <value>srmLabel7</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Parent" xml:space="preserve">
+    <value>group_TransSelect</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbo_TransChoice.Items" xml:space="preserve">
+    <value>From Begin</value>
+  </data>
+  <data name="cbo_TransChoice.Items1" xml:space="preserve">
+    <value>From End</value>
+  </data>
+  <data name="cbo_TransChoice.Items2" xml:space="preserve">
+    <value>Largest Amplitud</value>
+  </data>
+  <data name="cbo_TransChoice.Items3" xml:space="preserve">
+    <value>Largest Area</value>
+  </data>
+  <data name="cbo_TransChoice.Items4" xml:space="preserve">
+    <value>Closest</value>
+  </data>
+  <data name="cbo_TransChoice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 67</value>
+  </data>
+  <data name="cbo_TransChoice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 21</value>
+  </data>
+  <data name="cbo_TransChoice.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cbo_TransChoice.Name" xml:space="preserve">
+    <value>cbo_TransChoice</value>
+  </data>
+  <data name="&gt;&gt;cbo_TransChoice.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_TransChoice.Parent" xml:space="preserve">
+    <value>group_TransSelect</value>
+  </data>
+  <data name="&gt;&gt;cbo_TransChoice.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbo_TransType.Items" xml:space="preserve">
+    <value>Black To White</value>
+  </data>
+  <data name="cbo_TransType.Items1" xml:space="preserve">
+    <value>White To Black</value>
+  </data>
+  <data name="cbo_TransType.Items2" xml:space="preserve">
+    <value>Black To White / White To Black</value>
+  </data>
+  <data name="cbo_TransType.Items3" xml:space="preserve">
+    <value>Black To White To Black</value>
+  </data>
+  <data name="cbo_TransType.Items4" xml:space="preserve">
+    <value>White To Black To White</value>
+  </data>
+  <data name="cbo_TransType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 29</value>
+  </data>
+  <data name="cbo_TransType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 21</value>
+  </data>
+  <data name="cbo_TransType.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cbo_TransType.Name" xml:space="preserve">
+    <value>cbo_TransType</value>
+  </data>
+  <data name="&gt;&gt;cbo_TransType.Type" xml:space="preserve">
+    <value>SRMControl.SRMImageComboBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_TransType.Parent" xml:space="preserve">
+    <value>group_TransSelect</value>
+  </data>
+  <data name="&gt;&gt;cbo_TransType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="group_TransSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 77</value>
+  </data>
+  <data name="group_TransSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 116</value>
+  </data>
+  <data name="group_TransSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="group_TransSelect.Text" xml:space="preserve">
+    <value>Transition Selection</value>
+  </data>
+  <data name="&gt;&gt;group_TransSelect.Name" xml:space="preserve">
+    <value>group_TransSelect</value>
+  </data>
+  <data name="&gt;&gt;group_TransSelect.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;group_TransSelect.Parent" xml:space="preserve">
+    <value>tp_Position</value>
+  </data>
+  <data name="&gt;&gt;group_TransSelect.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tp_Position.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tp_Position.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tp_Position.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 204</value>
+  </data>
+  <data name="tp_Position.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tp_Position.Text" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="&gt;&gt;tp_Position.Name" xml:space="preserve">
+    <value>tp_Position</value>
+  </data>
+  <data name="&gt;&gt;tp_Position.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tp_Position.Parent" xml:space="preserve">
+    <value>tbCtrl_Gauge</value>
+  </data>
+  <data name="&gt;&gt;tp_Position.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_FilteringThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 106</value>
+  </data>
+  <data name="txt_FilteringThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="txt_FilteringThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="txt_FilteringThreshold.Text" xml:space="preserve">
+    <value>3.0</value>
+  </data>
+  <data name="&gt;&gt;txt_FilteringThreshold.Name" xml:space="preserve">
+    <value>txt_FilteringThreshold</value>
+  </data>
+  <data name="&gt;&gt;txt_FilteringThreshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_FilteringThreshold.Parent" xml:space="preserve">
+    <value>tp_Measurement</value>
+  </data>
+  <data name="&gt;&gt;txt_FilteringThreshold.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_MeasFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 31</value>
+  </data>
+  <data name="txt_MeasFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="txt_MeasFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="txt_MeasFilter.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasFilter.Name" xml:space="preserve">
+    <value>txt_MeasFilter</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasFilter.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasFilter.Parent" xml:space="preserve">
+    <value>tp_Measurement</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasFilter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_MeasMinArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 67</value>
+  </data>
+  <data name="txt_MeasMinArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="txt_MeasMinArea.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="txt_MeasMinArea.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasMinArea.Name" xml:space="preserve">
+    <value>txt_MeasMinArea</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasMinArea.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasMinArea.Parent" xml:space="preserve">
+    <value>tp_Measurement</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasMinArea.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_MeasMinAmp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 31</value>
+  </data>
+  <data name="txt_MeasMinAmp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="txt_MeasMinAmp.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="txt_MeasMinAmp.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasMinAmp.Name" xml:space="preserve">
+    <value>txt_MeasMinAmp</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasMinAmp.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasMinAmp.Parent" xml:space="preserve">
+    <value>tp_Measurement</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasMinAmp.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="srmLabel13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 16</value>
+  </data>
+  <data name="srmLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="srmLabel13.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="srmLabel13.Text" xml:space="preserve">
+    <value>Filter:</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Name" xml:space="preserve">
+    <value>srmLabel13</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Parent" xml:space="preserve">
+    <value>tp_Measurement</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txt_FilteringPass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 67</value>
+  </data>
+  <data name="txt_FilteringPass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="txt_FilteringPass.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="txt_FilteringPass.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_FilteringPass.Name" xml:space="preserve">
+    <value>txt_FilteringPass</value>
+  </data>
+  <data name="&gt;&gt;txt_FilteringPass.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_FilteringPass.Parent" xml:space="preserve">
+    <value>tp_Measurement</value>
+  </data>
+  <data name="&gt;&gt;txt_FilteringPass.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="srmLabel11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 54</value>
+  </data>
+  <data name="srmLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel11.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="srmLabel11.Text" xml:space="preserve">
+    <value>Min. Area:</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Name" xml:space="preserve">
+    <value>srmLabel11</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Parent" xml:space="preserve">
+    <value>tp_Measurement</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="srmLabel10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="srmLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="srmLabel10.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="srmLabel10.Text" xml:space="preserve">
+    <value>Min.Amp:</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Name" xml:space="preserve">
+    <value>srmLabel10</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Parent" xml:space="preserve">
+    <value>tp_Measurement</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="srmLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 90</value>
+  </data>
+  <data name="srmLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 13</value>
+  </data>
+  <data name="srmLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="srmLabel2.Text" xml:space="preserve">
+    <value>Filtering Threshold</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Name" xml:space="preserve">
+    <value>srmLabel2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Parent" xml:space="preserve">
+    <value>tp_Measurement</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="srmLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 54</value>
+  </data>
+  <data name="srmLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="srmLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="srmLabel1.Text" xml:space="preserve">
+    <value>Filtering Pass:</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Name" xml:space="preserve">
+    <value>srmLabel1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Parent" xml:space="preserve">
+    <value>tp_Measurement</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tp_Measurement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tp_Measurement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tp_Measurement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 204</value>
+  </data>
+  <data name="tp_Measurement.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tp_Measurement.Text" xml:space="preserve">
+    <value>Measurement</value>
+  </data>
+  <data name="&gt;&gt;tp_Measurement.Name" xml:space="preserve">
+    <value>tp_Measurement</value>
+  </data>
+  <data name="&gt;&gt;tp_Measurement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tp_Measurement.Parent" xml:space="preserve">
+    <value>tbCtrl_Gauge</value>
+  </data>
+  <data name="&gt;&gt;tp_Measurement.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_MeasThreshold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 80</value>
+  </data>
+  <data name="txt_MeasThreshold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="txt_MeasThreshold.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="txt_MeasThreshold.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasThreshold.Name" xml:space="preserve">
+    <value>txt_MeasThreshold</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasThreshold.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasThreshold.Parent" xml:space="preserve">
+    <value>tp_Fitting</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasThreshold.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_MeasThickness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 49</value>
+  </data>
+  <data name="txt_MeasThickness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="txt_MeasThickness.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="txt_MeasThickness.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasThickness.Name" xml:space="preserve">
+    <value>txt_MeasThickness</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasThickness.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasThickness.Parent" xml:space="preserve">
+    <value>tp_Fitting</value>
+  </data>
+  <data name="&gt;&gt;txt_MeasThickness.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 83</value>
+  </data>
+  <data name="srmLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="srmLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="srmLabel9.Text" xml:space="preserve">
+    <value>Threshold:</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Name" xml:space="preserve">
+    <value>srmLabel9</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Parent" xml:space="preserve">
+    <value>tp_Fitting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_FittingSamplingStep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 16</value>
+  </data>
+  <data name="txt_FittingSamplingStep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="txt_FittingSamplingStep.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="txt_FittingSamplingStep.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txt_FittingSamplingStep.Name" xml:space="preserve">
+    <value>txt_FittingSamplingStep</value>
+  </data>
+  <data name="&gt;&gt;txt_FittingSamplingStep.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_FittingSamplingStep.Parent" xml:space="preserve">
+    <value>tp_Fitting</value>
+  </data>
+  <data name="&gt;&gt;txt_FittingSamplingStep.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="srmLabel14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 19</value>
+  </data>
+  <data name="srmLabel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="srmLabel14.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="srmLabel14.Text" xml:space="preserve">
+    <value>Sampling Step:</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.Name" xml:space="preserve">
+    <value>srmLabel14</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.Parent" xml:space="preserve">
+    <value>tp_Fitting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="srmLabel12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 52</value>
+  </data>
+  <data name="srmLabel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="srmLabel12.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="srmLabel12.Text" xml:space="preserve">
+    <value>Thickness:</value>
+  </data>
+  <data name="&gt;&gt;srmLabel12.Name" xml:space="preserve">
+    <value>srmLabel12</value>
+  </data>
+  <data name="&gt;&gt;srmLabel12.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel12.Parent" xml:space="preserve">
+    <value>tp_Fitting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel12.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tp_Fitting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tp_Fitting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 204</value>
+  </data>
+  <data name="tp_Fitting.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tp_Fitting.Text" xml:space="preserve">
+    <value>Fitting</value>
+  </data>
+  <data name="&gt;&gt;tp_Fitting.Name" xml:space="preserve">
+    <value>tp_Fitting</value>
+  </data>
+  <data name="&gt;&gt;tp_Fitting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tp_Fitting.Parent" xml:space="preserve">
+    <value>tbCtrl_Gauge</value>
+  </data>
+  <data name="&gt;&gt;tp_Fitting.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbCtrl_Gauge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 178</value>
+  </data>
+  <data name="tbCtrl_Gauge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 230</value>
+  </data>
+  <data name="tbCtrl_Gauge.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="&gt;&gt;tbCtrl_Gauge.Name" xml:space="preserve">
+    <value>tbCtrl_Gauge</value>
+  </data>
+  <data name="&gt;&gt;tbCtrl_Gauge.Type" xml:space="preserve">
+    <value>SRMControl.SRMTabControl, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tbCtrl_Gauge.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbCtrl_Gauge.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbl_AdvancedSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_AdvancedSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 159</value>
+  </data>
+  <data name="lbl_AdvancedSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 16</value>
+  </data>
+  <data name="lbl_AdvancedSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="lbl_AdvancedSettings.Text" xml:space="preserve">
+    <value>Gauge Configuration</value>
+  </data>
+  <data name="&gt;&gt;lbl_AdvancedSettings.Name" xml:space="preserve">
+    <value>lbl_AdvancedSettings</value>
+  </data>
+  <data name="&gt;&gt;lbl_AdvancedSettings.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_AdvancedSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_AdvancedSettings.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txt_GainValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 26</value>
+  </data>
+  <data name="txt_GainValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="txt_GainValue.TabIndex" type="System.Int32, mscorlib">
+    <value>185</value>
+  </data>
+  <data name="txt_GainValue.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_GainValue.Name" xml:space="preserve">
+    <value>txt_GainValue</value>
+  </data>
+  <data name="&gt;&gt;txt_GainValue.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_GainValue.Parent" xml:space="preserve">
+    <value>gb_GainSetting</value>
+  </data>
+  <data name="&gt;&gt;txt_GainValue.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="trackBar_Gain.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_Gain.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_Gain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 26</value>
+  </data>
+  <data name="trackBar_Gain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="trackBar_Gain.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Gain.Name" xml:space="preserve">
+    <value>trackBar_Gain</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Gain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Gain.Parent" xml:space="preserve">
+    <value>gb_GainSetting</value>
+  </data>
+  <data name="&gt;&gt;trackBar_Gain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gb_GainSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 415</value>
+  </data>
+  <data name="gb_GainSetting.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gb_GainSetting.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gb_GainSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 59</value>
+  </data>
+  <data name="gb_GainSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="gb_GainSetting.Text" xml:space="preserve">
+    <value>Adjust Gain Value to View Clear Unit Edge</value>
+  </data>
+  <data name="&gt;&gt;gb_GainSetting.Name" xml:space="preserve">
+    <value>gb_GainSetting</value>
+  </data>
+  <data name="&gt;&gt;gb_GainSetting.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;gb_GainSetting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gb_GainSetting.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chk_UseMarkOrientGauge.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="chk_UseMarkOrientGauge.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_UseMarkOrientGauge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 91</value>
+  </data>
+  <data name="chk_UseMarkOrientGauge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 24</value>
+  </data>
+  <data name="chk_UseMarkOrientGauge.TabIndex" type="System.Int32, mscorlib">
+    <value>181</value>
+  </data>
+  <data name="chk_UseMarkOrientGauge.Text" xml:space="preserve">
+    <value>Use MarkOrient Gauge</value>
+  </data>
+  <data name="&gt;&gt;chk_UseMarkOrientGauge.Name" xml:space="preserve">
+    <value>chk_UseMarkOrientGauge</value>
+  </data>
+  <data name="&gt;&gt;chk_UseMarkOrientGauge.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_UseMarkOrientGauge.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_UseMarkOrientGauge.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cbo_ImagesList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 122</value>
+  </data>
+  <data name="cbo_ImagesList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 21</value>
+  </data>
+  <data name="cbo_ImagesList.TabIndex" type="System.Int32, mscorlib">
+    <value>182</value>
+  </data>
+  <data name="&gt;&gt;cbo_ImagesList.Name" xml:space="preserve">
+    <value>cbo_ImagesList</value>
+  </data>
+  <data name="&gt;&gt;cbo_ImagesList.Type" xml:space="preserve">
+    <value>SRMControl.SRMImageComboBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_ImagesList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbo_ImagesList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="srmLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 125</value>
+  </data>
+  <data name="srmLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 19</value>
+  </data>
+  <data name="srmLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>183</value>
+  </data>
+  <data name="srmLabel3.Text" xml:space="preserve">
+    <value>Image No</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Name" xml:space="preserve">
+    <value>srmLabel3</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbo_RectGList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 64</value>
+  </data>
+  <data name="cbo_RectGList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 21</value>
+  </data>
+  <data name="cbo_RectGList.TabIndex" type="System.Int32, mscorlib">
+    <value>184</value>
+  </data>
+  <data name="&gt;&gt;cbo_RectGList.Name" xml:space="preserve">
+    <value>cbo_RectGList</value>
+  </data>
+  <data name="&gt;&gt;cbo_RectGList.Type" xml:space="preserve">
+    <value>SRMControl.SRMImageComboBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_RectGList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbo_RectGList.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chk_WantGauge.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chk_WantGauge.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="chk_WantGauge.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantGauge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 488</value>
+  </data>
+  <data name="chk_WantGauge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 32</value>
+  </data>
+  <data name="chk_WantGauge.TabIndex" type="System.Int32, mscorlib">
+    <value>185</value>
+  </data>
+  <data name="chk_WantGauge.Text" xml:space="preserve">
+    <value>Want Gauge</value>
+  </data>
+  <data name="chk_WantGauge.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chk_WantGauge.Name" xml:space="preserve">
+    <value>chk_WantGauge</value>
+  </data>
+  <data name="&gt;&gt;chk_WantGauge.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_WantGauge.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_WantGauge.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>40</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>250, 565</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>RectGauge Template</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>LearnRectGaugeForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

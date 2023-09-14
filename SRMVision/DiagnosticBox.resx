@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;btn_Clear.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="SendButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 355</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MessageTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>1024</value>
+  </data>
+  <data name="cbo_CommPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 60</value>
+  </data>
+  <data name="btn_Clear.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="radioBtn_TCPIP.Text" xml:space="preserve">
+    <value>Vision</value>
+  </data>
+  <data name="&gt;&gt;MessageTextBox.Type" xml:space="preserve">
+    <value>SRMControl.SRMTextBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="SendButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;SendButton.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="DataTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;DataTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;MessageTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="radioBtn_TCPIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="cbo_CommPort.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;btn_Clear.Name" xml:space="preserve">
+    <value>btn_Clear</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DiagnosticBox</value>
+  </data>
+  <data name="DataTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-2, 0</value>
+  </data>
+  <data name="btn_Clear.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="radioBtn_Serial.Text" xml:space="preserve">
+    <value>Light Source Controller</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="radioBtn_TCPIP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbo_Vision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 26</value>
+  </data>
+  <data name="&gt;&gt;SendButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;group_SelectTemplate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Serial.Type" xml:space="preserve">
+    <value>SRMControl.SRMRadioButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_CommPort.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="group_SelectTemplate.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="group_SelectTemplate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 97</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision.Name" xml:space="preserve">
+    <value>cbo_Vision</value>
+  </data>
+  <data name="radioBtn_Serial.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SendButton.Text" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="group_SelectTemplate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="btn_Clear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="cbo_Vision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 24</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="&gt;&gt;SendButton.Name" xml:space="preserve">
+    <value>SendButton</value>
+  </data>
+  <data name="btn_Clear.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        XZ94/VdI5D8DY1I42l/FrgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cbo_CommPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 26</value>
+  </data>
+  <data name="&gt;&gt;ClientTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Clear.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;MessageTextBox.Name" xml:space="preserve">
+    <value>MessageTextBox</value>
+  </data>
+  <data name="&gt;&gt;btn_Clear.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_TCPIP.Parent" xml:space="preserve">
+    <value>group_SelectTemplate</value>
+  </data>
+  <data name="SendButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="MessageTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SendButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 50</value>
+  </data>
+  <data name="cbo_CommPort.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt</value>
+  </data>
+  <data name="radioBtn_Serial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 24</value>
+  </data>
+  <data name="&gt;&gt;DataTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioBtn_TCPIP.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;MessageTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="group_SelectTemplate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 3</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Serial.Parent" xml:space="preserve">
+    <value>group_SelectTemplate</value>
+  </data>
+  <data name="DataTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 357</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Serial.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbo_Vision.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt</value>
+  </data>
+  <data name="MessageTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="radioBtn_TCPIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 24</value>
+  </data>
+  <data name="SendButton.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="radioBtn_Serial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 58</value>
+  </data>
+  <data name="SendButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SendButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;DataTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="group_SelectTemplate.Text" xml:space="preserve">
+    <value>Select protocol to send Message</value>
+  </data>
+  <data name="btn_Clear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 50</value>
+  </data>
+  <data name="MessageTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 50</value>
+  </data>
+  <data name="MessageTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 355</value>
+  </data>
+  <data name="&gt;&gt;DataTextBox.Name" xml:space="preserve">
+    <value>DataTextBox</value>
+  </data>
+  <data name="&gt;&gt;ClientTimer.Name" xml:space="preserve">
+    <value>ClientTimer</value>
+  </data>
+  <data name="&gt;&gt;group_SelectTemplate.Name" xml:space="preserve">
+    <value>group_SelectTemplate</value>
+  </data>
+  <data name="btn_Clear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;group_SelectTemplate.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_Vision.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Serial.Name" xml:space="preserve">
+    <value>radioBtn_Serial</value>
+  </data>
+  <data name="cbo_Vision.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_TCPIP.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbo_Vision.Items" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="cbo_CommPort.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_Clear.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_CommPort.Name" xml:space="preserve">
+    <value>cbo_CommPort</value>
+  </data>
+  <data name="&gt;&gt;cbo_CommPort.Parent" xml:space="preserve">
+    <value>group_SelectTemplate</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_TCPIP.Type" xml:space="preserve">
+    <value>SRMControl.SRMRadioButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_Vision.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;SendButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Clear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbo_CommPort.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;group_SelectTemplate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Diagnostic Box</value>
+  </data>
+  <data name="MessageTextBox.Text" xml:space="preserve">
+    <value>Type Message Here ...</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_TCPIP.Name" xml:space="preserve">
+    <value>radioBtn_TCPIP</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision.Parent" xml:space="preserve">
+    <value>group_SelectTemplate</value>
+  </data>
+  <data name="&gt;&gt;cbo_CommPort.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>412, 404</value>
+  </data>
+  <data name="btn_Clear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 355</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioBtn_Serial.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="DataTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MessageTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbo_CommPort.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ClientTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>2, 25</value>
+  </metadata>
+</root>

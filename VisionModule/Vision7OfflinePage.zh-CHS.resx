@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chk_Grab.Text" xml:space="preserve">
+    <value>视检前摄取</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>总计 (毫秒)</value>
+  </data>
+  <data name="lbl_V2Grab.Text" xml:space="preserve">
+    <value>攫取 (毫秒)</value>
+  </data>
+  <data name="lbl_V2Process.Text" xml:space="preserve">
+    <value>进程 (毫秒)</value>
+  </data>
+  <data name="lbl_Pin1ROI.Text" xml:space="preserve">
+    <value>离线视检</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="col_Score.HeaderText" xml:space="preserve">
+    <value>评分</value>
+  </data>
+  <data name="tp_Score.Text" xml:space="preserve">
+    <value>评分</value>
+  </data>
+  <data name="imageList_AutoForm.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADk
+        BgAAAk1TRnQBSQFMAgEBAgEAAdQBAAHUAQABDAEAAQwBAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAEw
+        AwABDAMAAQEBAAEgBgABCR4AAxABFQNSAaEDXwHoA1wB+ANgAdQDOgFhAwEBAhAAAwEBAgMdASoBTgJN
+        AZYBXAJZAc8DWgHeAVkCVgG+Az4BawMKAQ5wAAM1AVUBKwGkASwB/wGEAbgBhQH/AcsB6AHOAf8BygHu
+        AdIB/wHPAeYBzwH/ASMBoAElAf8BWAFiAVgB7wMIAQsIAAMCAQMDPAFmA10B8AN/Af4BtAG2AdoB/wK2
+        AeAB/wKyAdMB/wFmAV8BaAH8AWACWwHWAxoBJWgAAx4BKwGBAaoBgQH/AcwB7AHSAf8BAAHKAQ0B/wHj
+        Af8B6QX/AY4B+wGmAf8BAAGzAQ4B/wGdAcoBnwH/AVgBYgFYAe8IAAMqAUEBagFHAWoB+QHSAdMB7AH/
+        ATwBRwHTAf8B1gHeAf4F/wGUAaAB9wH/AU0BUgHEAf8CqAHDAf8BYAJbAdYDCQEMZAABWQFnAVkB8gGx
+        AdoBtQH/AQABuQEAAf8BKAH8AYEB/wETAfkBgQH/ARYB9wGCAf8BEgH5AYEB/wESAfsBgQH/AQABqgEA
+        Af8BgQGtAYEB/wM2AVkEAAFcAloBzQKWAcgB/wEdASMBwgH/AWEBhAH+Af8BXAGJAf4B/wFbAYYB/gH/
+        AVkBiQL/AUYBWwHzAf8BOwE8AbkB/wGIAU0BpAH9AzsBZWAAAwMBBAGLAb0BjAH/AQABtQEOAf8BAAHp
+        AR4B/wEAAfgBgQH/AQsB+QGBAf8BDgH5AYEB/wEEAfkBgQH/AQAB+QGBAf8BAAHGAQIB/wGMAcwBlQH/
+        A2EB5AMEAQYDXwHzAUMBRgG+Af8BKQEzAe8B/wE9AUkB/gH/AUsBVgL/AU4BYAL/AUMBTgL/ATUBQwH+
+        Af8BFAEYAcsB/wGDAYYBwgH/A1kBw2AAAxgBIgGUAcMBlQH/AQABqAEAAf8BAAHqARsB/wEAAfgBgQH/
+        AQAB+QGBAf8BAAH5AYEB/wEAAfgBgQH/AQAB9gEqAf8BAAHWAQkB/wEZAb8BgQH/AZgBxAGXAf8DGAEi
+        AWQBVwFsAfwBHwEhAbgB/wEfASUB8gH/AS0BNQL/ATcBQAL/ATwBRQL/ATIBOwL/ASYBLgH9Af8BFwEa
+        Ad4B/wJXAb4B/wNfAeBgAAMKAQ4BpgHPAacB/wEAAaMBAAH/AQAB5gEPAf8BFQH6AYwB/wEeAfkBkQH/
+        AR4B+gGRAf8BHAH5AZEB/wEAAfYBgQH/AQAB0gECAf8BBwG0AR0B/wMrAfwDCwEPAmoBbgH5AR0BHwG0
+        Af8BEwEXAe0B/wFSAVUC/wFgAWMC/wFhAYEC/wFeAWAC/wE1AToB/AH/ARABEgHZAf8BTAFUAbQB/wFe
+        AlsB2WQAAcwB4wHLAf8BAAGgAQAB/wEAAdcBFAH/AYsB+gG0Af8BjgH7AbYB/wGOAfsBtgH/AYwB+wG1
+        Af8BkAH4AbYB/wEAAbMBAAH/AR4BqwEoAf8BUQFTAVEBpQQAA2IB6QEyATMBqQH/ASYBKAHcAf8BiwGN
+        Af0B/wGMAY8C/wGNAY8C/wGMAY4C/wGEAYYB+AH/AQoBCwG6Af8BYgFjAbQB/wNOAZhkAANQAZ0BJgGp
+        ASsB/wEAAZgBAAH/AdsB/QHnAf8BygH7AdsB/wHKAfsB3QH/AckB+gHaAf8BtAHzAckB/wEAAZYBAAH/
+        AeMB7wHiAf8DBAEGBAADTAGTAokBsgH/AgoBngH/AccByAH6Af8BxwHIAf0B/wHHAcgB/QH/AcgByQH8
+        Af8BqAGpAeoB/wEaAR0BmwH/A2IB9gMaASVoAANZAfUBGAGgAR4B/wEAAY4BAAH/AbUB6QHCAf8BzgHx
+        AdcB/wEsAc0BgQH/AQABjAEAAf8ByQHiAckB/wM4AV0IAAMLAQ8DWQHHAoYBrAH/AUEBQgGnAf8BqQGq
+        AdoB/wG7AbwB4gH/AogBxwH/AToBOwGhAf8BhQFMAYkB/QM/AW0DAQECbAADUwGqBP8BggG6AYUB/wGB
+        AbMBgQH/AbEB1AGzAf8B+AH7AfgB/wMjATQQAAMNAREDUAGbA2EB7gF9AXIBfwH+Ao0BtwH/AmoBawH5
+        A18B2wMwAUsDAgEDeAADLwFJA0ABcAMYASEgAAMDAQQDLgFHA0ABcAMaASRwAAFCAU0BPgcAAT4DAAEo
+        AwABMAMAAQwDAAEBAQABAQUAAWAXAAP/AQAB4AE8AQMFAAHAARgBAQUAAYABGAYAAYABCB4AAYABCAYA
+        AYABCAYAAcABGAYAAeABPAEBBQAB+AH/AQ8FAAs=
+</value>
+  </data>
+  <data name="btn_Inspect.Text" xml:space="preserve">
+    <value>视检</value>
+  </data>
+  <data name="btn_Close.Text" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="srmLabel19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="srmLabel19.Text" xml:space="preserve">
+    <value>检测结果：</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>成绩</value>
+  </data>
+  <data name="tp_Result.Text" xml:space="preserve">
+    <value>成绩</value>
+  </data>
+</root>

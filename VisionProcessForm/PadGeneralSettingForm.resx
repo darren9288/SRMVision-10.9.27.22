@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chk_ExcessPad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chk_ExcessPad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 197</value>
+  </data>
+  <data name="chk_ExcessPad.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chk_ExcessPad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 30</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chk_ExcessPad.TabIndex" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="chk_ExcessPad.Text" xml:space="preserve">
+    <value>Excess Pad</value>
+  </data>
+  <data name="&gt;&gt;chk_ExcessPad.Name" xml:space="preserve">
+    <value>chk_ExcessPad</value>
+  </data>
+  <data name="&gt;&gt;chk_ExcessPad.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_ExcessPad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_ExcessPad.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="chk_SmearPad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_SmearPad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 384</value>
+  </data>
+  <data name="chk_SmearPad.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chk_SmearPad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 30</value>
+  </data>
+  <data name="chk_SmearPad.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="chk_SmearPad.Text" xml:space="preserve">
+    <value>Smear Pad</value>
+  </data>
+  <data name="&gt;&gt;chk_SmearPad.Name" xml:space="preserve">
+    <value>chk_SmearPad</value>
+  </data>
+  <data name="&gt;&gt;chk_SmearPad.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_SmearPad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_SmearPad.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="chk_Gap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_Gap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 124</value>
+  </data>
+  <data name="chk_Gap.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chk_Gap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 30</value>
+  </data>
+  <data name="chk_Gap.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="chk_Gap.Text" xml:space="preserve">
+    <value>Gap / Pitch</value>
+  </data>
+  <data name="&gt;&gt;chk_Gap.Name" xml:space="preserve">
+    <value>chk_Gap</value>
+  </data>
+  <data name="&gt;&gt;chk_Gap.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_Gap.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_Gap.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="chk_OffSet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_OffSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 13</value>
+  </data>
+  <data name="chk_OffSet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chk_OffSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 30</value>
+  </data>
+  <data name="chk_OffSet.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="chk_OffSet.Text" xml:space="preserve">
+    <value>Off Set</value>
+  </data>
+  <data name="&gt;&gt;chk_OffSet.Name" xml:space="preserve">
+    <value>chk_OffSet</value>
+  </data>
+  <data name="&gt;&gt;chk_OffSet.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_OffSet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_OffSet.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="chk_WidthHeight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WidthHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 87</value>
+  </data>
+  <data name="chk_WidthHeight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chk_WidthHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 30</value>
+  </data>
+  <data name="chk_WidthHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="chk_WidthHeight.Text" xml:space="preserve">
+    <value>Width/Length</value>
+  </data>
+  <data name="&gt;&gt;chk_WidthHeight.Name" xml:space="preserve">
+    <value>chk_WidthHeight</value>
+  </data>
+  <data name="&gt;&gt;chk_WidthHeight.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_WidthHeight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_WidthHeight.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="chk_Area.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_Area.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 50</value>
+  </data>
+  <data name="chk_Area.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chk_Area.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 30</value>
+  </data>
+  <data name="chk_Area.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="chk_Area.Text" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="&gt;&gt;chk_Area.Name" xml:space="preserve">
+    <value>chk_Area</value>
+  </data>
+  <data name="&gt;&gt;chk_Area.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_Area.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_Area.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="chk_BrokenPad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_BrokenPad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 160</value>
+  </data>
+  <data name="chk_BrokenPad.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chk_BrokenPad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 30</value>
+  </data>
+  <data name="chk_BrokenPad.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="chk_BrokenPad.Text" xml:space="preserve">
+    <value>Broken</value>
+  </data>
+  <data name="&gt;&gt;chk_BrokenPad.Name" xml:space="preserve">
+    <value>chk_BrokenPad</value>
+  </data>
+  <data name="&gt;&gt;chk_BrokenPad.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_BrokenPad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_BrokenPad.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="chk_ExtraPad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_ExtraPad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 512</value>
+  </data>
+  <data name="chk_ExtraPad.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chk_ExtraPad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 30</value>
+  </data>
+  <data name="chk_ExtraPad.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="chk_ExtraPad.Text" xml:space="preserve">
+    <value>Extra Pad/Area</value>
+  </data>
+  <data name="&gt;&gt;chk_ExtraPad.Name" xml:space="preserve">
+    <value>chk_ExtraPad</value>
+  </data>
+  <data name="&gt;&gt;chk_ExtraPad.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_ExtraPad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_ExtraPad.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Name" xml:space="preserve">
+    <value>srmLabel17</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Parent" xml:space="preserve">
+    <value>gb_SmearSetting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmLabel18.Name" xml:space="preserve">
+    <value>srmLabel18</value>
+  </data>
+  <data name="&gt;&gt;srmLabel18.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel18.Parent" xml:space="preserve">
+    <value>gb_SmearSetting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel18.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_SmearLength.Name" xml:space="preserve">
+    <value>txt_SmearLength</value>
+  </data>
+  <data name="&gt;&gt;txt_SmearLength.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_SmearLength.Parent" xml:space="preserve">
+    <value>gb_SmearSetting</value>
+  </data>
+  <data name="&gt;&gt;txt_SmearLength.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gb_SmearSetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="gb_SmearSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>808, 421</value>
+  </data>
+  <data name="gb_SmearSetting.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gb_SmearSetting.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gb_SmearSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 71</value>
+  </data>
+  <data name="gb_SmearSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="&gt;&gt;gb_SmearSetting.Name" xml:space="preserve">
+    <value>gb_SmearSetting</value>
+  </data>
+  <data name="&gt;&gt;gb_SmearSetting.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;gb_SmearSetting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gb_SmearSetting.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="srmLabel17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 23</value>
+  </data>
+  <data name="srmLabel17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 22</value>
+  </data>
+  <data name="srmLabel17.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="srmLabel17.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="srmLabel17.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Name" xml:space="preserve">
+    <value>srmLabel17</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Parent" xml:space="preserve">
+    <value>gb_SmearSetting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="srmLabel18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 34</value>
+  </data>
+  <data name="srmLabel18.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="srmLabel18.Text" xml:space="preserve">
+    <value>Smear Length</value>
+  </data>
+  <data name="srmLabel18.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;srmLabel18.Name" xml:space="preserve">
+    <value>srmLabel18</value>
+  </data>
+  <data name="&gt;&gt;srmLabel18.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel18.Parent" xml:space="preserve">
+    <value>gb_SmearSetting</value>
+  </data>
+  <data name="&gt;&gt;srmLabel18.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_SmearLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 22</value>
+  </data>
+  <data name="txt_SmearLength.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_SmearLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 24</value>
+  </data>
+  <data name="txt_SmearLength.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="txt_SmearLength.Text" xml:space="preserve">
+    <value>0.05</value>
+  </data>
+  <data name="&gt;&gt;txt_SmearLength.Name" xml:space="preserve">
+    <value>txt_SmearLength</value>
+  </data>
+  <data name="&gt;&gt;txt_SmearLength.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_SmearLength.Parent" xml:space="preserve">
+    <value>gb_SmearSetting</value>
+  </data>
+  <data name="&gt;&gt;txt_SmearLength.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="srmLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 20</value>
+  </data>
+  <data name="srmLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 22</value>
+  </data>
+  <data name="srmLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="srmLabel7.Text" xml:space="preserve">
+    <value>mm^2</value>
+  </data>
+  <data name="srmLabel7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Name" xml:space="preserve">
+    <value>srmLabel7</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_ExtraPadMinArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 18</value>
+  </data>
+  <data name="txt_ExtraPadMinArea.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_ExtraPadMinArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 24</value>
+  </data>
+  <data name="txt_ExtraPadMinArea.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="txt_ExtraPadMinArea.Text" xml:space="preserve">
+    <value>0.0004</value>
+  </data>
+  <data name="&gt;&gt;txt_ExtraPadMinArea.Name" xml:space="preserve">
+    <value>txt_ExtraPadMinArea</value>
+  </data>
+  <data name="&gt;&gt;txt_ExtraPadMinArea.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_ExtraPadMinArea.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txt_ExtraPadMinArea.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="srmLabel16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 14</value>
+  </data>
+  <data name="srmLabel16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 34</value>
+  </data>
+  <data name="srmLabel16.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="srmLabel16.Text" xml:space="preserve">
+    <value>Extra Pad Minimum Area</value>
+  </data>
+  <data name="srmLabel16.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Name" xml:space="preserve">
+    <value>srmLabel16</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Parent" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmGroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="srmGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>808, 549</value>
+  </data>
+  <data name="srmGroupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="srmGroupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="srmGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 71</value>
+  </data>
+  <data name="srmGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox1.Name" xml:space="preserve">
+    <value>srmGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox1.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lbl_SidePadArea.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_SidePadArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 62</value>
+  </data>
+  <data name="lbl_SidePadArea.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_SidePadArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 22</value>
+  </data>
+  <data name="lbl_SidePadArea.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="lbl_SidePadArea.Text" xml:space="preserve">
+    <value>mm^2</value>
+  </data>
+  <data name="lbl_SidePadArea.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_SidePadArea.Name" xml:space="preserve">
+    <value>lbl_SidePadArea</value>
+  </data>
+  <data name="&gt;&gt;lbl_SidePadArea.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_SidePadArea.Parent" xml:space="preserve">
+    <value>srmGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;lbl_SidePadArea.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_ExcessSidePadMinArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 60</value>
+  </data>
+  <data name="txt_ExcessSidePadMinArea.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_ExcessSidePadMinArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 24</value>
+  </data>
+  <data name="txt_ExcessSidePadMinArea.TabIndex" type="System.Int32, mscorlib">
+    <value>146</value>
+  </data>
+  <data name="txt_ExcessSidePadMinArea.Text" xml:space="preserve">
+    <value>0.0004</value>
+  </data>
+  <data name="&gt;&gt;txt_ExcessSidePadMinArea.Name" xml:space="preserve">
+    <value>txt_ExcessSidePadMinArea</value>
+  </data>
+  <data name="&gt;&gt;txt_ExcessSidePadMinArea.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_ExcessSidePadMinArea.Parent" xml:space="preserve">
+    <value>srmGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;txt_ExcessSidePadMinArea.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_ExcessSidePadMinArea.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_ExcessSidePadMinArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 55</value>
+  </data>
+  <data name="lbl_ExcessSidePadMinArea.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_ExcessSidePadMinArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 36</value>
+  </data>
+  <data name="lbl_ExcessSidePadMinArea.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="lbl_ExcessSidePadMinArea.Text" xml:space="preserve">
+    <value>Excess Side Pad Minimum Area</value>
+  </data>
+  <data name="lbl_ExcessSidePadMinArea.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_ExcessSidePadMinArea.Name" xml:space="preserve">
+    <value>lbl_ExcessSidePadMinArea</value>
+  </data>
+  <data name="&gt;&gt;lbl_ExcessSidePadMinArea.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_ExcessSidePadMinArea.Parent" xml:space="preserve">
+    <value>srmGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;lbl_ExcessSidePadMinArea.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl_PadArea.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_PadArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 23</value>
+  </data>
+  <data name="lbl_PadArea.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_PadArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 22</value>
+  </data>
+  <data name="lbl_PadArea.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="lbl_PadArea.Text" xml:space="preserve">
+    <value>mm^2</value>
+  </data>
+  <data name="lbl_PadArea.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_PadArea.Name" xml:space="preserve">
+    <value>lbl_PadArea</value>
+  </data>
+  <data name="&gt;&gt;lbl_PadArea.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_PadArea.Parent" xml:space="preserve">
+    <value>srmGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;lbl_PadArea.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txt_ExcessPadMinArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 22</value>
+  </data>
+  <data name="txt_ExcessPadMinArea.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_ExcessPadMinArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 24</value>
+  </data>
+  <data name="txt_ExcessPadMinArea.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="txt_ExcessPadMinArea.Text" xml:space="preserve">
+    <value>0.0004</value>
+  </data>
+  <data name="&gt;&gt;txt_ExcessPadMinArea.Name" xml:space="preserve">
+    <value>txt_ExcessPadMinArea</value>
+  </data>
+  <data name="&gt;&gt;txt_ExcessPadMinArea.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_ExcessPadMinArea.Parent" xml:space="preserve">
+    <value>srmGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;txt_ExcessPadMinArea.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_ExcessPadMinArea.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_ExcessPadMinArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 21</value>
+  </data>
+  <data name="lbl_ExcessPadMinArea.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_ExcessPadMinArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 28</value>
+  </data>
+  <data name="lbl_ExcessPadMinArea.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="lbl_ExcessPadMinArea.Text" xml:space="preserve">
+    <value>Excess Pad Minimum Area</value>
+  </data>
+  <data name="lbl_ExcessPadMinArea.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_ExcessPadMinArea.Name" xml:space="preserve">
+    <value>lbl_ExcessPadMinArea</value>
+  </data>
+  <data name="&gt;&gt;lbl_ExcessPadMinArea.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_ExcessPadMinArea.Parent" xml:space="preserve">
+    <value>srmGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;lbl_ExcessPadMinArea.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmGroupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="srmGroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>808, 234</value>
+  </data>
+  <data name="srmGroupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="srmGroupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="srmGroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 110</value>
+  </data>
+  <data name="srmGroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox2.Name" xml:space="preserve">
+    <value>srmGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox2.Type" xml:space="preserve">
+    <value>SRMControl.SRMGroupBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmGroupBox2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btn_Save.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 172</value>
+  </data>
+  <data name="btn_Save.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 34</value>
+  </data>
+  <data name="btn_Save.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Name" xml:space="preserve">
+    <value>btn_Save</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btn_Close.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 172</value>
+  </data>
+  <data name="btn_Close.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_Close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 34</value>
+  </data>
+  <data name="btn_Close.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="btn_Close.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Name" xml:space="preserve">
+    <value>btn_Close</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="srmLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="srmLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 16</value>
+  </data>
+  <data name="srmLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 22</value>
+  </data>
+  <data name="srmLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="srmLabel2.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="srmLabel2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Name" xml:space="preserve">
+    <value>srmLabel2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txt_XDimTolerance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="txt_XDimTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 14</value>
+  </data>
+  <data name="txt_XDimTolerance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_XDimTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 27</value>
+  </data>
+  <data name="txt_XDimTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="txt_XDimTolerance.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_XDimTolerance.Name" xml:space="preserve">
+    <value>txt_XDimTolerance</value>
+  </data>
+  <data name="&gt;&gt;txt_XDimTolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_XDimTolerance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_XDimTolerance.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="srmLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="srmLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 66</value>
+  </data>
+  <data name="srmLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 22</value>
+  </data>
+  <data name="srmLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>156</value>
+  </data>
+  <data name="srmLabel4.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="srmLabel4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Name" xml:space="preserve">
+    <value>srmLabel4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_YDimTolerance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="txt_YDimTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 64</value>
+  </data>
+  <data name="txt_YDimTolerance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_YDimTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 27</value>
+  </data>
+  <data name="txt_YDimTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="txt_YDimTolerance.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_YDimTolerance.Name" xml:space="preserve">
+    <value>txt_YDimTolerance</value>
+  </data>
+  <data name="&gt;&gt;txt_YDimTolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_YDimTolerance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_YDimTolerance.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="srmLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="srmLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 116</value>
+  </data>
+  <data name="srmLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="srmLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 22</value>
+  </data>
+  <data name="srmLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="srmLabel6.Text" xml:space="preserve">
+    <value>mm^2</value>
+  </data>
+  <data name="srmLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Name" xml:space="preserve">
+    <value>srmLabel6</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_AreaTolerance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="txt_AreaTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 114</value>
+  </data>
+  <data name="txt_AreaTolerance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_AreaTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 27</value>
+  </data>
+  <data name="txt_AreaTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>158</value>
+  </data>
+  <data name="txt_AreaTolerance.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_AreaTolerance.Name" xml:space="preserve">
+    <value>txt_AreaTolerance</value>
+  </data>
+  <data name="&gt;&gt;txt_AreaTolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_AreaTolerance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_AreaTolerance.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chk_WantCheckXDim.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="chk_WantCheckXDim.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantCheckXDim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="chk_WantCheckXDim.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chk_WantCheckXDim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 30</value>
+  </data>
+  <data name="chk_WantCheckXDim.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="chk_WantCheckXDim.Text" xml:space="preserve">
+    <value>X Dimension Tolerance</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckXDim.Name" xml:space="preserve">
+    <value>chk_WantCheckXDim</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckXDim.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckXDim.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckXDim.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chk_WantCheckYDim.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="chk_WantCheckYDim.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantCheckYDim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 63</value>
+  </data>
+  <data name="chk_WantCheckYDim.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chk_WantCheckYDim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 30</value>
+  </data>
+  <data name="chk_WantCheckYDim.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="chk_WantCheckYDim.Text" xml:space="preserve">
+    <value>Y Dimension Tolerance</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckYDim.Name" xml:space="preserve">
+    <value>chk_WantCheckYDim</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckYDim.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckYDim.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckYDim.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chk_WantCheckArea.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="chk_WantCheckArea.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantCheckArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 113</value>
+  </data>
+  <data name="chk_WantCheckArea.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chk_WantCheckArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 30</value>
+  </data>
+  <data name="chk_WantCheckArea.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="chk_WantCheckArea.Text" xml:space="preserve">
+    <value>Area Tolerance</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckArea.Name" xml:space="preserve">
+    <value>chk_WantCheckArea</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckArea.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.7, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckArea.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_WantCheckArea.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>421, 247</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Defect Setting</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PadGeneralSettingForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

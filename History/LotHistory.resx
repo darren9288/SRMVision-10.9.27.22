@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="radioBtn_FilterByLot.TabIndex" type="System.Int32, mscorlib">
+    <value>202</value>
+  </data>
+  <data name="&gt;&gt;HistoryCR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_Lead3DGRRDisplaySetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>854, 40</value>
+  </data>
+  <data name="btn_SavetoPDF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="radioBtn_GRR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;cbo_GRR.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_Close.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioBtn_CPK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Filter.TabIndex" type="System.Int32, mscorlib">
+    <value>208</value>
+  </data>
+  <data name="btn_Close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="&gt;&gt;cbo_CPK.Name" xml:space="preserve">
+    <value>cbo_CPK</value>
+  </data>
+  <data name="cbo_VisionModule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 47</value>
+  </data>
+  <data name="dc_NewValue.Width" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="btn_RemoveFilter.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbo_GRR.TabIndex" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="&gt;&gt;dc_Desc.Name" xml:space="preserve">
+    <value>dc_Desc</value>
+  </data>
+  <data name="cbo_VisionModule.ItemHeight" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="cbo_Lot.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;tp_DeviceLog.Parent" xml:space="preserve">
+    <value>tabCtrl_History</value>
+  </data>
+  <data name="radioBtn_Lot.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="radioBtn_FilterByMonth.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btn_Close.TabIndex" type="System.Int32, mscorlib">
+    <value>188</value>
+  </data>
+  <data name="btn_Close.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btn_GRRDisplaySetting.Name" xml:space="preserve">
+    <value>btn_GRRDisplaySetting</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_FilterByLot.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabCtrl_History.Name" xml:space="preserve">
+    <value>tabCtrl_History</value>
+  </data>
+  <data name="tp_LotRecord.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="dc_User.HeaderText" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="cbo_Month.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="cbo_Lot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>682, 30</value>
+  </data>
+  <data name="radioBtn_GRR.TabIndex" type="System.Int32, mscorlib">
+    <value>192</value>
+  </data>
+  <data name="&gt;&gt;btn_SavetoPDF.Name" xml:space="preserve">
+    <value>btn_SavetoPDF</value>
+  </data>
+  <data name="dc_NewValue.HeaderText" xml:space="preserve">
+    <value>New Value</value>
+  </data>
+  <data name="dc_Date.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="cbo_VisionModule.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Notice2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_RemoveFilter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tp_LotRecord.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_CPKDisplaySetting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabCtrl_History.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cbo_VisionModule.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btn_Lead3DGRRDisplaySetting.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lbl_Notice.TabIndex" type="System.Int32, mscorlib">
+    <value>204</value>
+  </data>
+  <data name="radioBtn_CPK.Text" xml:space="preserve">
+    <value>CPK ID</value>
+  </data>
+  <data name="&gt;&gt;btn_RemoveFilter.Name" xml:space="preserve">
+    <value>btn_RemoveFilter</value>
+  </data>
+  <data name="btn_DeviceEditLogDisplaySetting.TabIndex" type="System.Int32, mscorlib">
+    <value>206</value>
+  </data>
+  <data name="&gt;&gt;btn_FolderStored.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_DeviceEditLogDisplaySetting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tp_DeviceLog.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;dc_Module.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_FilterByLot.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;HistoryCR.Parent" xml:space="preserve">
+    <value>tp_LotRecord</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Lot History</value>
+  </data>
+  <data name="dgd_DeviceEdit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="HistoryCR.ShowZoomButton" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Filter.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_Lead3DGRRDisplaySetting.Text" xml:space="preserve">
+    <value>GRR Display Setting &gt;&gt;</value>
+  </data>
+  <data name="tabCtrl_History.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt, style=Bold</value>
+  </data>
+  <data name="cbo_Month.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;tabCtrl_History.Type" xml:space="preserve">
+    <value>SRMControl.SRMTabControl, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_VisionModule.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_FolderStored.Text" xml:space="preserve">
+    <value>FolderStored</value>
+  </data>
+  <data name="HistoryCR.ShowRefreshButton" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioBtn_Lot.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioBtn_GRR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbo_GRR.ItemHeight" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lbl_Notice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btn_FolderStored.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 88</value>
+  </data>
+  <data name="&gt;&gt;tp_DeviceLog.Name" xml:space="preserve">
+    <value>tp_DeviceLog</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_FilterByMonth.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cbo_CPK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;btn_Lead3DGRRDisplaySetting.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="radioBtn_CPK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btn_Lead3DGRRDisplaySetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="radioBtn_FilterByLot.Text" xml:space="preserve">
+    <value>Filter by Lot ID</value>
+  </data>
+  <data name="btn_SavetoPDF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbo_CPK.ItemHeight" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lbl_Notice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 751</value>
+  </data>
+  <data name="tabCtrl_History.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>89, 30</value>
+  </data>
+  <data name="lbl_Notice2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 768</value>
+  </data>
+  <data name="btn_FolderStored.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lbl_Notice2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>865, 23</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;dgd_DeviceEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_CPK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_CPKDisplaySetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 38</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="&gt;&gt;dlg_ReportFile.Name" xml:space="preserve">
+    <value>dlg_ReportFile</value>
+  </data>
+  <data name="btn_DeviceEditLogDisplaySetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>499, 121</value>
+  </data>
+  <data name="tp_DeviceLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>982, 566</value>
+  </data>
+  <data name="btn_GRRDisplaySetting.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_GRR.Type" xml:space="preserve">
+    <value>SRMControl.SRMRadioButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="HistoryCR.EnableDrillDown" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_Filter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_GRR.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Notice2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_SavetoPDF.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lbl_Filter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="&gt;&gt;cbo_CPK.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tp_LotRecord.Text" xml:space="preserve">
+    <value>Lot Record</value>
+  </data>
+  <data name="btn_FolderStored.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tp_DeviceLog.Text" xml:space="preserve">
+    <value>Device Edit Log</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;cbo_GRR.Name" xml:space="preserve">
+    <value>cbo_GRR</value>
+  </data>
+  <data name="&gt;&gt;cbo_Month.Name" xml:space="preserve">
+    <value>cbo_Month</value>
+  </data>
+  <data name="HistoryCR.ShowPrintButton" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btn_Lead3DGRRDisplaySetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 37</value>
+  </data>
+  <data name="&gt;&gt;btn_GRRDisplaySetting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LotID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioBtn_GRR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 30</value>
+  </data>
+  <data name="btn_RemoveFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>379, 122</value>
+  </data>
+  <data name="radioBtn_CPK.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;lbl_Notice2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbo_CPK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dc_Module.Width" type="System.Int32, mscorlib">
+    <value>230</value>
+  </data>
+  <data name="btn_Close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>884, 735</value>
+  </data>
+  <data name="btn_DeviceEditLogDisplaySetting.Text" xml:space="preserve">
+    <value>Device Edit Log Display Setting &gt;&gt;</value>
+  </data>
+  <data name="radioBtn_Lot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 30</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 37</value>
+  </data>
+  <data name="btn_RemoveFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 25</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Name" xml:space="preserve">
+    <value>btn_Close</value>
+  </data>
+  <data name="lbl_Filter.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_DeviceEditLogDisplaySetting.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btn_SavetoPDF.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="radioBtn_FilterByMonth.Text" xml:space="preserve">
+    <value>Filter by Month</value>
+  </data>
+  <data name="cbo_VisionModule.TabIndex" type="System.Int32, mscorlib">
+    <value>196</value>
+  </data>
+  <data name="lbl_Filter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dlg_ReportFile.Filter" xml:space="preserve">
+    <value>Reports(*.txt;*.rtf;*.pdf;*.xml) | *.txt;*.rtf;*.pdf;*.xml|Text File(*.txt) | *.txt|Rtf File(*.rtf) | *.rtf|PDF File(*.pdf) | *.pdf|XLS File(*.xls) | *.xls|XML File(*.xml) | *.xml</value>
+  </data>
+  <data name="HistoryCR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>976, 560</value>
+  </data>
+  <data name="&gt;&gt;btn_FolderStored.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbo_Lot.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="dc_OriginalValue.HeaderText" xml:space="preserve">
+    <value>Original Value</value>
+  </data>
+  <data name="&gt;&gt;cbo_Month.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="radioBtn_CPK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 30</value>
+  </data>
+  <data name="cbo_CPK.TabIndex" type="System.Int32, mscorlib">
+    <value>199</value>
+  </data>
+  <data name="&gt;&gt;btn_CPKDisplaySetting.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;HistoryCR.Name" xml:space="preserve">
+    <value>HistoryCR</value>
+  </data>
+  <data name="&gt;&gt;dc_User.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_CPKDisplaySetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>854, 80</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="radioBtn_FilterByLot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 11</value>
+  </data>
+  <data name="tp_LotRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>982, 566</value>
+  </data>
+  <data name="&gt;&gt;cbo_Lot.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;dc_Desc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LotID.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btn_Lead3DGRRDisplaySetting.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_DeviceEditLogDisplaySetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 26</value>
+  </data>
+  <data name="dgd_DeviceEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Lot.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="dc_Date.HeaderText" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="btn_SavetoPDF.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabCtrl_History.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 124</value>
+  </data>
+  <data name="cbo_Lot.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="tp_DeviceLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 34</value>
+  </data>
+  <data name="radioBtn_CPK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;btn_CPKDisplaySetting.Name" xml:space="preserve">
+    <value>btn_CPKDisplaySetting</value>
+  </data>
+  <data name="dc_User.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dc_Group.Name" xml:space="preserve">
+    <value>dc_Group</value>
+  </data>
+  <data name="btn_GRRDisplaySetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;dc_OriginalValue.Name" xml:space="preserve">
+    <value>dc_OriginalValue</value>
+  </data>
+  <data name="radioBtn_FilterByMonth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 24</value>
+  </data>
+  <data name="radioBtn_Lot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 8</value>
+  </data>
+  <data name="cbo_VisionModule.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;tp_LotRecord.Name" xml:space="preserve">
+    <value>tp_LotRecord</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tp_DeviceLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgd_DeviceEdit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_FolderStored.TabIndex" type="System.Int32, mscorlib">
+    <value>213</value>
+  </data>
+  <data name="&gt;&gt;tp_LotRecord.Parent" xml:space="preserve">
+    <value>tabCtrl_History</value>
+  </data>
+  <data name="btn_SavetoPDF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btn_RemoveFilter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;HistoryCR.Type" xml:space="preserve">
+    <value>CrystalDecisions.Windows.Forms.CrystalReportViewer, CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304</value>
+  </data>
+  <data name="&gt;&gt;cbo_Month.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="HistoryCR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Filter.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_SavetoPDF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbo_GRR.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_FilterByMonth.Type" xml:space="preserve">
+    <value>SRMControl.SRMRadioButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_GRRDisplaySetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 37</value>
+  </data>
+  <data name="&gt;&gt;lbl_Notice.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl_Filter.Text" xml:space="preserve">
+    <value>* Filter Applied</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="radioBtn_FilterByMonth.TabIndex" type="System.Int32, mscorlib">
+    <value>203</value>
+  </data>
+  <data name="&gt;&gt;btn_Lead3DGRRDisplaySetting.Name" xml:space="preserve">
+    <value>btn_Lead3DGRRDisplaySetting</value>
+  </data>
+  <data name="lbl_Filter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 125</value>
+  </data>
+  <data name="&gt;&gt;cbo_CPK.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="dgd_DeviceEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_Close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 49</value>
+  </data>
+  <data name="dgd_DeviceEdit.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;cbo_Lot.Name" xml:space="preserve">
+    <value>cbo_Lot</value>
+  </data>
+  <data name="radioBtn_Lot.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="btn_CPKDisplaySetting.Text" xml:space="preserve">
+    <value>CPK Display Setting &gt;&gt;</value>
+  </data>
+  <data name="radioBtn_GRR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 47</value>
+  </data>
+  <data name="&gt;&gt;dc_OriginalValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_FilterByMonth.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 44</value>
+  </data>
+  <data name="&gt;&gt;btn_RemoveFilter.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cbo_GRR.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;dc_NewValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbo_Lot.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Filter.Name" xml:space="preserve">
+    <value>lbl_Filter</value>
+  </data>
+  <data name="btn_RemoveFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="radioBtn_GRR.Text" xml:space="preserve">
+    <value>GRR ID</value>
+  </data>
+  <data name="btn_SavetoPDF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>956, 121</value>
+  </data>
+  <data name="HistoryCR.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_GRRDisplaySetting.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_GRRDisplaySetting.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dc_Group.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dc_Desc.HeaderText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="radioBtn_GRR.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;dlg_ReportFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>LotHistory</value>
+  </data>
+  <data name="btn_DeviceEditLogDisplaySetting.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btn_GRRDisplaySetting.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt</value>
+  </data>
+  <data name="&gt;&gt;btn_FolderStored.Name" xml:space="preserve">
+    <value>btn_FolderStored</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="dc_Group.HeaderText" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="btn_RemoveFilter.Text" xml:space="preserve">
+    <value>Remove Filter</value>
+  </data>
+  <data name="dc_Module.HeaderText" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="btn_GRRDisplaySetting.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btn_Lead3DGRRDisplaySetting.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btn_CPKDisplaySetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="HistoryCR.ShowCloseButton" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lbl_Filter.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbo_Lot.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;btn_DeviceEditLogDisplaySetting.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_GRRDisplaySetting.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btn_RemoveFilter.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_Month.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 49</value>
+  </data>
+  <data name="&gt;&gt;dgd_DeviceEdit.Parent" xml:space="preserve">
+    <value>tp_DeviceLog</value>
+  </data>
+  <data name="cbo_Lot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 7</value>
+  </data>
+  <data name="cbo_Lot.ItemHeight" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;dc_NewValue.Name" xml:space="preserve">
+    <value>dc_NewValue</value>
+  </data>
+  <data name="&gt;&gt;btn_SavetoPDF.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="HistoryCR.ShowTextSearchButton" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btn_DeviceEditLogDisplaySetting.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btn_Lead3DGRRDisplaySetting.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lbl_Notice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>740, 17</value>
+  </data>
+  <data name="tabCtrl_History.Size" type="System.Drawing.Size, System.Drawing">
+    <value>990, 604</value>
+  </data>
+  <data name="&gt;&gt;cbo_VisionModule.Name" xml:space="preserve">
+    <value>cbo_VisionModule</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Lot.Name" xml:space="preserve">
+    <value>radioBtn_Lot</value>
+  </data>
+  <data name="cbo_Month.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
+  </data>
+  <data name="btn_RemoveFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>207</value>
+  </data>
+  <data name="&gt;&gt;dc_Date.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioBtn_Lot.TabIndex" type="System.Int32, mscorlib">
+    <value>193</value>
+  </data>
+  <data name="cbo_GRR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 30</value>
+  </data>
+  <data name="&gt;&gt;btn_FolderStored.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgd_DeviceEdit.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;btn_Lead3DGRRDisplaySetting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_RemoveFilter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_GRR.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="cbo_VisionModule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 30</value>
+  </data>
+  <data name="&gt;&gt;btn_DeviceEditLogDisplaySetting.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbo_GRR.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;cbo_Lot.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Notice2.Name" xml:space="preserve">
+    <value>lbl_Notice2</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="radioBtn_FilterByLot.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="HistoryCR.ShowGroupTreeButton" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioBtn_Lot.Text" xml:space="preserve">
+    <value>Lot ID</value>
+  </data>
+  <data name="lbl_Notice2.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="cbo_Month.ItemHeight" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;LotID.Name" xml:space="preserve">
+    <value>LotID</value>
+  </data>
+  <data name="&gt;&gt;dgd_DeviceEdit.Name" xml:space="preserve">
+    <value>dgd_DeviceEdit</value>
+  </data>
+  <data name="HistoryCR.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tp_LotRecord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 34</value>
+  </data>
+  <data name="&gt;&gt;btn_SavetoPDF.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbo_Month.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="dc_Group.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Lot.Type" xml:space="preserve">
+    <value>SRMControl.SRMRadioButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btn_FolderStored.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lbl_Notice.Name" xml:space="preserve">
+    <value>lbl_Notice</value>
+  </data>
+  <data name="&gt;&gt;btn_CPKDisplaySetting.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbl_Notice.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btn_FolderStored.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 25</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dgd_DeviceEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>976, 560</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_CPK.Name" xml:space="preserve">
+    <value>radioBtn_CPK</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1014, 791</value>
+  </data>
+  <data name="&gt;&gt;lbl_Notice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_CPK.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="LotID.HeaderText" xml:space="preserve">
+    <value>LotID</value>
+  </data>
+  <data name="btn_CPKDisplaySetting.TabIndex" type="System.Int32, mscorlib">
+    <value>201</value>
+  </data>
+  <data name="&gt;&gt;dc_User.Name" xml:space="preserve">
+    <value>dc_User</value>
+  </data>
+  <data name="&gt;&gt;lbl_Notice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_CPK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;tp_DeviceLog.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_Lead3DGRRDisplaySetting.TabIndex" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_GRR.Name" xml:space="preserve">
+    <value>radioBtn_GRR</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_FilterByLot.Type" xml:space="preserve">
+    <value>SRMControl.SRMRadioButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbo_CPK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>525, 86</value>
+  </data>
+  <data name="&gt;&gt;cbo_Month.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_Lot.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dc_Desc.Width" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="tabCtrl_History.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="btn_SavetoPDF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 32</value>
+  </data>
+  <data name="dc_OriginalValue.Width" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="btn_DeviceEditLogDisplaySetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbl_Notice.Text" xml:space="preserve">
+    <value>* Double click on table row of learn new template to view template image (Old Value/New Value Column)</value>
+  </data>
+  <data name="btn_GRRDisplaySetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>854, 40</value>
+  </data>
+  <data name="&gt;&gt;tp_LotRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dc_Date.Name" xml:space="preserve">
+    <value>dc_Date</value>
+  </data>
+  <data name="tp_LotRecord.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_DeviceEditLogDisplaySetting.Name" xml:space="preserve">
+    <value>btn_DeviceEditLogDisplaySetting</value>
+  </data>
+  <data name="tp_DeviceLog.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_FilterByLot.Name" xml:space="preserve">
+    <value>radioBtn_FilterByLot</value>
+  </data>
+  <data name="cbo_GRR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>525, 47</value>
+  </data>
+  <data name="lbl_Notice2.Text" xml:space="preserve">
+    <value>* Double click on table row to open display setting with auto keyword filled in (User/ Group/ Module/ Description Column)</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_CPK.Type" xml:space="preserve">
+    <value>SRMControl.SRMRadioButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="radioBtn_FilterByMonth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 11</value>
+  </data>
+  <data name="&gt;&gt;radioBtn_FilterByMonth.Name" xml:space="preserve">
+    <value>radioBtn_FilterByMonth</value>
+  </data>
+  <data name="dgd_DeviceEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;cbo_VisionModule.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_GRRDisplaySetting.Text" xml:space="preserve">
+    <value>GRR Display Setting &gt;&gt;</value>
+  </data>
+  <data name="radioBtn_CPK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 85</value>
+  </data>
+  <data name="cbo_GRR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;dc_Module.Name" xml:space="preserve">
+    <value>dc_Module</value>
+  </data>
+  <data name="cbo_CPK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 30</value>
+  </data>
+  <data name="btn_Close.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lbl_Filter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt, style=Bold</value>
+  </data>
+  <data name="radioBtn_FilterByLot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 24</value>
+  </data>
+  <data name="&gt;&gt;tabCtrl_History.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="dc_Group.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dc_OriginalValue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dc_NewValue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dc_Desc.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dc_User.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="LotID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dc_Module.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dc_Date.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dlg_ReportFile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>110</value>
+  </metadata>
+</root>

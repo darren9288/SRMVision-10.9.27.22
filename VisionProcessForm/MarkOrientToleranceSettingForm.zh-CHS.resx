@@ -1,0 +1,1278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="srmLabel21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 94</value>
+  </data>
+  <data name="srmLabel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel21.Text" xml:space="preserve">
+    <value>微米</value>
+  </data>
+  <data name="srmLabel20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 70</value>
+  </data>
+  <data name="srmLabel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel20.Text" xml:space="preserve">
+    <value>微米</value>
+  </data>
+  <data name="srmLabel19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 42</value>
+  </data>
+  <data name="srmLabel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel19.Text" xml:space="preserve">
+    <value>微米</value>
+  </data>
+  <data name="srmLabel18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 17</value>
+  </data>
+  <data name="srmLabel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel18.Text" xml:space="preserve">
+    <value>微米</value>
+  </data>
+  <data name="lbl_OrientY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 89</value>
+  </data>
+  <data name="srmLabel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 94</value>
+  </data>
+  <data name="srmLabel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="srmLabel12.Text" xml:space="preserve">
+    <value>当前Y宽限</value>
+  </data>
+  <data name="txt_OrientY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 67</value>
+  </data>
+  <data name="srmLabel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 70</value>
+  </data>
+  <data name="srmLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="srmLabel13.Text" xml:space="preserve">
+    <value>Y 最大宽限</value>
+  </data>
+  <data name="lbl_OrientX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 37</value>
+  </data>
+  <data name="srmLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 42</value>
+  </data>
+  <data name="srmLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="srmLabel10.Text" xml:space="preserve">
+    <value>当前X宽限</value>
+  </data>
+  <data name="txt_OrientX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 14</value>
+  </data>
+  <data name="srmLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="srmLabel11.Text" xml:space="preserve">
+    <value>X 最大宽限</value>
+  </data>
+  <data name="group_OrientDistanceSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 212</value>
+  </data>
+  <data name="group_OrientDistanceSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 121</value>
+  </data>
+  <data name="group_OrientDistanceSetting.Text" xml:space="preserve">
+    <value>方向距离设定</value>
+  </data>
+  <data name="srmLabel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 21</value>
+  </data>
+  <data name="srmLabel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="srmLabel14.Text" xml:space="preserve">
+    <value>度</value>
+  </data>
+  <data name="srmLabel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 49</value>
+  </data>
+  <data name="srmLabel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="srmLabel15.Text" xml:space="preserve">
+    <value>度</value>
+  </data>
+  <data name="lbl_OrientAngle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 44</value>
+  </data>
+  <data name="srmLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel8.Text" xml:space="preserve">
+    <value>当前角度</value>
+  </data>
+  <data name="txt_OrientAngle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 16</value>
+  </data>
+  <data name="srmLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="srmLabel9.Text" xml:space="preserve">
+    <value>角度最大限度</value>
+  </data>
+  <data name="group_OrientAngleSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 139</value>
+  </data>
+  <data name="group_OrientAngleSetting.Text" xml:space="preserve">
+    <value>方向角度设定</value>
+  </data>
+  <data name="chk_DisplayResult.Text" xml:space="preserve">
+    <value>显示视检成绩</value>
+  </data>
+  <data name="chk_SetAllTemplates.Text" xml:space="preserve">
+    <value>统一设定全部模板</value>
+  </data>
+  <data name="lbl_Template.Text" xml:space="preserve">
+    <value>模板</value>
+  </data>
+  <data name="lbl_PageLabel.Text" xml:space="preserve">
+    <value>字模设定</value>
+  </data>
+  <data name="lbl_ScoreTitle.Text" xml:space="preserve">
+    <value>元件1方向评分</value>
+  </data>
+  <data name="lbl_ScoreTitle2.Text" xml:space="preserve">
+    <value>元件2方向评分</value>
+  </data>
+  <data name="lbl_OrientToleranceScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 20</value>
+  </data>
+  <data name="lbl_OrientToleranceScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="lbl_OrientToleranceScore.Text" xml:space="preserve">
+    <value>容许度</value>
+  </data>
+  <data name="group_OrientScoreSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 9</value>
+  </data>
+  <data name="group_OrientScoreSetting.Text" xml:space="preserve">
+    <value>方向容许度设定</value>
+  </data>
+  <data name="tp_Orient.Text" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="column_Label.HeaderText" xml:space="preserve">
+    <value>字模</value>
+  </data>
+  <data name="column_Set.HeaderText" xml:space="preserve">
+    <value>设定(%)</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="column_Set.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="column_Retest.HeaderText" xml:space="preserve">
+    <value>重新测试</value>
+  </data>
+  <data name="column_Test.HeaderText" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="col_SettingExcessArea.HeaderText" xml:space="preserve">
+    <value>最大外延面积</value>
+  </data>
+  <data name="col_ExcessAreaRetest.HeaderText" xml:space="preserve">
+    <value>外延面积 (重测)</value>
+  </data>
+  <data name="col_ExcessArea.HeaderText" xml:space="preserve">
+    <value>外延面积</value>
+  </data>
+  <data name="col_SettingBrokenArea.HeaderText" xml:space="preserve">
+    <value>最大缺少面积</value>
+  </data>
+  <data name="col_BrokenAreaRetest.HeaderText" xml:space="preserve">
+    <value>缺少面积 (重测)</value>
+  </data>
+  <data name="col_BrokenArea.HeaderText" xml:space="preserve">
+    <value>缺少面积</value>
+  </data>
+  <data name="col_BrokenMark.HeaderText" xml:space="preserve">
+    <value>破损字模</value>
+  </data>
+  <data name="col_SettingAGVPercent.HeaderText" xml:space="preserve">
+    <value>最大灰色平均值</value>
+  </data>
+  <data name="col_AGVPercentRetest.HeaderText" xml:space="preserve">
+    <value>灰色平均值 (重测)</value>
+  </data>
+  <data name="col_AGVPercent.HeaderText" xml:space="preserve">
+    <value>灰色平均值</value>
+  </data>
+  <data name="dgd_Setting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 325</value>
+  </data>
+  <data name="tp_Mark.Text" xml:space="preserve">
+    <value>字模</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>设定</value>
+  </data>
+  <data name="col_Retest.HeaderText" xml:space="preserve">
+    <value>重测</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="tp_Mark2.Text" xml:space="preserve">
+    <value>字模 2</value>
+  </data>
+  <data name="btn_PackageOffset.Text" xml:space="preserve">
+    <value>塑封体补偿值</value>
+  </data>
+  <data name="group_PackageOffset.Text" xml:space="preserve">
+    <value>塑封体补偿值设置</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn10.HeaderText" xml:space="preserve">
+    <value>最小</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>最大</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+    <value>重测</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="tp_Package.Text" xml:space="preserve">
+    <value>塑封体</value>
+  </data>
+  <data name="srmLabel81.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 46</value>
+  </data>
+  <data name="srmLabel81.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel81.Text" xml:space="preserve">
+    <value>总面积</value>
+  </data>
+  <data name="srmLabel82.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 46</value>
+  </data>
+  <data name="srmLabel82.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="srmLabel82.Text" xml:space="preserve">
+    <value>毫米²</value>
+  </data>
+  <data name="txt_MoldFlashTotalAreaBright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 43</value>
+  </data>
+  <data name="srmLabel54.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 22</value>
+  </data>
+  <data name="srmLabel54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel54.Text" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="srmLabel55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel55.Text" xml:space="preserve">
+    <value>横轴尺度</value>
+  </data>
+  <data name="srmLabel56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel56.Text" xml:space="preserve">
+    <value>纵轴尺度</value>
+  </data>
+  <data name="srmLabel57.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="srmLabel57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="srmLabel57.Text" xml:space="preserve">
+    <value>毫米²</value>
+  </data>
+  <data name="srmLabel59.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 84</value>
+  </data>
+  <data name="srmLabel59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel59.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="txt_MoldFlashAreaBright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 22</value>
+  </data>
+  <data name="srmLabel61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 9</value>
+  </data>
+  <data name="srmLabel61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel61.Text" xml:space="preserve">
+    <value>亮色缺陷</value>
+  </data>
+  <data name="group_MoldFlashDefectSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 341</value>
+  </data>
+  <data name="group_MoldFlashDefectSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 66</value>
+  </data>
+  <data name="cbo_ChippedDarkFailCondition.Items" xml:space="preserve">
+    <value>或(OR)</value>
+  </data>
+  <data name="cbo_ChippedDarkFailCondition.Items1" xml:space="preserve">
+    <value>与(AND)</value>
+  </data>
+  <data name="cbo_ChippedDarkFailCondition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 41</value>
+  </data>
+  <data name="cbo_ChippedBrightFailCondition.Items" xml:space="preserve">
+    <value>或(OR)</value>
+  </data>
+  <data name="cbo_ChippedBrightFailCondition.Items1" xml:space="preserve">
+    <value>与(AND)</value>
+  </data>
+  <data name="cbo_ChippedBrightFailCondition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 41</value>
+  </data>
+  <data name="srmLabel145.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 64</value>
+  </data>
+  <data name="srmLabel145.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel145.Text" xml:space="preserve">
+    <value>宽尺度</value>
+  </data>
+  <data name="srmLabel146.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 22</value>
+  </data>
+  <data name="srmLabel146.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel146.Text" xml:space="preserve">
+    <value>长尺度</value>
+  </data>
+  <data name="srmLabel147.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 64</value>
+  </data>
+  <data name="srmLabel147.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel147.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="srmLabel148.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 22</value>
+  </data>
+  <data name="srmLabel148.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel148.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="txt_ChippedHorizontalDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 61</value>
+  </data>
+  <data name="txt_ChippedHorizontalBright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 61</value>
+  </data>
+  <data name="txt_ChippedVerticalDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 19</value>
+  </data>
+  <data name="txt_ChippedVerticalBright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 19</value>
+  </data>
+  <data name="txt_ChippedAreaDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 83</value>
+  </data>
+  <data name="txt_ChippedAreaDark.Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="srmLabel49.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel49.Text" xml:space="preserve">
+    <value>亮色缺陷</value>
+  </data>
+  <data name="srmLabel38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 86</value>
+  </data>
+  <data name="srmLabel38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel38.Text" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="srmLabel39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 201</value>
+  </data>
+  <data name="srmLabel39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel39.Text" xml:space="preserve">
+    <value>横轴尺度</value>
+  </data>
+  <data name="srmLabel39.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="srmLabel40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 178</value>
+  </data>
+  <data name="srmLabel40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel40.Text" xml:space="preserve">
+    <value>纵轴尺度</value>
+  </data>
+  <data name="srmLabel40.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="srmLabel41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 86</value>
+  </data>
+  <data name="srmLabel41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="srmLabel41.Text" xml:space="preserve">
+    <value>毫米²</value>
+  </data>
+  <data name="srmLabel50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 204</value>
+  </data>
+  <data name="srmLabel50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel50.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="srmLabel50.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="srmLabel51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 178</value>
+  </data>
+  <data name="srmLabel51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel51.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="srmLabel51.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txt_ChippedAreaBright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 83</value>
+  </data>
+  <data name="txt_ChippedAreaBright.Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="txt_VoidHorizontalDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 201</value>
+  </data>
+  <data name="txt_VoidHorizontalDark.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txt_VoidVerticalDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 175</value>
+  </data>
+  <data name="txt_VoidVerticalDark.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="srmLabel52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel52.Text" xml:space="preserve">
+    <value>暗色缺陷</value>
+  </data>
+  <data name="group_ChippedOffDefectSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 236</value>
+  </data>
+  <data name="group_ChippedOffDefectSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 105</value>
+  </data>
+  <data name="srmLabel42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 85</value>
+  </data>
+  <data name="srmLabel42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel42.Text" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="cbo_CrackDarkDefectFailCondition.Items" xml:space="preserve">
+    <value>或(OR)</value>
+  </data>
+  <data name="cbo_CrackDarkDefectFailCondition.Items1" xml:space="preserve">
+    <value>与(AND)</value>
+  </data>
+  <data name="cbo_CrackDarkDefectFailCondition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 41</value>
+  </data>
+  <data name="srmLabel43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 65</value>
+  </data>
+  <data name="srmLabel43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel43.Text" xml:space="preserve">
+    <value>宽尺度</value>
+  </data>
+  <data name="srmLabel44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 22</value>
+  </data>
+  <data name="srmLabel44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel44.Text" xml:space="preserve">
+    <value>长尺度</value>
+  </data>
+  <data name="srmLabel45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 88</value>
+  </data>
+  <data name="srmLabel45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="srmLabel45.Text" xml:space="preserve">
+    <value>毫米²</value>
+  </data>
+  <data name="srmLabel46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 67</value>
+  </data>
+  <data name="srmLabel46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel46.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="srmLabel47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 22</value>
+  </data>
+  <data name="srmLabel47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel47.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="srmLabel48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel48.Text" xml:space="preserve">
+    <value>暗色缺陷</value>
+  </data>
+  <data name="group_CrackDefectSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 131</value>
+  </data>
+  <data name="cbo_GeneralDarkDefectFailCondition.Items" xml:space="preserve">
+    <value>或(OR)</value>
+  </data>
+  <data name="cbo_GeneralDarkDefectFailCondition.Items1" xml:space="preserve">
+    <value>与(AND)</value>
+  </data>
+  <data name="cbo_GeneralDarkDefectFailCondition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 41</value>
+  </data>
+  <data name="cbo_GeneralBrightDefectFailCondition.Items" xml:space="preserve">
+    <value>或(OR)</value>
+  </data>
+  <data name="cbo_GeneralBrightDefectFailCondition.Items1" xml:space="preserve">
+    <value>与(AND)</value>
+  </data>
+  <data name="cbo_GeneralBrightDefectFailCondition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 41</value>
+  </data>
+  <data name="srmLabel36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="srmLabel36.Text" xml:space="preserve">
+    <value>Chipped Off 面积</value>
+  </data>
+  <data name="srmLabel36.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txt_GeneralChipAreaDark.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txt_GeneralChipAreaBright.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="srmLabel34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 108</value>
+  </data>
+  <data name="srmLabel34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel34.Text" xml:space="preserve">
+    <value>总面积</value>
+  </data>
+  <data name="srmLabel35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 112</value>
+  </data>
+  <data name="srmLabel35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="srmLabel35.Text" xml:space="preserve">
+    <value>毫米²</value>
+  </data>
+  <data name="txt_GeneralTotalAreaDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 105</value>
+  </data>
+  <data name="txt_GeneralTotalAreaBright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 105</value>
+  </data>
+  <data name="srmLabel33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 86</value>
+  </data>
+  <data name="srmLabel33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel33.Text" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="srmLabel32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 64</value>
+  </data>
+  <data name="srmLabel32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel32.Text" xml:space="preserve">
+    <value>宽尺度</value>
+  </data>
+  <data name="srmLabel31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel31.Text" xml:space="preserve">
+    <value>长尺度</value>
+  </data>
+  <data name="srmLabel30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 90</value>
+  </data>
+  <data name="srmLabel30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="srmLabel30.Text" xml:space="preserve">
+    <value>毫米²</value>
+  </data>
+  <data name="srmLabel27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 68</value>
+  </data>
+  <data name="srmLabel27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel27.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="srmLabel24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 23</value>
+  </data>
+  <data name="srmLabel24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel24.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="txt_GeneralAreaDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 83</value>
+  </data>
+  <data name="txt_GeneralAreaBright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 83</value>
+  </data>
+  <data name="txt_GeneralHorizontalDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 61</value>
+  </data>
+  <data name="txt_GeneralHorizontalBright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 61</value>
+  </data>
+  <data name="txt_GeneralVerticalDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 19</value>
+  </data>
+  <data name="srmLabel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel23.Text" xml:space="preserve">
+    <value>暗色缺陷</value>
+  </data>
+  <data name="txt_GeneralVerticalBright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 19</value>
+  </data>
+  <data name="srmLabel26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel26.Text" xml:space="preserve">
+    <value>亮色缺陷</value>
+  </data>
+  <data name="group_GeneralDefectSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 128</value>
+  </data>
+  <data name="group_GeneralDefectSetting.Text" xml:space="preserve">
+    <value>一般性缺陷</value>
+  </data>
+  <data name="tp_PackageNew.Text" xml:space="preserve">
+    <value>塑封体2</value>
+  </data>
+  <data name="srmLabel126.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel126.Text" xml:space="preserve">
+    <value>总面积</value>
+  </data>
+  <data name="srmLabel127.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="srmLabel127.Text" xml:space="preserve">
+    <value>毫米²</value>
+  </data>
+  <data name="srmLabel138.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel138.Text" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="srmLabel139.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel139.Text" xml:space="preserve">
+    <value>宽尺度</value>
+  </data>
+  <data name="srmLabel140.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel140.Text" xml:space="preserve">
+    <value>长尺度</value>
+  </data>
+  <data name="srmLabel141.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="srmLabel141.Text" xml:space="preserve">
+    <value>毫米²</value>
+  </data>
+  <data name="srmLabel142.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel142.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="srmLabel143.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel143.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="srmLabel144.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel144.Text" xml:space="preserve">
+    <value>暗色缺陷</value>
+  </data>
+  <data name="group_DarkField4DefectSetting.Text" xml:space="preserve">
+    <value>暗色缺陷 4</value>
+  </data>
+  <data name="srmLabel117.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel117.Text" xml:space="preserve">
+    <value>总面积</value>
+  </data>
+  <data name="srmLabel118.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="srmLabel118.Text" xml:space="preserve">
+    <value>毫米²</value>
+  </data>
+  <data name="srmLabel119.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel119.Text" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="srmLabel120.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel120.Text" xml:space="preserve">
+    <value>宽尺度</value>
+  </data>
+  <data name="srmLabel121.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel121.Text" xml:space="preserve">
+    <value>长尺度</value>
+  </data>
+  <data name="srmLabel122.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="srmLabel122.Text" xml:space="preserve">
+    <value>毫米²</value>
+  </data>
+  <data name="srmLabel123.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel123.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="srmLabel124.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel124.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="srmLabel125.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel125.Text" xml:space="preserve">
+    <value>暗色缺陷</value>
+  </data>
+  <data name="group_DarkField3DefectSetting.Text" xml:space="preserve">
+    <value>暗色缺陷 3</value>
+  </data>
+  <data name="cbo_GeneralDark2DefectFailCondition.Items" xml:space="preserve">
+    <value>或(OR)</value>
+  </data>
+  <data name="cbo_GeneralDark2DefectFailCondition.Items1" xml:space="preserve">
+    <value>与(AND)</value>
+  </data>
+  <data name="cbo_GeneralDark2DefectFailCondition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 41</value>
+  </data>
+  <data name="srmLabel79.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 108</value>
+  </data>
+  <data name="srmLabel79.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel79.Text" xml:space="preserve">
+    <value>总面积</value>
+  </data>
+  <data name="srmLabel80.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 108</value>
+  </data>
+  <data name="srmLabel80.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="srmLabel80.Text" xml:space="preserve">
+    <value>毫米²</value>
+  </data>
+  <data name="txt_Dark2TotalAreaDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 83</value>
+  </data>
+  <data name="srmLabel71.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 88</value>
+  </data>
+  <data name="srmLabel71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel71.Text" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="srmLabel72.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 66</value>
+  </data>
+  <data name="srmLabel72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel72.Text" xml:space="preserve">
+    <value>宽尺度</value>
+  </data>
+  <data name="srmLabel73.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel73.Text" xml:space="preserve">
+    <value>长尺度</value>
+  </data>
+  <data name="srmLabel74.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 88</value>
+  </data>
+  <data name="srmLabel74.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="srmLabel74.Text" xml:space="preserve">
+    <value>毫米²</value>
+  </data>
+  <data name="srmLabel76.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 66</value>
+  </data>
+  <data name="srmLabel76.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel76.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="srmLabel77.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 24</value>
+  </data>
+  <data name="srmLabel77.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel77.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="txt_Dark2AreaDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 105</value>
+  </data>
+  <data name="txt_Dark2HorizontalDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 61</value>
+  </data>
+  <data name="srmLabel78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel78.Text" xml:space="preserve">
+    <value>暗色缺陷</value>
+  </data>
+  <data name="group_DarkField2DefectSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 128</value>
+  </data>
+  <data name="group_DarkField2DefectSetting.Text" xml:space="preserve">
+    <value>暗色缺陷 2</value>
+  </data>
+  <data name="tp_PackageNew2.Text" xml:space="preserve">
+    <value>塑封体3</value>
+  </data>
+  <data name="lbl_PinScoreTitle.Text" xml:space="preserve">
+    <value>元件1Pin1 评分</value>
+  </data>
+  <data name="lbl_Pin1ScoreTitle2.Text" xml:space="preserve">
+    <value>元件2Pin1 评分</value>
+  </data>
+  <data name="lbl_Pin1ToleranceScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="lbl_Pin1ToleranceScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="lbl_Pin1ToleranceScore.Text" xml:space="preserve">
+    <value>最小评分值</value>
+  </data>
+  <data name="group_Pin1Setting.Text" xml:space="preserve">
+    <value>Pin1 设定</value>
+  </data>
+  <data name="srmLabel22.Text" xml:space="preserve">
+    <value>空袋评分</value>
+  </data>
+  <data name="srmLabel28.Text" xml:space="preserve">
+    <value>最小评分值</value>
+  </data>
+  <data name="group_EmptyScoreSetting.Text" xml:space="preserve">
+    <value>空袋评分设定</value>
+  </data>
+  <data name="srmLabel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="srmLabel17.Text" xml:space="preserve">
+    <value>当前白色面积（像素）</value>
+  </data>
+  <data name="srmLabel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 13</value>
+  </data>
+  <data name="srmLabel16.Text" xml:space="preserve">
+    <value>最小限度白色面积（像素）</value>
+  </data>
+  <data name="group_EmptyPocketSetting.Text" xml:space="preserve">
+    <value>空袋设定</value>
+  </data>
+  <data name="tp_Empty.Text" xml:space="preserve">
+    <value>空袋</value>
+  </data>
+  <data name="srmLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel5.Text" xml:space="preserve">
+    <value>最大</value>
+  </data>
+  <data name="srmLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel6.Text" xml:space="preserve">
+    <value>视检成绩</value>
+  </data>
+  <data name="srmLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel7.Text" xml:space="preserve">
+    <value>最小</value>
+  </data>
+  <data name="group_SitOffsetHeightSetting.Text" xml:space="preserve">
+    <value>长度设定</value>
+  </data>
+  <data name="srmLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel4.Text" xml:space="preserve">
+    <value>最大</value>
+  </data>
+  <data name="srmLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel1.Text" xml:space="preserve">
+    <value>视检成绩</value>
+  </data>
+  <data name="srmLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel2.Text" xml:space="preserve">
+    <value>最小</value>
+  </data>
+  <data name="group_SitOffsetWidthSetting.Text" xml:space="preserve">
+    <value>宽度设定</value>
+  </data>
+  <data name="tp_SitOffset.Text" xml:space="preserve">
+    <value>坐姿偏移</value>
+  </data>
+  <data name="srmLabel70.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 45</value>
+  </data>
+  <data name="srmLabel70.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="srmLabel70.Text" xml:space="preserve">
+    <value>位置容许度</value>
+  </data>
+  <data name="srmLabel69.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 19</value>
+  </data>
+  <data name="srmLabel69.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="srmLabel69.Text" xml:space="preserve">
+    <value>参考的位置</value>
+  </data>
+  <data name="group_PocketPositionCorrectionSetting.Text" xml:space="preserve">
+    <value>口袋位置矫正设定</value>
+  </data>
+  <data name="srmLabel68.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 16</value>
+  </data>
+  <data name="srmLabel68.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="srmLabel68.Text" xml:space="preserve">
+    <value>模板口袋距离 (微米)</value>
+  </data>
+  <data name="srmLabel66.Text" xml:space="preserve">
+    <value>最小Pattern评分</value>
+  </data>
+  <data name="srmLabel64.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 46</value>
+  </data>
+  <data name="srmLabel64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="srmLabel64.Text" xml:space="preserve">
+    <value>当前口袋距离 (微米)</value>
+  </data>
+  <data name="group_PocketPositionSetting.Text" xml:space="preserve">
+    <value>口袋位置设定</value>
+  </data>
+  <data name="tp_PocketPosition.Text" xml:space="preserve">
+    <value>口袋位置</value>
+  </data>
+  <data name="srmLabel53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 53</value>
+  </data>
+  <data name="srmLabel53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="srmLabel53.Text" xml:space="preserve">
+    <value>长度 偏移值</value>
+  </data>
+  <data name="srmLabel60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="srmLabel60.Text" xml:space="preserve">
+    <value>宽度 偏移值</value>
+  </data>
+  <data name="srmLabel62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel62.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="srmLabel63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="srmLabel63.Text" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="col_Label.HeaderText" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="col_Label.Width" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="col_Width.HeaderText" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="col_Length.HeaderText" xml:space="preserve">
+    <value>长度</value>
+  </data>
+  <data name="col_MinArea.HeaderText" xml:space="preserve">
+    <value>最小面积</value>
+  </data>
+  <data name="col_MaxArea.HeaderText" xml:space="preserve">
+    <value>最大面积</value>
+  </data>
+  <data name="col_TotalArea.HeaderText" xml:space="preserve">
+    <value>总面积</value>
+  </data>
+  <data name="tp_Color_Table.Text" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="btn_GlobalSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 532</value>
+  </data>
+  <data name="btn_GlobalSetting.Text" xml:space="preserve">
+    <value>大众设定</value>
+  </data>
+  <data name="lbl_Pin1ROI.Text" xml:space="preserve">
+    <value>宽限设定</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>储存</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="lbl_Notice1.Text" xml:space="preserve">
+    <value>* 双击框格 (设定%) 可以:</value>
+  </data>
+  <data name="lbl_Notice2.Text" xml:space="preserve">
+    <value>- 更改评分设定</value>
+  </data>
+  <data name="lbl_Notice3.Text" xml:space="preserve">
+    <value>- 应用/不应用字模</value>
+  </data>
+</root>

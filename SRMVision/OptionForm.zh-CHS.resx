@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="btn_OK.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="chk_AutoLogout.Text" xml:space="preserve">
+    <value>自动登出</value>
+  </data>
+  <data name="tab_General.Text" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="gb_SaveImageSettings.Text" xml:space="preserve">
+    <value>保存图像设定</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_V2SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 46</value>
+  </data>
+  <data name="lbl_V2SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="lbl_V2SaveImageLocation.Text" xml:space="preserve">
+    <value>V2 保存位置：</value>
+  </data>
+  <data name="lbl_V8SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 189</value>
+  </data>
+  <data name="lbl_V8SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="lbl_V8SaveImageLocation.Text" xml:space="preserve">
+    <value>V8 保存位置：</value>
+  </data>
+  <data name="lbl_V3SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 70</value>
+  </data>
+  <data name="lbl_V3SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="lbl_V3SaveImageLocation.Text" xml:space="preserve">
+    <value>V3 保存位置：</value>
+  </data>
+  <data name="lbl_SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="lbl_SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="lbl_SaveImageLocation.Text" xml:space="preserve">
+    <value>V1 保存位置：</value>
+  </data>
+  <data name="lbl_V7SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 165</value>
+  </data>
+  <data name="lbl_V7SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="lbl_V7SaveImageLocation.Text" xml:space="preserve">
+    <value>V7 保存位置：</value>
+  </data>
+  <data name="lbl_V4SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 94</value>
+  </data>
+  <data name="lbl_V4SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="lbl_V4SaveImageLocation.Text" xml:space="preserve">
+    <value>V4保存位置：</value>
+  </data>
+  <data name="lbl_V5SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 118</value>
+  </data>
+  <data name="lbl_V5SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="lbl_V5SaveImageLocation.Text" xml:space="preserve">
+    <value>V5 保存位置：</value>
+  </data>
+  <data name="lbl_V6SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 141</value>
+  </data>
+  <data name="lbl_V6SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="lbl_V6SaveImageLocation.Text" xml:space="preserve">
+    <value>V6 保存位置：</value>
+  </data>
+  <data name="chk_WantShowWhiteBalance.Text" xml:space="preserve">
+    <value>显示白平衡设置</value>
+  </data>
+  <data name="chk_WantRecipeVerification.Text" xml:space="preserve">
+    <value>打开Recipe验证</value>
+  </data>
+  <data name="chk_ShowGUIForBelowUserRight.Text" xml:space="preserve">
+    <value>显示用户权限下方的 GUI</value>
+  </data>
+  <data name="chk_WantUseTCPIPAsIO.Text" xml:space="preserve">
+    <value>使用 TCPIP 作为 IO</value>
+  </data>
+  <data name="cbo_OrientIO.Items" xml:space="preserve">
+    <value>顺时针</value>
+  </data>
+  <data name="cbo_OrientIO.Items1" xml:space="preserve">
+    <value>逆时针</value>
+  </data>
+  <data name="ClearUnwantedFolder.Text" xml:space="preserve">
+    <value>清除不需要的文件夹</value>
+  </data>
+  <data name="chk_WantEditLog.Text" xml:space="preserve">
+    <value>打开编辑日志</value>
+  </data>
+  <data name="chk_WantNonRotateInspection.Text" xml:space="preserve">
+    <value>不旋转图片检测</value>
+  </data>
+  <data name="chk_WantBypassIPM.Text" xml:space="preserve">
+    <value>打开省略IPM</value>
+  </data>
+  <data name="chk_ShowSubLearnButton.Text" xml:space="preserve">
+    <value>显示副学习按钮</value>
+  </data>
+  <data name="srmLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 392</value>
+  </data>
+  <data name="srmLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 13</value>
+  </data>
+  <data name="srmLabel1.Text" xml:space="preserve">
+    <value>保存历史数据位置：</value>
+  </data>
+  <data name="chk_OnlyNewLot.Text" xml:space="preserve">
+    <value>只有新批次（没有结束批次）</value>
+  </data>
+  <data name="chk_ConfigShowNetwork.Text" xml:space="preserve">
+    <value>配置显示网络</value>
+  </data>
+  <data name="chk_ConfigShowRS232.Text" xml:space="preserve">
+    <value>配置显示 RS232</value>
+  </data>
+  <data name="chk_ConfigShowTCPIP.Text" xml:space="preserve">
+    <value>配置显示 TCPIP</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>调试运行</value>
+  </data>
+  <data name="cbo_DebugImageCountToUse.Items" xml:space="preserve">
+    <value>使用当前图片</value>
+  </data>
+  <data name="cbo_DebugImageCountToUse.Items1" xml:space="preserve">
+    <value>使用多个图片</value>
+  </data>
+  <data name="srmCheckBox1.Text" xml:space="preserve">
+    <value>调试运行</value>
+  </data>
+  <data name="chk_DebugRunGrabWithoutUseImage.Text" xml:space="preserve">
+    <value>摄取但不使用该图片</value>
+  </data>
+  <data name="chk_DebugRunFromCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 25</value>
+  </data>
+  <data name="chk_DebugRunFromCenter.Text" xml:space="preserve">
+    <value>从中心调试运行</value>
+  </data>
+  <data name="chk_DebugRunWithoutGrabImage.Text" xml:space="preserve">
+    <value>不摄取图片</value>
+  </data>
+  <data name="srmLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 9</value>
+  </data>
+  <data name="srmLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="srmLabel2.Text" xml:space="preserve">
+    <value>机台 ID</value>
+  </data>
+  <data name="chk_AutoStop.Text" xml:space="preserve">
+    <value>自动关机程序</value>
+  </data>
+  <data name="tab_VisionModules.Text" xml:space="preserve">
+    <value>Vision 模组</value>
+  </data>
+  <data name="dcVisionName.HeaderText" xml:space="preserve">
+    <value>Vision 名称</value>
+  </data>
+  <data name="CameraModel.HeaderText" xml:space="preserve">
+    <value>相机</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CameraModel.Width" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="dcUnits.HeaderText" xml:space="preserve">
+    <value>图像元件</value>
+  </data>
+  <data name="column_TriggerMode.HeaderText" xml:space="preserve">
+    <value>触发方式</value>
+  </data>
+  <data name="column_Resolution.HeaderText" xml:space="preserve">
+    <value>分辨率</value>
+  </data>
+  <data name="column_Resolution.Width" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="column_LightController.HeaderText" xml:space="preserve">
+    <value>光源控制器</value>
+  </data>
+  <data name="column_LightController.Width" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="column_ImageMerge.HeaderText" xml:space="preserve">
+    <value>图像合并</value>
+  </data>
+  <data name="column_ImageMerge.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="column_DisplayMode.HeaderText" xml:space="preserve">
+    <value>显示模式</value>
+  </data>
+  <data name="column_DisplayMode.Width" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="column_RotateFlip.HeaderText" xml:space="preserve">
+    <value>旋转/翻转</value>
+  </data>
+  <data name="CameraModelNo.HeaderText" xml:space="preserve">
+    <value>相机型号</value>
+  </data>
+  <data name="CameraModelNo.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="ImageType.HeaderText" xml:space="preserve">
+    <value>图像类型</value>
+  </data>
+  <data name="ImageType.Width" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="col_GrabMode.HeaderText" xml:space="preserve">
+    <value>摄取模式</value>
+  </data>
+  <data name="col_GrabMode.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="tab_LightSource.Text" xml:space="preserve">
+    <value>光源</value>
+  </data>
+  <data name="dc_Vision.HeaderText" xml:space="preserve">
+    <value>Vision 模组</value>
+  </data>
+  <data name="dc_Vision.Width" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="dc_Type.HeaderText" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="dc_Seq.HeaderText" xml:space="preserve">
+    <value>摄取序列</value>
+  </data>
+  <data name="chk_MixController.Text" xml:space="preserve">
+    <value>混合光源控制器</value>
+  </data>
+  <data name="chk_UseUSBIOCard.Text" xml:space="preserve">
+    <value>使用 USB IO 卡</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>选项</value>
+  </data>
+</root>

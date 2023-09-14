@@ -1,0 +1,631 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tabPage_Setting.Text" xml:space="preserve">
+    <value>Seal 二进制化</value>
+  </data>
+  <data name="tabPage_Setting2.Text" xml:space="preserve">
+    <value>Seal 二进制化 2</value>
+  </data>
+  <data name="tabPage_ScoreSetting.Text" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="grpbox_SprocketHoleRoundnessSetting.Text" xml:space="preserve">
+    <value>Sprocket Hole 圆度设置</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_SprocketHoleRoundnessThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_SprocketHoleRoundnessThreshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="grpbox_SprocketHoleBrokenSetting.Text" xml:space="preserve">
+    <value>Sprocket Hole 破损设置</value>
+  </data>
+  <data name="btn_SprocketHoleBrokenThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_SprocketHoleBrokenThreshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="grpbox_SprocketHoleDefectSetting.Text" xml:space="preserve">
+    <value>Sprocket Hole 缺陷设置</value>
+  </data>
+  <data name="btn_SprocketHoleDefectThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_SprocketHoleDefectThreshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="gb_SealBrokenAreaThreshold.Text" xml:space="preserve">
+    <value>Seal 1 / Seal 2 破损面积设置</value>
+  </data>
+  <data name="btn_Seal2BrokenAreaThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_Seal2BrokenAreaThreshold.Text" xml:space="preserve">
+    <value>Seal 2 二进制化</value>
+  </data>
+  <data name="btn_Seal1BrokenAreaThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_Seal1BrokenAreaThreshold.Text" xml:space="preserve">
+    <value>Seal 1 二进制化</value>
+  </data>
+  <data name="gb_UnitPresentThreshold.Text" xml:space="preserve">
+    <value>元件存在设置</value>
+  </data>
+  <data name="srmLabel23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 13</value>
+  </data>
+  <data name="srmLabel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel23.Text" xml:space="preserve">
+    <value>选择模板</value>
+  </data>
+  <data name="btn_UnitPresentThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_UnitPresentThreshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="gb_DistanceThreshold.Text" xml:space="preserve">
+    <value>距离设置</value>
+  </data>
+  <data name="btn_DistanceThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_DistanceThreshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="gb_OverHeatThreshold.Text" xml:space="preserve">
+    <value>过热 / 卷带划痕设置</value>
+  </data>
+  <data name="chk_SetToAllOverHeatROI.Text" xml:space="preserve">
+    <value>设置全部</value>
+  </data>
+  <data name="srmLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="srmLabel11.Text" xml:space="preserve">
+    <value>选择 ROI No</value>
+  </data>
+  <data name="btn_OverHeatThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_OverHeatThreshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="gb_SealThreshold.Text" xml:space="preserve">
+    <value>Seal 1 / Seal 2 线边缘设置</value>
+  </data>
+  <data name="btn_Seal2Threshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_Seal2Threshold.Text" xml:space="preserve">
+    <value>Seal 2 二进制化</value>
+  </data>
+  <data name="btn_Seal1Threshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_Seal1Threshold.Text" xml:space="preserve">
+    <value>Seal 1 二进制化</value>
+  </data>
+  <data name="gb_SealEdgeStraightnessThreshold.Text" xml:space="preserve">
+    <value>Seal边缘直线度设置</value>
+  </data>
+  <data name="btn_SealEdgeStraightnessThreshold.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMpJREFUWEftjbEN
+        w0AAhNx6Yy/4cznNRddQoGsTJFq4/nx5nuddvO97MttCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3
+        UtyYbaG4keLGbAvFjRQ3ZlsobqS4MdtCcSPFjdkWihspbsy2UNxIcWO2heJGihuzLRQ3UtyYbTnnvIsr
+        2RaKG1eyLRQ3rmRbKG5cybZQ3LiSbaG4cSXbQnHjSraF4saVbAvFjSvZFoobV7ItFDeuZFsoblzJtlDc
+        uJJtobhxJduf57o+ZuVD5RDzPMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_SealEdgeStraightnessThreshold.Text" xml:space="preserve">
+    <value>二进制化</value>
+  </data>
+  <data name="btn_SealConfig.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_SealConfig.Text" xml:space="preserve">
+    <value>     Seal 配置</value>
+  </data>
+  <data name="grpbox_SprocketHoleBrokenInspectionAreaTolerance.Text" xml:space="preserve">
+    <value>Sprocket Hole 破损检测范围往外容许度</value>
+  </data>
+  <data name="srmLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 15</value>
+  </data>
+  <data name="srmLabel9.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 45</value>
+  </data>
+  <data name="srmLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel10.Text" xml:space="preserve">
+    <value>最內層</value>
+  </data>
+  <data name="srmLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 21</value>
+  </data>
+  <data name="srmLabel5.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 19</value>
+  </data>
+  <data name="srmLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="srmLabel6.Text" xml:space="preserve">
+    <value>最外層</value>
+  </data>
+  <data name="srmLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 3</value>
+  </data>
+  <data name="srmLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 28</value>
+  </data>
+  <data name="srmLabel3.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 11</value>
+  </data>
+  <data name="srmLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 13</value>
+  </data>
+  <data name="srmLabel4.Text" xml:space="preserve">
+    <value>Sprocket Hole 缺陷检测范围往内容许度</value>
+  </data>
+  <data name="txt_SprocketHoleInspectionAreaInwardTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 5</value>
+  </data>
+  <data name="srmLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="srmLabel8.Text" xml:space="preserve">
+    <value>最小Seal物体尺寸</value>
+  </data>
+  <data name="srmLabel58.Text" xml:space="preserve">
+    <value>毫米²</value>
+  </data>
+  <data name="srmLabel7.Text" xml:space="preserve">
+    <value>毫米²</value>
+  </data>
+  <data name="lbl_MinArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="lbl_MinArea.Text" xml:space="preserve">
+    <value>最小Seal物体尺寸</value>
+  </data>
+  <data name="srmLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 28</value>
+  </data>
+  <data name="srmLabel1.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="srmLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 13</value>
+  </data>
+  <data name="srmLabel2.Text" xml:space="preserve">
+    <value>Seal 边缘容许度</value>
+  </data>
+  <data name="btn_GaugeAdvanceSetting.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btn_GaugeAdvanceSetting.Text" xml:space="preserve">
+    <value>          Seal测量设置</value>
+  </data>
+  <data name="chk_ShowSamplePoints_Line.Text" xml:space="preserve">
+    <value>显示测量点</value>
+  </data>
+  <data name="chk_ShowDraggingBox_Line.Text" xml:space="preserve">
+    <value>显示把手框</value>
+  </data>
+  <data name="chk_ShowSamplePoints_Circle.Text" xml:space="preserve">
+    <value>显示测量点</value>
+  </data>
+  <data name="chk_ShowDraggingBox_Circle.Text" xml:space="preserve">
+    <value>显示把手框</value>
+  </data>
+  <data name="btn_CircleGaugeSetting.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btn_CircleGaugeSetting.Text" xml:space="preserve">
+    <value>          圆形测量设置</value>
+  </data>
+  <data name="srmLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 28</value>
+  </data>
+  <data name="srmLabel13.Text" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="lbl_SealEdgeSensitivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 13</value>
+  </data>
+  <data name="lbl_SealEdgeSensitivity.Text" xml:space="preserve">
+    <value>Seal 边缘敏感度</value>
+  </data>
+  <data name="srmLabel33.Text" xml:space="preserve">
+    <value>毫米²</value>
+  </data>
+  <data name="srmLabel34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="srmLabel34.Text" xml:space="preserve">
+    <value>面积容许度</value>
+  </data>
+  <data name="group_AreaSetting.Text" xml:space="preserve">
+    <value>Seal 2 范围设置</value>
+  </data>
+  <data name="srmLabel35.Text" xml:space="preserve">
+    <value>毫米²</value>
+  </data>
+  <data name="srmLabel36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="srmLabel36.Text" xml:space="preserve">
+    <value>面积容许度</value>
+  </data>
+  <data name="srmLabel24.Text" xml:space="preserve">
+    <value>毫米²</value>
+  </data>
+  <data name="srmLabel25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="srmLabel25.Text" xml:space="preserve">
+    <value>最小过热尺寸</value>
+  </data>
+  <data name="btn_Close.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>储存</value>
+  </data>
+  <data name="lbl_Title.Text" xml:space="preserve">
+    <value>其他设置</value>
+  </data>
+  <data name="srmInputBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="srmInputBox1.Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+</root>

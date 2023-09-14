@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbl_V2Grab.Text" xml:space="preserve">
+    <value>摄取 (毫秒)</value>
+  </data>
+  <data name="lbl_V2Process.Text" xml:space="preserve">
+    <value>进度 (毫秒)</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>总计 (毫秒)</value>
+  </data>
+  <data name="btn_Inspect.Text" xml:space="preserve">
+    <value>视检</value>
+  </data>
+  <data name="btn_Close.Text" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="lbl_Pin1ROI.Text" xml:space="preserve">
+    <value>离线视检</value>
+  </data>
+  <data name="chk_Grab.Text" xml:space="preserve">
+    <value>视检前摄取</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn23.HeaderText" xml:space="preserve">
+    <value>元件尺寸</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn25.HeaderText" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn26.HeaderText" xml:space="preserve">
+    <value>长度</value>
+  </data>
+  <data name="TdataGridViewTextBoxColumn27.HeaderText" xml:space="preserve">
+    <value>厚度</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn19.HeaderText" xml:space="preserve">
+    <value>缺陷</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn20.HeaderText" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn21.HeaderText" xml:space="preserve">
+    <value>长度</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn22.HeaderText" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="tp_Package.Text" xml:space="preserve">
+    <value>塑封体</value>
+  </data>
+  <data name="tp_SidePad.Text" xml:space="preserve">
+    <value>侧边衬垫</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>缺陷</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>长度</value>
+  </data>
+  <data name="dc_Area.HeaderText" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn38.HeaderText" xml:space="preserve">
+    <value>跨距</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn40.HeaderText" xml:space="preserve">
+    <value>长度</value>
+  </data>
+  <data name="radioBtn_Left.Text" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="radioBtn_Right.Text" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="radioBtn_Down.Text" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="radioBtn_Up.Text" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="radioBtn_Middle.Text" xml:space="preserve">
+    <value>中间</value>
+  </data>
+  <data name="col_Offset.HeaderText" xml:space="preserve">
+    <value>偏移</value>
+  </data>
+  <data name="col_Area.HeaderText" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="col_Width.HeaderText" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="col_Length.HeaderText" xml:space="preserve">
+    <value>长度</value>
+  </data>
+  <data name="col_Pitch.HeaderText" xml:space="preserve">
+    <value>间距</value>
+  </data>
+  <data name="col_Gap.HeaderText" xml:space="preserve">
+    <value>间隔</value>
+  </data>
+  <data name="col_Broken.HeaderText" xml:space="preserve">
+    <value>破损面积</value>
+  </data>
+  <data name="col_BrokenLength.HeaderText" xml:space="preserve">
+    <value>破损长度</value>
+  </data>
+  <data name="col_Excess.HeaderText" xml:space="preserve">
+    <value>外延</value>
+  </data>
+  <data name="col_Smear.HeaderText" xml:space="preserve">
+    <value>边缘漏铜长度</value>
+  </data>
+  <data name="col_EdgeLimitTop.HeaderText" xml:space="preserve">
+    <value>边缘界限(上)</value>
+  </data>
+  <data name="col_EdgeLimitRight.HeaderText" xml:space="preserve">
+    <value>边缘界限(右)</value>
+  </data>
+  <data name="col_EdgeLimitBottom.HeaderText" xml:space="preserve">
+    <value>边缘界限(下)</value>
+  </data>
+  <data name="col_EdgeLimitLeft.HeaderText" xml:space="preserve">
+    <value>边缘界限(左)</value>
+  </data>
+  <data name="col_StandOffTop.HeaderText" xml:space="preserve">
+    <value>站立度(上)</value>
+  </data>
+  <data name="col_StandOffBottom.HeaderText" xml:space="preserve">
+    <value>站立度(下)</value>
+  </data>
+  <data name="col_StandOffLeft.HeaderText" xml:space="preserve">
+    <value>站立度(左)</value>
+  </data>
+  <data name="col_StandOffRight.HeaderText" xml:space="preserve">
+    <value>站立度(右)</value>
+  </data>
+  <data name="col_EdgeDistanceTop.HeaderText" xml:space="preserve">
+    <value>边缘距离(上)</value>
+  </data>
+  <data name="col_EdgeDistanceRight.HeaderText" xml:space="preserve">
+    <value>边缘距离(右)</value>
+  </data>
+  <data name="col_EdgeDistanceBottom.HeaderText" xml:space="preserve">
+    <value>边缘距离(下)</value>
+  </data>
+  <data name="col_EdgeDistanceLeft.HeaderText" xml:space="preserve">
+    <value>边缘距离(左)</value>
+  </data>
+  <data name="col_Dimension1.HeaderText" xml:space="preserve">
+    <value>尺寸1</value>
+  </data>
+  <data name="col_Dimension2.HeaderText" xml:space="preserve">
+    <value>尺寸2</value>
+  </data>
+  <data name="col_Dimension3.HeaderText" xml:space="preserve">
+    <value>尺寸3</value>
+  </data>
+  <data name="col_Dimension4.HeaderText" xml:space="preserve">
+    <value>尺寸4</value>
+  </data>
+  <data name="col_Dimension5.HeaderText" xml:space="preserve">
+    <value>尺寸5</value>
+  </data>
+  <data name="col_Dimension6.HeaderText" xml:space="preserve">
+    <value>尺寸6</value>
+  </data>
+  <data name="col_Dimension7.HeaderText" xml:space="preserve">
+    <value>尺寸7</value>
+  </data>
+  <data name="col_Dimension8.HeaderText" xml:space="preserve">
+    <value>尺寸8</value>
+  </data>
+  <data name="col_Dimension9.HeaderText" xml:space="preserve">
+    <value>尺寸9</value>
+  </data>
+  <data name="col_Dimension10.HeaderText" xml:space="preserve">
+    <value>尺寸10</value>
+  </data>
+  <data name="tp_Pad.Text" xml:space="preserve">
+    <value>衬垫</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn33.HeaderText" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn35.HeaderText" xml:space="preserve">
+    <value>设(%)</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn37.HeaderText" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="tp_Orient.Text" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="chk_WantCheckPH.Text" xml:space="preserve">
+    <value>检测吸嘴</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn24.HeaderText" xml:space="preserve">
+    <value>吸嘴</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn29.HeaderText" xml:space="preserve">
+    <value>测试(像素)</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dataGridViewTextBoxColumn29.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="tp_PH.Text" xml:space="preserve">
+    <value>吸嘴</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn27.HeaderText" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn28.HeaderText" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn31.HeaderText" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="tp_Position.Text" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn32.HeaderText" xml:space="preserve">
+    <value>设(%)</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn34.HeaderText" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgd_Pin1Result.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="dgd_Pin1Result.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 88</value>
+  </data>
+  <data name="imageList_AutoForm.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADk
+        BgAAAk1TRnQBSQFMAgEBAgEAAYABAAGAAQABDAEAAQwBAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAEw
+        AwABDAMAAQEBAAEgBgABCR4AAxABFQNSAaEDXwHoA1wB+ANgAdQDOgFhAwEBAhAAAwEBAgMdASoBTgJN
+        AZYBXAJZAc8DWgHeAVkCVgG+Az4BawMKAQ5wAAM1AVUBLAGkAS0B/wGEAbgBhQH/AcsB6AHOAf8BygHu
+        AdIB/wHPAeYBzwH/ASQBoAEmAf8BWAFiAVgB7wMIAQsIAAMCAQMDPAFmA10B8AN/Af4BtAG2AdoB/wK2
+        AeAB/wKyAdMB/wFnAWABaQH8AWACWwHWAxoBJWgAAx4BKwGBAaoBgQH/AcwB7AHSAf8BAAHKAQ4B/wHj
+        Af8B6QX/AY4B+wGmAf8BAAGzAQ8B/wGdAcoBnwH/AVgBYgFYAe8IAAMqAUEBagFHAWoB+QHSAdMB7AH/
+        AT0BSAHTAf8B1gHeAf4F/wGUAaAB9wH/AU4BUwHEAf8CqAHDAf8BYAJbAdYDCQEMZAABWQFnAVkB8gGx
+        AdoBtQH/AQABuQEAAf8BKQH8AYEB/wEUAfkBgQH/ARcB9wGCAf8BEwH5AYEB/wETAfsBgQH/AQABqgEA
+        Af8BgQGtAYEB/wM2AVkEAAFcAloBzQKWAcgB/wEeASQBwgH/AWIBhAH+Af8BXQGJAf4B/wFcAYYB/gH/
+        AVoBiQL/AUcBXAHzAf8BPAE9AbkB/wGIAU4BpAH9AzsBZWAAAwMBBAGLAb0BjAH/AQABtQEPAf8BAAHp
+        AR8B/wEAAfgBgQH/AQwB+QGBAf8BDwH5AYEB/wEFAfkBgQH/AQAB+QGBAf8BAAHGAQMB/wGMAcwBlQH/
+        A2EB5AMEAQYDXwHzAUQBRwG+Af8BKgE0Ae8B/wE+AUoB/gH/AUwBVwL/AU8BYQL/AUQBTwL/ATYBRAH+
+        Af8BFQEZAcsB/wGDAYYBwgH/A1kBw2AAAxgBIgGUAcMBlQH/AQABqAEAAf8BAAHqARwB/wEAAfgBgQH/
+        AQAB+QGBAf8BAAH5AYEB/wEAAfgBgQH/AQAB9gErAf8BAAHWAQoB/wEaAb8BgQH/AZgBxAGXAf8DGAEi
+        AWUBWAFtAfwBIAEiAbgB/wEgASYB8gH/AS4BNgL/ATgBQQL/AT0BRgL/ATMBPAL/AScBLwH9Af8BGAEb
+        Ad4B/wJYAb4B/wNfAeBgAAMKAQ4BpgHPAacB/wEAAaMBAAH/AQAB5gEQAf8BFgH6AYwB/wEfAfkBkQH/
+        AR8B+gGRAf8BHQH5AZEB/wEAAfYBgQH/AQAB0gEDAf8BCAG0AR4B/wMrAfwDCwEPAmoBcQH5AR4BIAG0
+        Af8BFAEYAe0B/wFTAVYC/wFhAWQC/wFiAYEC/wFfAWEC/wE2ATsB/AH/AREBEwHZAf8BTQFVAbQB/wFe
+        AlsB2WQAAcwB4wHLAf8BAAGgAQAB/wEAAdcBFQH/AYsB+gG0Af8BjgH7AbYB/wGOAfsBtgH/AYwB+wG1
+        Af8BkAH4AbYB/wEAAbMBAAH/AR8BqwEpAf8BUQFTAVEBpQQAA2IB6QEzATQBqQH/AScBKQHcAf8BiwGN
+        Af0B/wGMAY8C/wGNAY8C/wGMAY4C/wGEAYYB+AH/AQsBDAG6Af8BYwFkAbQB/wNOAZhkAANQAZ0BJwGp
+        ASwB/wEAAZgBAAH/AdsB/QHnAf8BygH7AdsB/wHKAfsB3QH/AckB+gHaAf8BtAHzAckB/wEAAZYBAAH/
+        AeMB7wHiAf8DBAEGBAADTAGTAokBsgH/AgsBngH/AccByAH6Af8BxwHIAf0B/wHHAcgB/QH/AcgByQH8
+        Af8BqAGpAeoB/wEbAR4BmwH/A2IB9gMaASVoAANZAfUBGQGgAR8B/wEAAY4BAAH/AbUB6QHCAf8BzgHx
+        AdcB/wEtAc0BgQH/AQABjAEAAf8ByQHiAckB/wM4AV0IAAMLAQ8DWQHHAoYBrAH/AUIBQwGnAf8BqQGq
+        AdoB/wG7AbwB4gH/AogBxwH/ATsBPAGhAf8BhQFNAYkB/QM/AW0DAQECbAADUwGqBP8BggG6AYUB/wGB
+        AbMBgQH/AbEB1AGzAf8B+AH7AfgB/wMjATQQAAMNAREDUAGbA2EB7gF9AXIBfwH+Ao0BtwH/AmoBbgH5
+        A18B2wMwAUsDAgEDeAADLwFJA0ABcAMYASEgAAMDAQQDLgFHA0ABcAMaASRwAAFCAU0BPgcAAT4DAAEo
+        AwABMAMAAQwDAAEBAQABAQUAAWAXAAP/AQAB4AE8AQMFAAHAARgBAQUAAYABGAYAAYABCB4AAYABCAYA
+        AYABCAYAAcABGAYAAeABPAEBBQAB+AH/AQ8FAAs=
+</value>
+  </data>
+</root>

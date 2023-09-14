@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_NewLot.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_NewLot.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_NewLot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 6</value>
+  </data>
+  <data name="lbl_NewLot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 26</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_NewLot.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="lbl_NewLot.Text" xml:space="preserve">
+    <value>Select 4 Vision Modules</value>
+  </data>
+  <data name="lbl_NewLot.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_NewLot.Name" xml:space="preserve">
+    <value>lbl_NewLot</value>
+  </data>
+  <data name="&gt;&gt;lbl_NewLot.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_NewLot.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_NewLot.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="chk_VisionModule1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chk_VisionModule1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_VisionModule1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 38</value>
+  </data>
+  <data name="chk_VisionModule1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 24</value>
+  </data>
+  <data name="chk_VisionModule1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chk_VisionModule1.Text" xml:space="preserve">
+    <value>Vision module name</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule1.Name" xml:space="preserve">
+    <value>chk_VisionModule1</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule1.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule1.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="chk_VisionModule2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chk_VisionModule2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_VisionModule2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 68</value>
+  </data>
+  <data name="chk_VisionModule2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 24</value>
+  </data>
+  <data name="chk_VisionModule2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chk_VisionModule2.Text" xml:space="preserve">
+    <value>Vision module name</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule2.Name" xml:space="preserve">
+    <value>chk_VisionModule2</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule2.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule2.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="chk_VisionModule5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chk_VisionModule5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_VisionModule5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 158</value>
+  </data>
+  <data name="chk_VisionModule5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 24</value>
+  </data>
+  <data name="chk_VisionModule5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chk_VisionModule5.Text" xml:space="preserve">
+    <value>Vision module name</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule5.Name" xml:space="preserve">
+    <value>chk_VisionModule5</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule5.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule5.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="chk_VisionModule3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chk_VisionModule3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_VisionModule3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 98</value>
+  </data>
+  <data name="chk_VisionModule3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 24</value>
+  </data>
+  <data name="chk_VisionModule3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chk_VisionModule3.Text" xml:space="preserve">
+    <value>Vision module name</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule3.Name" xml:space="preserve">
+    <value>chk_VisionModule3</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule3.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule3.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="chk_VisionModule4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chk_VisionModule4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_VisionModule4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 128</value>
+  </data>
+  <data name="chk_VisionModule4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 24</value>
+  </data>
+  <data name="chk_VisionModule4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chk_VisionModule4.Text" xml:space="preserve">
+    <value>Vision module name</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule4.Name" xml:space="preserve">
+    <value>chk_VisionModule4</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule4.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule4.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="chk_VisionModule7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chk_VisionModule7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_VisionModule7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 218</value>
+  </data>
+  <data name="chk_VisionModule7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 24</value>
+  </data>
+  <data name="chk_VisionModule7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="chk_VisionModule7.Text" xml:space="preserve">
+    <value>Vision module name</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule7.Name" xml:space="preserve">
+    <value>chk_VisionModule7</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule7.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule7.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="chk_VisionModule6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chk_VisionModule6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_VisionModule6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 188</value>
+  </data>
+  <data name="chk_VisionModule6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 24</value>
+  </data>
+  <data name="chk_VisionModule6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chk_VisionModule6.Text" xml:space="preserve">
+    <value>Vision module name</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule6.Name" xml:space="preserve">
+    <value>chk_VisionModule6</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule6.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule6.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="chk_VisionModule8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chk_VisionModule8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_VisionModule8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 248</value>
+  </data>
+  <data name="chk_VisionModule8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 24</value>
+  </data>
+  <data name="chk_VisionModule8.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="chk_VisionModule8.Text" xml:space="preserve">
+    <value>Vision module name</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule8.Name" xml:space="preserve">
+    <value>chk_VisionModule8</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule8.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule8.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="chk_VisionModule9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chk_VisionModule9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_VisionModule9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 278</value>
+  </data>
+  <data name="chk_VisionModule9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 24</value>
+  </data>
+  <data name="chk_VisionModule9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="chk_VisionModule9.Text" xml:space="preserve">
+    <value>Vision module name</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule9.Name" xml:space="preserve">
+    <value>chk_VisionModule9</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule9.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule9.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="chk_VisionModule10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chk_VisionModule10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_VisionModule10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 308</value>
+  </data>
+  <data name="chk_VisionModule10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 24</value>
+  </data>
+  <data name="chk_VisionModule10.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="chk_VisionModule10.Text" xml:space="preserve">
+    <value>Vision module name</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule10.Name" xml:space="preserve">
+    <value>chk_VisionModule10</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule10.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_VisionModule10.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btn_OK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="btn_OK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_OK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 358</value>
+  </data>
+  <data name="btn_OK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 40</value>
+  </data>
+  <data name="btn_OK.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="btn_OK.Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Name" xml:space="preserve">
+    <value>btn_OK</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btn_Cancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="btn_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 358</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 40</value>
+  </data>
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="srmLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="srmLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 6</value>
+  </data>
+  <data name="srmLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 26</value>
+  </data>
+  <data name="srmLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="srmLabel1.Text" xml:space="preserve">
+    <value>Production View Image No</value>
+  </data>
+  <data name="srmLabel1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Name" xml:space="preserve">
+    <value>srmLabel1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cbo_Vision1ViewImage.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="cbo_Vision1ViewImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 36</value>
+  </data>
+  <data name="cbo_Vision1ViewImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 26</value>
+  </data>
+  <data name="cbo_Vision1ViewImage.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision1ViewImage.Name" xml:space="preserve">
+    <value>cbo_Vision1ViewImage</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision1ViewImage.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision1ViewImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision1ViewImage.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cbo_Vision2ViewImage.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="cbo_Vision2ViewImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 66</value>
+  </data>
+  <data name="cbo_Vision2ViewImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 26</value>
+  </data>
+  <data name="cbo_Vision2ViewImage.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision2ViewImage.Name" xml:space="preserve">
+    <value>cbo_Vision2ViewImage</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision2ViewImage.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision2ViewImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision2ViewImage.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cbo_Vision3ViewImage.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="cbo_Vision3ViewImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 96</value>
+  </data>
+  <data name="cbo_Vision3ViewImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 26</value>
+  </data>
+  <data name="cbo_Vision3ViewImage.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision3ViewImage.Name" xml:space="preserve">
+    <value>cbo_Vision3ViewImage</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision3ViewImage.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision3ViewImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision3ViewImage.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cbo_Vision6ViewImage.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="cbo_Vision6ViewImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 186</value>
+  </data>
+  <data name="cbo_Vision6ViewImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 26</value>
+  </data>
+  <data name="cbo_Vision6ViewImage.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision6ViewImage.Name" xml:space="preserve">
+    <value>cbo_Vision6ViewImage</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision6ViewImage.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision6ViewImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision6ViewImage.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cbo_Vision4ViewImage.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="cbo_Vision4ViewImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 126</value>
+  </data>
+  <data name="cbo_Vision4ViewImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 26</value>
+  </data>
+  <data name="cbo_Vision4ViewImage.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision4ViewImage.Name" xml:space="preserve">
+    <value>cbo_Vision4ViewImage</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision4ViewImage.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision4ViewImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision4ViewImage.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbo_Vision5ViewImage.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="cbo_Vision5ViewImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 156</value>
+  </data>
+  <data name="cbo_Vision5ViewImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 26</value>
+  </data>
+  <data name="cbo_Vision5ViewImage.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision5ViewImage.Name" xml:space="preserve">
+    <value>cbo_Vision5ViewImage</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision5ViewImage.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision5ViewImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision5ViewImage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cbo_Vision7ViewImage.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="cbo_Vision7ViewImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 216</value>
+  </data>
+  <data name="cbo_Vision7ViewImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 26</value>
+  </data>
+  <data name="cbo_Vision7ViewImage.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision7ViewImage.Name" xml:space="preserve">
+    <value>cbo_Vision7ViewImage</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision7ViewImage.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision7ViewImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision7ViewImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbo_Vision8ViewImage.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="cbo_Vision8ViewImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 246</value>
+  </data>
+  <data name="cbo_Vision8ViewImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 26</value>
+  </data>
+  <data name="cbo_Vision8ViewImage.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision8ViewImage.Name" xml:space="preserve">
+    <value>cbo_Vision8ViewImage</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision8ViewImage.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision8ViewImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision8ViewImage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbo_Vision9ViewImage.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="cbo_Vision9ViewImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 276</value>
+  </data>
+  <data name="cbo_Vision9ViewImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 26</value>
+  </data>
+  <data name="cbo_Vision9ViewImage.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision9ViewImage.Name" xml:space="preserve">
+    <value>cbo_Vision9ViewImage</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision9ViewImage.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision9ViewImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision9ViewImage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbo_Vision10ViewImage.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="cbo_Vision10ViewImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 306</value>
+  </data>
+  <data name="cbo_Vision10ViewImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 26</value>
+  </data>
+  <data name="cbo_Vision10ViewImage.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision10ViewImage.Name" xml:space="preserve">
+    <value>cbo_Vision10ViewImage</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision10ViewImage.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=5.5.1.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision10ViewImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbo_Vision10ViewImage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>549, 410</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SelectVisionDisplay</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SelectVisionDisplay</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,4141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txt_SetValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="txt_SetValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 212</value>
+  </data>
+  <data name="txt_SetValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 26</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txt_SetValue.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="txt_SetValue.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_SetValue.Name" xml:space="preserve">
+    <value>txt_SetValue</value>
+  </data>
+  <data name="&gt;&gt;txt_SetValue.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_SetValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_SetValue.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 374</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 41</value>
+  </data>
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="btn_OK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 374</value>
+  </data>
+  <data name="btn_OK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 41</value>
+  </data>
+  <data name="btn_OK.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="btn_OK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Name" xml:space="preserve">
+    <value>btn_OK</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lbl_SetValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_SetValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_SetValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 212</value>
+  </data>
+  <data name="lbl_SetValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 25</value>
+  </data>
+  <data name="lbl_SetValue.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="lbl_SetValue.Text" xml:space="preserve">
+    <value>Pad No:</value>
+  </data>
+  <data name="&gt;&gt;lbl_SetValue.Name" xml:space="preserve">
+    <value>lbl_SetValue</value>
+  </data>
+  <data name="&gt;&gt;lbl_SetValue.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_SetValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_SetValue.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="chk_TurnWidthLength.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chk_TurnWidthLength.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chk_TurnWidthLength.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_TurnWidthLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 179</value>
+  </data>
+  <data name="chk_TurnWidthLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 24</value>
+  </data>
+  <data name="chk_TurnWidthLength.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="chk_TurnWidthLength.Text" xml:space="preserve">
+    <value>Turn Width/Length</value>
+  </data>
+  <data name="&gt;&gt;chk_TurnWidthLength.Name" xml:space="preserve">
+    <value>chk_TurnWidthLength</value>
+  </data>
+  <data name="&gt;&gt;chk_TurnWidthLength.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_TurnWidthLength.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_TurnWidthLength.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lbl_Definition.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Definition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="lbl_Definition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 125</value>
+  </data>
+  <data name="lbl_Definition.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;lbl_Definition.Name" xml:space="preserve">
+    <value>lbl_Definition</value>
+  </data>
+  <data name="&gt;&gt;lbl_Definition.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_Definition.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Definition.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="chk_EnableDisablePad.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chk_EnableDisablePad.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chk_EnableDisablePad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_EnableDisablePad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 146</value>
+  </data>
+  <data name="chk_EnableDisablePad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 24</value>
+  </data>
+  <data name="chk_EnableDisablePad.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="chk_EnableDisablePad.Text" xml:space="preserve">
+    <value>Enable Pad</value>
+  </data>
+  <data name="&gt;&gt;chk_EnableDisablePad.Name" xml:space="preserve">
+    <value>chk_EnableDisablePad</value>
+  </data>
+  <data name="&gt;&gt;chk_EnableDisablePad.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_EnableDisablePad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_EnableDisablePad.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="srmLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 12</value>
+  </data>
+  <data name="srmLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 32</value>
+  </data>
+  <data name="srmLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="srmLabel1.Text" xml:space="preserve">
+    <value>- UnCheck "Enable Pad" Checkbox to ignore this pad during inspection.</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Name" xml:space="preserve">
+    <value>srmLabel1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="srmLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 49</value>
+  </data>
+  <data name="srmLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 32</value>
+  </data>
+  <data name="srmLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="srmLabel2.Text" xml:space="preserve">
+    <value>- Check "Turn Width/Length" to change Width to Length, or Length to Width.</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Name" xml:space="preserve">
+    <value>srmLabel2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="srmLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 89</value>
+  </data>
+  <data name="srmLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 32</value>
+  </data>
+  <data name="srmLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="srmLabel3.Text" xml:space="preserve">
+    <value>- Key in new Pad No to change current Pad No.</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Name" xml:space="preserve">
+    <value>srmLabel3</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="chk_Feret.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chk_Feret.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="chk_Feret.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_Feret.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 396</value>
+  </data>
+  <data name="chk_Feret.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="chk_Feret.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="chk_Feret.Text" xml:space="preserve">
+    <value>Want Feret</value>
+  </data>
+  <data name="chk_Feret.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chk_Feret.Name" xml:space="preserve">
+    <value>chk_Feret</value>
+  </data>
+  <data name="&gt;&gt;chk_Feret.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_Feret.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_Feret.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btn_Extend.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Extend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 311</value>
+  </data>
+  <data name="btn_Extend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 49</value>
+  </data>
+  <data name="btn_Extend.TabIndex" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="btn_Extend.Text" xml:space="preserve">
+    <value>Edit Dimension &gt;&gt;</value>
+  </data>
+  <data name="btn_Extend.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btn_Extend.Name" xml:space="preserve">
+    <value>btn_Extend</value>
+  </data>
+  <data name="&gt;&gt;btn_Extend.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Extend.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Extend.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="pic_Image.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pic_Image.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pic_Image.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 250</value>
+  </data>
+  <data name="pic_Image.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="&gt;&gt;pic_Image.Name" xml:space="preserve">
+    <value>pic_Image</value>
+  </data>
+  <data name="&gt;&gt;pic_Image.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pic_Image.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pic_Image.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 9</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 250</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btn_Add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 270</value>
+  </data>
+  <data name="btn_Add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 53</value>
+  </data>
+  <data name="btn_Add.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="btn_Add.Text" xml:space="preserve">
+    <value>Add Dimension</value>
+  </data>
+  <data name="&gt;&gt;btn_Add.Name" xml:space="preserve">
+    <value>btn_Add</value>
+  </data>
+  <data name="&gt;&gt;btn_Add.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Add.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Add.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btn_Delete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 270</value>
+  </data>
+  <data name="btn_Delete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 53</value>
+  </data>
+  <data name="btn_Delete.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="btn_Delete.Text" xml:space="preserve">
+    <value>Delete Dimension</value>
+  </data>
+  <data name="&gt;&gt;btn_Delete.Name" xml:space="preserve">
+    <value>btn_Delete</value>
+  </data>
+  <data name="&gt;&gt;btn_Delete.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Delete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Delete.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="timer_Live.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="panel2.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 17</value>
+  </data>
+  <data name="srmLabel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="srmLabel17.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="srmLabel17.Text" xml:space="preserve">
+    <value>Measure Method:</value>
+  </data>
+  <data name="srmLabel17.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Name" xml:space="preserve">
+    <value>srmLabel17</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.Parent" xml:space="preserve">
+    <value>gb_Line12</value>
+  </data>
+  <data name="&gt;&gt;srmLabel17.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbo_MeasureMethod12.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_MeasureMethod12.Items" xml:space="preserve">
+    <value>Line Distance</value>
+  </data>
+  <data name="cbo_MeasureMethod12.Items1" xml:space="preserve">
+    <value>Basic XY</value>
+  </data>
+  <data name="cbo_MeasureMethod12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 34</value>
+  </data>
+  <data name="cbo_MeasureMethod12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 21</value>
+  </data>
+  <data name="cbo_MeasureMethod12.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="cbo_MeasureMethod12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod12.Name" xml:space="preserve">
+    <value>cbo_MeasureMethod12</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod12.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod12.Parent" xml:space="preserve">
+    <value>gb_Line12</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod12.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 41</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+    <value>984</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Inward % (End)</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>gb_Line12</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_InwardEndPercent12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardEndPercent12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 36</value>
+  </data>
+  <data name="txt_InwardEndPercent12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardEndPercent12.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="txt_InwardEndPercent12.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent12.Name" xml:space="preserve">
+    <value>txt_InwardEndPercent12</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent12.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent12.Parent" xml:space="preserve">
+    <value>gb_Line12</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent12.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="trackBar_InwardEndPercent12.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardEndPercent12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardEndPercent12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 36</value>
+  </data>
+  <data name="trackBar_InwardEndPercent12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardEndPercent12.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent12.Name" xml:space="preserve">
+    <value>trackBar_InwardEndPercent12</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent12.Parent" xml:space="preserve">
+    <value>gb_Line12</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent12.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 16</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Inward % (Start)</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>gb_Line12</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_InwardStartPercent12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardStartPercent12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 11</value>
+  </data>
+  <data name="txt_InwardStartPercent12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardStartPercent12.TabIndex" type="System.Int32, mscorlib">
+    <value>978</value>
+  </data>
+  <data name="txt_InwardStartPercent12.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent12.Name" xml:space="preserve">
+    <value>txt_InwardStartPercent12</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent12.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent12.Parent" xml:space="preserve">
+    <value>gb_Line12</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent12.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="trackBar_InwardStartPercent12.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardStartPercent12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardStartPercent12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 11</value>
+  </data>
+  <data name="trackBar_InwardStartPercent12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardStartPercent12.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent12.Name" xml:space="preserve">
+    <value>trackBar_InwardStartPercent12</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent12.Parent" xml:space="preserve">
+    <value>gb_Line12</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent12.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gb_Line12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 660</value>
+  </data>
+  <data name="gb_Line12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 60</value>
+  </data>
+  <data name="gb_Line12.TabIndex" type="System.Int32, mscorlib">
+    <value>992</value>
+  </data>
+  <data name="gb_Line12.Text" xml:space="preserve">
+    <value>Line 12</value>
+  </data>
+  <data name="gb_Line12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gb_Line12.Name" xml:space="preserve">
+    <value>gb_Line12</value>
+  </data>
+  <data name="&gt;&gt;gb_Line12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_Line12.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;gb_Line12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmLabel16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 17</value>
+  </data>
+  <data name="srmLabel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="srmLabel16.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="srmLabel16.Text" xml:space="preserve">
+    <value>Measure Method:</value>
+  </data>
+  <data name="srmLabel16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Name" xml:space="preserve">
+    <value>srmLabel16</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Parent" xml:space="preserve">
+    <value>gb_Line11</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbo_MeasureMethod11.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_MeasureMethod11.Items" xml:space="preserve">
+    <value>Line Distance</value>
+  </data>
+  <data name="cbo_MeasureMethod11.Items1" xml:space="preserve">
+    <value>Basic XY</value>
+  </data>
+  <data name="cbo_MeasureMethod11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 34</value>
+  </data>
+  <data name="cbo_MeasureMethod11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 21</value>
+  </data>
+  <data name="cbo_MeasureMethod11.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="cbo_MeasureMethod11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod11.Name" xml:space="preserve">
+    <value>cbo_MeasureMethod11</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod11.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod11.Parent" xml:space="preserve">
+    <value>gb_Line11</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 41</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>984</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Inward % (End)</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>gb_Line11</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_InwardEndPercent11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardEndPercent11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 36</value>
+  </data>
+  <data name="txt_InwardEndPercent11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardEndPercent11.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="txt_InwardEndPercent11.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent11.Name" xml:space="preserve">
+    <value>txt_InwardEndPercent11</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent11.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent11.Parent" xml:space="preserve">
+    <value>gb_Line11</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent11.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="trackBar_InwardEndPercent11.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardEndPercent11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardEndPercent11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 36</value>
+  </data>
+  <data name="trackBar_InwardEndPercent11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardEndPercent11.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent11.Name" xml:space="preserve">
+    <value>trackBar_InwardEndPercent11</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent11.Parent" xml:space="preserve">
+    <value>gb_Line11</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent11.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 16</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Inward % (Start)</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>gb_Line11</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_InwardStartPercent11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardStartPercent11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 11</value>
+  </data>
+  <data name="txt_InwardStartPercent11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardStartPercent11.TabIndex" type="System.Int32, mscorlib">
+    <value>978</value>
+  </data>
+  <data name="txt_InwardStartPercent11.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent11.Name" xml:space="preserve">
+    <value>txt_InwardStartPercent11</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent11.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent11.Parent" xml:space="preserve">
+    <value>gb_Line11</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent11.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="trackBar_InwardStartPercent11.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardStartPercent11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardStartPercent11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 11</value>
+  </data>
+  <data name="trackBar_InwardStartPercent11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardStartPercent11.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent11.Name" xml:space="preserve">
+    <value>trackBar_InwardStartPercent11</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent11.Parent" xml:space="preserve">
+    <value>gb_Line11</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent11.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gb_Line11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 600</value>
+  </data>
+  <data name="gb_Line11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 60</value>
+  </data>
+  <data name="gb_Line11.TabIndex" type="System.Int32, mscorlib">
+    <value>991</value>
+  </data>
+  <data name="gb_Line11.Text" xml:space="preserve">
+    <value>Line 11</value>
+  </data>
+  <data name="gb_Line11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gb_Line11.Name" xml:space="preserve">
+    <value>gb_Line11</value>
+  </data>
+  <data name="&gt;&gt;gb_Line11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_Line11.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;gb_Line11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 17</value>
+  </data>
+  <data name="srmLabel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="srmLabel15.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="srmLabel15.Text" xml:space="preserve">
+    <value>Measure Method:</value>
+  </data>
+  <data name="srmLabel15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;srmLabel15.Name" xml:space="preserve">
+    <value>srmLabel15</value>
+  </data>
+  <data name="&gt;&gt;srmLabel15.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel15.Parent" xml:space="preserve">
+    <value>gb_Line10</value>
+  </data>
+  <data name="&gt;&gt;srmLabel15.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbo_MeasureMethod10.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_MeasureMethod10.Items" xml:space="preserve">
+    <value>Line Distance</value>
+  </data>
+  <data name="cbo_MeasureMethod10.Items1" xml:space="preserve">
+    <value>Basic XY</value>
+  </data>
+  <data name="cbo_MeasureMethod10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 34</value>
+  </data>
+  <data name="cbo_MeasureMethod10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 21</value>
+  </data>
+  <data name="cbo_MeasureMethod10.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="cbo_MeasureMethod10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod10.Name" xml:space="preserve">
+    <value>cbo_MeasureMethod10</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod10.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod10.Parent" xml:space="preserve">
+    <value>gb_Line10</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 41</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>984</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Inward % (End)</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>gb_Line10</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_InwardEndPercent10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardEndPercent10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 36</value>
+  </data>
+  <data name="txt_InwardEndPercent10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardEndPercent10.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="txt_InwardEndPercent10.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent10.Name" xml:space="preserve">
+    <value>txt_InwardEndPercent10</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent10.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent10.Parent" xml:space="preserve">
+    <value>gb_Line10</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent10.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="trackBar_InwardEndPercent10.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardEndPercent10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardEndPercent10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 36</value>
+  </data>
+  <data name="trackBar_InwardEndPercent10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardEndPercent10.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent10.Name" xml:space="preserve">
+    <value>trackBar_InwardEndPercent10</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent10.Parent" xml:space="preserve">
+    <value>gb_Line10</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent10.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 16</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Inward % (Start)</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>gb_Line10</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_InwardStartPercent10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardStartPercent10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 11</value>
+  </data>
+  <data name="txt_InwardStartPercent10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardStartPercent10.TabIndex" type="System.Int32, mscorlib">
+    <value>978</value>
+  </data>
+  <data name="txt_InwardStartPercent10.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent10.Name" xml:space="preserve">
+    <value>txt_InwardStartPercent10</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent10.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent10.Parent" xml:space="preserve">
+    <value>gb_Line10</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent10.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="trackBar_InwardStartPercent10.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardStartPercent10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardStartPercent10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 11</value>
+  </data>
+  <data name="trackBar_InwardStartPercent10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardStartPercent10.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent10.Name" xml:space="preserve">
+    <value>trackBar_InwardStartPercent10</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent10.Parent" xml:space="preserve">
+    <value>gb_Line10</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent10.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gb_Line10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 540</value>
+  </data>
+  <data name="gb_Line10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 60</value>
+  </data>
+  <data name="gb_Line10.TabIndex" type="System.Int32, mscorlib">
+    <value>990</value>
+  </data>
+  <data name="gb_Line10.Text" xml:space="preserve">
+    <value>Line 10</value>
+  </data>
+  <data name="gb_Line10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gb_Line10.Name" xml:space="preserve">
+    <value>gb_Line10</value>
+  </data>
+  <data name="&gt;&gt;gb_Line10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_Line10.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;gb_Line10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="srmLabel14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 17</value>
+  </data>
+  <data name="srmLabel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="srmLabel14.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="srmLabel14.Text" xml:space="preserve">
+    <value>Measure Method:</value>
+  </data>
+  <data name="srmLabel14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.Name" xml:space="preserve">
+    <value>srmLabel14</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.Parent" xml:space="preserve">
+    <value>gb_Line9</value>
+  </data>
+  <data name="&gt;&gt;srmLabel14.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbo_MeasureMethod9.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_MeasureMethod9.Items" xml:space="preserve">
+    <value>Line Distance</value>
+  </data>
+  <data name="cbo_MeasureMethod9.Items1" xml:space="preserve">
+    <value>Basic XY</value>
+  </data>
+  <data name="cbo_MeasureMethod9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 34</value>
+  </data>
+  <data name="cbo_MeasureMethod9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 21</value>
+  </data>
+  <data name="cbo_MeasureMethod9.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="cbo_MeasureMethod9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod9.Name" xml:space="preserve">
+    <value>cbo_MeasureMethod9</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod9.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod9.Parent" xml:space="preserve">
+    <value>gb_Line9</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 41</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>984</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Inward % (End)</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>gb_Line9</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_InwardEndPercent9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardEndPercent9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 36</value>
+  </data>
+  <data name="txt_InwardEndPercent9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardEndPercent9.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="txt_InwardEndPercent9.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent9.Name" xml:space="preserve">
+    <value>txt_InwardEndPercent9</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent9.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent9.Parent" xml:space="preserve">
+    <value>gb_Line9</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="trackBar_InwardEndPercent9.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardEndPercent9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardEndPercent9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 36</value>
+  </data>
+  <data name="trackBar_InwardEndPercent9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardEndPercent9.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent9.Name" xml:space="preserve">
+    <value>trackBar_InwardEndPercent9</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent9.Parent" xml:space="preserve">
+    <value>gb_Line9</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent9.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 16</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Inward % (Start)</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>gb_Line9</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_InwardStartPercent9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardStartPercent9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 11</value>
+  </data>
+  <data name="txt_InwardStartPercent9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardStartPercent9.TabIndex" type="System.Int32, mscorlib">
+    <value>978</value>
+  </data>
+  <data name="txt_InwardStartPercent9.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent9.Name" xml:space="preserve">
+    <value>txt_InwardStartPercent9</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent9.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent9.Parent" xml:space="preserve">
+    <value>gb_Line9</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent9.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="trackBar_InwardStartPercent9.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardStartPercent9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardStartPercent9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 11</value>
+  </data>
+  <data name="trackBar_InwardStartPercent9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardStartPercent9.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent9.Name" xml:space="preserve">
+    <value>trackBar_InwardStartPercent9</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent9.Parent" xml:space="preserve">
+    <value>gb_Line9</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent9.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gb_Line9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 480</value>
+  </data>
+  <data name="gb_Line9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 60</value>
+  </data>
+  <data name="gb_Line9.TabIndex" type="System.Int32, mscorlib">
+    <value>989</value>
+  </data>
+  <data name="gb_Line9.Text" xml:space="preserve">
+    <value>Line 9</value>
+  </data>
+  <data name="gb_Line9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gb_Line9.Name" xml:space="preserve">
+    <value>gb_Line9</value>
+  </data>
+  <data name="&gt;&gt;gb_Line9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_Line9.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;gb_Line9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="srmLabel13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 17</value>
+  </data>
+  <data name="srmLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="srmLabel13.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="srmLabel13.Text" xml:space="preserve">
+    <value>Measure Method:</value>
+  </data>
+  <data name="srmLabel13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Name" xml:space="preserve">
+    <value>srmLabel13</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel13.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmComboBox2.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="srmComboBox2.Items" xml:space="preserve">
+    <value>Line Distance</value>
+  </data>
+  <data name="srmComboBox2.Items1" xml:space="preserve">
+    <value>Basic XY</value>
+  </data>
+  <data name="srmComboBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 34</value>
+  </data>
+  <data name="srmComboBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 21</value>
+  </data>
+  <data name="srmComboBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="srmComboBox2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;srmComboBox2.Name" xml:space="preserve">
+    <value>srmComboBox2</value>
+  </data>
+  <data name="&gt;&gt;srmComboBox2.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmComboBox2.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;srmComboBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 41</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>984</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Inward % (End)</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="srmInputBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="srmInputBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 36</value>
+  </data>
+  <data name="srmInputBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="srmInputBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="srmInputBox3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmInputBox3.Name" xml:space="preserve">
+    <value>srmInputBox3</value>
+  </data>
+  <data name="&gt;&gt;srmInputBox3.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmInputBox3.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;srmInputBox3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="trackBar3.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 36</value>
+  </data>
+  <data name="trackBar3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar3.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="&gt;&gt;trackBar3.Name" xml:space="preserve">
+    <value>trackBar3</value>
+  </data>
+  <data name="&gt;&gt;trackBar3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar3.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;trackBar3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 16</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Inward % (Start)</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="srmInputBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="srmInputBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 11</value>
+  </data>
+  <data name="srmInputBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="srmInputBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>978</value>
+  </data>
+  <data name="srmInputBox4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;srmInputBox4.Name" xml:space="preserve">
+    <value>srmInputBox4</value>
+  </data>
+  <data name="&gt;&gt;srmInputBox4.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmInputBox4.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;srmInputBox4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="trackBar4.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 11</value>
+  </data>
+  <data name="trackBar4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar4.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="&gt;&gt;trackBar4.Name" xml:space="preserve">
+    <value>trackBar4</value>
+  </data>
+  <data name="&gt;&gt;trackBar4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar4.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;trackBar4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 480</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 60</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Line 7</value>
+  </data>
+  <data name="groupBox2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="srmLabel12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 17</value>
+  </data>
+  <data name="srmLabel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="srmLabel12.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="srmLabel12.Text" xml:space="preserve">
+    <value>Measure Method:</value>
+  </data>
+  <data name="srmLabel12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;srmLabel12.Name" xml:space="preserve">
+    <value>srmLabel12</value>
+  </data>
+  <data name="&gt;&gt;srmLabel12.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel12.Parent" xml:space="preserve">
+    <value>gb_Line8</value>
+  </data>
+  <data name="&gt;&gt;srmLabel12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbo_MeasureMethod8.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_MeasureMethod8.Items" xml:space="preserve">
+    <value>Line Distance</value>
+  </data>
+  <data name="cbo_MeasureMethod8.Items1" xml:space="preserve">
+    <value>Basic XY</value>
+  </data>
+  <data name="cbo_MeasureMethod8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 34</value>
+  </data>
+  <data name="cbo_MeasureMethod8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 21</value>
+  </data>
+  <data name="cbo_MeasureMethod8.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="cbo_MeasureMethod8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod8.Name" xml:space="preserve">
+    <value>cbo_MeasureMethod8</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod8.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod8.Parent" xml:space="preserve">
+    <value>gb_Line8</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 41</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>984</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Inward % (End)</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>gb_Line8</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_InwardEndPercent8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardEndPercent8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 36</value>
+  </data>
+  <data name="txt_InwardEndPercent8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardEndPercent8.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="txt_InwardEndPercent8.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent8.Name" xml:space="preserve">
+    <value>txt_InwardEndPercent8</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent8.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent8.Parent" xml:space="preserve">
+    <value>gb_Line8</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="trackBar_InwardEndPercent8.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardEndPercent8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardEndPercent8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 36</value>
+  </data>
+  <data name="trackBar_InwardEndPercent8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardEndPercent8.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent8.Name" xml:space="preserve">
+    <value>trackBar_InwardEndPercent8</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent8.Parent" xml:space="preserve">
+    <value>gb_Line8</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 16</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Inward % (Start)</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>gb_Line8</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_InwardStartPercent8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardStartPercent8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 11</value>
+  </data>
+  <data name="txt_InwardStartPercent8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardStartPercent8.TabIndex" type="System.Int32, mscorlib">
+    <value>978</value>
+  </data>
+  <data name="txt_InwardStartPercent8.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent8.Name" xml:space="preserve">
+    <value>txt_InwardStartPercent8</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent8.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent8.Parent" xml:space="preserve">
+    <value>gb_Line8</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent8.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="trackBar_InwardStartPercent8.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardStartPercent8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardStartPercent8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 11</value>
+  </data>
+  <data name="trackBar_InwardStartPercent8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardStartPercent8.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent8.Name" xml:space="preserve">
+    <value>trackBar_InwardStartPercent8</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent8.Parent" xml:space="preserve">
+    <value>gb_Line8</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent8.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gb_Line8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 420</value>
+  </data>
+  <data name="gb_Line8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 60</value>
+  </data>
+  <data name="gb_Line8.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="gb_Line8.Text" xml:space="preserve">
+    <value>Line 8</value>
+  </data>
+  <data name="gb_Line8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gb_Line8.Name" xml:space="preserve">
+    <value>gb_Line8</value>
+  </data>
+  <data name="&gt;&gt;gb_Line8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_Line8.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;gb_Line8.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="srmLabel10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 17</value>
+  </data>
+  <data name="srmLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="srmLabel10.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="srmLabel10.Text" xml:space="preserve">
+    <value>Measure Method:</value>
+  </data>
+  <data name="srmLabel10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Name" xml:space="preserve">
+    <value>srmLabel10</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.Parent" xml:space="preserve">
+    <value>gb_Line7</value>
+  </data>
+  <data name="&gt;&gt;srmLabel10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbo_MeasureMethod7.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_MeasureMethod7.Items" xml:space="preserve">
+    <value>Line Distance</value>
+  </data>
+  <data name="cbo_MeasureMethod7.Items1" xml:space="preserve">
+    <value>Basic XY</value>
+  </data>
+  <data name="cbo_MeasureMethod7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 34</value>
+  </data>
+  <data name="cbo_MeasureMethod7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 21</value>
+  </data>
+  <data name="cbo_MeasureMethod7.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="cbo_MeasureMethod7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod7.Name" xml:space="preserve">
+    <value>cbo_MeasureMethod7</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod7.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod7.Parent" xml:space="preserve">
+    <value>gb_Line7</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 41</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>984</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Inward % (End)</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>gb_Line7</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_InwardEndPercent7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardEndPercent7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 36</value>
+  </data>
+  <data name="txt_InwardEndPercent7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardEndPercent7.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="txt_InwardEndPercent7.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent7.Name" xml:space="preserve">
+    <value>txt_InwardEndPercent7</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent7.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent7.Parent" xml:space="preserve">
+    <value>gb_Line7</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent7.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="trackBar_InwardEndPercent7.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardEndPercent7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardEndPercent7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 36</value>
+  </data>
+  <data name="trackBar_InwardEndPercent7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardEndPercent7.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent7.Name" xml:space="preserve">
+    <value>trackBar_InwardEndPercent7</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent7.Parent" xml:space="preserve">
+    <value>gb_Line7</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent7.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 16</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Inward % (Start)</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>gb_Line7</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_InwardStartPercent7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardStartPercent7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 11</value>
+  </data>
+  <data name="txt_InwardStartPercent7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardStartPercent7.TabIndex" type="System.Int32, mscorlib">
+    <value>978</value>
+  </data>
+  <data name="txt_InwardStartPercent7.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent7.Name" xml:space="preserve">
+    <value>txt_InwardStartPercent7</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent7.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent7.Parent" xml:space="preserve">
+    <value>gb_Line7</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="trackBar_InwardStartPercent7.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardStartPercent7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardStartPercent7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 11</value>
+  </data>
+  <data name="trackBar_InwardStartPercent7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardStartPercent7.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent7.Name" xml:space="preserve">
+    <value>trackBar_InwardStartPercent7</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent7.Parent" xml:space="preserve">
+    <value>gb_Line7</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent7.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gb_Line7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 360</value>
+  </data>
+  <data name="gb_Line7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 60</value>
+  </data>
+  <data name="gb_Line7.TabIndex" type="System.Int32, mscorlib">
+    <value>986</value>
+  </data>
+  <data name="gb_Line7.Text" xml:space="preserve">
+    <value>Line 7</value>
+  </data>
+  <data name="gb_Line7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gb_Line7.Name" xml:space="preserve">
+    <value>gb_Line7</value>
+  </data>
+  <data name="&gt;&gt;gb_Line7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_Line7.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;gb_Line7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="srmLabel9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 16</value>
+  </data>
+  <data name="srmLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="srmLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="srmLabel9.Text" xml:space="preserve">
+    <value>Measure Method:</value>
+  </data>
+  <data name="srmLabel9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Name" xml:space="preserve">
+    <value>srmLabel9</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Parent" xml:space="preserve">
+    <value>gb_Line6</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbo_MeasureMethod6.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_MeasureMethod6.Items" xml:space="preserve">
+    <value>Line Distance</value>
+  </data>
+  <data name="cbo_MeasureMethod6.Items1" xml:space="preserve">
+    <value>Basic XY</value>
+  </data>
+  <data name="cbo_MeasureMethod6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 33</value>
+  </data>
+  <data name="cbo_MeasureMethod6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 21</value>
+  </data>
+  <data name="cbo_MeasureMethod6.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="cbo_MeasureMethod6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod6.Name" xml:space="preserve">
+    <value>cbo_MeasureMethod6</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod6.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod6.Parent" xml:space="preserve">
+    <value>gb_Line6</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 41</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>984</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Inward % (End)</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>gb_Line6</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_InwardEndPercent6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardEndPercent6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 36</value>
+  </data>
+  <data name="txt_InwardEndPercent6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardEndPercent6.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="txt_InwardEndPercent6.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent6.Name" xml:space="preserve">
+    <value>txt_InwardEndPercent6</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent6.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent6.Parent" xml:space="preserve">
+    <value>gb_Line6</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="trackBar_InwardEndPercent6.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardEndPercent6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardEndPercent6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 36</value>
+  </data>
+  <data name="trackBar_InwardEndPercent6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardEndPercent6.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent6.Name" xml:space="preserve">
+    <value>trackBar_InwardEndPercent6</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent6.Parent" xml:space="preserve">
+    <value>gb_Line6</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 16</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Inward % (Start)</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>gb_Line6</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_InwardStartPercent6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardStartPercent6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 11</value>
+  </data>
+  <data name="txt_InwardStartPercent6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardStartPercent6.TabIndex" type="System.Int32, mscorlib">
+    <value>978</value>
+  </data>
+  <data name="txt_InwardStartPercent6.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent6.Name" xml:space="preserve">
+    <value>txt_InwardStartPercent6</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent6.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent6.Parent" xml:space="preserve">
+    <value>gb_Line6</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="trackBar_InwardStartPercent6.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardStartPercent6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardStartPercent6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 11</value>
+  </data>
+  <data name="trackBar_InwardStartPercent6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardStartPercent6.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent6.Name" xml:space="preserve">
+    <value>trackBar_InwardStartPercent6</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent6.Parent" xml:space="preserve">
+    <value>gb_Line6</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gb_Line6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 300</value>
+  </data>
+  <data name="gb_Line6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 60</value>
+  </data>
+  <data name="gb_Line6.TabIndex" type="System.Int32, mscorlib">
+    <value>985</value>
+  </data>
+  <data name="gb_Line6.Text" xml:space="preserve">
+    <value>Line 6</value>
+  </data>
+  <data name="gb_Line6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gb_Line6.Name" xml:space="preserve">
+    <value>gb_Line6</value>
+  </data>
+  <data name="&gt;&gt;gb_Line6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_Line6.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;gb_Line6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="srmLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 16</value>
+  </data>
+  <data name="srmLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="srmLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="srmLabel8.Text" xml:space="preserve">
+    <value>Measure Method:</value>
+  </data>
+  <data name="srmLabel8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Name" xml:space="preserve">
+    <value>srmLabel8</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Parent" xml:space="preserve">
+    <value>gb_Line5</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbo_MeasureMethod5.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_MeasureMethod5.Items" xml:space="preserve">
+    <value>Line Distance</value>
+  </data>
+  <data name="cbo_MeasureMethod5.Items1" xml:space="preserve">
+    <value>Basic XY</value>
+  </data>
+  <data name="cbo_MeasureMethod5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 33</value>
+  </data>
+  <data name="cbo_MeasureMethod5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 21</value>
+  </data>
+  <data name="cbo_MeasureMethod5.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="cbo_MeasureMethod5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod5.Name" xml:space="preserve">
+    <value>cbo_MeasureMethod5</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod5.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod5.Parent" xml:space="preserve">
+    <value>gb_Line5</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 41</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>984</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Inward % (End)</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>gb_Line5</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_InwardEndPercent5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardEndPercent5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 36</value>
+  </data>
+  <data name="txt_InwardEndPercent5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardEndPercent5.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="txt_InwardEndPercent5.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent5.Name" xml:space="preserve">
+    <value>txt_InwardEndPercent5</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent5.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent5.Parent" xml:space="preserve">
+    <value>gb_Line5</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="trackBar_InwardEndPercent5.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardEndPercent5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardEndPercent5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 36</value>
+  </data>
+  <data name="trackBar_InwardEndPercent5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardEndPercent5.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent5.Name" xml:space="preserve">
+    <value>trackBar_InwardEndPercent5</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent5.Parent" xml:space="preserve">
+    <value>gb_Line5</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 16</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Inward % (Start)</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>gb_Line5</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_InwardStartPercent5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardStartPercent5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 11</value>
+  </data>
+  <data name="txt_InwardStartPercent5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardStartPercent5.TabIndex" type="System.Int32, mscorlib">
+    <value>978</value>
+  </data>
+  <data name="txt_InwardStartPercent5.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent5.Name" xml:space="preserve">
+    <value>txt_InwardStartPercent5</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent5.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent5.Parent" xml:space="preserve">
+    <value>gb_Line5</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="trackBar_InwardStartPercent5.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardStartPercent5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardStartPercent5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 11</value>
+  </data>
+  <data name="trackBar_InwardStartPercent5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardStartPercent5.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent5.Name" xml:space="preserve">
+    <value>trackBar_InwardStartPercent5</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent5.Parent" xml:space="preserve">
+    <value>gb_Line5</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gb_Line5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 240</value>
+  </data>
+  <data name="gb_Line5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 60</value>
+  </data>
+  <data name="gb_Line5.TabIndex" type="System.Int32, mscorlib">
+    <value>984</value>
+  </data>
+  <data name="gb_Line5.Text" xml:space="preserve">
+    <value>Line 5</value>
+  </data>
+  <data name="gb_Line5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gb_Line5.Name" xml:space="preserve">
+    <value>gb_Line5</value>
+  </data>
+  <data name="&gt;&gt;gb_Line5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_Line5.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;gb_Line5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="srmLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 16</value>
+  </data>
+  <data name="srmLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="srmLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="srmLabel7.Text" xml:space="preserve">
+    <value>Measure Method:</value>
+  </data>
+  <data name="srmLabel7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Name" xml:space="preserve">
+    <value>srmLabel7</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.Parent" xml:space="preserve">
+    <value>gb_Line4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbo_MeasureMethod4.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_MeasureMethod4.Items" xml:space="preserve">
+    <value>Line Distance</value>
+  </data>
+  <data name="cbo_MeasureMethod4.Items1" xml:space="preserve">
+    <value>Basic XY</value>
+  </data>
+  <data name="cbo_MeasureMethod4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 33</value>
+  </data>
+  <data name="cbo_MeasureMethod4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 21</value>
+  </data>
+  <data name="cbo_MeasureMethod4.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="cbo_MeasureMethod4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod4.Name" xml:space="preserve">
+    <value>cbo_MeasureMethod4</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod4.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod4.Parent" xml:space="preserve">
+    <value>gb_Line4</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 41</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>984</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Inward % (End)</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>gb_Line4</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_InwardEndPercent4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardEndPercent4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 36</value>
+  </data>
+  <data name="txt_InwardEndPercent4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardEndPercent4.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="txt_InwardEndPercent4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent4.Name" xml:space="preserve">
+    <value>txt_InwardEndPercent4</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent4.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent4.Parent" xml:space="preserve">
+    <value>gb_Line4</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="trackBar_InwardEndPercent4.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardEndPercent4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardEndPercent4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 36</value>
+  </data>
+  <data name="trackBar_InwardEndPercent4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardEndPercent4.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent4.Name" xml:space="preserve">
+    <value>trackBar_InwardEndPercent4</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent4.Parent" xml:space="preserve">
+    <value>gb_Line4</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 16</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Inward % (Start)</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>gb_Line4</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_InwardStartPercent4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardStartPercent4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 11</value>
+  </data>
+  <data name="txt_InwardStartPercent4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardStartPercent4.TabIndex" type="System.Int32, mscorlib">
+    <value>978</value>
+  </data>
+  <data name="txt_InwardStartPercent4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent4.Name" xml:space="preserve">
+    <value>txt_InwardStartPercent4</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent4.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent4.Parent" xml:space="preserve">
+    <value>gb_Line4</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="trackBar_InwardStartPercent4.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardStartPercent4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardStartPercent4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 11</value>
+  </data>
+  <data name="trackBar_InwardStartPercent4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardStartPercent4.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent4.Name" xml:space="preserve">
+    <value>trackBar_InwardStartPercent4</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent4.Parent" xml:space="preserve">
+    <value>gb_Line4</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gb_Line4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 180</value>
+  </data>
+  <data name="gb_Line4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 60</value>
+  </data>
+  <data name="gb_Line4.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="gb_Line4.Text" xml:space="preserve">
+    <value>Line 4</value>
+  </data>
+  <data name="gb_Line4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gb_Line4.Name" xml:space="preserve">
+    <value>gb_Line4</value>
+  </data>
+  <data name="&gt;&gt;gb_Line4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_Line4.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;gb_Line4.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="srmLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 16</value>
+  </data>
+  <data name="srmLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="srmLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="srmLabel6.Text" xml:space="preserve">
+    <value>Measure Method:</value>
+  </data>
+  <data name="srmLabel6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Name" xml:space="preserve">
+    <value>srmLabel6</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.Parent" xml:space="preserve">
+    <value>gb_Line3</value>
+  </data>
+  <data name="&gt;&gt;srmLabel6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbo_MeasureMethod3.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_MeasureMethod3.Items" xml:space="preserve">
+    <value>Line Distance</value>
+  </data>
+  <data name="cbo_MeasureMethod3.Items1" xml:space="preserve">
+    <value>Basic XY</value>
+  </data>
+  <data name="cbo_MeasureMethod3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 33</value>
+  </data>
+  <data name="cbo_MeasureMethod3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 21</value>
+  </data>
+  <data name="cbo_MeasureMethod3.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="cbo_MeasureMethod3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod3.Name" xml:space="preserve">
+    <value>cbo_MeasureMethod3</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod3.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod3.Parent" xml:space="preserve">
+    <value>gb_Line3</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 41</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>984</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Inward % (End)</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>gb_Line3</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_InwardEndPercent3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardEndPercent3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 36</value>
+  </data>
+  <data name="txt_InwardEndPercent3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardEndPercent3.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="txt_InwardEndPercent3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent3.Name" xml:space="preserve">
+    <value>txt_InwardEndPercent3</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent3.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent3.Parent" xml:space="preserve">
+    <value>gb_Line3</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="trackBar_InwardEndPercent3.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardEndPercent3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardEndPercent3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 36</value>
+  </data>
+  <data name="trackBar_InwardEndPercent3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardEndPercent3.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent3.Name" xml:space="preserve">
+    <value>trackBar_InwardEndPercent3</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent3.Parent" xml:space="preserve">
+    <value>gb_Line3</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 16</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Inward % (Start)</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>gb_Line3</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_InwardStartPercent3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardStartPercent3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 11</value>
+  </data>
+  <data name="txt_InwardStartPercent3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardStartPercent3.TabIndex" type="System.Int32, mscorlib">
+    <value>978</value>
+  </data>
+  <data name="txt_InwardStartPercent3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent3.Name" xml:space="preserve">
+    <value>txt_InwardStartPercent3</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent3.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent3.Parent" xml:space="preserve">
+    <value>gb_Line3</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="trackBar_InwardStartPercent3.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardStartPercent3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardStartPercent3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 11</value>
+  </data>
+  <data name="trackBar_InwardStartPercent3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardStartPercent3.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent3.Name" xml:space="preserve">
+    <value>trackBar_InwardStartPercent3</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent3.Parent" xml:space="preserve">
+    <value>gb_Line3</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gb_Line3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 120</value>
+  </data>
+  <data name="gb_Line3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 60</value>
+  </data>
+  <data name="gb_Line3.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="gb_Line3.Text" xml:space="preserve">
+    <value>Line 3</value>
+  </data>
+  <data name="gb_Line3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gb_Line3.Name" xml:space="preserve">
+    <value>gb_Line3</value>
+  </data>
+  <data name="&gt;&gt;gb_Line3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_Line3.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;gb_Line3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="srmLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 16</value>
+  </data>
+  <data name="srmLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="srmLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="srmLabel5.Text" xml:space="preserve">
+    <value>Measure Method:</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Name" xml:space="preserve">
+    <value>srmLabel5</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Parent" xml:space="preserve">
+    <value>gb_Line2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbo_MeasureMethod2.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_MeasureMethod2.Items" xml:space="preserve">
+    <value>Line Distance</value>
+  </data>
+  <data name="cbo_MeasureMethod2.Items1" xml:space="preserve">
+    <value>Basic XY</value>
+  </data>
+  <data name="cbo_MeasureMethod2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 33</value>
+  </data>
+  <data name="cbo_MeasureMethod2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 21</value>
+  </data>
+  <data name="cbo_MeasureMethod2.TabIndex" type="System.Int32, mscorlib">
+    <value>987</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod2.Name" xml:space="preserve">
+    <value>cbo_MeasureMethod2</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod2.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod2.Parent" xml:space="preserve">
+    <value>gb_Line2</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 41</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>984</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Inward % (End)</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>gb_Line2</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_InwardEndPercent2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardEndPercent2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 36</value>
+  </data>
+  <data name="txt_InwardEndPercent2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardEndPercent2.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="txt_InwardEndPercent2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent2.Name" xml:space="preserve">
+    <value>txt_InwardEndPercent2</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent2.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent2.Parent" xml:space="preserve">
+    <value>gb_Line2</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="trackBar_InwardEndPercent2.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardEndPercent2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardEndPercent2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 36</value>
+  </data>
+  <data name="trackBar_InwardEndPercent2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardEndPercent2.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent2.Name" xml:space="preserve">
+    <value>trackBar_InwardEndPercent2</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent2.Parent" xml:space="preserve">
+    <value>gb_Line2</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 16</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Inward % (Start)</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>gb_Line2</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_InwardStartPercent2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardStartPercent2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 11</value>
+  </data>
+  <data name="txt_InwardStartPercent2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardStartPercent2.TabIndex" type="System.Int32, mscorlib">
+    <value>978</value>
+  </data>
+  <data name="txt_InwardStartPercent2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent2.Name" xml:space="preserve">
+    <value>txt_InwardStartPercent2</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent2.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent2.Parent" xml:space="preserve">
+    <value>gb_Line2</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="trackBar_InwardStartPercent2.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardStartPercent2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardStartPercent2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 11</value>
+  </data>
+  <data name="trackBar_InwardStartPercent2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardStartPercent2.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent2.Name" xml:space="preserve">
+    <value>trackBar_InwardStartPercent2</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent2.Parent" xml:space="preserve">
+    <value>gb_Line2</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gb_Line2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gb_Line2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 60</value>
+  </data>
+  <data name="gb_Line2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 60</value>
+  </data>
+  <data name="gb_Line2.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="gb_Line2.Text" xml:space="preserve">
+    <value>Line 2</value>
+  </data>
+  <data name="&gt;&gt;gb_Line2.Name" xml:space="preserve">
+    <value>gb_Line2</value>
+  </data>
+  <data name="&gt;&gt;gb_Line2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_Line2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;gb_Line2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lbl_SaveImageLocation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_SaveImageLocation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 16</value>
+  </data>
+  <data name="lbl_SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="lbl_SaveImageLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>986</value>
+  </data>
+  <data name="lbl_SaveImageLocation.Text" xml:space="preserve">
+    <value>Measure Method:</value>
+  </data>
+  <data name="&gt;&gt;lbl_SaveImageLocation.Name" xml:space="preserve">
+    <value>lbl_SaveImageLocation</value>
+  </data>
+  <data name="&gt;&gt;lbl_SaveImageLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_SaveImageLocation.Parent" xml:space="preserve">
+    <value>gb_Line1</value>
+  </data>
+  <data name="&gt;&gt;lbl_SaveImageLocation.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbo_MeasureMethod1.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_MeasureMethod1.Items" xml:space="preserve">
+    <value>Line Distance</value>
+  </data>
+  <data name="cbo_MeasureMethod1.Items1" xml:space="preserve">
+    <value>Basic XY</value>
+  </data>
+  <data name="cbo_MeasureMethod1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 33</value>
+  </data>
+  <data name="cbo_MeasureMethod1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 21</value>
+  </data>
+  <data name="cbo_MeasureMethod1.TabIndex" type="System.Int32, mscorlib">
+    <value>985</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod1.Name" xml:space="preserve">
+    <value>cbo_MeasureMethod1</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod1.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod1.Parent" xml:space="preserve">
+    <value>gb_Line1</value>
+  </data>
+  <data name="&gt;&gt;cbo_MeasureMethod1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 41</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>984</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Inward % (End)</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>gb_Line1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_InwardEndPercent1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardEndPercent1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 36</value>
+  </data>
+  <data name="txt_InwardEndPercent1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardEndPercent1.TabIndex" type="System.Int32, mscorlib">
+    <value>982</value>
+  </data>
+  <data name="txt_InwardEndPercent1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent1.Name" xml:space="preserve">
+    <value>txt_InwardEndPercent1</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent1.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent1.Parent" xml:space="preserve">
+    <value>gb_Line1</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardEndPercent1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="trackBar_InwardEndPercent1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardEndPercent1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardEndPercent1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 36</value>
+  </data>
+  <data name="trackBar_InwardEndPercent1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardEndPercent1.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent1.Name" xml:space="preserve">
+    <value>trackBar_InwardEndPercent1</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent1.Parent" xml:space="preserve">
+    <value>gb_Line1</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardEndPercent1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 16</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Inward % (Start)</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>gb_Line1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_InwardStartPercent1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="txt_InwardStartPercent1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 11</value>
+  </data>
+  <data name="txt_InwardStartPercent1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="txt_InwardStartPercent1.TabIndex" type="System.Int32, mscorlib">
+    <value>978</value>
+  </data>
+  <data name="txt_InwardStartPercent1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent1.Name" xml:space="preserve">
+    <value>txt_InwardStartPercent1</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent1.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent1.Parent" xml:space="preserve">
+    <value>gb_Line1</value>
+  </data>
+  <data name="&gt;&gt;txt_InwardStartPercent1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="trackBar_InwardStartPercent1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trackBar_InwardStartPercent1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBar_InwardStartPercent1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 11</value>
+  </data>
+  <data name="trackBar_InwardStartPercent1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="trackBar_InwardStartPercent1.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent1.Name" xml:space="preserve">
+    <value>trackBar_InwardStartPercent1</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent1.Parent" xml:space="preserve">
+    <value>gb_Line1</value>
+  </data>
+  <data name="&gt;&gt;trackBar_InwardStartPercent1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gb_Line1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gb_Line1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gb_Line1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 60</value>
+  </data>
+  <data name="gb_Line1.TabIndex" type="System.Int32, mscorlib">
+    <value>980</value>
+  </data>
+  <data name="gb_Line1.Text" xml:space="preserve">
+    <value>Line 1</value>
+  </data>
+  <data name="&gt;&gt;gb_Line1.Name" xml:space="preserve">
+    <value>gb_Line1</value>
+  </data>
+  <data name="&gt;&gt;gb_Line1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_Line1.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;gb_Line1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 0</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>470, 424</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="srmLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="srmLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 330</value>
+  </data>
+  <data name="srmLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 46</value>
+  </data>
+  <data name="srmLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="srmLabel4.Text" xml:space="preserve">
+    <value>* White dot indicate start point
+* Black dot indicate end point</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Name" xml:space="preserve">
+    <value>srmLabel4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="srmLabel11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="srmLabel11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 247</value>
+  </data>
+  <data name="srmLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 25</value>
+  </data>
+  <data name="srmLabel11.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="srmLabel11.Text" xml:space="preserve">
+    <value>Pad Angle:</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Name" xml:space="preserve">
+    <value>srmLabel11</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmLabel11.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_PadAngle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="txt_PadAngle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 247</value>
+  </data>
+  <data name="txt_PadAngle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 26</value>
+  </data>
+  <data name="txt_PadAngle.TabIndex" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="txt_PadAngle.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_PadAngle.Name" xml:space="preserve">
+    <value>txt_PadAngle</value>
+  </data>
+  <data name="&gt;&gt;txt_PadAngle.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_PadAngle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txt_PadAngle.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_AutoAngle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_AutoAngle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 237</value>
+  </data>
+  <data name="btn_AutoAngle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 43</value>
+  </data>
+  <data name="btn_AutoAngle.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="btn_AutoAngle.Text" xml:space="preserve">
+    <value>Auto Angle</value>
+  </data>
+  <data name="&gt;&gt;btn_AutoAngle.Name" xml:space="preserve">
+    <value>btn_AutoAngle</value>
+  </data>
+  <data name="&gt;&gt;btn_AutoAngle.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_AutoAngle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_AutoAngle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chk_DrawCrosshair.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chk_DrawCrosshair.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_DrawCrosshair.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 374</value>
+  </data>
+  <data name="chk_DrawCrosshair.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 24</value>
+  </data>
+  <data name="chk_DrawCrosshair.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="chk_DrawCrosshair.Text" xml:space="preserve">
+    <value>Draw Crosshair</value>
+  </data>
+  <data name="chk_DrawCrosshair.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chk_DrawCrosshair.Name" xml:space="preserve">
+    <value>chk_DrawCrosshair</value>
+  </data>
+  <data name="&gt;&gt;chk_DrawCrosshair.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_DrawCrosshair.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_DrawCrosshair.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>964, 422</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Customize Pad</value>
+  </data>
+  <data name="&gt;&gt;timer_Live.Name" xml:space="preserve">
+    <value>timer_Live</value>
+  </data>
+  <data name="&gt;&gt;timer_Live.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SetGroupNoForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

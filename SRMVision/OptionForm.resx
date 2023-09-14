@@ -1,0 +1,3492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBox3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 49</value>
+  </data>
+  <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 17</value>
+  </data>
+  <data name="checkBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBox3.Text" xml:space="preserve">
+    <value>Auto SPC Display</value>
+  </data>
+  <data name="&gt;&gt;checkBox3.Name" xml:space="preserve">
+    <value>checkBox3</value>
+  </data>
+  <data name="&gt;&gt;checkBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 26</value>
+  </data>
+  <data name="checkBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 17</value>
+  </data>
+  <data name="checkBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="checkBox4.Text" xml:space="preserve">
+    <value>Auto Purge</value>
+  </data>
+  <data name="&gt;&gt;checkBox4.Name" xml:space="preserve">
+    <value>checkBox4</value>
+  </data>
+  <data name="&gt;&gt;checkBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="srmCheckBox5.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="srmCheckBox5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmCheckBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 42</value>
+  </data>
+  <data name="srmCheckBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="srmCheckBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="srmCheckBox5.Text" xml:space="preserve">
+    <value>Auto Purge</value>
+  </data>
+  <data name="&gt;&gt;srmCheckBox5.Name" xml:space="preserve">
+    <value>srmCheckBox5</value>
+  </data>
+  <data name="&gt;&gt;srmCheckBox5.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmCheckBox6.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="srmCheckBox6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmCheckBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="srmCheckBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="srmCheckBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="srmCheckBox6.Text" xml:space="preserve">
+    <value>Auto Purge</value>
+  </data>
+  <data name="&gt;&gt;srmCheckBox6.Name" xml:space="preserve">
+    <value>srmCheckBox6</value>
+  </data>
+  <data name="&gt;&gt;srmCheckBox6.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="srmCheckBox7.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="srmCheckBox7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmCheckBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 64</value>
+  </data>
+  <data name="srmCheckBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="srmCheckBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="srmCheckBox7.Text" xml:space="preserve">
+    <value>Auto Purge</value>
+  </data>
+  <data name="&gt;&gt;srmCheckBox7.Name" xml:space="preserve">
+    <value>srmCheckBox7</value>
+  </data>
+  <data name="&gt;&gt;srmCheckBox7.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 278</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 17</value>
+  </data>
+  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>Enable Tape 2</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 255</value>
+  </data>
+  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 17</value>
+  </data>
+  <data name="checkBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="checkBox2.Text" xml:space="preserve">
+    <value>Bucket Drawer by Pass</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Name" xml:space="preserve">
+    <value>checkBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 209</value>
+  </data>
+  <data name="checkBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 17</value>
+  </data>
+  <data name="checkBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="checkBox9.Text" xml:space="preserve">
+    <value>Auto Logout when user enter Auto Mode</value>
+  </data>
+  <data name="&gt;&gt;checkBox9.Name" xml:space="preserve">
+    <value>checkBox9</value>
+  </data>
+  <data name="&gt;&gt;checkBox9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 232</value>
+  </data>
+  <data name="checkBox12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 17</value>
+  </data>
+  <data name="checkBox12.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="checkBox12.Text" xml:space="preserve">
+    <value>Tape Jog by Pass</value>
+  </data>
+  <data name="&gt;&gt;checkBox12.Name" xml:space="preserve">
+    <value>checkBox12</value>
+  </data>
+  <data name="&gt;&gt;checkBox12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 163</value>
+  </data>
+  <data name="checkBox13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 17</value>
+  </data>
+  <data name="checkBox13.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="checkBox13.Text" xml:space="preserve">
+    <value>Precisor Lifter</value>
+  </data>
+  <data name="&gt;&gt;checkBox13.Name" xml:space="preserve">
+    <value>checkBox13</value>
+  </data>
+  <data name="&gt;&gt;checkBox13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 186</value>
+  </data>
+  <data name="checkBox14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
+  </data>
+  <data name="checkBox14.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="checkBox14.Text" xml:space="preserve">
+    <value>Low Yield</value>
+  </data>
+  <data name="&gt;&gt;checkBox14.Name" xml:space="preserve">
+    <value>checkBox14</value>
+  </data>
+  <data name="&gt;&gt;checkBox14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 140</value>
+  </data>
+  <data name="checkBox15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 17</value>
+  </data>
+  <data name="checkBox15.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBox15.Text" xml:space="preserve">
+    <value>Auto SPC Display</value>
+  </data>
+  <data name="&gt;&gt;checkBox15.Name" xml:space="preserve">
+    <value>checkBox15</value>
+  </data>
+  <data name="&gt;&gt;checkBox15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>664, 493</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 40</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_OK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_OK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>570, 493</value>
+  </data>
+  <data name="btn_OK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 40</value>
+  </data>
+  <data name="btn_OK.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="btn_OK.Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Name" xml:space="preserve">
+    <value>btn_OK</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="srmLabel9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 28</value>
+  </data>
+  <data name="srmLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="srmLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="srmLabel9.Text" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Name" xml:space="preserve">
+    <value>srmLabel9</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.Parent" xml:space="preserve">
+    <value>Group_Resolution</value>
+  </data>
+  <data name="&gt;&gt;srmLabel9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_Height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 25</value>
+  </data>
+  <data name="txt_Height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txt_Height.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="&gt;&gt;txt_Height.Name" xml:space="preserve">
+    <value>txt_Height</value>
+  </data>
+  <data name="&gt;&gt;txt_Height.Type" xml:space="preserve">
+    <value>SRMControl.SRMTextBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_Height.Parent" xml:space="preserve">
+    <value>Group_Resolution</value>
+  </data>
+  <data name="&gt;&gt;txt_Height.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="srmLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="srmLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="srmLabel8.Text" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Name" xml:space="preserve">
+    <value>srmLabel8</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.Parent" xml:space="preserve">
+    <value>Group_Resolution</value>
+  </data>
+  <data name="&gt;&gt;srmLabel8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_Width.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 22</value>
+  </data>
+  <data name="txt_Width.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txt_Width.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;txt_Width.Name" xml:space="preserve">
+    <value>txt_Width</value>
+  </data>
+  <data name="&gt;&gt;txt_Width.Type" xml:space="preserve">
+    <value>SRMControl.SRMTextBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_Width.Parent" xml:space="preserve">
+    <value>Group_Resolution</value>
+  </data>
+  <data name="&gt;&gt;txt_Width.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Group_Resolution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 265</value>
+  </data>
+  <data name="Group_Resolution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 61</value>
+  </data>
+  <data name="Group_Resolution.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="Group_Resolution.Text" xml:space="preserve">
+    <value>Image Resolution</value>
+  </data>
+  <data name="Group_Resolution.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Group_Resolution.Name" xml:space="preserve">
+    <value>Group_Resolution</value>
+  </data>
+  <data name="&gt;&gt;Group_Resolution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Group_Resolution.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;Group_Resolution.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="chk_AutoLogout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_AutoLogout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 56</value>
+  </data>
+  <data name="chk_AutoLogout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="chk_AutoLogout.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="chk_AutoLogout.Text" xml:space="preserve">
+    <value>Auto Logout</value>
+  </data>
+  <data name="&gt;&gt;chk_AutoLogout.Name" xml:space="preserve">
+    <value>chk_AutoLogout</value>
+  </data>
+  <data name="&gt;&gt;chk_AutoLogout.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_AutoLogout.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_AutoLogout.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="chk_WantGauge.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantGauge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 234</value>
+  </data>
+  <data name="chk_WantGauge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="chk_WantGauge.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="chk_WantGauge.Text" xml:space="preserve">
+    <value>Want Gauge</value>
+  </data>
+  <data name="chk_WantGauge.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chk_WantGauge.Name" xml:space="preserve">
+    <value>chk_WantGauge</value>
+  </data>
+  <data name="&gt;&gt;chk_WantGauge.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_WantGauge.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_WantGauge.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="txt_V8SaveImageBufferSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 186</value>
+  </data>
+  <data name="txt_V8SaveImageBufferSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="txt_V8SaveImageBufferSize.TabIndex" type="System.Int32, mscorlib">
+    <value>246</value>
+  </data>
+  <data name="txt_V8SaveImageBufferSize.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_V8SaveImageBufferSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_V8SaveImageBufferSize.Name" xml:space="preserve">
+    <value>txt_V8SaveImageBufferSize</value>
+  </data>
+  <data name="&gt;&gt;txt_V8SaveImageBufferSize.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_V8SaveImageBufferSize.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;txt_V8SaveImageBufferSize.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_V7SaveImageBufferSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 162</value>
+  </data>
+  <data name="txt_V7SaveImageBufferSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="txt_V7SaveImageBufferSize.TabIndex" type="System.Int32, mscorlib">
+    <value>246</value>
+  </data>
+  <data name="txt_V7SaveImageBufferSize.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_V7SaveImageBufferSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_V7SaveImageBufferSize.Name" xml:space="preserve">
+    <value>txt_V7SaveImageBufferSize</value>
+  </data>
+  <data name="&gt;&gt;txt_V7SaveImageBufferSize.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_V7SaveImageBufferSize.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;txt_V7SaveImageBufferSize.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_V6SaveImageBufferSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 138</value>
+  </data>
+  <data name="txt_V6SaveImageBufferSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="txt_V6SaveImageBufferSize.TabIndex" type="System.Int32, mscorlib">
+    <value>246</value>
+  </data>
+  <data name="txt_V6SaveImageBufferSize.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_V6SaveImageBufferSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_V6SaveImageBufferSize.Name" xml:space="preserve">
+    <value>txt_V6SaveImageBufferSize</value>
+  </data>
+  <data name="&gt;&gt;txt_V6SaveImageBufferSize.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_V6SaveImageBufferSize.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;txt_V6SaveImageBufferSize.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txt_V5SaveImageBufferSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 115</value>
+  </data>
+  <data name="txt_V5SaveImageBufferSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="txt_V5SaveImageBufferSize.TabIndex" type="System.Int32, mscorlib">
+    <value>246</value>
+  </data>
+  <data name="txt_V5SaveImageBufferSize.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_V5SaveImageBufferSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_V5SaveImageBufferSize.Name" xml:space="preserve">
+    <value>txt_V5SaveImageBufferSize</value>
+  </data>
+  <data name="&gt;&gt;txt_V5SaveImageBufferSize.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_V5SaveImageBufferSize.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;txt_V5SaveImageBufferSize.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_V4SaveImageBufferSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 91</value>
+  </data>
+  <data name="txt_V4SaveImageBufferSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="txt_V4SaveImageBufferSize.TabIndex" type="System.Int32, mscorlib">
+    <value>246</value>
+  </data>
+  <data name="txt_V4SaveImageBufferSize.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_V4SaveImageBufferSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_V4SaveImageBufferSize.Name" xml:space="preserve">
+    <value>txt_V4SaveImageBufferSize</value>
+  </data>
+  <data name="&gt;&gt;txt_V4SaveImageBufferSize.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_V4SaveImageBufferSize.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;txt_V4SaveImageBufferSize.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txt_V3SaveImageBufferSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 67</value>
+  </data>
+  <data name="txt_V3SaveImageBufferSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="txt_V3SaveImageBufferSize.TabIndex" type="System.Int32, mscorlib">
+    <value>246</value>
+  </data>
+  <data name="txt_V3SaveImageBufferSize.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_V3SaveImageBufferSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_V3SaveImageBufferSize.Name" xml:space="preserve">
+    <value>txt_V3SaveImageBufferSize</value>
+  </data>
+  <data name="&gt;&gt;txt_V3SaveImageBufferSize.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_V3SaveImageBufferSize.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;txt_V3SaveImageBufferSize.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_V2SaveImageBufferSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 43</value>
+  </data>
+  <data name="txt_V2SaveImageBufferSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="txt_V2SaveImageBufferSize.TabIndex" type="System.Int32, mscorlib">
+    <value>246</value>
+  </data>
+  <data name="txt_V2SaveImageBufferSize.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_V2SaveImageBufferSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_V2SaveImageBufferSize.Name" xml:space="preserve">
+    <value>txt_V2SaveImageBufferSize</value>
+  </data>
+  <data name="&gt;&gt;txt_V2SaveImageBufferSize.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_V2SaveImageBufferSize.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;txt_V2SaveImageBufferSize.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txt_SaveImageBufferSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 19</value>
+  </data>
+  <data name="txt_SaveImageBufferSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="txt_SaveImageBufferSize.TabIndex" type="System.Int32, mscorlib">
+    <value>246</value>
+  </data>
+  <data name="txt_SaveImageBufferSize.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_SaveImageBufferSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_SaveImageBufferSize.Name" xml:space="preserve">
+    <value>txt_SaveImageBufferSize</value>
+  </data>
+  <data name="&gt;&gt;txt_SaveImageBufferSize.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_SaveImageBufferSize.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;txt_SaveImageBufferSize.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cbo_SaveImageLocation.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 18</value>
+  </data>
+  <data name="cbo_SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 21</value>
+  </data>
+  <data name="cbo_SaveImageLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <data name="cbo_SaveImageLocation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_SaveImageLocation.Name" xml:space="preserve">
+    <value>cbo_SaveImageLocation</value>
+  </data>
+  <data name="&gt;&gt;cbo_SaveImageLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_SaveImageLocation.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;cbo_SaveImageLocation.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl_V8SaveImageBufferSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_V8SaveImageBufferSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_V8SaveImageBufferSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 189</value>
+  </data>
+  <data name="lbl_V8SaveImageBufferSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="lbl_V8SaveImageBufferSize.TabIndex" type="System.Int32, mscorlib">
+    <value>243</value>
+  </data>
+  <data name="lbl_V8SaveImageBufferSize.Text" xml:space="preserve">
+    <value>Buffer Size:</value>
+  </data>
+  <data name="lbl_V8SaveImageBufferSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_V8SaveImageBufferSize.Name" xml:space="preserve">
+    <value>lbl_V8SaveImageBufferSize</value>
+  </data>
+  <data name="&gt;&gt;lbl_V8SaveImageBufferSize.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_V8SaveImageBufferSize.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;lbl_V8SaveImageBufferSize.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbl_V2SaveImageLocation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_V2SaveImageLocation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_V2SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 46</value>
+  </data>
+  <data name="lbl_V2SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lbl_V2SaveImageLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>218</value>
+  </data>
+  <data name="lbl_V2SaveImageLocation.Text" xml:space="preserve">
+    <value>V2 Location :</value>
+  </data>
+  <data name="lbl_V2SaveImageLocation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_V2SaveImageLocation.Name" xml:space="preserve">
+    <value>lbl_V2SaveImageLocation</value>
+  </data>
+  <data name="&gt;&gt;lbl_V2SaveImageLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_V2SaveImageLocation.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;lbl_V2SaveImageLocation.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cbo_V2SaveImageLocation.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_V2SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 42</value>
+  </data>
+  <data name="cbo_V2SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 21</value>
+  </data>
+  <data name="cbo_V2SaveImageLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>217</value>
+  </data>
+  <data name="cbo_V2SaveImageLocation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_V2SaveImageLocation.Name" xml:space="preserve">
+    <value>cbo_V2SaveImageLocation</value>
+  </data>
+  <data name="&gt;&gt;cbo_V2SaveImageLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_V2SaveImageLocation.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;cbo_V2SaveImageLocation.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lbl_V2SaveImageBufferSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_V2SaveImageBufferSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_V2SaveImageBufferSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 46</value>
+  </data>
+  <data name="lbl_V2SaveImageBufferSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="lbl_V2SaveImageBufferSize.TabIndex" type="System.Int32, mscorlib">
+    <value>219</value>
+  </data>
+  <data name="lbl_V2SaveImageBufferSize.Text" xml:space="preserve">
+    <value>Buffer Size:</value>
+  </data>
+  <data name="lbl_V2SaveImageBufferSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_V2SaveImageBufferSize.Name" xml:space="preserve">
+    <value>lbl_V2SaveImageBufferSize</value>
+  </data>
+  <data name="&gt;&gt;lbl_V2SaveImageBufferSize.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_V2SaveImageBufferSize.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;lbl_V2SaveImageBufferSize.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lbl_V8SaveImageLocation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_V8SaveImageLocation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_V8SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 189</value>
+  </data>
+  <data name="lbl_V8SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lbl_V8SaveImageLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>242</value>
+  </data>
+  <data name="lbl_V8SaveImageLocation.Text" xml:space="preserve">
+    <value>V8 Location :</value>
+  </data>
+  <data name="lbl_V8SaveImageLocation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_V8SaveImageLocation.Name" xml:space="preserve">
+    <value>lbl_V8SaveImageLocation</value>
+  </data>
+  <data name="&gt;&gt;lbl_V8SaveImageLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_V8SaveImageLocation.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;lbl_V8SaveImageLocation.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lbl_SaveImageBufferSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_SaveImageBufferSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_SaveImageBufferSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="lbl_SaveImageBufferSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="lbl_SaveImageBufferSize.TabIndex" type="System.Int32, mscorlib">
+    <value>214</value>
+  </data>
+  <data name="lbl_SaveImageBufferSize.Text" xml:space="preserve">
+    <value>Buffer Size:</value>
+  </data>
+  <data name="lbl_SaveImageBufferSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_SaveImageBufferSize.Name" xml:space="preserve">
+    <value>lbl_SaveImageBufferSize</value>
+  </data>
+  <data name="&gt;&gt;lbl_SaveImageBufferSize.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_SaveImageBufferSize.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;lbl_SaveImageBufferSize.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cbo_V3SaveImageLocation.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_V3SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 66</value>
+  </data>
+  <data name="cbo_V3SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 21</value>
+  </data>
+  <data name="cbo_V3SaveImageLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>221</value>
+  </data>
+  <data name="cbo_V3SaveImageLocation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_V3SaveImageLocation.Name" xml:space="preserve">
+    <value>cbo_V3SaveImageLocation</value>
+  </data>
+  <data name="&gt;&gt;cbo_V3SaveImageLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_V3SaveImageLocation.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;cbo_V3SaveImageLocation.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cbo_V8SaveImageLocation.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_V8SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 185</value>
+  </data>
+  <data name="cbo_V8SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 21</value>
+  </data>
+  <data name="cbo_V8SaveImageLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>241</value>
+  </data>
+  <data name="cbo_V8SaveImageLocation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_V8SaveImageLocation.Name" xml:space="preserve">
+    <value>cbo_V8SaveImageLocation</value>
+  </data>
+  <data name="&gt;&gt;cbo_V8SaveImageLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_V8SaveImageLocation.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;cbo_V8SaveImageLocation.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lbl_V3SaveImageLocation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_V3SaveImageLocation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_V3SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 70</value>
+  </data>
+  <data name="lbl_V3SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lbl_V3SaveImageLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>222</value>
+  </data>
+  <data name="lbl_V3SaveImageLocation.Text" xml:space="preserve">
+    <value>V3 Location :</value>
+  </data>
+  <data name="lbl_V3SaveImageLocation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_V3SaveImageLocation.Name" xml:space="preserve">
+    <value>lbl_V3SaveImageLocation</value>
+  </data>
+  <data name="&gt;&gt;lbl_V3SaveImageLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_V3SaveImageLocation.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;lbl_V3SaveImageLocation.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lbl_V7SaveImageBufferSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_V7SaveImageBufferSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_V7SaveImageBufferSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 165</value>
+  </data>
+  <data name="lbl_V7SaveImageBufferSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="lbl_V7SaveImageBufferSize.TabIndex" type="System.Int32, mscorlib">
+    <value>239</value>
+  </data>
+  <data name="lbl_V7SaveImageBufferSize.Text" xml:space="preserve">
+    <value>Buffer Size:</value>
+  </data>
+  <data name="lbl_V7SaveImageBufferSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_V7SaveImageBufferSize.Name" xml:space="preserve">
+    <value>lbl_V7SaveImageBufferSize</value>
+  </data>
+  <data name="&gt;&gt;lbl_V7SaveImageBufferSize.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_V7SaveImageBufferSize.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;lbl_V7SaveImageBufferSize.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lbl_SaveImageLocation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_SaveImageLocation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 22</value>
+  </data>
+  <data name="lbl_SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lbl_SaveImageLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>213</value>
+  </data>
+  <data name="lbl_SaveImageLocation.Text" xml:space="preserve">
+    <value>V1 Location :</value>
+  </data>
+  <data name="lbl_SaveImageLocation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_SaveImageLocation.Name" xml:space="preserve">
+    <value>lbl_SaveImageLocation</value>
+  </data>
+  <data name="&gt;&gt;lbl_SaveImageLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_SaveImageLocation.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;lbl_SaveImageLocation.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lbl_V3SaveImageBufferSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_V3SaveImageBufferSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_V3SaveImageBufferSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 70</value>
+  </data>
+  <data name="lbl_V3SaveImageBufferSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="lbl_V3SaveImageBufferSize.TabIndex" type="System.Int32, mscorlib">
+    <value>223</value>
+  </data>
+  <data name="lbl_V3SaveImageBufferSize.Text" xml:space="preserve">
+    <value>Buffer Size:</value>
+  </data>
+  <data name="lbl_V3SaveImageBufferSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_V3SaveImageBufferSize.Name" xml:space="preserve">
+    <value>lbl_V3SaveImageBufferSize</value>
+  </data>
+  <data name="&gt;&gt;lbl_V3SaveImageBufferSize.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_V3SaveImageBufferSize.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;lbl_V3SaveImageBufferSize.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="cbo_V4SaveImageLocation.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_V4SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 90</value>
+  </data>
+  <data name="cbo_V4SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 21</value>
+  </data>
+  <data name="cbo_V4SaveImageLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>225</value>
+  </data>
+  <data name="cbo_V4SaveImageLocation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_V4SaveImageLocation.Name" xml:space="preserve">
+    <value>cbo_V4SaveImageLocation</value>
+  </data>
+  <data name="&gt;&gt;cbo_V4SaveImageLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_V4SaveImageLocation.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;cbo_V4SaveImageLocation.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lbl_V7SaveImageLocation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_V7SaveImageLocation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_V7SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 165</value>
+  </data>
+  <data name="lbl_V7SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lbl_V7SaveImageLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>238</value>
+  </data>
+  <data name="lbl_V7SaveImageLocation.Text" xml:space="preserve">
+    <value>V7 Location :</value>
+  </data>
+  <data name="lbl_V7SaveImageLocation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_V7SaveImageLocation.Name" xml:space="preserve">
+    <value>lbl_V7SaveImageLocation</value>
+  </data>
+  <data name="&gt;&gt;lbl_V7SaveImageLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_V7SaveImageLocation.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;lbl_V7SaveImageLocation.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="lbl_V4SaveImageLocation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_V4SaveImageLocation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_V4SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 94</value>
+  </data>
+  <data name="lbl_V4SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lbl_V4SaveImageLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>226</value>
+  </data>
+  <data name="lbl_V4SaveImageLocation.Text" xml:space="preserve">
+    <value>V4 Location :</value>
+  </data>
+  <data name="lbl_V4SaveImageLocation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_V4SaveImageLocation.Name" xml:space="preserve">
+    <value>lbl_V4SaveImageLocation</value>
+  </data>
+  <data name="&gt;&gt;lbl_V4SaveImageLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_V4SaveImageLocation.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;lbl_V4SaveImageLocation.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="cbo_V7SaveImageLocation.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_V7SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 161</value>
+  </data>
+  <data name="cbo_V7SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 21</value>
+  </data>
+  <data name="cbo_V7SaveImageLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>237</value>
+  </data>
+  <data name="cbo_V7SaveImageLocation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_V7SaveImageLocation.Name" xml:space="preserve">
+    <value>cbo_V7SaveImageLocation</value>
+  </data>
+  <data name="&gt;&gt;cbo_V7SaveImageLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_V7SaveImageLocation.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;cbo_V7SaveImageLocation.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="lbl_V4SaveImageBufferSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_V4SaveImageBufferSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_V4SaveImageBufferSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 94</value>
+  </data>
+  <data name="lbl_V4SaveImageBufferSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="lbl_V4SaveImageBufferSize.TabIndex" type="System.Int32, mscorlib">
+    <value>227</value>
+  </data>
+  <data name="lbl_V4SaveImageBufferSize.Text" xml:space="preserve">
+    <value>Buffer Size:</value>
+  </data>
+  <data name="lbl_V4SaveImageBufferSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_V4SaveImageBufferSize.Name" xml:space="preserve">
+    <value>lbl_V4SaveImageBufferSize</value>
+  </data>
+  <data name="&gt;&gt;lbl_V4SaveImageBufferSize.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_V4SaveImageBufferSize.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;lbl_V4SaveImageBufferSize.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="cbo_V5SaveImageLocation.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_V5SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 114</value>
+  </data>
+  <data name="cbo_V5SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 21</value>
+  </data>
+  <data name="cbo_V5SaveImageLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>229</value>
+  </data>
+  <data name="cbo_V5SaveImageLocation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_V5SaveImageLocation.Name" xml:space="preserve">
+    <value>cbo_V5SaveImageLocation</value>
+  </data>
+  <data name="&gt;&gt;cbo_V5SaveImageLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_V5SaveImageLocation.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;cbo_V5SaveImageLocation.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="lbl_V6SaveImageBufferSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_V6SaveImageBufferSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_V6SaveImageBufferSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 141</value>
+  </data>
+  <data name="lbl_V6SaveImageBufferSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="lbl_V6SaveImageBufferSize.TabIndex" type="System.Int32, mscorlib">
+    <value>235</value>
+  </data>
+  <data name="lbl_V6SaveImageBufferSize.Text" xml:space="preserve">
+    <value>Buffer Size:</value>
+  </data>
+  <data name="lbl_V6SaveImageBufferSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_V6SaveImageBufferSize.Name" xml:space="preserve">
+    <value>lbl_V6SaveImageBufferSize</value>
+  </data>
+  <data name="&gt;&gt;lbl_V6SaveImageBufferSize.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_V6SaveImageBufferSize.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;lbl_V6SaveImageBufferSize.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lbl_V5SaveImageLocation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_V5SaveImageLocation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_V5SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 118</value>
+  </data>
+  <data name="lbl_V5SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lbl_V5SaveImageLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>230</value>
+  </data>
+  <data name="lbl_V5SaveImageLocation.Text" xml:space="preserve">
+    <value>V5 Location :</value>
+  </data>
+  <data name="lbl_V5SaveImageLocation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_V5SaveImageLocation.Name" xml:space="preserve">
+    <value>lbl_V5SaveImageLocation</value>
+  </data>
+  <data name="&gt;&gt;lbl_V5SaveImageLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_V5SaveImageLocation.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;lbl_V5SaveImageLocation.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="lbl_V5SaveImageBufferSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_V5SaveImageBufferSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_V5SaveImageBufferSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 118</value>
+  </data>
+  <data name="lbl_V5SaveImageBufferSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="lbl_V5SaveImageBufferSize.TabIndex" type="System.Int32, mscorlib">
+    <value>231</value>
+  </data>
+  <data name="lbl_V5SaveImageBufferSize.Text" xml:space="preserve">
+    <value>Buffer Size:</value>
+  </data>
+  <data name="lbl_V5SaveImageBufferSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_V5SaveImageBufferSize.Name" xml:space="preserve">
+    <value>lbl_V5SaveImageBufferSize</value>
+  </data>
+  <data name="&gt;&gt;lbl_V5SaveImageBufferSize.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_V5SaveImageBufferSize.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;lbl_V5SaveImageBufferSize.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="cbo_V6SaveImageLocation.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_V6SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 137</value>
+  </data>
+  <data name="cbo_V6SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 21</value>
+  </data>
+  <data name="cbo_V6SaveImageLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>233</value>
+  </data>
+  <data name="cbo_V6SaveImageLocation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbo_V6SaveImageLocation.Name" xml:space="preserve">
+    <value>cbo_V6SaveImageLocation</value>
+  </data>
+  <data name="&gt;&gt;cbo_V6SaveImageLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_V6SaveImageLocation.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;cbo_V6SaveImageLocation.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="lbl_V6SaveImageLocation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_V6SaveImageLocation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_V6SaveImageLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 141</value>
+  </data>
+  <data name="lbl_V6SaveImageLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lbl_V6SaveImageLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>234</value>
+  </data>
+  <data name="lbl_V6SaveImageLocation.Text" xml:space="preserve">
+    <value>V6 Location :</value>
+  </data>
+  <data name="lbl_V6SaveImageLocation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_V6SaveImageLocation.Name" xml:space="preserve">
+    <value>lbl_V6SaveImageLocation</value>
+  </data>
+  <data name="&gt;&gt;lbl_V6SaveImageLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_V6SaveImageLocation.Parent" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;lbl_V6SaveImageLocation.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="gb_SaveImageSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 15</value>
+  </data>
+  <data name="gb_SaveImageSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>313, 215</value>
+  </data>
+  <data name="gb_SaveImageSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>245</value>
+  </data>
+  <data name="gb_SaveImageSettings.Text" xml:space="preserve">
+    <value>Save Image Settings</value>
+  </data>
+  <data name="&gt;&gt;gb_SaveImageSettings.Name" xml:space="preserve">
+    <value>gb_SaveImageSettings</value>
+  </data>
+  <data name="&gt;&gt;gb_SaveImageSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_SaveImageSettings.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;gb_SaveImageSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chk_DeleteImageDuringProduction.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_DeleteImageDuringProduction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 410</value>
+  </data>
+  <data name="chk_DeleteImageDuringProduction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="chk_DeleteImageDuringProduction.TabIndex" type="System.Int32, mscorlib">
+    <value>206</value>
+  </data>
+  <data name="chk_DeleteImageDuringProduction.Text" xml:space="preserve">
+    <value>Delete Image During Production</value>
+  </data>
+  <data name="&gt;&gt;chk_DeleteImageDuringProduction.Name" xml:space="preserve">
+    <value>chk_DeleteImageDuringProduction</value>
+  </data>
+  <data name="&gt;&gt;chk_DeleteImageDuringProduction.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_DeleteImageDuringProduction.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_DeleteImageDuringProduction.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chk_BlankImageBeforeGrab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_BlankImageBeforeGrab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 385</value>
+  </data>
+  <data name="chk_BlankImageBeforeGrab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="chk_BlankImageBeforeGrab.TabIndex" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="chk_BlankImageBeforeGrab.Text" xml:space="preserve">
+    <value>Blank Image Before Grab</value>
+  </data>
+  <data name="&gt;&gt;chk_BlankImageBeforeGrab.Name" xml:space="preserve">
+    <value>chk_BlankImageBeforeGrab</value>
+  </data>
+  <data name="&gt;&gt;chk_BlankImageBeforeGrab.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_BlankImageBeforeGrab.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_BlankImageBeforeGrab.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chk_WantShowWhiteBalance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantShowWhiteBalance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 360</value>
+  </data>
+  <data name="chk_WantShowWhiteBalance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="chk_WantShowWhiteBalance.TabIndex" type="System.Int32, mscorlib">
+    <value>204</value>
+  </data>
+  <data name="chk_WantShowWhiteBalance.Text" xml:space="preserve">
+    <value>Want Show White Balance Setting</value>
+  </data>
+  <data name="&gt;&gt;chk_WantShowWhiteBalance.Name" xml:space="preserve">
+    <value>chk_WantShowWhiteBalance</value>
+  </data>
+  <data name="&gt;&gt;chk_WantShowWhiteBalance.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_WantShowWhiteBalance.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_WantShowWhiteBalance.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chk_WantRecipeVerification.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantRecipeVerification.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 335</value>
+  </data>
+  <data name="chk_WantRecipeVerification.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="chk_WantRecipeVerification.TabIndex" type="System.Int32, mscorlib">
+    <value>203</value>
+  </data>
+  <data name="chk_WantRecipeVerification.Text" xml:space="preserve">
+    <value>Want Recipe Verification</value>
+  </data>
+  <data name="&gt;&gt;chk_WantRecipeVerification.Name" xml:space="preserve">
+    <value>chk_WantRecipeVerification</value>
+  </data>
+  <data name="&gt;&gt;chk_WantRecipeVerification.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_WantRecipeVerification.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_WantRecipeVerification.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chk_ShowGUIForBelowUserRight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_ShowGUIForBelowUserRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 310</value>
+  </data>
+  <data name="chk_ShowGUIForBelowUserRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="chk_ShowGUIForBelowUserRight.TabIndex" type="System.Int32, mscorlib">
+    <value>202</value>
+  </data>
+  <data name="chk_ShowGUIForBelowUserRight.Text" xml:space="preserve">
+    <value>Show GUI For Below User Right</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowGUIForBelowUserRight.Name" xml:space="preserve">
+    <value>chk_ShowGUIForBelowUserRight</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowGUIForBelowUserRight.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowGUIForBelowUserRight.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowGUIForBelowUserRight.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chk_WantUseTCPIPAsIO.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantUseTCPIPAsIO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 106</value>
+  </data>
+  <data name="chk_WantUseTCPIPAsIO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 25</value>
+  </data>
+  <data name="chk_WantUseTCPIPAsIO.TabIndex" type="System.Int32, mscorlib">
+    <value>201</value>
+  </data>
+  <data name="chk_WantUseTCPIPAsIO.Text" xml:space="preserve">
+    <value>Want Use TCPIP as IO</value>
+  </data>
+  <data name="&gt;&gt;chk_WantUseTCPIPAsIO.Name" xml:space="preserve">
+    <value>chk_WantUseTCPIPAsIO</value>
+  </data>
+  <data name="&gt;&gt;chk_WantUseTCPIPAsIO.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_WantUseTCPIPAsIO.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_WantUseTCPIPAsIO.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="srmLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 365</value>
+  </data>
+  <data name="srmLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="srmLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="srmLabel4.Text" xml:space="preserve">
+    <value>Orient IO :</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Name" xml:space="preserve">
+    <value>srmLabel4</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;srmLabel4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cbo_OrientIO.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_OrientIO.Items" xml:space="preserve">
+    <value>Clockwise</value>
+  </data>
+  <data name="cbo_OrientIO.Items1" xml:space="preserve">
+    <value>Anti-Clockwise</value>
+  </data>
+  <data name="cbo_OrientIO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>583, 362</value>
+  </data>
+  <data name="cbo_OrientIO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 21</value>
+  </data>
+  <data name="cbo_OrientIO.TabIndex" type="System.Int32, mscorlib">
+    <value>199</value>
+  </data>
+  <data name="&gt;&gt;cbo_OrientIO.Name" xml:space="preserve">
+    <value>cbo_OrientIO</value>
+  </data>
+  <data name="&gt;&gt;cbo_OrientIO.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_OrientIO.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;cbo_OrientIO.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ClearUnwantedFolder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ClearUnwantedFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 255</value>
+  </data>
+  <data name="ClearUnwantedFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 40</value>
+  </data>
+  <data name="ClearUnwantedFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>198</value>
+  </data>
+  <data name="ClearUnwantedFolder.Text" xml:space="preserve">
+    <value>Clear Unwanted Folder</value>
+  </data>
+  <data name="&gt;&gt;ClearUnwantedFolder.Name" xml:space="preserve">
+    <value>ClearUnwantedFolder</value>
+  </data>
+  <data name="&gt;&gt;ClearUnwantedFolder.Type" xml:space="preserve">
+    <value>SRMControl.SRMButton, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ClearUnwantedFolder.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;ClearUnwantedFolder.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="chk_WantEditLog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantEditLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 285</value>
+  </data>
+  <data name="chk_WantEditLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="chk_WantEditLog.TabIndex" type="System.Int32, mscorlib">
+    <value>197</value>
+  </data>
+  <data name="chk_WantEditLog.Text" xml:space="preserve">
+    <value>Want Edit Log</value>
+  </data>
+  <data name="&gt;&gt;chk_WantEditLog.Name" xml:space="preserve">
+    <value>chk_WantEditLog</value>
+  </data>
+  <data name="&gt;&gt;chk_WantEditLog.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_WantEditLog.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_WantEditLog.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="chk_WantNonRotateInspection.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantNonRotateInspection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 260</value>
+  </data>
+  <data name="chk_WantNonRotateInspection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="chk_WantNonRotateInspection.TabIndex" type="System.Int32, mscorlib">
+    <value>196</value>
+  </data>
+  <data name="chk_WantNonRotateInspection.Text" xml:space="preserve">
+    <value>Want Non-Rotate Inspection</value>
+  </data>
+  <data name="&gt;&gt;chk_WantNonRotateInspection.Name" xml:space="preserve">
+    <value>chk_WantNonRotateInspection</value>
+  </data>
+  <data name="&gt;&gt;chk_WantNonRotateInspection.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_WantNonRotateInspection.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_WantNonRotateInspection.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="chk_WantBypassIPM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_WantBypassIPM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 235</value>
+  </data>
+  <data name="chk_WantBypassIPM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="chk_WantBypassIPM.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="chk_WantBypassIPM.Text" xml:space="preserve">
+    <value>Want Bypass IPM</value>
+  </data>
+  <data name="&gt;&gt;chk_WantBypassIPM.Name" xml:space="preserve">
+    <value>chk_WantBypassIPM</value>
+  </data>
+  <data name="&gt;&gt;chk_WantBypassIPM.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_WantBypassIPM.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_WantBypassIPM.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="chk_ShowSubLearnButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_ShowSubLearnButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 210</value>
+  </data>
+  <data name="chk_ShowSubLearnButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="chk_ShowSubLearnButton.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="chk_ShowSubLearnButton.Text" xml:space="preserve">
+    <value>Show Sub Learn Button</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowSubLearnButton.Name" xml:space="preserve">
+    <value>chk_ShowSubLearnButton</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowSubLearnButton.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowSubLearnButton.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_ShowSubLearnButton.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="srmLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 392</value>
+  </data>
+  <data name="srmLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 13</value>
+  </data>
+  <data name="srmLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>193</value>
+  </data>
+  <data name="srmLabel1.Text" xml:space="preserve">
+    <value>Save History Data Location :</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Name" xml:space="preserve">
+    <value>srmLabel1</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;srmLabel1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cbo_HistoryDataLocation.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_HistoryDataLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>583, 389</value>
+  </data>
+  <data name="cbo_HistoryDataLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 21</value>
+  </data>
+  <data name="cbo_HistoryDataLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>192</value>
+  </data>
+  <data name="&gt;&gt;cbo_HistoryDataLocation.Name" xml:space="preserve">
+    <value>cbo_HistoryDataLocation</value>
+  </data>
+  <data name="&gt;&gt;cbo_HistoryDataLocation.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_HistoryDataLocation.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;cbo_HistoryDataLocation.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="chk_OnlyNewLot.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_OnlyNewLot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 185</value>
+  </data>
+  <data name="chk_OnlyNewLot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="chk_OnlyNewLot.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="chk_OnlyNewLot.Text" xml:space="preserve">
+    <value>Only New Lot (No End Lot)</value>
+  </data>
+  <data name="&gt;&gt;chk_OnlyNewLot.Name" xml:space="preserve">
+    <value>chk_OnlyNewLot</value>
+  </data>
+  <data name="&gt;&gt;chk_OnlyNewLot.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_OnlyNewLot.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_OnlyNewLot.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="chk_ConfigShowNetwork.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_ConfigShowNetwork.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 160</value>
+  </data>
+  <data name="chk_ConfigShowNetwork.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 25</value>
+  </data>
+  <data name="chk_ConfigShowNetwork.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="chk_ConfigShowNetwork.Text" xml:space="preserve">
+    <value>Configuration Show Network</value>
+  </data>
+  <data name="&gt;&gt;chk_ConfigShowNetwork.Name" xml:space="preserve">
+    <value>chk_ConfigShowNetwork</value>
+  </data>
+  <data name="&gt;&gt;chk_ConfigShowNetwork.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_ConfigShowNetwork.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_ConfigShowNetwork.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="chk_ConfigShowRS232.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_ConfigShowRS232.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 135</value>
+  </data>
+  <data name="chk_ConfigShowRS232.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 25</value>
+  </data>
+  <data name="chk_ConfigShowRS232.TabIndex" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="chk_ConfigShowRS232.Text" xml:space="preserve">
+    <value>Configuration Show RS232</value>
+  </data>
+  <data name="&gt;&gt;chk_ConfigShowRS232.Name" xml:space="preserve">
+    <value>chk_ConfigShowRS232</value>
+  </data>
+  <data name="&gt;&gt;chk_ConfigShowRS232.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_ConfigShowRS232.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_ConfigShowRS232.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="chk_ConfigShowTCPIP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_ConfigShowTCPIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 81</value>
+  </data>
+  <data name="chk_ConfigShowTCPIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 25</value>
+  </data>
+  <data name="chk_ConfigShowTCPIP.TabIndex" type="System.Int32, mscorlib">
+    <value>158</value>
+  </data>
+  <data name="chk_ConfigShowTCPIP.Text" xml:space="preserve">
+    <value>Configuration Show TCPIP</value>
+  </data>
+  <data name="&gt;&gt;chk_ConfigShowTCPIP.Name" xml:space="preserve">
+    <value>chk_ConfigShowTCPIP</value>
+  </data>
+  <data name="&gt;&gt;chk_ConfigShowTCPIP.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_ConfigShowTCPIP.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_ConfigShowTCPIP.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="cbo_DebugImageCountToUse.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_DebugImageCountToUse.Items" xml:space="preserve">
+    <value>Use Current Image</value>
+  </data>
+  <data name="cbo_DebugImageCountToUse.Items1" xml:space="preserve">
+    <value>Use Multiple Images</value>
+  </data>
+  <data name="cbo_DebugImageCountToUse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 159</value>
+  </data>
+  <data name="cbo_DebugImageCountToUse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 21</value>
+  </data>
+  <data name="cbo_DebugImageCountToUse.TabIndex" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="&gt;&gt;cbo_DebugImageCountToUse.Name" xml:space="preserve">
+    <value>cbo_DebugImageCountToUse</value>
+  </data>
+  <data name="&gt;&gt;cbo_DebugImageCountToUse.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_DebugImageCountToUse.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cbo_DebugImageCountToUse.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="srmInputBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 51</value>
+  </data>
+  <data name="srmInputBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="srmInputBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="srmInputBox1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;srmInputBox1.Name" xml:space="preserve">
+    <value>srmInputBox1</value>
+  </data>
+  <data name="&gt;&gt;srmInputBox1.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmInputBox1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;srmInputBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmCheckBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmCheckBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 31</value>
+  </data>
+  <data name="srmCheckBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 25</value>
+  </data>
+  <data name="srmCheckBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="srmCheckBox1.Text" xml:space="preserve">
+    <value>Debug Run</value>
+  </data>
+  <data name="&gt;&gt;srmCheckBox1.Name" xml:space="preserve">
+    <value>srmCheckBox1</value>
+  </data>
+  <data name="&gt;&gt;srmCheckBox1.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmCheckBox1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;srmCheckBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chk_DebugRunGrabWithoutUseImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_DebugRunGrabWithoutUseImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 124</value>
+  </data>
+  <data name="chk_DebugRunGrabWithoutUseImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 25</value>
+  </data>
+  <data name="chk_DebugRunGrabWithoutUseImage.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="chk_DebugRunGrabWithoutUseImage.Text" xml:space="preserve">
+    <value>Grab Without Use Image</value>
+  </data>
+  <data name="&gt;&gt;chk_DebugRunGrabWithoutUseImage.Name" xml:space="preserve">
+    <value>chk_DebugRunGrabWithoutUseImage</value>
+  </data>
+  <data name="&gt;&gt;chk_DebugRunGrabWithoutUseImage.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_DebugRunGrabWithoutUseImage.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;chk_DebugRunGrabWithoutUseImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chk_DebugRunFromCenter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_DebugRunFromCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 62</value>
+  </data>
+  <data name="chk_DebugRunFromCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 25</value>
+  </data>
+  <data name="chk_DebugRunFromCenter.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="chk_DebugRunFromCenter.Text" xml:space="preserve">
+    <value>Debug Run From Center</value>
+  </data>
+  <data name="&gt;&gt;chk_DebugRunFromCenter.Name" xml:space="preserve">
+    <value>chk_DebugRunFromCenter</value>
+  </data>
+  <data name="&gt;&gt;chk_DebugRunFromCenter.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_DebugRunFromCenter.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;chk_DebugRunFromCenter.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chk_DebugRunWithoutGrabImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_DebugRunWithoutGrabImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 93</value>
+  </data>
+  <data name="chk_DebugRunWithoutGrabImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 25</value>
+  </data>
+  <data name="chk_DebugRunWithoutGrabImage.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="chk_DebugRunWithoutGrabImage.Text" xml:space="preserve">
+    <value>Without Grab Image</value>
+  </data>
+  <data name="&gt;&gt;chk_DebugRunWithoutGrabImage.Name" xml:space="preserve">
+    <value>chk_DebugRunWithoutGrabImage</value>
+  </data>
+  <data name="&gt;&gt;chk_DebugRunWithoutGrabImage.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_DebugRunWithoutGrabImage.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;chk_DebugRunWithoutGrabImage.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 41</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 198</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Debug Run</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="chk_ShareHandlerPC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_ShareHandlerPC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>583, 234</value>
+  </data>
+  <data name="chk_ShareHandlerPC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 25</value>
+  </data>
+  <data name="chk_ShareHandlerPC.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="chk_ShareHandlerPC.Text" xml:space="preserve">
+    <value>Share Handler PC</value>
+  </data>
+  <data name="chk_ShareHandlerPC.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chk_ShareHandlerPC.Name" xml:space="preserve">
+    <value>chk_ShareHandlerPC</value>
+  </data>
+  <data name="&gt;&gt;chk_ShareHandlerPC.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_ShareHandlerPC.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_ShareHandlerPC.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="txt_MarkDefaultTolerance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>561, 332</value>
+  </data>
+  <data name="txt_MarkDefaultTolerance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="txt_MarkDefaultTolerance.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="txt_MarkDefaultTolerance.Text" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="txt_MarkDefaultTolerance.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txt_MarkDefaultTolerance.Name" xml:space="preserve">
+    <value>txt_MarkDefaultTolerance</value>
+  </data>
+  <data name="&gt;&gt;txt_MarkDefaultTolerance.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_MarkDefaultTolerance.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;txt_MarkDefaultTolerance.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="srmLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 335</value>
+  </data>
+  <data name="srmLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 13</value>
+  </data>
+  <data name="srmLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="srmLabel3.Text" xml:space="preserve">
+    <value>Mark Default Tolerance</value>
+  </data>
+  <data name="srmLabel3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Name" xml:space="preserve">
+    <value>srmLabel3</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;srmLabel3.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="srmLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 9</value>
+  </data>
+  <data name="srmLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="srmLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="srmLabel2.Text" xml:space="preserve">
+    <value>Machine ID</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Name" xml:space="preserve">
+    <value>srmLabel2</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;srmLabel2.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="txt_MachineID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 6</value>
+  </data>
+  <data name="txt_MachineID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txt_MachineID.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="&gt;&gt;txt_MachineID.Name" xml:space="preserve">
+    <value>txt_MachineID</value>
+  </data>
+  <data name="&gt;&gt;txt_MachineID.Type" xml:space="preserve">
+    <value>SRMControl.SRMTextBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_MachineID.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;txt_MachineID.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="chk_AutoStop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_AutoStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="chk_AutoStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="chk_AutoStop.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="chk_AutoStop.Text" xml:space="preserve">
+    <value>Auto Shut Down Program</value>
+  </data>
+  <data name="&gt;&gt;chk_AutoStop.Name" xml:space="preserve">
+    <value>chk_AutoStop</value>
+  </data>
+  <data name="&gt;&gt;chk_AutoStop.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_AutoStop.Parent" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;chk_AutoStop.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="tab_General.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tab_General.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tab_General.Size" type="System.Drawing.Size, System.Drawing">
+    <value>752, 449</value>
+  </data>
+  <data name="tab_General.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tab_General.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;tab_General.Name" xml:space="preserve">
+    <value>tab_General</value>
+  </data>
+  <data name="&gt;&gt;tab_General.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tab_General.Parent" xml:space="preserve">
+    <value>srmTabControl1</value>
+  </data>
+  <data name="&gt;&gt;tab_General.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chk_VTControl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_VTControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 29</value>
+  </data>
+  <data name="chk_VTControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 25</value>
+  </data>
+  <data name="chk_VTControl.TabIndex" type="System.Int32, mscorlib">
+    <value>186</value>
+  </data>
+  <data name="chk_VTControl.Text" xml:space="preserve">
+    <value>VT Control</value>
+  </data>
+  <data name="&gt;&gt;chk_VTControl.Name" xml:space="preserve">
+    <value>chk_VTControl</value>
+  </data>
+  <data name="&gt;&gt;chk_VTControl.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_VTControl.Parent" xml:space="preserve">
+    <value>tab_LightPort</value>
+  </data>
+  <data name="&gt;&gt;chk_VTControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_MaximumLimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 105</value>
+  </data>
+  <data name="txt_MaximumLimit.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txt_MaximumLimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 20</value>
+  </data>
+  <data name="txt_MaximumLimit.TabIndex" type="System.Int32, mscorlib">
+    <value>184</value>
+  </data>
+  <data name="txt_MaximumLimit.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_MaximumLimit.Name" xml:space="preserve">
+    <value>txt_MaximumLimit</value>
+  </data>
+  <data name="&gt;&gt;txt_MaximumLimit.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_MaximumLimit.Parent" xml:space="preserve">
+    <value>tab_LightPort</value>
+  </data>
+  <data name="&gt;&gt;txt_MaximumLimit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 108</value>
+  </data>
+  <data name="srmLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="srmLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>183</value>
+  </data>
+  <data name="srmLabel5.Text" xml:space="preserve">
+    <value>Maximum Limit</value>
+  </data>
+  <data name="srmLabel5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Name" xml:space="preserve">
+    <value>srmLabel5</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.Parent" xml:space="preserve">
+    <value>tab_LightPort</value>
+  </data>
+  <data name="&gt;&gt;srmLabel5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chk_LEDiControl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_LEDiControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 29</value>
+  </data>
+  <data name="chk_LEDiControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 25</value>
+  </data>
+  <data name="chk_LEDiControl.TabIndex" type="System.Int32, mscorlib">
+    <value>183</value>
+  </data>
+  <data name="chk_LEDiControl.Text" xml:space="preserve">
+    <value>LEDi Control</value>
+  </data>
+  <data name="&gt;&gt;chk_LEDiControl.Name" xml:space="preserve">
+    <value>chk_LEDiControl</value>
+  </data>
+  <data name="&gt;&gt;chk_LEDiControl.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_LEDiControl.Parent" xml:space="preserve">
+    <value>tab_LightPort</value>
+  </data>
+  <data name="&gt;&gt;chk_LEDiControl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="srmLabel16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 22</value>
+  </data>
+  <data name="srmLabel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="srmLabel16.TabIndex" type="System.Int32, mscorlib">
+    <value>185</value>
+  </data>
+  <data name="srmLabel16.Text" xml:space="preserve">
+    <value>(100 - 5000 ms)</value>
+  </data>
+  <data name="srmLabel16.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Name" xml:space="preserve">
+    <value>srmLabel16</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.Parent" xml:space="preserve">
+    <value>group_TCOSIOControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel16.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_ReplyTimeOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 19</value>
+  </data>
+  <data name="txt_ReplyTimeOut.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txt_ReplyTimeOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 20</value>
+  </data>
+  <data name="txt_ReplyTimeOut.TabIndex" type="System.Int32, mscorlib">
+    <value>184</value>
+  </data>
+  <data name="txt_ReplyTimeOut.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_ReplyTimeOut.Name" xml:space="preserve">
+    <value>txt_ReplyTimeOut</value>
+  </data>
+  <data name="&gt;&gt;txt_ReplyTimeOut.Type" xml:space="preserve">
+    <value>SRMControl.SRMInputBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txt_ReplyTimeOut.Parent" xml:space="preserve">
+    <value>group_TCOSIOControl</value>
+  </data>
+  <data name="&gt;&gt;txt_ReplyTimeOut.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="srmLabel36.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel36.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 22</value>
+  </data>
+  <data name="srmLabel36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="srmLabel36.TabIndex" type="System.Int32, mscorlib">
+    <value>183</value>
+  </data>
+  <data name="srmLabel36.Text" xml:space="preserve">
+    <value>Reply Time Out</value>
+  </data>
+  <data name="srmLabel36.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;srmLabel36.Name" xml:space="preserve">
+    <value>srmLabel36</value>
+  </data>
+  <data name="&gt;&gt;srmLabel36.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel36.Parent" xml:space="preserve">
+    <value>group_TCOSIOControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel36.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbo_StopBits.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_StopBits.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbo_StopBits.Items1" xml:space="preserve">
+    <value>1.5</value>
+  </data>
+  <data name="cbo_StopBits.Items2" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbo_StopBits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 126</value>
+  </data>
+  <data name="cbo_StopBits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 21</value>
+  </data>
+  <data name="cbo_StopBits.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="&gt;&gt;cbo_StopBits.Name" xml:space="preserve">
+    <value>cbo_StopBits</value>
+  </data>
+  <data name="&gt;&gt;cbo_StopBits.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_StopBits.Parent" xml:space="preserve">
+    <value>group_TCOSIOControl</value>
+  </data>
+  <data name="&gt;&gt;cbo_StopBits.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbo_Parity.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_Parity.Items" xml:space="preserve">
+    <value>Even</value>
+  </data>
+  <data name="cbo_Parity.Items1" xml:space="preserve">
+    <value>Odd</value>
+  </data>
+  <data name="cbo_Parity.Items2" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="cbo_Parity.Items3" xml:space="preserve">
+    <value>Mark</value>
+  </data>
+  <data name="cbo_Parity.Items4" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="cbo_Parity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 99</value>
+  </data>
+  <data name="cbo_Parity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 21</value>
+  </data>
+  <data name="cbo_Parity.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="&gt;&gt;cbo_Parity.Name" xml:space="preserve">
+    <value>cbo_Parity</value>
+  </data>
+  <data name="&gt;&gt;cbo_Parity.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_Parity.Parent" xml:space="preserve">
+    <value>group_TCOSIOControl</value>
+  </data>
+  <data name="&gt;&gt;cbo_Parity.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cbo_DataBits.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_DataBits.Items" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbo_DataBits.Items1" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cbo_DataBits.Items2" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cbo_DataBits.Items3" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cbo_DataBits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 72</value>
+  </data>
+  <data name="cbo_DataBits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 21</value>
+  </data>
+  <data name="cbo_DataBits.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="&gt;&gt;cbo_DataBits.Name" xml:space="preserve">
+    <value>cbo_DataBits</value>
+  </data>
+  <data name="&gt;&gt;cbo_DataBits.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_DataBits.Parent" xml:space="preserve">
+    <value>group_TCOSIOControl</value>
+  </data>
+  <data name="&gt;&gt;cbo_DataBits.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="srmLabel22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 129</value>
+  </data>
+  <data name="srmLabel22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="srmLabel22.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="srmLabel22.Text" xml:space="preserve">
+    <value>Stop bits</value>
+  </data>
+  <data name="srmLabel22.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;srmLabel22.Name" xml:space="preserve">
+    <value>srmLabel22</value>
+  </data>
+  <data name="&gt;&gt;srmLabel22.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel22.Parent" xml:space="preserve">
+    <value>group_TCOSIOControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel22.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="srmLabel23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 102</value>
+  </data>
+  <data name="srmLabel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="srmLabel23.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="srmLabel23.Text" xml:space="preserve">
+    <value>Parity</value>
+  </data>
+  <data name="srmLabel23.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;srmLabel23.Name" xml:space="preserve">
+    <value>srmLabel23</value>
+  </data>
+  <data name="&gt;&gt;srmLabel23.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel23.Parent" xml:space="preserve">
+    <value>group_TCOSIOControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel23.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="srmLabel24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 75</value>
+  </data>
+  <data name="srmLabel24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="srmLabel24.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="srmLabel24.Text" xml:space="preserve">
+    <value>Data bits</value>
+  </data>
+  <data name="srmLabel24.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;srmLabel24.Name" xml:space="preserve">
+    <value>srmLabel24</value>
+  </data>
+  <data name="&gt;&gt;srmLabel24.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel24.Parent" xml:space="preserve">
+    <value>group_TCOSIOControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel24.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cbo_BitsPerSecond.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items" xml:space="preserve">
+    <value>110</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items1" xml:space="preserve">
+    <value>300</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items2" xml:space="preserve">
+    <value>1200</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items3" xml:space="preserve">
+    <value>2400</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items4" xml:space="preserve">
+    <value>4800</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items5" xml:space="preserve">
+    <value>9600</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items6" xml:space="preserve">
+    <value>19200</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items7" xml:space="preserve">
+    <value>38400</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items8" xml:space="preserve">
+    <value>57600</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items9" xml:space="preserve">
+    <value>115200</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items10" xml:space="preserve">
+    <value>230400</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items11" xml:space="preserve">
+    <value>460800</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Items12" xml:space="preserve">
+    <value>921600</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 45</value>
+  </data>
+  <data name="cbo_BitsPerSecond.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 21</value>
+  </data>
+  <data name="cbo_BitsPerSecond.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="&gt;&gt;cbo_BitsPerSecond.Name" xml:space="preserve">
+    <value>cbo_BitsPerSecond</value>
+  </data>
+  <data name="&gt;&gt;cbo_BitsPerSecond.Type" xml:space="preserve">
+    <value>SRMControl.SRMComboBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbo_BitsPerSecond.Parent" xml:space="preserve">
+    <value>group_TCOSIOControl</value>
+  </data>
+  <data name="&gt;&gt;cbo_BitsPerSecond.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="srmLabel25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="srmLabel25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="srmLabel25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 48</value>
+  </data>
+  <data name="srmLabel25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="srmLabel25.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="srmLabel25.Text" xml:space="preserve">
+    <value>Bits per second</value>
+  </data>
+  <data name="srmLabel25.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;srmLabel25.Name" xml:space="preserve">
+    <value>srmLabel25</value>
+  </data>
+  <data name="&gt;&gt;srmLabel25.Type" xml:space="preserve">
+    <value>SRMControl.SRMLabel, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmLabel25.Parent" xml:space="preserve">
+    <value>group_TCOSIOControl</value>
+  </data>
+  <data name="&gt;&gt;srmLabel25.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="group_TCOSIOControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 145</value>
+  </data>
+  <data name="group_TCOSIOControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 166</value>
+  </data>
+  <data name="group_TCOSIOControl.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="group_TCOSIOControl.Text" xml:space="preserve">
+    <value>TCOSIO Control</value>
+  </data>
+  <data name="&gt;&gt;group_TCOSIOControl.Name" xml:space="preserve">
+    <value>group_TCOSIOControl</value>
+  </data>
+  <data name="&gt;&gt;group_TCOSIOControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;group_TCOSIOControl.Parent" xml:space="preserve">
+    <value>tab_LightPort</value>
+  </data>
+  <data name="&gt;&gt;group_TCOSIOControl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tab_LightPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tab_LightPort.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tab_LightPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>752, 449</value>
+  </data>
+  <data name="tab_LightPort.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tab_LightPort.Text" xml:space="preserve">
+    <value>Light Port</value>
+  </data>
+  <data name="&gt;&gt;tab_LightPort.Name" xml:space="preserve">
+    <value>tab_LightPort</value>
+  </data>
+  <data name="&gt;&gt;tab_LightPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tab_LightPort.Parent" xml:space="preserve">
+    <value>srmTabControl1</value>
+  </data>
+  <data name="&gt;&gt;tab_LightPort.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dgd_VisionList.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="dcVisionName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dcVisionName.HeaderText" xml:space="preserve">
+    <value>Vision Name</value>
+  </data>
+  <data name="dcVisionName.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <metadata name="CameraModel.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="CameraModel.HeaderText" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="CameraModel.Width" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <metadata name="dcUnits.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dcUnits.HeaderText" xml:space="preserve">
+    <value>Image Units</value>
+  </data>
+  <data name="dcUnits.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <metadata name="column_TriggerMode.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="column_TriggerMode.HeaderText" xml:space="preserve">
+    <value>Trigger Mode</value>
+  </data>
+  <data name="column_TriggerMode.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <metadata name="column_Resolution.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="column_Resolution.HeaderText" xml:space="preserve">
+    <value>Resolution</value>
+  </data>
+  <data name="column_Resolution.Width" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <metadata name="column_LightController.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="column_LightController.HeaderText" xml:space="preserve">
+    <value>Light Controller</value>
+  </data>
+  <data name="column_LightController.Width" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <metadata name="column_ImageMerge.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="column_ImageMerge.HeaderText" xml:space="preserve">
+    <value>Image Merge</value>
+  </data>
+  <data name="column_ImageMerge.Width" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <metadata name="column_DisplayMode.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="column_DisplayMode.HeaderText" xml:space="preserve">
+    <value>Display Mode</value>
+  </data>
+  <data name="column_DisplayMode.Width" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <metadata name="column_RotateFlip.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="column_RotateFlip.HeaderText" xml:space="preserve">
+    <value>Rotate/Flip</value>
+  </data>
+  <data name="column_RotateFlip.Width" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <metadata name="CameraModelNo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="CameraModelNo.HeaderText" xml:space="preserve">
+    <value>CameraModelNo</value>
+  </data>
+  <data name="CameraModelNo.Width" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <metadata name="ImageType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ImageType.HeaderText" xml:space="preserve">
+    <value>Image Type</value>
+  </data>
+  <data name="ImageType.Width" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <metadata name="col_GrabMode.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="col_GrabMode.HeaderText" xml:space="preserve">
+    <value>Grab Mode</value>
+  </data>
+  <data name="col_GrabMode.Width" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="dgd_VisionList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 22</value>
+  </data>
+  <data name="dgd_VisionList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>733, 308</value>
+  </data>
+  <data name="dgd_VisionList.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;dgd_VisionList.Name" xml:space="preserve">
+    <value>dgd_VisionList</value>
+  </data>
+  <data name="&gt;&gt;dgd_VisionList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgd_VisionList.Parent" xml:space="preserve">
+    <value>tab_VisionModules</value>
+  </data>
+  <data name="&gt;&gt;dgd_VisionList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tab_VisionModules.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tab_VisionModules.Size" type="System.Drawing.Size, System.Drawing">
+    <value>752, 449</value>
+  </data>
+  <data name="tab_VisionModules.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tab_VisionModules.Text" xml:space="preserve">
+    <value>Vision Modules</value>
+  </data>
+  <data name="&gt;&gt;tab_VisionModules.Name" xml:space="preserve">
+    <value>tab_VisionModules</value>
+  </data>
+  <data name="&gt;&gt;tab_VisionModules.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tab_VisionModules.Parent" xml:space="preserve">
+    <value>srmTabControl1</value>
+  </data>
+  <data name="&gt;&gt;tab_VisionModules.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dgd_Sequence.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="dc_Vision.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dc_Vision.HeaderText" xml:space="preserve">
+    <value>Vision Module</value>
+  </data>
+  <data name="dc_Vision.Width" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <metadata name="dc_Type.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dc_Type.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <metadata name="dc_Seq.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dc_Seq.HeaderText" xml:space="preserve">
+    <value>Snap Mask</value>
+  </data>
+  <data name="dgd_Sequence.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgd_Sequence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgd_Sequence.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="dgd_Sequence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>752, 449</value>
+  </data>
+  <data name="dgd_Sequence.TabIndex" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="&gt;&gt;dgd_Sequence.Name" xml:space="preserve">
+    <value>dgd_Sequence</value>
+  </data>
+  <data name="&gt;&gt;dgd_Sequence.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgd_Sequence.Parent" xml:space="preserve">
+    <value>tab_LightSource</value>
+  </data>
+  <data name="&gt;&gt;dgd_Sequence.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tab_LightSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tab_LightSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>752, 449</value>
+  </data>
+  <data name="tab_LightSource.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tab_LightSource.Text" xml:space="preserve">
+    <value>Light Source</value>
+  </data>
+  <data name="&gt;&gt;tab_LightSource.Name" xml:space="preserve">
+    <value>tab_LightSource</value>
+  </data>
+  <data name="&gt;&gt;tab_LightSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tab_LightSource.Parent" xml:space="preserve">
+    <value>srmTabControl1</value>
+  </data>
+  <data name="&gt;&gt;tab_LightSource.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="srmTabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 12</value>
+  </data>
+  <data name="srmTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>760, 475</value>
+  </data>
+  <data name="srmTabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="&gt;&gt;srmTabControl1.Name" xml:space="preserve">
+    <value>srmTabControl1</value>
+  </data>
+  <data name="&gt;&gt;srmTabControl1.Type" xml:space="preserve">
+    <value>SRMControl.SRMTabControl, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;srmTabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;srmTabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chk_MixController.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_MixController.Location" type="System.Drawing.Point, System.Drawing">
+    <value>770, 266</value>
+  </data>
+  <data name="chk_MixController.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 25</value>
+  </data>
+  <data name="chk_MixController.TabIndex" type="System.Int32, mscorlib">
+    <value>151</value>
+  </data>
+  <data name="chk_MixController.Text" xml:space="preserve">
+    <value>Mix Light Controller</value>
+  </data>
+  <data name="chk_MixController.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chk_MixController.Name" xml:space="preserve">
+    <value>chk_MixController</value>
+  </data>
+  <data name="&gt;&gt;chk_MixController.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_MixController.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_MixController.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chk_UseUSBIOCard.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chk_UseUSBIOCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>770, 239</value>
+  </data>
+  <data name="chk_UseUSBIOCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 25</value>
+  </data>
+  <data name="chk_UseUSBIOCard.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="chk_UseUSBIOCard.Text" xml:space="preserve">
+    <value>Use USB IO Card</value>
+  </data>
+  <data name="chk_UseUSBIOCard.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chk_UseUSBIOCard.Name" xml:space="preserve">
+    <value>chk_UseUSBIOCard</value>
+  </data>
+  <data name="&gt;&gt;chk_UseUSBIOCard.Type" xml:space="preserve">
+    <value>SRMControl.SRMCheckBox, SRMControl, Version=6.1.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chk_UseUSBIOCard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chk_UseUSBIOCard.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1190, 545</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>- </value>
+  </data>
+  <data name="&gt;&gt;dcVisionName.Name" xml:space="preserve">
+    <value>dcVisionName</value>
+  </data>
+  <data name="&gt;&gt;dcVisionName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CameraModel.Name" xml:space="preserve">
+    <value>CameraModel</value>
+  </data>
+  <data name="&gt;&gt;CameraModel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dcUnits.Name" xml:space="preserve">
+    <value>dcUnits</value>
+  </data>
+  <data name="&gt;&gt;dcUnits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;column_TriggerMode.Name" xml:space="preserve">
+    <value>column_TriggerMode</value>
+  </data>
+  <data name="&gt;&gt;column_TriggerMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;column_Resolution.Name" xml:space="preserve">
+    <value>column_Resolution</value>
+  </data>
+  <data name="&gt;&gt;column_Resolution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;column_LightController.Name" xml:space="preserve">
+    <value>column_LightController</value>
+  </data>
+  <data name="&gt;&gt;column_LightController.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;column_ImageMerge.Name" xml:space="preserve">
+    <value>column_ImageMerge</value>
+  </data>
+  <data name="&gt;&gt;column_ImageMerge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;column_DisplayMode.Name" xml:space="preserve">
+    <value>column_DisplayMode</value>
+  </data>
+  <data name="&gt;&gt;column_DisplayMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;column_RotateFlip.Name" xml:space="preserve">
+    <value>column_RotateFlip</value>
+  </data>
+  <data name="&gt;&gt;column_RotateFlip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CameraModelNo.Name" xml:space="preserve">
+    <value>CameraModelNo</value>
+  </data>
+  <data name="&gt;&gt;CameraModelNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImageType.Name" xml:space="preserve">
+    <value>ImageType</value>
+  </data>
+  <data name="&gt;&gt;ImageType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_GrabMode.Name" xml:space="preserve">
+    <value>col_GrabMode</value>
+  </data>
+  <data name="&gt;&gt;col_GrabMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dc_Vision.Name" xml:space="preserve">
+    <value>dc_Vision</value>
+  </data>
+  <data name="&gt;&gt;dc_Vision.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dc_Type.Name" xml:space="preserve">
+    <value>dc_Type</value>
+  </data>
+  <data name="&gt;&gt;dc_Type.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dc_Seq.Name" xml:space="preserve">
+    <value>dc_Seq</value>
+  </data>
+  <data name="&gt;&gt;dc_Seq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>OptionForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
